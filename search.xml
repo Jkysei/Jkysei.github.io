@@ -173,6 +173,78 @@
       </tags>
   </entry>
   <entry>
+    <title>【搬运】HTML5游戏 糖豆人</title>
+    <url>/2023/10/08/%E7%B3%96%E8%B1%86%E4%BA%BA%E6%B5%8B%E8%AF%95/</url>
+    <content><![CDATA[<p><a href="https://github.com/mumuy/pacman">搬运Pacman 吃豆游戏</a></p>
+<link rel="shortcut icon" href="/image/favicon.png">
+<style>
+    .mod-game .info{
+        padding: 10px 0;
+        margin-bottom: 5px;
+        line-height: 20px;
+        text-align: center;
+        color: #666;
+    }
+    .mod-game .info p{
+        line-height: 20px;
+        font-size: 14px;
+        color: #666;
+    }
+    .mod-game .intro{
+        padding: 10px 15px;
+        background: #f8f8f8;
+        border-radius: 5px;
+    }
+    .mod-game .intro p{
+        line-height: 22px;
+        text-indent: 2em;
+        font-size: 14px;
+        color: #666;
+    }
+    .mod-button{
+        height: 32px;
+        padding: 15px 0;
+        text-align: center;
+    }
+    .mod-button span,.mod-button a{
+        vertical-align: middle;
+    }
+    .mod-button .btn{
+        display: inline-block;
+        padding: 0 12px;
+        line-height: 26px;
+        color: #24292f;
+        border: 1px solid #dddede;
+        text-decoration: none;
+        font-size: 13px;
+        color: #24292f;
+        border-radius: 2px;
+    }
+</style>
+<div class="wrapper">
+    <div class="mod-game">
+        <canvas id="canvas" width="960" height="640">不支持画布</canvas>
+        <div class="info">
+            <p>按 [空格键] 暂停或继续</p>
+        </div>	
+    </div>
+</div>
+<script src="/js/game.js"></script>
+<script src="/js/index.js"></script>
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+
+]]></content>
+      <categories>
+        <category>测试</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>ppt测试</title>
+    <url>/2023/10/08/ppt%E6%B5%8B%E8%AF%95/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>【Python/脚本】一个懒得自己打字的md图片插入脚本</title>
     <url>/2023/10/05/%E3%80%90Python-%E8%84%9A%E6%9C%AC%E3%80%91%E4%B8%80%E4%B8%AA%E6%87%92%E5%BE%97%E8%87%AA%E5%B7%B1%E6%89%93%E5%AD%97%E7%9A%84md%E5%9B%BE%E7%89%87%E6%8F%92%E5%85%A5%E8%84%9A%E6%9C%AC/</url>
     <content><![CDATA[<p>1.md图片插入格式</p>
