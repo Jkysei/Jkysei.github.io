@@ -243,7 +243,12 @@
   <entry>
     <title>ppt测试</title>
     <url>/2023/10/08/ppt%E6%B5%8B%E8%AF%95/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<iframe src="/pdf/汇报.pdf" style="width:800px; height:500px;" frameborder="0"></iframe>
+<p><a target="_blank" href="/pdf/汇报.pdf" download="汇报.pdf">汇报.pdf</a></p>
+
+<p><a target="_blank" href="/pdf/汇报.pptx" download="汇报.pptx">汇报.pptx</a></p>
+
+]]></content>
   </entry>
   <entry>
     <title>【Python/脚本】一个懒得自己打字的md图片插入脚本</title>
