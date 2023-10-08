@@ -521,7 +521,7 @@
 	_LIFE = 5,				//玩家生命值
 	_SCORE = 0;				//玩家得分
 
-	var game = new Game('canvas');
+	var game = new Game('pacman_canvas');
 	//启动页
 	(function(){
 		var stage = game.createStage();
