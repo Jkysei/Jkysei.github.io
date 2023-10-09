@@ -8,6 +8,15 @@
 	background-color:white;
 }
 
+.post-body.animated.fadeInDown p{
+	font-weight:bold;
+	background:white;
+	border:5px groove black;
+	padding: 10px;
+	margin-top: 20px;
+	box-shadow: 10px 7px 3px 2px gray;
+}
+
 .post-tags a{
 	font-size:16px;
 	color:	white;
@@ -101,7 +110,7 @@ body:before {
 	top: 0px;
 	right: 0;
 	bottom: 0;
-	left: 0;
+	left: 0;  
 	background:url(/image/bg1.jpeg) no-repeat ;
 	background-position: 50% 35%;
 	background-size: cover;
