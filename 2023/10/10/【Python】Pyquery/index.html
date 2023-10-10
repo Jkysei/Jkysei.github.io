@@ -23,28 +23,30 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Muse","darkmode":false,"version":"8.18.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":true,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":true,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":true,"pangu":false,"comments":{"style":"buttons","active":"changyan","storage":true,"lazyload":true,"nav":null,"activeClass":"changyan"},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"善用搜索是个好习惯...","empty":"抱歉啥也没找到：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":true}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="只要学不4就往4里学">
-<meta property="og:type" content="website">
-<meta property="og:title" content="categories">
-<meta property="og:url" content="http://example.com/categories/index.html">
+    <meta name="description" content="一、前言JS可以通过CSS选择器快速定位元素，但前端的限制较多（如跨域传输）并且油猴必须要手动驱动浏览器才可以运行，无法形成自动脚本。Python中也有类似JS的CSS选择器的第三方库，我选择的是Pyquery，Pyquery的语法跟JS的写法十分相似，而且用起来很简单。用JS（前端）制作的简易爬虫jQuery的css选择器的写法如何爬取网页下来请看这篇用selenum制作前端式爬虫">
+<meta property="og:type" content="article">
+<meta property="og:title" content="【Python】Pyquery 一个Python的CSS选择器">
+<meta property="og:url" content="http://example.com/2023/10/10/%E3%80%90Python%E3%80%91Pyquery/index.html">
 <meta property="og:site_name" content="Jkyseiの部屋">
-<meta property="og:description" content="只要学不4就往4里学">
+<meta property="og:description" content="一、前言JS可以通过CSS选择器快速定位元素，但前端的限制较多（如跨域传输）并且油猴必须要手动驱动浏览器才可以运行，无法形成自动脚本。Python中也有类似JS的CSS选择器的第三方库，我选择的是Pyquery，Pyquery的语法跟JS的写法十分相似，而且用起来很简单。用JS（前端）制作的简易爬虫jQuery的css选择器的写法如何爬取网页下来请看这篇用selenum制作前端式爬虫">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2023-10-07T03:47:55.000Z">
-<meta property="article:modified_time" content="2023-10-07T12:44:56.137Z">
+<meta property="og:image" content="http://example.com/2023/10/10/%E3%80%90Python%E3%80%91Pyquery/1010D_117_1.jpg">
+<meta property="og:image" content="http://example.com/2023/10/10/%E3%80%90Python%E3%80%91Pyquery/1010D_56_1.jpg">
+<meta property="article:published_time" content="2023-10-10T05:22:27.000Z">
+<meta property="article:modified_time" content="2023-10-10T06:33:32.585Z">
 <meta property="article:author" content="Jkysei sGF">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/2023/10/10/%E3%80%90Python%E3%80%91Pyquery/1010D_117_1.jpg">
 
 
-<link rel="canonical" href="http://example.com/categories/">
+<link rel="canonical" href="http://example.com/2023/10/10/%E3%80%90Python%E3%80%91Pyquery/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":false,"lang":"zh-CN","comments":"","permalink":"http://example.com/categories/index.html","path":"categories/index.html","title":"categories"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://example.com/2023/10/10/%E3%80%90Python%E3%80%91Pyquery/","path":"2023/10/10/【Python】Pyquery/","title":"【Python】Pyquery 一个Python的CSS选择器"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>categories | Jkyseiの部屋
-</title>
+<title>【Python】Pyquery 一个Python的CSS选择器 | Jkyseiの部屋</title>
   
 
 
@@ -277,43 +279,164 @@
 
     </div>
 
-    <div class="main-inner page posts-expand">
+    <div class="main-inner post posts-expand">
 
 
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2023/10/10/%E3%80%90Python%E3%80%91Pyquery/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/capoo35.jpg">
+      <meta itemprop="name" content="Jkysei sGF">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jkyseiの部屋">
+      <meta itemprop="description" content="<font color="black">只要学不4就往4里学</font>">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="【Python】Pyquery 一个Python的CSS选择器 | Jkyseiの部屋">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          【Python】Pyquery 一个Python的CSS选择器
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发布时间</span>
+      
+
+      <time title="创建时间：2023-10-10 13:22:27 / 修改时间：14:33:32" itemprop="dateCreated datePublished" datetime="2023-10-10T13:22:27+08:00">2023-10-10</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/Python/" itemprop="url" rel="index"><span itemprop="name">Python</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+  
+  <span class="post-meta-item">
     
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Changyan：</span>
     
-    
-    <div class="post-block" lang="zh-CN"><header class="post-header">
-
-<h1 class="post-title" itemprop="name headline">categories
-</h1>
-
-<div class="post-meta-container">
+    <a title="【Python】Pyquery 一个Python的CSS选择器" href="/2023/10/10/%E3%80%90Python%E3%80%91Pyquery/#SOHUCS" itemprop="discussionUrl">
+      <span id="sourceId::e0a21d33869acbb4913514aea695e3e0" class="cy_cmt_count" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="总字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">总字数：</span>
+      <span>792</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>1 分钟</span>
+    </span>
 </div>
 
-</header>
+        </div>
+      </header>
+	
+	
 
-      
-      
-      <div class="post-body"><div class="category-all-page">
-  <div class="category-all-title">
-    发布了总共 7 个分类
-  </div>
-  <div class="category-all">
-    <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/HTML%E6%B8%B8%E6%88%8F/">HTML游戏</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Python/">Python</a><span class="category-list-count">6</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/hexo/">hexo</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%89%8D%E7%AB%AFCSS/">前端CSS</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%89%8D%E7%AB%AFJS/">前端JS</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%B5%8B%E8%AF%95/">测试</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%AE%97%E6%B3%95/">算法</a><span class="category-list-count">1</span></li></ul>
-  </div>
-</div>
+    
+    
+    
+    <div class="post-body" itemprop="articleBody"><p>一、前言<br>JS可以通过CSS选择器快速定位元素，但前端的限制较多（如跨域传输）<br>并且油猴必须要手动驱动浏览器才可以运行，无法形成自动脚本。<br>Python中也有类似JS的CSS选择器的第三方库，我选择的是Pyquery，<br>Pyquery的语法跟JS的写法十分相似，而且用起来很简单。<br><a href="/2023/09/27/%E7%94%A8JS%EF%BC%88%E5%89%8D%E7%AB%AF%EF%BC%89%E5%88%B6%E4%BD%9C%E7%9A%84%E7%AE%80%E6%98%93%E7%88%AC%E8%99%AB/">用JS（前端）制作的简易爬虫</a><br><a href="/2023/09/28/jQuery%E7%9A%84css%E9%80%89%E6%8B%A9%E5%99%A8%E7%9A%84%E5%86%99%E6%B3%95/">jQuery的css选择器的写法</a><br>如何爬取网页下来请看这篇<br><a href="/2023/09/28/%E7%94%A8selenum%E5%88%B6%E4%BD%9C%E5%89%8D%E7%AB%AF%E5%BC%8F%E7%88%AC%E8%99%AB/">用selenum制作前端式爬虫</a></p>
+<span id="more"></span>
+<p><img data-src="/2023/10/10/%E3%80%90Python%E3%80%91Pyquery/1010D_117_1.jpg" alt="1"><br>二、正文<br>1、老操作<br>先安装Pyquery库，pip install或者pycharm安装</p>
+<figure class="highlight capnproto"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> pyquery <span class="keyword">import</span> PyQuery <span class="keyword">as</span> pq</span><br></pre></td></tr></table></figure>
+<p>安装后import<br>2.初步处理操作<br>假设爬下的网页资源为</p>
+<figure class="highlight ini"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">browser_get</span>=driver.page_source</span><br></pre></td></tr></table></figure>
+<p>browser_get得到的是整个网页的资源<br>获取后需要pyquery处理,</p>
+<figure class="highlight perl"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pq1=p<span class="string">q(browser_get)</span></span><br></pre></td></tr></table></figure>
 
-      </div>
-      
-      
-      
+<p>3.定位元素<br>pyquery写法基本跟jquery一毛一样，其实完全就可以当作是<br>python里的jquery（认真的）<br>pyquery提供了find函数，可以这么使用</p>
+<figure class="highlight sqf"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">items</span>=pq1.<span class="built_in">find</span>(<span class="string">&quot;CSS选择器&quot;</span>).<span class="built_in">items</span>()</span><br><span class="line">#.<span class="built_in">items</span>()会获取所有html</span><br></pre></td></tr></table></figure>
+<p>然而也可以直接这么写</p>
+<figure class="highlight abnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">items</span><span class="operator">=</span>pq1(<span class="string">&quot;CSS选择器&quot;</span>).items()</span><br></pre></td></tr></table></figure>
+<p>文本则是</p>
+<figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">.<span class="built_in">text</span>()</span><br></pre></td></tr></table></figure>
+<p>属性</p>
+<figure class="highlight q"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">.<span class="built_in">attr</span>(<span class="string">&quot;属性名&quot;</span>)</span><br><span class="line">.<span class="built_in">attr</span>(<span class="string">&quot;src&quot;</span>)  #img的链接</span><br><span class="line">.<span class="built_in">attr</span>(<span class="string">&quot;href&quot;</span>) #a的链接</span><br></pre></td></tr></table></figure>
+<p>如果要获取子节点<br>或者父节点那就</p>
+<figure class="highlight asciidoc"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">.children()</span></span><br><span class="line"><span class="title">.parents()</span></span><br></pre></td></tr></table></figure>
+<p>4.处理多个元素<br>pyquery提供了for循环的方式,如</p>
+<figure class="highlight clean"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">for i <span class="keyword">in</span> pq1(<span class="string">&quot;li&quot;</span>).items()：</span><br><span class="line">	## 处理操作</span><br></pre></td></tr></table></figure>
+<p>利用for循环就可以逐一迭代</p>
+<p>5.完结<br><img data-src="/2023/10/10/%E3%80%90Python%E3%80%91Pyquery/1010D_56_1.jpg" alt="1"></p>
+
     </div>
 
     
     
+    
+
+    <footer class="post-footer">
+
+        
+  <div class="social-like a2a_kit a2a_kit_size_32 a2a_default_style">
+    <a class="a2a_dd" target="_blank" rel="noopener" href="https://www.addtoany.com/share"></a>
+      <a class="a2a_button_facebook"></a>
+      <a class="a2a_button_twitter"></a>
+  </div>
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2023/10/09/%E5%9F%BA%E4%BA%8Ehexo%E9%83%A8%E7%BD%B2github%E7%9A%84%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/" rel="prev" title="基于hexo部署github的个人网站">
+                  <i class="fa fa-angle-left"></i> 基于hexo部署github的个人网站
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
 
 
+
+
+
+
+    <div class="comments" id="SOHUCS" sid="e0a21d33869acbb4913514aea695e3e0"></div>
 </div>
   </main>
 
