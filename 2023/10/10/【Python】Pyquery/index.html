@@ -21,7 +21,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/themes/blue/pace-theme-center-circle.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/pace.min.js" integrity="sha256-gqd7YTjg/BtfqWSwsJOvndl0Bxc8gFImLEkXQT8+qj0=" crossorigin="anonymous"></script>
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Muse","darkmode":false,"version":"8.18.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":true,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":true,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":true,"pangu":false,"comments":{"style":"buttons","active":"changyan","storage":true,"lazyload":true,"nav":null,"activeClass":"changyan"},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"善用搜索是个好习惯...","empty":"抱歉啥也没找到：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":true}}</script><script src="/js/config.js"></script>
+<script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Muse","darkmode":false,"version":"8.18.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":true,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":true,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":true,"pangu":false,"comments":{"style":"buttons","active":"changyan","storage":true,"lazyload":false,"nav":null,"activeClass":"changyan"},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"善用搜索是个好习惯...","empty":"抱歉啥也没找到：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":true}}</script><script src="/js/config.js"></script>
 
     <meta name="description" content="一、前言JS可以通过CSS选择器快速定位元素，但前端的限制较多（如跨域传输）并且油猴必须要手动驱动浏览器才可以运行，无法形成自动脚本。Python中也有类似JS的CSS选择器的第三方库，我选择的是Pyquery，Pyquery的语法跟JS的写法十分相似，而且用起来很简单。用JS（前端）制作的简易爬虫jQuery的css选择器的写法如何爬取网页下来请看这篇用selenum制作前端式爬虫">
 <meta property="og:type" content="article">
@@ -78,7 +78,7 @@
   </div>
 
   <div class="site-meta">
-      <img class="custom-logo-image" src="/uploads/4.gif" alt="Jkyseiの部屋">
+      <img class="custom-logo-image" src="/image/capoo50.png# optional eg ./images/loading.gif" data-original="/uploads/4.gif" alt="Jkyseiの部屋">
 
     <a href="/" class="brand" rel="start">
       <i class="logo-line"></i>
@@ -381,7 +381,7 @@
     
     <div class="post-body" itemprop="articleBody"><p>一、前言<br>JS可以通过CSS选择器快速定位元素，但前端的限制较多（如跨域传输）<br>并且油猴必须要手动驱动浏览器才可以运行，无法形成自动脚本。<br>Python中也有类似JS的CSS选择器的第三方库，我选择的是Pyquery，<br>Pyquery的语法跟JS的写法十分相似，而且用起来很简单。<br><a href="/2023/09/27/%E7%94%A8JS%EF%BC%88%E5%89%8D%E7%AB%AF%EF%BC%89%E5%88%B6%E4%BD%9C%E7%9A%84%E7%AE%80%E6%98%93%E7%88%AC%E8%99%AB/">用JS（前端）制作的简易爬虫</a><br><a href="/2023/09/28/jQuery%E7%9A%84css%E9%80%89%E6%8B%A9%E5%99%A8%E7%9A%84%E5%86%99%E6%B3%95/">jQuery的css选择器的写法</a><br>如何爬取网页下来请看这篇<br><a href="/2023/09/28/%E7%94%A8selenum%E5%88%B6%E4%BD%9C%E5%89%8D%E7%AB%AF%E5%BC%8F%E7%88%AC%E8%99%AB/">用selenum制作前端式爬虫</a></p>
 <span id="more"></span>
-<p><img data-src="/2023/10/10/%E3%80%90Python%E3%80%91Pyquery/1010D_117_1.jpg" alt="1"><br>二、正文<br>1、老操作<br>先安装Pyquery库，pip install或者pycharm安装</p>
+<p><img data-src="/image/capoo50.png# optional eg ./images/loading.gif" data-original="/2023/10/10/%E3%80%90Python%E3%80%91Pyquery/1010D_117_1.jpg" alt="1"><br>二、正文<br>1、老操作<br>先安装Pyquery库，pip install或者pycharm安装</p>
 <figure class="highlight capnproto"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> pyquery <span class="keyword">import</span> PyQuery <span class="keyword">as</span> pq</span><br></pre></td></tr></table></figure>
 <p>安装后import<br>2.初步处理操作<br>假设爬下的网页资源为</p>
 <figure class="highlight ini"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">browser_get</span>=driver.page_source</span><br></pre></td></tr></table></figure>
@@ -401,7 +401,7 @@
 <p>4.处理多个元素<br>pyquery提供了for循环的方式,如</p>
 <figure class="highlight clean"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">for i <span class="keyword">in</span> pq1(<span class="string">&quot;li&quot;</span>).items()：</span><br><span class="line">	## 处理操作</span><br></pre></td></tr></table></figure>
 <p>利用for循环就可以逐一迭代</p>
-<p>5.完结<br><img data-src="/2023/10/10/%E3%80%90Python%E3%80%91Pyquery/1010D_56_1.jpg" alt="1"></p>
+<p>5.完结<br><img data-src="/image/capoo50.png# optional eg ./images/loading.gif" data-original="/2023/10/10/%E3%80%90Python%E3%80%91Pyquery/1010D_56_1.jpg" alt="1"></p>
 
     </div>
 
@@ -536,7 +536,20 @@
 <script class="next-config" data-name="changyan" type="application/json">{"enable":true,"appid":"cywU0rH3U","appkey":"e2a85be07ef5fc9e787b6abb97a50041","count":true}</script>
 <script src="/js/third-party/comments/changyan.js"></script>
 
-</body>
+
+        <style>
+            [bg-lazy] {
+                background-image: none !important;
+                background-color: #eee !important;
+            }
+        </style>
+        <script>
+            window.imageLazyLoadSetting = {
+                isSPA: true,
+                preloadRatio: 1,
+                processImages: null,
+            };
+        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(r){r.imageLazyLoadSetting.processImages=t;var e=r.imageLazyLoadSetting.isSPA,n=r.imageLazyLoadSetting.preloadRatio||1,c=a();function a(){var t=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")),e=Array.prototype.slice.call(document.querySelectorAll("[bg-lazy]"));return t.concat(e)}function t(){e&&(c=a());for(var t,o=0;o<c.length;o++)0<=(t=(t=c[o]).getBoundingClientRect()).bottom&&0<=t.left&&t.top<=(r.innerHeight*n||document.documentElement.clientHeight*n)&&function(){var t,e,n,a,i=c[o];e=function(){c=c.filter(function(t){return i!==t}),r.imageLazyLoadSetting.onImageLoaded&&r.imageLazyLoadSetting.onImageLoaded(i)},(t=i).hasAttribute("bg-lazy")?(t.removeAttribute("bg-lazy"),e&&e()):(n=new Image,a=t.getAttribute("data-original"),n.onload=function(){t.src=a,t.removeAttribute("data-original"),e&&e()},t.src!==a&&(n.src=a))}()}function i(){clearTimeout(t.tId),t.tId=setTimeout(t,500)}t(),document.addEventListener("scroll",i),r.addEventListener("resize",i),r.addEventListener("orientationchange",i)}(this);</script></body>
 
 
 <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js">
