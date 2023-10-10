@@ -2391,6 +2391,26 @@ header.header {
     padding-top: 50px;
   }
 }
+.brand {
+  background-color: #000;
+  animation: animated-border 1.5s infinite;
+  font-family: Arial;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  color: #fff;
+  border: 5px solid;
+  border-radius: 10px;
+  padding: 15px;
+}
+@keyframes animated-border {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255,255,255,0.4);
+  }
+  100% {
+    box-shadow: 0 0 0 20px rgba(255,255,255,0);
+  }
+}
 @media (max-width: 767px) {
   .site-nav {
     padding-top: 30px;
@@ -2495,7 +2515,7 @@ header.header {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #ff7cd7;
+  background: #d7ffff;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2560,18 +2580,6 @@ header.header {
 .sidebar a:hover {
   border-bottom-color: $FFFFFF;
   color: #fff;
-}
-.brand {
-  background-color: #000;
-  animation: animated-border 1.5s infinite;
-  font-family: Arial;
-  font-size: 24px;
-  line-height: 30px;
-  font-weight: bold;
-  color: #fff;
-  border: 5px solid;
-  border-radius: 10px;
-  padding: 15px;
 }
 .site-subtitle {
   font-size: 18px;
