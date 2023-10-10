@@ -131,11 +131,21 @@ body:before {
 }
 
 .category-list-count{
+	font-size:24px;
 	color: black;
 	font-weight:bold;
 	color:black;
 	border: 3px solid;
 	border-color:black;
+	border-radius: 5px;
+	padding: 5px;
+	background-color:white;
+}
+.category-list-link{
+	font-size:24px;
+	color: black;
+	font-weight:bold;
+	border: 3px solid;
 	border-radius: 5px;
 	padding: 5px;
 	background-color:white;
@@ -152,14 +162,7 @@ body:before {
 	color:	black;
 	text-shadow: 1px 1px 2px pink;
 }
-.category-list-link{
-	color: black;
-	font-weight:bold;
-	border: 3px solid;
-	border-radius: 5px;
-	padding: 5px;
-	background-color:white;
-}
+
 .tag-cloud-title {
 	font-weight:bold;
 	background:white;

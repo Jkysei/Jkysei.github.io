@@ -3,7 +3,9 @@
   <entry>
     <title>(自用/收藏)CSS效果/CSS动画</title>
     <url>/2023/09/29/CSS%E5%8A%A8%E7%94%BB/</url>
-    <content><![CDATA[<div class="biankuang">
+    <content><![CDATA[<p>本文主要收藏一些有用常用的CSS语句，<br>可以修饰文字或者炫酷的特效等。</p>
+<span id="more"></span>
+<div class="biankuang">
 <p>边框效果</p>
 </div>
 <style>
@@ -20,7 +22,7 @@
 
 
 <figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.biankuang</span>&#123;</span></span><br><span class="line"><span class="language-css">		<span class="attribute">font-size</span>:<span class="number">30px</span>;</span></span><br><span class="line"><span class="language-css">		<span class="attribute">font-weight</span>:bold;</span></span><br><span class="line"><span class="language-css">		<span class="attribute">color</span>: black;</span></span><br><span class="line"><span class="language-css">		<span class="attribute">border</span>: <span class="number">5px</span> solid; #厚度</span></span><br><span class="line"><span class="language-css">		<span class="attribute">border-radius</span>: <span class="number">5px</span>; #曲率</span></span><br><span class="line"><span class="language-css">		<span class="attribute">padding</span>: <span class="number">15px</span>; </span></span><br><span class="line"><span class="language-css">		<span class="attribute">background-color</span>:white;</span></span><br><span class="line"><span class="language-css">	&#125;</span></span><br><span class="line"><span class="language-css"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<span id="more"></span>
+<!--more-->
 
 
 <div class="animate_test">
@@ -35,26 +37,45 @@
 
 <figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;animate_test&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>边框效果<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.animate_test</span>&#123;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">animation</span>: bounce; </span></span><br><span class="line"><span class="language-css">	<span class="attribute">animation-duration</span>: <span class="number">2s</span>; </span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
       <categories>
-        <category>介绍</category>
+        <category>前端CSS</category>
       </categories>
   </entry>
   <entry>
     <title>css音频波浪动画</title>
     <url>/2023/10/03/css%E9%9F%B3%E9%A2%91%E6%B3%A2%E6%B5%AA%E5%8A%A8%E7%94%BB/</url>
-    <content><![CDATA[<p><img data-src="/2023/10/03/css%E9%9F%B3%E9%A2%91%E6%B3%A2%E6%B5%AA%E5%8A%A8%E7%94%BB/1005D_253_1.jpg" alt="1005D_253_1.jpg"></p>
+    <content><![CDATA[<p>如题<br>本文主要收藏一个CSS动画，<br>可以用来配合音乐做出音频波浪的效果。</p>
 <span id="more"></span>
+<p><img data-src="/2023/10/03/css%E9%9F%B3%E9%A2%91%E6%B3%A2%E6%B5%AA%E5%8A%A8%E7%94%BB/1005D_253_1.jpg" alt="1005D_253_1.jpg"></p>
 <figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bars_music&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span>   </span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bars_music</span>&#123;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">width</span>: <span class="number">60px</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">height</span>: <span class="number">30px</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">position</span>: absolute;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">left</span>: <span class="number">0</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">right</span>: <span class="number">0</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">margin</span>: auto;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span>&#123;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">background</span>: <span class="number">#FF88C2</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">border</span>:<span class="number">1px</span> solid;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">height</span>: <span class="number">3px</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">width</span>: <span class="number">4px</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">position</span>: absolute;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">bottom</span>:<span class="number">1px</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">animation</span>: voice <span class="number">0ms</span> -<span class="number">800ms</span> linear infinite alternate;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"><span class="keyword">@keyframes</span> voice&#123;</span></span><br><span class="line"><span class="language-css">	</span></span><br><span class="line"><span class="language-css">	<span class="number">0%</span>&#123;</span></span><br><span class="line"><span class="language-css">		<span class="attribute">height</span>: <span class="number">3px</span>;</span></span><br><span class="line"><span class="language-css">		<span class="attribute">opacity</span>: .<span class="number">35</span>;</span></span><br><span class="line"><span class="language-css">	&#125;</span></span><br><span class="line"><span class="language-css">	<span class="number">100%</span>&#123;</span></span><br><span class="line"><span class="language-css">		<span class="attribute">height</span>: <span class="number">24px</span>;</span></span><br><span class="line"><span class="language-css">		<span class="attribute">opacity</span>: <span class="number">1</span>;</span></span><br><span class="line"><span class="language-css">	&#125;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">1</span>)  &#123; <span class="attribute">left</span>: <span class="number">1px</span>; <span class="attribute">animation-duration</span>: <span class="number">474ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">2</span>)  &#123; <span class="attribute">left</span>: <span class="number">6px</span>; <span class="attribute">animation-duration</span>: <span class="number">433ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">3</span>)  &#123; <span class="attribute">left</span>: <span class="number">11px</span>; <span class="attribute">animation-duration</span>: <span class="number">407ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">4</span>)  &#123; <span class="attribute">left</span>: <span class="number">16px</span>; <span class="attribute">animation-duration</span>: <span class="number">458ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">5</span>)  &#123; <span class="attribute">left</span>: <span class="number">21px</span>; <span class="attribute">animation-duration</span>: <span class="number">400ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">6</span>)  &#123; <span class="attribute">left</span>: <span class="number">26px</span>; <span class="attribute">animation-duration</span>: <span class="number">427ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">7</span>)  &#123; <span class="attribute">left</span>: <span class="number">31px</span>; <span class="attribute">animation-duration</span>: <span class="number">441ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">8</span>)  &#123; <span class="attribute">left</span>: <span class="number">36px</span>; <span class="attribute">animation-duration</span>: <span class="number">419ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">9</span>)  &#123; <span class="attribute">left</span>: <span class="number">41px</span>; <span class="attribute">animation-duration</span>: <span class="number">487ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">10</span>) &#123; <span class="attribute">left</span>: <span class="number">46px</span>; <span class="attribute">animation-duration</span>: <span class="number">442ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
       <categories>
-        <category>收藏</category>
+        <category>前端CSS</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>ppt测试</title>
+    <url>/2023/10/08/ppt%E6%B5%8B%E8%AF%95/</url>
+    <content><![CDATA[<p>—占位—<br>本文提供了一个ppt预览和下载功能<br>—占位—</p>
+<span id="more"></span>
+<p><img data-src="https://suxingchahui.fun/2023/10/04/%E9%A2%9C%E8%89%BA%E5%A4%A7%E8%B5%8F2/asa51.png" alt="1"></p>
+<iframe src="/pdf/汇报.pdf" style="width:800px; height:500px;" frameborder="0"></iframe>
+
+<p><a target="_blank" href="/pdf/汇报.pdf" download="汇报.pdf">汇报.pdf</a></p>
+
+<p><a target="_blank" href="/pdf/汇报.pptx" download="汇报.pptx">汇报.pptx</a></p>
+
+]]></content>
+      <categories>
+        <category>测试</category>
       </categories>
   </entry>
   <entry>
     <title>jQuery的css选择器的写法</title>
     <url>/2023/09/28/jQuery%E7%9A%84css%E9%80%89%E6%8B%A9%E5%99%A8%E7%9A%84%E5%86%99%E6%B3%95/</url>
-    <content><![CDATA[<p>前文传送门<br><a href="/2023/09/27/%E7%94%A8JS%EF%BC%88%E5%89%8D%E7%AB%AF%EF%BC%89%E5%88%B6%E4%BD%9C%E7%9A%84%E7%AE%80%E6%98%93%E7%88%AC%E8%99%AB">前文：用JS（前端）制作的简易爬虫</a><br><img data-src="/image/928D_149_1.jpg" alt="1"><br><a href="https://www.runoob.com/jquery/jquery-install.html">参考</a></p>
+    <content><![CDATA[<p>前文传送门<br><a href="/2023/09/27/%E7%94%A8JS%EF%BC%88%E5%89%8D%E7%AB%AF%EF%BC%89%E5%88%B6%E4%BD%9C%E7%9A%84%E7%AE%80%E6%98%93%E7%88%AC%E8%99%AB">前文：用JS（前端）制作的简易爬虫</a></p>
+<p><a href="https://www.runoob.com/jquery/jquery-install.html">参考</a></p>
 <p>1.jQuery<br>jQuery主要可以简化一部分JS写法，同时功能性也很强大<br>笔者目前在学习阶段，对jQuery只是小有拙见，有误见谅。</p>
 <span id="more"></span>
-<p>2.jQuery的使用方法<br>调用jQuery</p>
+<p><img data-src="/image/928D_149_1.jpg" alt="1"><br>2.jQuery的使用方法<br>调用jQuery</p>
 <figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
 <p>这里用了百度源，也可以用其他的</p>
 <p>3.函数写法差异<br>jQuery的写法更为简练<br>例：</p>
@@ -66,52 +87,64 @@
 <p>如果直接,会报错</p>
 <figure class="highlight mel"><table><tr><td class="code"><pre><span class="line">$(<span class="string">&quot;&quot;</span>).<span class="keyword">pause</span>()</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
-        <category>介绍</category>
+        <category>前端Jquery</category>
       </categories>
       <tags>
         <tag>介绍</tag>
       </tags>
   </entry>
   <entry>
-    <title>ppt测试</title>
-    <url>/2023/10/08/ppt%E6%B5%8B%E8%AF%95/</url>
-    <content><![CDATA[<p>—占位—<br><img data-src="https://suxingchahui.fun/2023/10/04/%E9%A2%9C%E8%89%BA%E5%A4%A7%E8%B5%8F2/asa51.png" alt="1"><br>—占位—</p>
-<span id="more"></span>
-<iframe src="/pdf/汇报.pdf" style="width:800px; height:500px;" frameborder="0"></iframe>
-
-<p><a target="_blank" href="/pdf/汇报.pdf" download="汇报.pdf">汇报.pdf</a></p>
-
-<p><a target="_blank" href="/pdf/汇报.pptx" download="汇报.pptx">汇报.pptx</a></p>
-
-]]></content>
-  </entry>
-  <entry>
     <title>【Python/脚本】一个懒得自己打字的md图片插入脚本</title>
     <url>/2023/10/05/%E3%80%90Python-%E8%84%9A%E6%9C%AC%E3%80%91%E4%B8%80%E4%B8%AA%E6%87%92%E5%BE%97%E8%87%AA%E5%B7%B1%E6%89%93%E5%AD%97%E7%9A%84md%E5%9B%BE%E7%89%87%E6%8F%92%E5%85%A5%E8%84%9A%E6%9C%AC/</url>
-    <content><![CDATA[<p>1.md图片插入格式</p>
+    <content><![CDATA[<p>Markdown也就是md文件<br>Markdown文件插入可以遵循html的标签方式，但<br>这种插入方式比较麻烦，可以用md自己的格式</p>
+<span id="more"></span>
+<p>1.md图片插入格式</p>
 <figure class="highlight scss"><table><tr><td class="code"><pre><span class="line">!<span class="selector-attr">[若图片not Found显示的文字]</span>(路径)</span><br></pre></td></tr></table></figure>
 <p>一般可以这么写，&#x2F;image自动索引到资源文件</p>
 <figure class="highlight arcade"><table><tr><td class="code"><pre><span class="line">![<span class="number">28.</span>webp](<span class="regexp">/image/</span><span class="number">28.</span>webp)</span><br></pre></td></tr></table></figure>
 <p><img data-src="/2023/10/05/%E3%80%90Python-%E8%84%9A%E6%9C%AC%E3%80%91%E4%B8%80%E4%B8%AA%E6%87%92%E5%BE%97%E8%87%AA%E5%B7%B1%E6%89%93%E5%AD%97%E7%9A%84md%E5%9B%BE%E7%89%87%E6%8F%92%E5%85%A5%E8%84%9A%E6%9C%AC/1005D_140_1.jpg" alt="1005D_140_1.jpg"></p>
-<span id="more"></span>
+<!--more-->
 <p>2.代码十分简单，不到一分钟写完了</p>
 <figure class="highlight dust"><table><tr><td class="code"><pre><span class="line"><span class="language-xml">import os</span></span><br><span class="line"><span class="language-xml">filePath = &#x27;D:\\Blog\\Blog1\\source\\_posts\\【图集】10-3图图&#x27;</span></span><br><span class="line"><span class="language-xml">n=0</span></span><br><span class="line"><span class="language-xml">for i,j,k in os.walk(filePath):</span></span><br><span class="line"><span class="language-xml">    for i in k:</span></span><br><span class="line"><span class="language-xml">        n+=1</span></span><br><span class="line"><span class="language-xml">        print(&quot;![</span><span class="template-variable">&#123;&#125;</span><span class="language-xml">](/image/</span><span class="template-variable">&#123;&#125;</span><span class="language-xml">)&quot;.format(i, i)) #中间部分自己改</span></span><br><span class="line"><span class="language-xml">        if n==2:</span></span><br><span class="line"><span class="language-xml">            print(&quot;<span class="comment">&lt;!--more--&gt;</span>&quot;)</span></span><br></pre></td></tr></table></figure>
 
 <p><code>&lt;!--more--&gt;</code><br>用来手动隐藏，图片占首页太长不好看</p>
 ]]></content>
       <categories>
-        <category>介绍</category>
+        <category>Python</category>
       </categories>
       <tags>
         <tag>Python</tag>
       </tags>
   </entry>
   <entry>
+    <title>【搬运】html游戏 贪吃蛇</title>
+    <url>/2023/10/09/%E3%80%90%E6%90%AC%E8%BF%90%E3%80%91html%E6%B8%B8%E6%88%8F-%E8%B4%AA%E5%90%83%E8%9B%87/</url>
+    <content><![CDATA[<p>请使用电脑进入，游戏画面需要刷新页面<br>—占位—<br>如题<br>本文为搬运的html游戏<br>—占位—</p>
+<span id="more"></span>
+<canvas id="tanchishe_Canvas" width="400" height="400" >
+</canvas>
+<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js">
+</script>
+<script type="text/javascript" src="/js/tanchishe_js.js">
+</script>
+<style>
+    #tanchishe_Canvas{	
+            background-color:white;
+            z-index:1;
+            border:5px solid;
+            border-color:black;
+        }
+</style>]]></content>
+      <categories>
+        <category>HTML游戏</category>
+      </categories>
+  </entry>
+  <entry>
     <title>【整理/自用】整理一个即兴写的数据整理和导出脚本</title>
     <url>/2023/10/04/%E3%80%90%E6%95%B4%E7%90%86%E3%80%91%E6%95%B4%E7%90%86%E4%B8%80%E4%B8%AA%E5%8D%B3%E5%85%B4%E5%86%99%E7%9A%84%E6%95%B0%E6%8D%AE%E6%95%B4%E7%90%86%E5%92%8C%E5%AF%BC%E5%87%BA%E8%84%9A%E6%9C%AC/</url>
-    <content><![CDATA[<p>1.前言<br><img data-src="/image/1002D_239_1.jpg" alt="1"><br>由于以前(一周前)写的一个脚本太过即兴，<br>原数据的长度过于冗长，导致脚本异常的乱，<del><em>想要去回看却完全看不懂了</em></del><br>该脚本主要是处理爬取后杂乱的数据，进行筛选，合并的过程<br>主要是一个整理处理过程的文章，会省略掉很多<br>没什么大用的部分或者简单的部分，处理函数十分<br>物尽其用，没有特别花哨的玩意<br>爬取对象为创业决策（决策天地）的决策结果数据</p>
+    <content><![CDATA[<p>1.前言<br>由于以前(一周前)写的一个脚本太过即兴，<br>原数据的长度过于冗长，导致脚本异常的乱，<del><em>想要去回看却完全看不懂了</em></del><br>该脚本主要是处理爬取后杂乱的数据，进行筛选，合并的过程<br>主要是一个整理处理过程的文章，会省略掉很多<br>没什么大用的部分或者简单的部分，处理函数十分<br>物尽其用，没有特别花哨的玩意<br>爬取对象为创业决策（决策天地）的决策结果数据</p>
 <span id="more"></span>
-<p>2.数据来源<br><a href="www.jctd.net">创业决策</a><br>主要是爬取模拟决策后的各项数据，竞争结果数据，<br>但结果是竞争结果的数据并不全，生产相关数据<br>需要在另一个爬取，所以应该分为两个部分。</p>
+<p><img data-src="/image/1002D_239_1.jpg" alt="1"><br>2.数据来源<br><a href="www.jctd.net">创业决策</a><br>主要是爬取模拟决策后的各项数据，竞争结果数据，<br>但结果是竞争结果的数据并不全，生产相关数据<br>需要在另一个爬取，所以应该分为两个部分。</p>
 <p>3.结果数据</p>
 <details>
 <summary>
@@ -611,7 +644,7 @@
 <p><img data-src="/image/1004D_21_1.jpg" alt="1"></p>
 ]]></content>
       <categories>
-        <category>介绍</category>
+        <category>Python</category>
       </categories>
       <tags>
         <tag>Python</tag>
@@ -620,7 +653,10 @@
   <entry>
     <title>【测试】js做的歌碟</title>
     <url>/2023/09/30/%E3%80%90%E7%9E%8E%E6%90%9E-%E6%B5%8B%E8%AF%95%E3%80%91js%E5%81%9A%E7%9A%84%E6%AD%8C%E7%A2%9F/</url>
-    <content><![CDATA[<p><img data-src="/image/929D_257_1.jpg" alt="1"></p>
+    <content><![CDATA[<p>本文写的用纯JS（Jquery）写出的歌碟，<br>歌碟通过CSS转动，可以切歌。</p>
+<span id="more"></span>
+
+<p><img data-src="/image/929D_257_1.jpg" alt="1"></p>
 <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js">
 </script>
 <script>
@@ -697,7 +733,7 @@ function muplay(){
     100%{transform: rotate(360deg);}
 }
 </style>
-<span id="more"></span>
+<!--more-->
 <div onclick="mutr()">
 <p>音乐盒（点我切歌）</p>
 <p class="recent_text">&nbsp;歌曲1</p>
@@ -714,18 +750,17 @@ function muplay(){
 <p>源代码</p>
 <figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="keyword">var</span> s1=<span class="literal">true</span>;</span></span><br><span class="line"><span class="language-javascript"><span class="keyword">var</span> musicbox=$(<span class="string">&quot;.musicbox_test&quot;</span>);</span></span><br><span class="line"><span class="language-javascript"><span class="keyword">function</span> <span class="title function_">mutr</span>(<span class="params"></span>)&#123;</span></span><br><span class="line"><span class="language-javascript">	<span class="keyword">if</span> (s1==<span class="literal">false</span>)&#123;</span></span><br><span class="line"><span class="language-javascript">		s1=<span class="literal">true</span>;</span></span><br><span class="line"><span class="language-javascript">		$(<span class="string">&quot;.music_test&quot;</span>).<span class="title function_">attr</span>(<span class="string">&quot;src&quot;</span>,<span class="string">&quot;/image/Akatsuki.mp3&quot;</span>)</span></span><br><span class="line"><span class="language-javascript">		$(<span class="string">&quot;.recent_text&quot;</span>).<span class="title function_">text</span>(<span class="string">&quot;歌曲1&quot;</span>)</span></span><br><span class="line"><span class="language-javascript">		<span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&quot;ch1&quot;</span>)	</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">if</span> ($(<span class="string">&quot;.pic_box&quot;</span>).<span class="title function_">css</span>(<span class="string">&quot;animation-play-state&quot;</span>)==<span class="string">&quot;running&quot;</span>)&#123;</span></span><br><span class="line"><span class="language-javascript">				$(<span class="string">&quot;.music_pic&quot;</span>).<span class="title function_">css</span>(&#123;<span class="string">&quot;animation-play-state&quot;</span>:<span class="string">&quot;paused&quot;</span>&#125;);</span></span><br><span class="line"><span class="language-javascript">				$(<span class="string">&quot;.pic_box&quot;</span>).<span class="title function_">css</span>(&#123;<span class="string">&quot;animation-play-state&quot;</span>:<span class="string">&quot;paused&quot;</span>&#125;);</span></span><br><span class="line"><span class="language-javascript">				$(<span class="string">&quot;.music_test&quot;</span>).<span class="title function_">get</span>(<span class="number">0</span>).<span class="title function_">pause</span>();</span></span><br><span class="line"><span class="language-javascript">				s=<span class="literal">true</span>;</span></span><br><span class="line"><span class="language-javascript">			&#125;</span></span><br><span class="line"><span class="language-javascript">	&#125;</span></span><br><span class="line"><span class="language-javascript">	<span class="keyword">else</span>&#123;</span></span><br><span class="line"><span class="language-javascript">		s1=<span class="literal">false</span>;</span></span><br><span class="line"><span class="language-javascript">		$(<span class="string">&quot;.music_test&quot;</span>).<span class="title function_">attr</span>(<span class="string">&quot;src&quot;</span>,<span class="string">&quot;/image/wonderland.mp3&quot;</span>)</span></span><br><span class="line"><span class="language-javascript">		$(<span class="string">&quot;.recent_text&quot;</span>).<span class="title function_">text</span>(<span class="string">&quot;歌曲2&quot;</span>)</span></span><br><span class="line"><span class="language-javascript">		<span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&quot;ch2&quot;</span>)</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">if</span> ($(<span class="string">&quot;.pic_box&quot;</span>).<span class="title function_">css</span>(<span class="string">&quot;animation-play-state&quot;</span>)==<span class="string">&quot;running&quot;</span>)&#123;</span></span><br><span class="line"><span class="language-javascript">				$(<span class="string">&quot;.music_pic&quot;</span>).<span class="title function_">css</span>(&#123;<span class="string">&quot;animation-play-state&quot;</span>:<span class="string">&quot;paused&quot;</span>&#125;);</span></span><br><span class="line"><span class="language-javascript">				$(<span class="string">&quot;.pic_box&quot;</span>).<span class="title function_">css</span>(&#123;<span class="string">&quot;animation-play-state&quot;</span>:<span class="string">&quot;paused&quot;</span>&#125;);</span></span><br><span class="line"><span class="language-javascript">				$(<span class="string">&quot;.music_test&quot;</span>).<span class="title function_">get</span>(<span class="number">0</span>).<span class="title function_">pause</span>();</span></span><br><span class="line"><span class="language-javascript">				s=<span class="literal">true</span>;</span></span><br><span class="line"><span class="language-javascript">			&#125;</span></span><br><span class="line"><span class="language-javascript">		&#125;</span></span><br><span class="line"><span class="language-javascript">&#125;</span></span><br><span class="line"><span class="language-javascript">s=<span class="literal">true</span>;</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="keyword">function</span> <span class="title function_">muplay</span>(<span class="params"></span>)&#123;</span></span><br><span class="line"><span class="language-javascript">	<span class="keyword">if</span> (s==<span class="literal">false</span>)&#123;</span></span><br><span class="line"><span class="language-javascript">		s=<span class="literal">true</span>;</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">var</span> music=$(<span class="string">&quot;.music_test&quot;</span>).<span class="title function_">get</span>(<span class="number">0</span>);</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">var</span> pic=$(<span class="string">&quot;.music_pic&quot;</span>);</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">var</span> box=$(<span class="string">&quot;.pic_box&quot;</span>);</span></span><br><span class="line"><span class="language-javascript">		music.<span class="title function_">pause</span>();	 </span></span><br><span class="line"><span class="language-javascript">		pic.<span class="title function_">css</span>(&#123;<span class="string">&quot;animation-play-state&quot;</span>:<span class="string">&quot;paused&quot;</span>&#125;);</span></span><br><span class="line"><span class="language-javascript">		box.<span class="title function_">css</span>(&#123;<span class="string">&quot;animation-play-state&quot;</span>:<span class="string">&quot;paused&quot;</span>&#125;);</span></span><br><span class="line"><span class="language-javascript">		&#125;</span></span><br><span class="line"><span class="language-javascript">	<span class="keyword">else</span>&#123;</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">var</span> music=$(<span class="string">&quot;.music_test&quot;</span>).<span class="title function_">get</span>(<span class="number">0</span>);</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">var</span> pic=$(<span class="string">&quot;.music_pic&quot;</span>);</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">var</span> box=$(<span class="string">&quot;.pic_box&quot;</span>);</span></span><br><span class="line"><span class="language-javascript">		s=<span class="literal">false</span>;</span></span><br><span class="line"><span class="language-javascript">		music.<span class="title function_">play</span>();</span></span><br><span class="line"><span class="language-javascript">		pic.<span class="title function_">css</span>(&#123;<span class="string">&quot;animation-play-state&quot;</span>:<span class="string">&quot;running&quot;</span>&#125;);</span></span><br><span class="line"><span class="language-javascript">		box.<span class="title function_">css</span>(&#123;<span class="string">&quot;animation-play-state&quot;</span>:<span class="string">&quot;running&quot;</span>&#125;);</span></span><br><span class="line"><span class="language-javascript">		</span></span><br><span class="line"><span class="language-javascript">		&#125;</span></span><br><span class="line"><span class="language-javascript">&#125;</span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.pic_box</span>&#123;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">width</span>:<span class="number">250px</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">border-radius</span>: <span class="number">50%</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">background-color</span>:white;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">animation</span>: Box <span class="number">3s</span> linear infinite;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">animation-play-state</span>:paused;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.pic_box</span> <span class="selector-tag">img</span>&#123;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">width</span>:<span class="number">200px</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">height</span>:<span class="number">200px</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">animation</span>: Box <span class="number">3s</span> linear infinite;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">animation-play-state</span>:paused;</span></span><br><span class="line"><span class="language-css">	</span></span><br><span class="line"><span class="language-css">	&#125;</span></span><br><span class="line"><span class="language-css"><span class="keyword">@keyframes</span> Box&#123;</span></span><br><span class="line"><span class="language-css">	<span class="number">0%</span>&#123;<span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">0deg</span>);&#125;</span></span><br><span class="line"><span class="language-css">	<span class="number">50%</span>&#123;<span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">180deg</span>);&#125;</span></span><br><span class="line"><span class="language-css">	<span class="number">100%</span>&#123;<span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">360deg</span>);&#125;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!--more--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">onclick</span>=<span class="string">&quot;mutr()&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>音乐盒（点我切歌）<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span> <span class="attr">class</span>=<span class="string">&quot;recent_text&quot;</span>&gt;</span><span class="symbol">&amp;nbsp;</span>歌曲1<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;box1&quot;</span> <span class="attr">class</span>=<span class="string">&quot;pic_box&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">img</span> <span class="attr">id</span>=<span class="string">&quot;pic&quot;</span> <span class="attr">class</span>=<span class="string">&quot;music_pic&quot;</span> <span class="attr">onclick</span>=<span class="string">&quot;muplay()&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/image/420px-KoishiSubterranean封面.jpg&quot;</span> <span class="attr">alt</span>=<span class="string">&quot;&quot;</span> /&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;musicbox&quot;</span> <span class="attr">class</span>=<span class="string">&quot;musicbox_test&quot;</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">audio</span> <span class="attr">id</span>=<span class="string">&quot;Akatsuki&quot;</span> <span class="attr">class</span>=<span class="string">&quot;music_test&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/image/Akatsuki.mp3&quot;</span>  <span class="attr">loop</span>=<span class="string">&quot;loop&quot;</span> &gt;</span></span><br><span class="line">	<span class="tag">&lt;/<span class="name">audio</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
       <categories>
-        <category>测试</category>
+        <category>前端JS</category>
       </categories>
   </entry>
   <entry>
     <title>【算法/Python】DataFrame的单行指定插入</title>
     <url>/2023/09/29/%E3%80%90%E7%AE%97%E6%B3%95-Python%E3%80%91DataFrame%E7%9A%84%E5%8D%95%E8%A1%8C%E6%8C%87%E5%AE%9A%E6%8F%92%E5%85%A5/</url>
-    <content><![CDATA[<p><img data-src="/image/929D_226_1.jpg" alt="1"><br>1.前言<br>Pandas的DataFrame常常用于存储二维数组<br>pandas的功能也比较强大，可以对接excel。<br>但当数据行数很多的情况，就想要新数据插入指定行，<br>似乎pandas并没有现成的函数支持<br>只有比较原始的插入，而且这种方法必须要求list的长度等于df的列数</p>
+    <content><![CDATA[<p>1.前言<br>Pandas的DataFrame常常用于存储二维数组<br>pandas的功能也比较强大，可以对接excel。<br>但当数据行数很多的情况，就想要新数据插入指定行，<br>似乎pandas并没有现成的函数支持<br>只有比较原始的插入，而且这种方法必须要求list的长度等于df的列数<br>于是就想写一个</p>
 <figure class="highlight vim"><table><tr><td class="code"><pre><span class="line">df.<span class="keyword">loc</span>[<span class="built_in">len</span>(df.<span class="built_in">index</span>)]=<span class="keyword">list</span> </span><br></pre></td></tr></table></figure>
-
-<p>于是就想写一个</p>
 <span id="more"></span>
-<p>2.算法<br>废话不多说上算法<br>利用分离，然后上下合并（concat）的方法<br>通常数据较多用行名作参数比较容易</p>
+
+<p><img data-src="/image/929D_226_1.jpg" alt="1"><br>2.算法<br>废话不多说上算法<br>利用分离，然后上下合并（concat）的方法<br>通常数据较多用行名作参数比较容易</p>
 <figure class="highlight scss"><table><tr><td class="code"><pre><span class="line">def <span class="built_in">dfinsert</span>(df, indexname, list,name):</span><br><span class="line">	#df为原数据，list为想要插入的数据</span><br><span class="line">    df_add = pd.<span class="built_in">DataFrame</span>(</span><br><span class="line">		columns=<span class="built_in">list</span>(<span class="built_in">range</span>(<span class="number">1</span>, <span class="built_in">len</span>(list) + <span class="number">1</span>))</span><br><span class="line">		)</span><br><span class="line">    df_add.loc[name] = list #创建想要插入的df数据</span><br><span class="line">    df1 = df.loc[:indexname, :]</span><br><span class="line">	# 不同于行数定位，要获取下一行有点绕</span><br><span class="line">    y=<span class="string">&quot;&quot;</span></span><br><span class="line">    for e in <span class="built_in">range</span>(<span class="built_in">len</span>(<span class="built_in">list</span>(df.index))):</span><br><span class="line">        if <span class="built_in">list</span>(df.index)[e]==indexname:</span><br><span class="line">            y=<span class="built_in">list</span>(df.index)[e+<span class="number">1</span>]</span><br><span class="line">    df2 = df.loc[y:, :]</span><br><span class="line">    df_new = pd.<span class="built_in">concat</span>([df1, df_add, df2])</span><br><span class="line">    return df_new #合并后的数据</span><br></pre></td></tr></table></figure>
 
 <p>也可以用行数作参数，基本就改一下</p>
@@ -742,10 +777,9 @@ function muplay(){
   <entry>
     <title>【算法/Python】数字提取</title>
     <url>/2023/09/29/%E3%80%90%E7%AE%97%E6%B3%95-Python%E3%80%91%E6%95%B0%E5%AD%97%E6%8F%90%E5%8F%96/</url>
-    <content><![CDATA[<p>1.前言<br>数字提取是一个难题，然而爬虫有些时候是非常需要，<br>如果爬下来的数字是错的，整个数学运算就寄了<br><img data-src="/image/929D_294_1.jpg" alt="1"></p>
+    <content><![CDATA[<p>1.前言<br>数字提取是一个难题，然而爬虫有些时候是非常需要，<br>如果爬下来的数字是错的，整个数学运算就寄了</p>
 <span id="more"></span>
-
-<p>像字符串逐个读取这样，这样的算法只能读取一个数字，<br>而且不能读取负数，百分数等</p>
+<p><img data-src="/image/929D_294_1.jpg" alt="1"><br>像字符串逐个读取这样，这样的算法只能读取一个数字，<br>而且不能读取负数，百分数等</p>
 <figure class="highlight livecodeserver"><table><tr><td class="code"><pre><span class="line">def numget(<span class="keyword">string</span>):</span><br><span class="line">    <span class="keyword">a</span> = <span class="string">&#x27;&#x27;</span>   <span class="comment"># 将空值赋值给a</span></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="keyword">string</span>:    <span class="comment"># 将字符串进行遍历</span></span><br><span class="line">        <span class="keyword">if</span> str.isdigit(i)==True:    <span class="comment"># 判断i是否为数字，如果“是”返回True，“不是”返回False</span></span><br><span class="line">            <span class="keyword">a</span> += i   <span class="comment"># 如果i是数字格式，将i以字符串格式加到a上</span></span><br><span class="line">        elif i==<span class="string">&quot;.&quot;</span>:</span><br><span class="line">            <span class="keyword">a</span>+=<span class="string">&quot;.&quot;</span></span><br><span class="line">    <span class="keyword">if</span> <span class="keyword">a</span> ==<span class="string">&quot;&quot;</span>:</span><br><span class="line">        <span class="keyword">a</span>+=<span class="string">&quot;0&quot;</span></span><br><span class="line">    <span class="literal">return</span> <span class="keyword">a</span></span><br></pre></td></tr></table></figure>
 
 <p>如果用现成的re.findall无法解决百分数，负数，小数点的问题</p>
@@ -763,19 +797,71 @@ function muplay(){
 <p><img data-src="/image/929D_262_1.jpg" alt="2"></p>
 ]]></content>
       <categories>
-        <category>算法</category>
+        <category>Python</category>
       </categories>
       <tags>
         <tag>算法</tag>
       </tags>
   </entry>
   <entry>
-    <title>（自用）梳理一下基本爬图思路</title>
-    <url>/2023/10/01/%E6%A2%B3%E7%90%86%E4%B8%80%E4%B8%8B%E5%9F%BA%E6%9C%AC%E7%88%AC%E5%9B%BE%E6%80%9D%E8%B7%AF/</url>
-    <content><![CDATA[<p><img data-src="/image/930D_27_1.jpg" alt="1"></p>
-<p><a href="/2023/09/28/%E7%94%A8selenum%E5%88%B6%E4%BD%9C%E5%89%8D%E7%AB%AF%E5%BC%8F%E7%88%AC%E8%99%AB/">前文:用Selenium制作前端式爬虫</a><br><del><em>其实也不能叫梳理了，依旧还是很乱，将就写吧</em></del><br>说到爬虫肯定少不了爬图<br><del><em>为什么说是自用，因为我回看我以前写的是根本看不懂啊</em></del><br>本来写的就很乱很乱，函数套用太多了<br>本文主要不写全部代码了，就写主要的函数的结构，以防以后维护出问题</p>
+    <title>基于hexo部署github的个人网站</title>
+    <url>/2023/10/09/%E5%9F%BA%E4%BA%8Ehexo%E9%83%A8%E7%BD%B2github%E7%9A%84%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/</url>
+    <content><![CDATA[<p>前言：<br>GithubPages提供了免费的网页部署功能，一旦发布了网站，无论何时何地都可以在互联网上<br>查看。同时网站稳定，即使网站长年未更新，依旧仍然可以在互联网上查看。hexo是一个能够<br>快速通过GithubPages构建一个个人博客的框架，hexo生成出的网页，具有个人博客的基本<br>结构和组件，sidebar，menu，localsearch等，你只需要修改一些设置就能够建立出一个简<br>洁干净的个人博客的网站。同时hexo存在大量的第三方组件的支持，通过设置可以快捷调用出<br>想要的功能，如字数统计，置顶设置等操作。</p>
 <span id="more"></span>
 
+<p>正文：<br>以下是基于Github用hexo部署一个网站的步骤，最终会发布一个<br>hexo默认的网页，也就是landscape的主题，hexo还存在其他很多的第三方集成的主题<br>本文不包括网页设计部分和流程</p>
+<p>1.首先是搭建环境<br>(1)<br><a href="https://nodejs.org/en">Nodejs下载</a><br>Nodejs安装后会携带npm，通过npm可以快速安装<br>一些第三方插件<br>(2)<br><a href="https://git-scm.com/download/win">Git下载</a><br>git安装可以打开git窗口，git可以在终端push到Github<br>hexo也主要通过git进行网页部署</p>
+<p>2.Github基础配置<br>(1)注册登录<br><a href="https://github.com/">Github</a><br>(登不上请科学上网)</p>
+<p>(2)创建新的仓库(repository)<br><img data-src="/2023/10/09/%E5%9F%BA%E4%BA%8Ehexo%E9%83%A8%E7%BD%B2github%E7%9A%84%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/4.png" alt="1"><br>登录后创建一个新的repository，命名尽量按<br>用户名&#x2F;用户名.github.io，其他没要求，仓库设置为public</p>
+<p>(3)SSH创建<br>SSH公钥是Github识别终端的其中一种方式，<br>在Github个人中心的右侧栏Setting点击后<br>在左侧栏进入带有的SSH字眼<br>创建一个新的SSH,名称随意,其中内容后续有用</p>
+<p>3.Hexo<br><a href="https://hexo.io/zh-cn/index.html">Hexo官网</a><br><img data-src="/2023/10/09/%E5%9F%BA%E4%BA%8Ehexo%E9%83%A8%E7%BD%B2github%E7%9A%84%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/1.png" alt="1"><br>(1)创建一个空的文件夹（可自己命名）<br>随意在任意磁盘的路径，创建一个空的文件夹<br>在文件夹里，右键点进Git Bash里<br>并在黑色命令框里依次输入<br>记住在命令框粘贴不是Ctrl+V,尽量用鼠标右键<br><img data-src="/2023/10/09/%E5%9F%BA%E4%BA%8Ehexo%E9%83%A8%E7%BD%B2github%E7%9A%84%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/2.png" alt="1"></p>
+<figure class="highlight cmake"><table><tr><td class="code"><pre><span class="line">npm <span class="keyword">install</span> hexo-cli <span class="comment">#安装hexo</span></span><br><span class="line">hexo init <span class="comment">#hexo初始化</span></span><br><span class="line">npm <span class="keyword">install</span> <span class="comment">#npm安装</span></span><br></pre></td></tr></table></figure>
+<p>(2)成功后,尝试输入</p>
+<figure class="highlight verilog"><table><tr><td class="code"><pre><span class="line">hexo <span class="keyword">generate</span> #hexo解析md等文件，生成文件结构</span><br><span class="line">hexo server #hexo本地服务器查看</span><br></pre></td></tr></table></figure>
+<p>可简写为</p>
+<figure class="highlight ebnf"><table><tr><td class="code"><pre><span class="line"><span class="attribute">hexo g</span></span><br><span class="line"><span class="attribute">hexo s</span></span><br></pre></td></tr></table></figure>
+<p>如下图左边这样的界面（这是官网给的图片）<br><img data-src="/2023/10/09/%E5%9F%BA%E4%BA%8Ehexo%E9%83%A8%E7%BD%B2github%E7%9A%84%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/3.png" alt="1"><br>(3)上述代码成功<br>按住Ctrl就可以打开本地链接<br>测试成功后用键盘输入</p>
+<figure class="highlight mathematica"><table><tr><td class="code"><pre><span class="line"><span class="variable">Ctrl</span><span class="operator">+</span><span class="built_in">C</span></span><br></pre></td></tr></table></figure>
+<p>可以关闭本地服务器，Ctrl+C的操作可以停止任意命令操作</p>
+<p>4.SSH公钥创建<br>(1)用cd命令进入SSH根目录<br>window打开命令框,win10可以快捷键win+r输入cmd<br>进行命令框，输入用cd命令进入SSH根目录</p>
+<figure class="highlight arcade"><table><tr><td class="code"><pre><span class="line">cd ~<span class="regexp">/.ssh/</span></span><br></pre></td></tr></table></figure>
+<p>(2)在公钥中添加github信息</p>
+<figure class="highlight arcade"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -f  ~<span class="regexp">/.ssh/</span>密钥名称 -C <span class="string">&quot;邮箱&quot;</span></span><br></pre></td></tr></table></figure>
+<p>(3)在SSH根目录找到config文件并更改</p>
+<figure class="highlight crmsh"><table><tr><td class="code"><pre><span class="line">Host xxxxxx.github.com</span><br><span class="line">    HostName ssh/github.com</span><br><span class="line">    <span class="keyword">User</span> <span class="title">git</span></span><br><span class="line">    IdentityFile ~/.ssh/密钥名称</span><br></pre></td></tr></table></figure>
+<p>(4)创建公钥</p>
+<figure class="highlight arcade"><table><tr><td class="code"><pre><span class="line"><span class="built_in">clip</span> &lt; ~<span class="regexp">/.ssh/</span>密钥的名称.pub</span><br></pre></td></tr></table></figure>
+<p>在目录下找到密钥名称的pub文件,打开复制里面内容,<br>粘贴到Github的SSH的内容里</p>
+<p>(5)添加SSH</p>
+<figure class="highlight avrasm"><table><tr><td class="code"><pre><span class="line">ssh-<span class="keyword">add</span> xxxxxx <span class="meta">#密钥名称</span></span><br></pre></td></tr></table></figure>
+<p>如果执行以上命令出现错误：Could not open a<br>connection to your authentication agent.，<br>那么就需要先执行ssh-agent bash，再执行以上命令</p>
+<p>(6)检验是否成功<br>xxxxxx”ssh目录下config文件中的命名</p>
+<figure class="highlight nginx"><table><tr><td class="code"><pre><span class="line"><span class="attribute">ssh</span> -T git<span class="variable">@xxxxxxx</span>.github.com</span><br></pre></td></tr></table></figure>
+<p>出现</p>
+<figure class="highlight ada"><table><tr><td class="code"><pre><span class="line">You<span class="symbol">&#x27;ve</span> successfully authenticated, </span><br><span class="line">but GitHub does <span class="keyword">not</span> provide shell <span class="keyword">access</span>.</span><br></pre></td></tr></table></figure>
+<p>则代表成功</p>
+<p>5.配置github<br>(1)点进博客文件夹中的.deploy_git&#x2F;.git中<br>进入Git Bash里<br>.deploy_git需要打开查看隐藏文件的功能才能够找到，<br>详情自己百度查看，.deploy_git没有就hexo部署一次<br>就会出来了，会报错tell me who are you</p>
+<figure class="highlight pgsql"><table><tr><td class="code"><pre><span class="line">git config <span class="keyword">user</span>.name &quot;用户名&quot;</span><br><span class="line">git config <span class="keyword">user</span>.email &quot;邮箱&quot;</span><br></pre></td></tr></table></figure>
+<p>(2)在博客文件夹中的_config.yml文件<br>打开在末尾更改下列代码</p>
+<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: git@xxxxxx<span class="selector-class">.github</span><span class="selector-class">.com</span>:用户名/用户名<span class="selector-class">.github</span><span class="selector-class">.io</span><span class="selector-class">.git</span></span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+<p>如果在github输入的不是上述这个格式，可能会打不开网页</p>
+<p>(3)服务器部署<br>在博客文件夹的目录下进入Git Bash<br>依次输入</p>
+<figure class="highlight ebnf"><table><tr><td class="code"><pre><span class="line"><span class="attribute">hexo clean</span></span><br><span class="line"><span class="attribute">hexo g</span></span><br><span class="line"><span class="attribute">hexo d</span></span><br></pre></td></tr></table></figure>
+<p>部署成功后，服务器会有延迟，大概过一两分钟会更新页面<br>可以在github上看部署是否成功，如果失败github会发邮件的</p>
+]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>介绍</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>（自用）梳理一下基本爬图思路</title>
+    <url>/2023/10/01/%E6%A2%B3%E7%90%86%E4%B8%80%E4%B8%8B%E5%9F%BA%E6%9C%AC%E7%88%AC%E5%9B%BE%E6%80%9D%E8%B7%AF/</url>
+    <content><![CDATA[<p><a href="/2023/09/28/%E7%94%A8selenum%E5%88%B6%E4%BD%9C%E5%89%8D%E7%AB%AF%E5%BC%8F%E7%88%AC%E8%99%AB/">前文:用Selenium制作前端式爬虫</a><br><del><em>其实也不能叫梳理了，依旧还是很乱，将就写吧</em></del><br>说到爬虫肯定少不了爬图<br><del><em>为什么说是自用，因为我回看我以前写的是根本看不懂啊</em></del><br>本来写的就很乱很乱，函数套用太多了<br>本文主要不写全部代码了，就写主要的函数的结构，以防以后维护出问题</p>
+<span id="more"></span>
+<p><img data-src="/image/930D_27_1.jpg" alt="1"></p>
 <p>1.服务器访问模块<br>这里使用的是selenium所以相应有浏览器调用模块<br>driverbrowser() #浏览器调用 嵌套→browser_set() #浏览器设置<br>函数相应代码在前文有介绍</p>
 <p>2.访问抓取模块<br>这几个基本都是一堆嵌套try，因为要防止服务器连接出错</p>
 <figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="title">res</span><span class="params">(url)</span></span>:</span><br><span class="line">    #防访问超时报错</span><br><span class="line">    driver=<span class="built_in">driverbrowser</span>()</span><br><span class="line">    <span class="keyword">if</span> driver!=<span class="string">&#x27;&#x27;</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;测试&quot;</span>)</span><br><span class="line">        try:</span><br><span class="line">            url_get=<span class="built_in">browserget</span>(driver,url)</span><br><span class="line">            return url_get</span><br><span class="line">        except :</span><br><span class="line">            driver<span class="selector-class">.close</span>()</span><br><span class="line">            driver<span class="selector-class">.quit</span>()</span><br><span class="line">            secends = random<span class="selector-class">.randint</span>(<span class="number">120</span>, <span class="number">150</span>)</span><br><span class="line">            <span class="built_in">printpause</span>(secends)</span><br><span class="line">            try:</span><br><span class="line">                <span class="built_in">print</span>(<span class="string">&#x27;***重试请求***&#x27;</span>)</span><br><span class="line">                driver = <span class="built_in">driverbrowser</span>()</span><br><span class="line">                url_get = <span class="built_in">browserget</span>(driver, url)</span><br><span class="line">                return url_get</span><br><span class="line">            except :</span><br><span class="line">                driver<span class="selector-class">.close</span>()</span><br><span class="line">                driver<span class="selector-class">.quit</span>()</span><br><span class="line">                <span class="built_in">printpause</span>(<span class="number">150</span>)</span><br><span class="line">                try:</span><br><span class="line">                    <span class="built_in">print</span>(<span class="string">&#x27;***重试请求***&#x27;</span>)</span><br><span class="line">                    driver = <span class="built_in">driverbrowser</span>()</span><br><span class="line">                    url_get = <span class="built_in">browserget</span>(driver, url)</span><br><span class="line">                    return url_get</span><br><span class="line">                except:</span><br><span class="line">                    driver<span class="selector-class">.close</span>()</span><br><span class="line">                    driver<span class="selector-class">.quit</span>()</span><br><span class="line">                    <span class="built_in">print</span>(<span class="string">&#x27;***访问失败，程序继续***&#x27;</span>)</span><br><span class="line">                return <span class="string">&#x27;&#x27;</span></span><br></pre></td></tr></table></figure>
@@ -804,7 +890,7 @@ function muplay(){
 <p>可选：<br>末页（页数），下一页链接<br>如果详细页需要要获取两个<br><img data-src="/image/930D_171_1.jpg" alt="2"></p>
 ]]></content>
       <categories>
-        <category>介绍</category>
+        <category>Python</category>
       </categories>
       <tags>
         <tag>爬虫</tag>
@@ -813,9 +899,9 @@ function muplay(){
   <entry>
     <title>东华大学介绍</title>
     <url>/2023/09/26/%E6%B5%8B%E8%AF%95/</url>
-    <content><![CDATA[<p><img data-src="/image/1.png" alt="1"><br>学校介绍<br>东华大学是教育部直属、国家“211工程”、国家“双一流”建设高校。学校秉承“崇德博学、砺志尚实”的校训，不断开拓奋进，已发展成为以纺织、材料、设计为优势，特色鲜明的多科性、高水平大学。</p>
+    <content><![CDATA[<p>东华大学介绍<br>学校介绍<br>东华大学是教育部直属、国家“211工程”、国家“双一流”建设高校。学校秉承“崇德博学、砺志尚实”的校训，不断开拓奋进，已发展成为以纺织、材料、设计为优势，特色鲜明的多科性、高水平大学。</p>
 <span id="more"></span>
-<p>学校的办学历史可追溯至1912年实业家张謇创办的纺织染传习所。1951年建校，时名华东纺织工学院。1960年，被国家教育部确定为全国重点大学。1981年，成为中国首批具有博士、硕士、学士三级学位授予权的大学之一。1985年，更名为中国纺织大学。1998年，被确定为国家“211工程”重点建设的高等学校。1999年，更名为东华大学。2017年，列入国家“双一流”建设高校。</p>
+<p><img data-src="/image/1.png" alt="1"><br>学校的办学历史可追溯至1912年实业家张謇创办的纺织染传习所。1951年建校，时名华东纺织工学院。1960年，被国家教育部确定为全国重点大学。1981年，成为中国首批具有博士、硕士、学士三级学位授予权的大学之一。1985年，更名为中国纺织大学。1998年，被确定为国家“211工程”重点建设的高等学校。1999年，更名为东华大学。2017年，列入国家“双一流”建设高校。</p>
 <p>学校地处中国上海，现有松江校区、延安路校区和新华路校区，占地面积近2000亩，校舍总建筑面积83万余平方米。学校是“上海市花园单位”和“上海市文明校园”。松江校区是国家级水利风景区。</p>
 <p>学校全校教职工2289人，专任教师1462人，其中专职院士２人，资深院士2人，兼职院士17人，万人计划、长江学者、国家杰青等高层次人才60余人次，其他高级职称教师900余名。全校本科生14422人，硕士研究生7255人，博士研究生1404人，学历留学生705人。</p>
 <p>学校现设有18个学院（部），拥有6个博士后流动站、11个一级学科博士点、3个博士专业学位授权类别、29个一级学科硕士点、2个二级学科硕士点、17个专业学位硕士授权类别、59个本科专业，涵盖工学、理学、管理学、经济学、艺术学、文学、法学、历史学、教育学九大学科门类。现有2个国家“双一流”建设学科， 1个上海高校Ι类高峰学科。纺织科学与工程保持国内领先，获评A+学科。化学、工程学、数学、材料科学、计算机科学、环境科学与生态学、生物与生化7个学科入围ESI全球前1%，其中材料科学学科进入全球前1‰。拥有1个国家重点实验室、1个国家工程技术研究中心、22个省部级重点科研平台，2个国家引智基地以及国家大学科技园。</p>
@@ -831,8 +917,9 @@ function muplay(){
   <entry>
     <title>测试JS玩法</title>
     <url>/2023/09/30/%E6%B5%8B%E8%AF%95JS%E7%8E%A9%E6%B3%95/</url>
-    <content><![CDATA[<p><img data-src="/image/929D_92_1.jpg" alt="1"><br><a class="comcu_btn" onclick="test()">乘数计算器</a></p>
+    <content><![CDATA[<p>本文主要测试JS的数学计算功能，<br>以及交互功能，本文主要用了JS的第三方完成交互功能。</p>
 <span id="more"></span>
+<p><a class="comcu_btn" onclick="test()">乘数计算器</a></p>
 <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js">
 </script>
 <script src="//unpkg.com/layui@2.8.17/dist/layui.js"> </script>
@@ -886,70 +973,15 @@ function muplay(){
 <p>源代码</p>
 <figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">&quot;comcu_btn&quot;</span> <span class="attr">onclick</span>=<span class="string">&quot;test()&quot;</span>&gt;</span>乘数计算器<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;//unpkg.com/layui@2.8.17/dist/layui.js&quot;</span>&gt;</span> <span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">	<span class="keyword">function</span> <span class="title function_">isnum</span>(<span class="params">str</span>)&#123;</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">if</span> (!<span class="built_in">isNaN</span>(<span class="built_in">parseFloat</span>(str)) &amp;&amp; <span class="built_in">isFinite</span>(str) )&#123;</span></span><br><span class="line"><span class="language-javascript">			<span class="keyword">return</span> <span class="literal">true</span>&#125;</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">else</span>&#123;<span class="keyword">return</span> <span class="literal">false</span>&#125;</span></span><br><span class="line"><span class="language-javascript">	&#125;</span></span><br><span class="line"><span class="language-javascript">	<span class="keyword">var</span> layer ;</span></span><br><span class="line"><span class="language-javascript">    layui.<span class="title function_">use</span>(<span class="string">&#x27;layer&#x27;</span>, <span class="keyword">function</span>(<span class="params"></span>)&#123;</span></span><br><span class="line"><span class="language-javascript">        layer = layui.<span class="property">layer</span>;</span></span><br><span class="line"><span class="language-javascript">    &#125;);</span></span><br><span class="line"><span class="language-javascript">	<span class="keyword">function</span> <span class="title function_">test</span>(<span class="params"></span>)&#123;</span></span><br><span class="line"><span class="language-javascript">		layer.<span class="title function_">prompt</span>(&#123;</span></span><br><span class="line"><span class="language-javascript">			<span class="attr">formType</span>:<span class="number">0</span>,</span></span><br><span class="line"><span class="language-javascript">			<span class="attr">title</span>: <span class="string">&#x27;乘数计算器&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">			<span class="attr">id</span>:<span class="string">&quot;layui_text&quot;</span>,</span></span><br><span class="line"><span class="language-javascript">		&#125;,<span class="keyword">function</span>(<span class="params">value,index,elem</span>)&#123;</span></span><br><span class="line"><span class="language-javascript">				<span class="keyword">if</span>(value==<span class="string">&quot;&quot;</span>)&#123;</span></span><br><span class="line"><span class="language-javascript">					<span class="title function_">alert</span>(<span class="string">&quot;请输入&quot;</span>);</span></span><br><span class="line"><span class="language-javascript">					<span class="keyword">return</span></span></span><br><span class="line"><span class="language-javascript">				&#125;</span></span><br><span class="line"><span class="language-javascript">				<span class="keyword">var</span> data1=$(<span class="string">&#x27;.new_input1&#x27;</span>).<span class="title function_">val</span>()</span></span><br><span class="line"><span class="language-javascript">				<span class="keyword">if</span> (data1==<span class="string">&quot;&quot;</span>)&#123;</span></span><br><span class="line"><span class="language-javascript">					<span class="title function_">alert</span>(<span class="string">&quot;请输入&quot;</span>)</span></span><br><span class="line"><span class="language-javascript">					<span class="keyword">return</span></span></span><br><span class="line"><span class="language-javascript">				&#125;</span></span><br><span class="line"><span class="language-javascript">				<span class="keyword">if</span> (<span class="title function_">isnum</span>(value) &amp;&amp; <span class="title function_">isnum</span>(data1))&#123;</span></span><br><span class="line"><span class="language-javascript">					<span class="keyword">var</span> mu =value*data1</span></span><br><span class="line"><span class="language-javascript">					<span class="title function_">alert</span>(mu)</span></span><br><span class="line"><span class="language-javascript">				&#125;</span></span><br><span class="line"><span class="language-javascript">				<span class="keyword">else</span>&#123;<span class="title function_">alert</span>(<span class="string">&quot;输入不合法&quot;</span>)&#125;</span></span><br><span class="line"><span class="language-javascript">				</span></span><br><span class="line"><span class="language-javascript">				layer.<span class="title function_">close</span>(index)</span></span><br><span class="line"><span class="language-javascript">			&#125;)</span></span><br><span class="line"><span class="language-javascript">		</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">if</span> ($(<span class="string">&quot;.new_input1&quot;</span>).<span class="property">length</span> == <span class="number">0</span>)&#123; </span></span><br><span class="line"><span class="language-javascript">			$(<span class="string">&quot;.layui-layer-content&quot;</span>).<span class="title function_">append</span>(<span class="string">&quot;&lt;br/&gt;&lt;input type=\&quot;text\&quot; class=\&quot;new_input1\&quot; placeholder=\&quot;输入随机数\&quot;/&gt;&quot;</span>)</span></span><br><span class="line"><span class="language-javascript">			$(<span class="string">&quot;.layui-layer-btn0&quot;</span>).<span class="title function_">append</span>(<span class="string">&quot;&amp;nbsp;&amp;nbsp;&quot;</span>)</span></span><br><span class="line"><span class="language-javascript">			&#125;</span></span><br><span class="line"><span class="language-javascript">		$(<span class="string">&quot;.layui-layer.layui-layer-page.layui-layer-prompt.layer-anim.layer-anim-00&quot;</span>).<span class="title function_">css</span>(&#123;<span class="string">&quot;border&quot;</span>:<span class="string">&quot;3px solid&quot;</span>,</span></span><br><span class="line"><span class="language-javascript">								<span class="string">&quot;font-weight&quot;</span>:<span class="string">&quot;bold&quot;</span>,</span></span><br><span class="line"><span class="language-javascript">								<span class="string">&quot;border-radius&quot;</span>: <span class="string">&quot;5px&quot;</span>,</span></span><br><span class="line"><span class="language-javascript">								<span class="string">&quot;color&quot;</span>: <span class="string">&quot;black&quot;</span>,</span></span><br><span class="line"><span class="language-javascript">								<span class="string">&quot;padding&quot;</span>: <span class="string">&quot;15px&quot;</span>,</span></span><br><span class="line"><span class="language-javascript">								<span class="string">&quot;background-color&quot;</span>:<span class="string">&quot;white&quot;</span>&#125;)</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">	&#125;</span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
       <categories>
-        <category>测试</category>
+        <category>前端JS</category>
       </categories>
-  </entry>
-  <entry>
-    <title>基于hexo部署github的个人网站</title>
-    <url>/2023/10/09/%E5%9F%BA%E4%BA%8Ehexo%E9%83%A8%E7%BD%B2github%E7%9A%84%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/</url>
-    <content><![CDATA[<p>前言：<br>GithubPages提供了免费的网页部署功能，一旦发布了网站，无论何时何地都可以在互联网上<br>查看。同时网站稳定，即使网站长年未更新，依旧仍然可以在互联网上查看。hexo是一个能够<br>快速通过GithubPages构建一个个人博客的框架，hexo生成出的网页，具有个人博客的基本<br>结构和组件，sidebar，menu，localsearch等，你只需要修改一些设置就能够建立出一个简<br>洁干净的个人博客的网站。同时hexo存在大量的第三方组件的支持，通过设置可以快捷调用出<br>想要的功能，如字数统计，置顶设置等操作。</p>
-<span id="more"></span>
-
-<p>正文：<br>以下是基于Github用hexo部署一个网站的步骤，最终会发布一个<br>hexo默认的网页，也就是landscape的主题，hexo还存在其他很多的第三方集成的主题<br>本文不包括网页设计部分和流程</p>
-<p>1.首先是搭建环境<br>(1)<br><a href="https://nodejs.org/en">Nodejs下载</a><br>Nodejs安装后会携带npm，通过npm可以快速安装<br>一些第三方插件<br>(2)<br><a href="https://git-scm.com/download/win">Git下载</a><br>git安装可以打开git窗口，git可以在终端push到Github<br>hexo也主要通过git进行网页部署</p>
-<p>2.Github基础配置<br>(1)注册登录<br><a href="https://github.com/">Github</a><br>(登不上请科学上网)</p>
-<p>(2)创建新的仓库(repository)<br><img data-src="/2023/10/09/%E5%9F%BA%E4%BA%8Ehexo%E9%83%A8%E7%BD%B2github%E7%9A%84%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/4.png" alt="1"><br>登录后创建一个新的repository，命名尽量按<br>用户名&#x2F;用户名.github.io，其他没要求，仓库设置为public</p>
-<p>(3)SSH创建<br>SSH公钥是Github识别终端的其中一种方式，<br>在Github个人中心的右侧栏Setting点击后<br>在左侧栏进入带有的SSH字眼<br>创建一个新的SSH,名称随意,其中内容后续有用</p>
-<p>3.Hexo<br><a href="https://hexo.io/zh-cn/index.html">Hexo官网</a><br><img data-src="/2023/10/09/%E5%9F%BA%E4%BA%8Ehexo%E9%83%A8%E7%BD%B2github%E7%9A%84%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/1.png" alt="1"><br>(1)创建一个空的文件夹（可自己命名）<br>随意在任意磁盘的路径，创建一个空的文件夹<br>在文件夹里，右键点进Git Bash里<br>并在黑色命令框里依次输入<br>记住在命令框粘贴不是Ctrl+V,尽量用鼠标右键<br><img data-src="/2023/10/09/%E5%9F%BA%E4%BA%8Ehexo%E9%83%A8%E7%BD%B2github%E7%9A%84%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/2.png" alt="1"></p>
-<figure class="highlight cmake"><table><tr><td class="code"><pre><span class="line">npm <span class="keyword">install</span> hexo-cli <span class="comment">#安装hexo</span></span><br><span class="line">hexo init <span class="comment">#hexo初始化</span></span><br><span class="line">npm <span class="keyword">install</span> <span class="comment">#npm安装</span></span><br></pre></td></tr></table></figure>
-<p>(2)成功后,尝试输入</p>
-<figure class="highlight verilog"><table><tr><td class="code"><pre><span class="line">hexo <span class="keyword">generate</span> #hexo解析md等文件，生成文件结构</span><br><span class="line">hexo server #hexo本地服务器查看</span><br></pre></td></tr></table></figure>
-<p>可简写为</p>
-<figure class="highlight ebnf"><table><tr><td class="code"><pre><span class="line"><span class="attribute">hexo g</span></span><br><span class="line"><span class="attribute">hexo s</span></span><br></pre></td></tr></table></figure>
-<p>如下图左边这样的界面（这是官网给的图片）<br><img data-src="/2023/10/09/%E5%9F%BA%E4%BA%8Ehexo%E9%83%A8%E7%BD%B2github%E7%9A%84%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/3.png" alt="1"><br>(3)上述代码成功<br>按住Ctrl就可以打开本地链接<br>测试成功后用键盘输入</p>
-<figure class="highlight mathematica"><table><tr><td class="code"><pre><span class="line"><span class="variable">Ctrl</span><span class="operator">+</span><span class="built_in">C</span></span><br></pre></td></tr></table></figure>
-<p>可以关闭本地服务器，Ctrl+C的操作可以停止任意命令操作</p>
-<p>4.SSH公钥创建<br>(1)用cd命令进入SSH根目录<br>window打开命令框,win10可以快捷键win+r输入cmd<br>进行命令框，输入用cd命令进入SSH根目录</p>
-<figure class="highlight arcade"><table><tr><td class="code"><pre><span class="line">cd ~<span class="regexp">/.ssh/</span></span><br></pre></td></tr></table></figure>
-<p>(2)在公钥中添加github信息</p>
-<figure class="highlight arcade"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -f  ~<span class="regexp">/.ssh/</span>密钥名称 -C <span class="string">&quot;邮箱&quot;</span></span><br></pre></td></tr></table></figure>
-<p>(3)在SSH根目录找到config文件并更改</p>
-<figure class="highlight crmsh"><table><tr><td class="code"><pre><span class="line">Host xxxxxx.github.com</span><br><span class="line">    HostName ssh/github.com</span><br><span class="line">    <span class="keyword">User</span> <span class="title">git</span></span><br><span class="line">    IdentityFile ~/.ssh/密钥名称</span><br></pre></td></tr></table></figure>
-<p>(4)创建公钥</p>
-<figure class="highlight arcade"><table><tr><td class="code"><pre><span class="line"><span class="built_in">clip</span> &lt; ~<span class="regexp">/.ssh/</span>密钥的名称.pub</span><br></pre></td></tr></table></figure>
-<p>在目录下找到密钥名称的pub文件,打开复制里面内容,<br>粘贴到Github的SSH的内容里</p>
-<p>(5)添加SSH</p>
-<figure class="highlight avrasm"><table><tr><td class="code"><pre><span class="line">ssh-<span class="keyword">add</span> xxxxxx <span class="meta">#密钥名称</span></span><br></pre></td></tr></table></figure>
-<p>如果执行以上命令出现错误：Could not open a<br>connection to your authentication agent.，<br>那么就需要先执行ssh-agent bash，再执行以上命令</p>
-<p>(6)检验是否成功<br>xxxxxx”ssh目录下config文件中的命名</p>
-<figure class="highlight nginx"><table><tr><td class="code"><pre><span class="line"><span class="attribute">ssh</span> -T git<span class="variable">@xxxxxxx</span>.github.com</span><br></pre></td></tr></table></figure>
-<p>出现</p>
-<figure class="highlight ada"><table><tr><td class="code"><pre><span class="line">You<span class="symbol">&#x27;ve</span> successfully authenticated, </span><br><span class="line">but GitHub does <span class="keyword">not</span> provide shell <span class="keyword">access</span>.</span><br></pre></td></tr></table></figure>
-<p>则代表成功</p>
-<p>5.配置github<br>(1)点进博客文件夹中的.deploy_git&#x2F;.git中<br>进入Git Bash里<br>.deploy_git需要打开查看隐藏文件的功能才能够找到，<br>详情自己百度查看，.deploy_git没有就hexo部署一次<br>就会出来了，会报错tell me who are you</p>
-<figure class="highlight pgsql"><table><tr><td class="code"><pre><span class="line">git config <span class="keyword">user</span>.name &quot;用户名&quot;</span><br><span class="line">git config <span class="keyword">user</span>.email &quot;邮箱&quot;</span><br></pre></td></tr></table></figure>
-<p>(2)在博客文件夹中的_config.yml文件<br>打开在末尾更改下列代码</p>
-<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: git@xxxxxx<span class="selector-class">.github</span><span class="selector-class">.com</span>:用户名/用户名<span class="selector-class">.github</span><span class="selector-class">.io</span><span class="selector-class">.git</span></span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
-<p>如果在github输入的不是上述这个格式，可能会打不开网页</p>
-<p>(3)服务器部署<br>在博客文件夹的目录下进入Git Bash<br>依次输入</p>
-<figure class="highlight ebnf"><table><tr><td class="code"><pre><span class="line"><span class="attribute">hexo clean</span></span><br><span class="line"><span class="attribute">hexo g</span></span><br><span class="line"><span class="attribute">hexo d</span></span><br></pre></td></tr></table></figure>
-<p>部署成功后，服务器会有延迟，大概过一两分钟会更新页面<br>可以在github上看部署是否成功，如果失败github会发邮件的</p>
-]]></content>
-      <categories>
-        <category>介绍</category>
-      </categories>
-      <tags>
-        <tag>介绍</tag>
-      </tags>
   </entry>
   <entry>
     <title>用JS（前端）制作的简易爬虫</title>
     <url>/2023/09/27/%E7%94%A8JS%EF%BC%88%E5%89%8D%E7%AB%AF%EF%BC%89%E5%88%B6%E4%BD%9C%E7%9A%84%E7%AE%80%E6%98%93%E7%88%AC%E8%99%AB/</url>
-    <content><![CDATA[<p>本文主要介绍用油猴（Tampermonkey）实现的前端爬虫<br>不涉及跨域传输，非常基础的内容</p>
-<p>优点很明显，快速（有时按需求可以几分钟写完），针对性，不用担心反爬<br>缺点，不同排布的网站就会失效，或者网站更新就寄了</p>
-<p>核心为CSS选择器<br><a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_Selectors">参考1</a><br><a href="https://www.runoob.com/jsref/met-document-queryselector.html">参考2</a><br><img data-src="/image/232_1.jpg" alt="1"></p>
+    <content><![CDATA[<p>本文主要介绍用油猴（Tampermonkey）实现的前端爬虫<br>不涉及跨域传输，非常基础的内容<br>优点很明显，快速（有时按需求可以几分钟写完），针对性，不用担心反爬<br>缺点，不同排布的网站就会失效，或者网站更新就寄了<br>核心为CSS选择器<br><a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_Selectors">参考1</a><br><a href="https://www.runoob.com/jsref/met-document-queryselector.html">参考2</a></p>
 <span id="more"></span>
-<p>1.主要语法</p>
+<p><img data-src="/image/232_1.jpg" alt="1"><br>1.主要语法</p>
 <figure class="highlight dart"><table><tr><td class="code"><pre><span class="line"><span class="built_in">document</span>.<span class="built_in">querySelector</span>(<span class="string">&quot;标签(层级)定位/类定位/ID定位&quot;</span>);</span><br></pre></td></tr></table></figure>
 <p>（1）例:标签(层级)定位</p>
 <figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span>&gt;</span>Hello</span><br><span class="line">	<span class="tag">&lt;<span class="name">p</span>&gt;</span>Hallo<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>你好<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br></pre></td></tr></table></figure>
@@ -981,7 +1013,7 @@ function muplay(){
 <p>5.结语<br><img data-src="/image/256_1.jpg" alt="1"><br>上面举例了一个比较离谱的例子（很好奇做的时候是怎么不弄混的）<br>其实上现在大部分网站都有类标识，用类定位会更加快速准确</p>
 ]]></content>
       <categories>
-        <category>介绍</category>
+        <category>前端JS</category>
       </categories>
       <tags>
         <tag>介绍</tag>
@@ -989,9 +1021,58 @@ function muplay(){
       </tags>
   </entry>
   <entry>
+    <title>用Selenium制作前端式爬虫</title>
+    <url>/2023/09/28/%E7%94%A8selenum%E5%88%B6%E4%BD%9C%E5%89%8D%E7%AB%AF%E5%BC%8F%E7%88%AC%E8%99%AB/</url>
+    <content><![CDATA[<p>笔者也就小白水平，写selenium也是边学边写的<br>本文只是介绍抓取部分模块，怎么处理可以看看上文<br><a href="https://jkysei.space/2023/09/27/%E7%94%A8JS%EF%BC%88%E5%89%8D%E7%AB%AF%EF%BC%89%E5%88%B6%E4%BD%9C%E7%9A%84%E7%AE%80%E6%98%93%E7%88%AC%E8%99%AB/">用JS（前端）制作的简易爬虫</a><br>python也有类似CSS选择器的第三方库，后续再更新</p>
+<span id="more"></span>
+<p>1.前言<br>大部分的网站都有反爬机制<br><img data-src="/image/928D_113_1.jpg" alt="1"></p>
+<figure class="highlight applescript"><table><tr><td class="code"><pre><span class="line">requests.<span class="keyword">get</span>(url,headers,<span class="keyword">timeout</span>)</span><br></pre></td></tr></table></figure>
+<p>requests早已经无法爬取网页了，<br>所以希望用一种能够越过反爬虫的第三方库<br>selenium是模拟驱动chrome访问网站的方式越过反爬虫<br>2.Selenium的调用</p>
+<p>在Pycharm或pip上安装selenium<br>随后即可import</p>
+<figure class="highlight angelscript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> selenium <span class="keyword">import</span> webdriver</span><br></pre></td></tr></table></figure>
+<p>为了方便修改浏览器设置,引用Options模块</p>
+<figure class="highlight gradle"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> selenium.webdriver.chrome.<span class="keyword">options</span> <span class="keyword">import</span> <span class="keyword">Options</span></span><br></pre></td></tr></table></figure>
+<p>用chrome_options存放options</p>
+<figure class="highlight ini"><table><tr><td class="code"><pre><span class="line"><span class="attr">chrome_options</span> = Options()</span><br><span class="line"><span class="attr">chrome_options.page_load_strategy</span> = <span class="string">&#x27;eager&#x27;</span></span><br></pre></td></tr></table></figure>
+<p>page_load_strategy是浏览器加载策略，默认是normal，eager则是快速加载<br>在网页资源加载完成时就会立刻关闭，可以省很多时间。<br>网上有很多说有更加快速的方法，说实话是噱头，没有实际用处，<br>照着他的方法，会迅速加载网页然后光速关闭，根本无法正常抓取网页内容<br>eagle已经是最快的策略，更快可以尝试多线程的爬虫。</p>
+<p>如果电脑里安装了多个chrome或者python无法获取你的chrome程序位置，<br>可以引用service模块</p>
+<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line">from selenium<span class="selector-class">.webdriver</span><span class="selector-class">.chrome</span><span class="selector-class">.service</span> import Service</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight ini"><table><tr><td class="code"><pre><span class="line"><span class="attr">service</span>=Service(executable_path=<span class="string">&quot;路径&quot;</span>)</span><br><span class="line"><span class="comment">#注：python存放路径引号内,如果/可以只写一个,但是如果\\要写两个</span></span><br></pre></td></tr></table></figure>
+
+<p>设置好就可以驱动浏览器了</p>
+<figure class="highlight reasonml"><table><tr><td class="code"><pre><span class="line">driver = webdriver.<span class="constructor">Chrome(<span class="params">service</span>=<span class="params">service</span>,<span class="params">options</span>=<span class="params">chrome_options</span>)</span></span><br></pre></td></tr></table></figure>
+
+<p>随后便可以抓取网页资源</p>
+<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line">driver<span class="selector-class">.get</span>(url)</span><br><span class="line">url_get = driver<span class="selector-class">.page_source</span> <span class="selector-id">#url_get</span> 就是抓取下的网页</span><br><span class="line">driver<span class="selector-class">.close</span>()</span><br><span class="line">driver<span class="selector-class">.quit</span>()</span><br></pre></td></tr></table></figure>
+
+<p>3.报错模块<br>selenium虽然挺稳定，但有时因为网站连接不稳定，<br>就会报错，中途寄掉的情况。。。经常会有<br>特别是爬图，是需要爬到详细页面，页面数量也会倍增。<br>报错一般有，加载timeout，selenium一个狗血的地方，timeout会<br>让整个程序直接中断，所以一定要try，报错了让它except</p>
+<p>selenium设置timeout的方式</p>
+<figure class="highlight apache"><table><tr><td class="code"><pre><span class="line"><span class="attribute">browserset</span>.set_page_load_timeout(<span class="number">100</span>)</span><br><span class="line"><span class="attribute">browserset</span>.set_script_timeout(<span class="number">100</span>)</span><br></pre></td></tr></table></figure>
+<p>第一种是页面加载报timeout的错误，退出，第二种是脚本中止加载<br>两者有点小区别，详细请百度。</p>
+<p>驱动浏览器大致可以这么写</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#防空链接报错</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">printpause</span>(<span class="params">timepause</span>):</span><br><span class="line">	<span class="built_in">print</span>(<span class="string">&#x27;***访问超时，程序暂停***&#x27;</span>)</span><br><span class="line">	<span class="built_in">print</span>(<span class="string">&#x27;%d秒后继续&#x27;</span> %timepause)</span><br><span class="line">	time.sleep(timepause) <span class="comment">#报错会一时中止加载</span></span><br><span class="line">	</span><br><span class="line"><span class="keyword">def</span> <span class="title function_">drivebrowser</span>():</span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        browser=browser_set() <span class="comment">#browser_set()就是驱动浏览器的函数</span></span><br><span class="line">        <span class="keyword">return</span> browser <span class="comment">#如果try成功了就会return出browser</span></span><br><span class="line">    <span class="keyword">except</span>:</span><br><span class="line">        secends = random.randint(<span class="number">120</span>, <span class="number">150</span>) </span><br><span class="line">        printpause(secends) </span><br><span class="line">        <span class="keyword">try</span>:</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">&#x27;***重试请求***&#x27;</span>)</span><br><span class="line">            browser=browser_set()</span><br><span class="line">            <span class="keyword">return</span> browser </span><br><span class="line">		<span class="keyword">except</span>:         <span class="comment">#写多几层保险一点</span></span><br><span class="line">            printpause(<span class="number">150</span>)</span><br><span class="line">            <span class="keyword">try</span>:</span><br><span class="line">                <span class="built_in">print</span>(<span class="string">&#x27;***重试请求***&#x27;</span>)</span><br><span class="line">                browser=browser_set()</span><br><span class="line">                <span class="keyword">return</span> browser</span><br><span class="line">            <span class="keyword">except</span>:</span><br><span class="line">                <span class="built_in">print</span>(<span class="string">&#x27;***访问失败，程序继续***&#x27;</span>)</span><br><span class="line">                <span class="keyword">return</span> <span class="string">&#x27;&#x27;</span>  <span class="comment">#实在不行就跳过了</span></span><br></pre></td></tr></table></figure>
+<p>第二种报错就是访问超时的报错，也建议用try函数<br>访问函数也可以照着上面写try，except，这里就不多写了</p>
+<p>写了这么多try之后，我也在想应该不可能报错了，其实上还是<br>会报的只不过几率很小很小，所以大型爬虫操作还是悠着点，<br>几千秒的运行中间报了错可不是开玩笑的。。</p>
+<p><img data-src="/image/928D_91_1.jpg" alt="2"></p>
+<p>4.额额额什么？<br>selenium无法正确抓取网页了？？<br>现在的情况是，单是selenium的爬虫已经会被网站拦截了</p>
+<p>搜索别人的经验后，了解到了防侦测脚本驱动浏览器的第三库</p>
+<figure class="highlight elm"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> undetected_chromedriver <span class="keyword">as</span> uc</span><br></pre></td></tr></table></figure>
+<p>以下是抄的作业<br>以咱的水平看不懂，但确实神奇的解决了问题</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">browser_set</span>():</span><br><span class="line">    <span class="comment">#浏览器引擎设置</span></span><br><span class="line">    options = webdriver.ChromeOptions()</span><br><span class="line">	<span class="comment">#取出chrome的option设置</span></span><br><span class="line">    options.add_argument(<span class="string">&quot;--headless&quot;</span>)</span><br><span class="line">	<span class="comment">#后台驱动chrome</span></span><br><span class="line">    <span class="comment"># 去除“Chrome正受到自动测试软件的控制”的显示</span></span><br><span class="line">    options.add_experimental_option(<span class="string">&quot;excludeSwitches&quot;</span>, [<span class="string">&quot;enable-automation&quot;</span>])</span><br><span class="line">    browserset = webdriver.Chrome(options=options)</span><br><span class="line">    <span class="comment"># 设置headers</span></span><br><span class="line">    browserset.execute_cdp_cmd(<span class="string">&quot;Network.setExtraHTTPHeaders&quot;</span>,</span><br><span class="line">                           &#123;<span class="string">&quot;headers&quot;</span>:</span><br><span class="line">                                &#123;</span><br><span class="line">                                    <span class="string">&quot;User-Agent&quot;</span>: <span class="string">&quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36&quot;</span>,</span><br><span class="line">                                    &#125;</span><br><span class="line">                            &#125;)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 防止网站检测selenium的webdriver</span></span><br><span class="line">    browserset.execute_cdp_cmd(<span class="string">&quot;Page.addScriptToEvaluateOnNewDocument&quot;</span>, &#123;</span><br><span class="line">        <span class="string">&quot;source&quot;</span>: <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">                Object.defineProperty(navigator, &#x27;webdriver&#x27;, &#123;</span></span><br><span class="line"><span class="string">                    get: () =&gt; False</span></span><br><span class="line"><span class="string">                &#125;)</span></span><br><span class="line"><span class="string">            &quot;&quot;&quot;</span>&#125;)</span><br><span class="line"></span><br><span class="line">    browserset.set_page_load_timeout(<span class="number">100</span>)</span><br><span class="line">    browserset.set_script_timeout(<span class="number">100</span>)</span><br><span class="line">    <span class="keyword">return</span> browserset</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>爬虫</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>【搬运】HTML5游戏 糖豆人</title>
     <url>/2023/10/08/%E7%B3%96%E8%B1%86%E4%BA%BA%E6%B5%8B%E8%AF%95/</url>
-    <content><![CDATA[<p>请使用电脑进入，游戏画面需要刷新页面<br><a href="https://github.com/mumuy/pacman">搬运Pacman 吃豆游戏</a><br>—占位—<br><img data-src="https://suxingchahui.fun/2023/10/07/%E9%A2%9C%E8%89%BA%E8%A1%A8%E6%83%85-%E6%81%8B%E7%88%B1%E6%88%90%E5%8F%8C/futa14.png" alt="1"><br>—占位—</p>
+    <content><![CDATA[<p>请使用电脑进入，游戏画面需要刷新页面<br><a href="https://github.com/mumuy/pacman">搬运Pacman 吃豆游戏</a><br>—占位—</p>
+<p>—占位—</p>
 <span id="more"></span>
 <link rel="shortcut icon" href="/image/favicon.png">
 <style>
@@ -1053,84 +1134,18 @@ function muplay(){
 
 ]]></content>
       <categories>
-        <category>测试</category>
+        <category>HTML游戏</category>
       </categories>
   </entry>
   <entry>
-    <title>用Selenium制作前端式爬虫</title>
-    <url>/2023/09/28/%E7%94%A8selenum%E5%88%B6%E4%BD%9C%E5%89%8D%E7%AB%AF%E5%BC%8F%E7%88%AC%E8%99%AB/</url>
-    <content><![CDATA[<p><img data-src="/image/928D_113_1.jpg" alt="1"><br>笔者也就小白水平，写selenium也是边学边写的<br>本文只是介绍抓取部分模块，怎么处理可以看看上文<br><a href="https://jkysei.space/2023/09/27/%E7%94%A8JS%EF%BC%88%E5%89%8D%E7%AB%AF%EF%BC%89%E5%88%B6%E4%BD%9C%E7%9A%84%E7%AE%80%E6%98%93%E7%88%AC%E8%99%AB/">用JS（前端）制作的简易爬虫</a><br>python也有类似CSS选择器的第三方库，后续再更新<br>1.前言<br>大部分的网站都有反爬机制</p>
-<span id="more"></span>
-<figure class="highlight applescript"><table><tr><td class="code"><pre><span class="line">requests.<span class="keyword">get</span>(url,headers,<span class="keyword">timeout</span>)</span><br></pre></td></tr></table></figure>
-<p>requests早已经无法爬取网页了，<br>所以希望用一种能够越过反爬虫的第三方库<br>selenium是模拟驱动chrome访问网站的方式越过反爬虫<br>2.Selenium的调用</p>
-<p>在Pycharm或pip上安装selenium<br>随后即可import</p>
-<figure class="highlight angelscript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> selenium <span class="keyword">import</span> webdriver</span><br></pre></td></tr></table></figure>
-<p>为了方便修改浏览器设置,引用Options模块</p>
-<figure class="highlight gradle"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> selenium.webdriver.chrome.<span class="keyword">options</span> <span class="keyword">import</span> <span class="keyword">Options</span></span><br></pre></td></tr></table></figure>
-<p>用chrome_options存放options</p>
-<figure class="highlight ini"><table><tr><td class="code"><pre><span class="line"><span class="attr">chrome_options</span> = Options()</span><br><span class="line"><span class="attr">chrome_options.page_load_strategy</span> = <span class="string">&#x27;eager&#x27;</span></span><br></pre></td></tr></table></figure>
-<p>page_load_strategy是浏览器加载策略，默认是normal，eager则是快速加载<br>在网页资源加载完成时就会立刻关闭，可以省很多时间。<br>网上有很多说有更加快速的方法，说实话是噱头，没有实际用处，<br>照着他的方法，会迅速加载网页然后光速关闭，根本无法正常抓取网页内容<br>eagle已经是最快的策略，更快可以尝试多线程的爬虫。</p>
-<p>如果电脑里安装了多个chrome或者python无法获取你的chrome程序位置，<br>可以引用service模块</p>
-<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line">from selenium<span class="selector-class">.webdriver</span><span class="selector-class">.chrome</span><span class="selector-class">.service</span> import Service</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight ini"><table><tr><td class="code"><pre><span class="line"><span class="attr">service</span>=Service(executable_path=<span class="string">&quot;路径&quot;</span>)</span><br><span class="line"><span class="comment">#注：python存放路径引号内,如果/可以只写一个,但是如果\\要写两个</span></span><br></pre></td></tr></table></figure>
-
-<p>设置好就可以驱动浏览器了</p>
-<figure class="highlight reasonml"><table><tr><td class="code"><pre><span class="line">driver = webdriver.<span class="constructor">Chrome(<span class="params">service</span>=<span class="params">service</span>,<span class="params">options</span>=<span class="params">chrome_options</span>)</span></span><br></pre></td></tr></table></figure>
-
-<p>随后便可以抓取网页资源</p>
-<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line">driver<span class="selector-class">.get</span>(url)</span><br><span class="line">url_get = driver<span class="selector-class">.page_source</span> <span class="selector-id">#url_get</span> 就是抓取下的网页</span><br><span class="line">driver<span class="selector-class">.close</span>()</span><br><span class="line">driver<span class="selector-class">.quit</span>()</span><br></pre></td></tr></table></figure>
-
-<p>3.报错模块<br>selenium虽然挺稳定，但有时因为网站连接不稳定，<br>就会报错，中途寄掉的情况。。。经常会有<br>特别是爬图，是需要爬到详细页面，页面数量也会倍增。<br>报错一般有，加载timeout，selenium一个狗血的地方，timeout会<br>让整个程序直接中断，所以一定要try，报错了让它except</p>
-<p>selenium设置timeout的方式</p>
-<figure class="highlight apache"><table><tr><td class="code"><pre><span class="line"><span class="attribute">browserset</span>.set_page_load_timeout(<span class="number">100</span>)</span><br><span class="line"><span class="attribute">browserset</span>.set_script_timeout(<span class="number">100</span>)</span><br></pre></td></tr></table></figure>
-<p>第一种是页面加载报timeout的错误，退出，第二种是脚本中止加载<br>两者有点小区别，详细请百度。</p>
-<p>驱动浏览器大致可以这么写</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#防空链接报错</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">printpause</span>(<span class="params">timepause</span>):</span><br><span class="line">	<span class="built_in">print</span>(<span class="string">&#x27;***访问超时，程序暂停***&#x27;</span>)</span><br><span class="line">	<span class="built_in">print</span>(<span class="string">&#x27;%d秒后继续&#x27;</span> %timepause)</span><br><span class="line">	time.sleep(timepause) <span class="comment">#报错会一时中止加载</span></span><br><span class="line">	</span><br><span class="line"><span class="keyword">def</span> <span class="title function_">drivebrowser</span>():</span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        browser=browser_set() <span class="comment">#browser_set()就是驱动浏览器的函数</span></span><br><span class="line">        <span class="keyword">return</span> browser <span class="comment">#如果try成功了就会return出browser</span></span><br><span class="line">    <span class="keyword">except</span>:</span><br><span class="line">        secends = random.randint(<span class="number">120</span>, <span class="number">150</span>) </span><br><span class="line">        printpause(secends) </span><br><span class="line">        <span class="keyword">try</span>:</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">&#x27;***重试请求***&#x27;</span>)</span><br><span class="line">            browser=browser_set()</span><br><span class="line">            <span class="keyword">return</span> browser </span><br><span class="line">		<span class="keyword">except</span>:         <span class="comment">#写多几层保险一点</span></span><br><span class="line">            printpause(<span class="number">150</span>)</span><br><span class="line">            <span class="keyword">try</span>:</span><br><span class="line">                <span class="built_in">print</span>(<span class="string">&#x27;***重试请求***&#x27;</span>)</span><br><span class="line">                browser=browser_set()</span><br><span class="line">                <span class="keyword">return</span> browser</span><br><span class="line">            <span class="keyword">except</span>:</span><br><span class="line">                <span class="built_in">print</span>(<span class="string">&#x27;***访问失败，程序继续***&#x27;</span>)</span><br><span class="line">                <span class="keyword">return</span> <span class="string">&#x27;&#x27;</span>  <span class="comment">#实在不行就跳过了</span></span><br></pre></td></tr></table></figure>
-<p>第二种报错就是访问超时的报错，也建议用try函数<br>访问函数也可以照着上面写try，except，这里就不多写了</p>
-<p>写了这么多try之后，我也在想应该不可能报错了，其实上还是<br>会报的只不过几率很小很小，所以大型爬虫操作还是悠着点，<br>几千秒的运行中间报了错可不是开玩笑的。。</p>
-<p><img data-src="/image/928D_91_1.jpg" alt="2"></p>
-<p>4.额额额什么？<br>selenium无法正确抓取网页了？？<br>现在的情况是，单是selenium的爬虫已经会被网站拦截了</p>
-<p>搜索别人的经验后，了解到了防侦测脚本驱动浏览器的第三库</p>
-<figure class="highlight elm"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> undetected_chromedriver <span class="keyword">as</span> uc</span><br></pre></td></tr></table></figure>
-<p>以下是抄的作业<br>以咱的水平看不懂，但确实神奇的解决了问题</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">browser_set</span>():</span><br><span class="line">    <span class="comment">#浏览器引擎设置</span></span><br><span class="line">    options = webdriver.ChromeOptions()</span><br><span class="line">	<span class="comment">#取出chrome的option设置</span></span><br><span class="line">    options.add_argument(<span class="string">&quot;--headless&quot;</span>)</span><br><span class="line">	<span class="comment">#后台驱动chrome</span></span><br><span class="line">    <span class="comment"># 去除“Chrome正受到自动测试软件的控制”的显示</span></span><br><span class="line">    options.add_experimental_option(<span class="string">&quot;excludeSwitches&quot;</span>, [<span class="string">&quot;enable-automation&quot;</span>])</span><br><span class="line">    browserset = webdriver.Chrome(options=options)</span><br><span class="line">    <span class="comment"># 设置headers</span></span><br><span class="line">    browserset.execute_cdp_cmd(<span class="string">&quot;Network.setExtraHTTPHeaders&quot;</span>,</span><br><span class="line">                           &#123;<span class="string">&quot;headers&quot;</span>:</span><br><span class="line">                                &#123;</span><br><span class="line">                                    <span class="string">&quot;User-Agent&quot;</span>: <span class="string">&quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36&quot;</span>,</span><br><span class="line">                                    &#125;</span><br><span class="line">                            &#125;)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 防止网站检测selenium的webdriver</span></span><br><span class="line">    browserset.execute_cdp_cmd(<span class="string">&quot;Page.addScriptToEvaluateOnNewDocument&quot;</span>, &#123;</span><br><span class="line">        <span class="string">&quot;source&quot;</span>: <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">                Object.defineProperty(navigator, &#x27;webdriver&#x27;, &#123;</span></span><br><span class="line"><span class="string">                    get: () =&gt; False</span></span><br><span class="line"><span class="string">                &#125;)</span></span><br><span class="line"><span class="string">            &quot;&quot;&quot;</span>&#125;)</span><br><span class="line"></span><br><span class="line">    browserset.set_page_load_timeout(<span class="number">100</span>)</span><br><span class="line">    browserset.set_script_timeout(<span class="number">100</span>)</span><br><span class="line">    <span class="keyword">return</span> browserset</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>介绍</category>
-      </categories>
-      <tags>
-        <tag>爬虫</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>资料</title>
+    <title>搬运资料</title>
     <url>/2023/09/26/%E8%B5%84%E6%96%99/</url>
-    <content><![CDATA[<p>hexo单设备部署多个服务器<br><a href="https://zhuanlan.zhihu.com/p/69218641">引用文章</a></p>
+    <content><![CDATA[<p>hexo单设备部署多个服务器<br><a href="https://zhuanlan.zhihu.com/p/69218641">引用文章</a><br>毕竟github可以免费提供网页部署，github注册方式<br>又很简单，所以多账号部署并不是难事</p>
+<span id="more"></span>
 <p><img data-src="/image/2.jpeg" alt="1"></p>
 ]]></content>
       <categories>
         <category>测试</category>
       </categories>
-  </entry>
-  <entry>
-    <title>【搬运】html游戏 贪吃蛇</title>
-    <url>/2023/10/09/%E3%80%90%E6%90%AC%E8%BF%90%E3%80%91html%E6%B8%B8%E6%88%8F-%E8%B4%AA%E5%90%83%E8%9B%87/</url>
-    <content><![CDATA[<p>请使用电脑进入，游戏画面需要刷新页面<br>—占位—<br><img data-src="https://suxingchahui.fun/2023/10/07/%E9%A2%9C%E8%89%BA%E8%A1%A8%E6%83%85-%E6%81%8B%E7%88%B1%E6%88%90%E5%8F%8C/futa14.png" alt="1"><br>—占位—</p>
-<span id="more"></span>
-<canvas id="tanchishe_Canvas" width="400" height="400" >
-</canvas>
-<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js">
-</script>
-<script type="text/javascript" src="/js/tanchishe_js.js">
-</script>
-<style>
-    #tanchishe_Canvas{	
-            background-color:white;
-            z-index:1;
-            border:5px solid;
-            border-color:black;
-        }
-</style>]]></content>
   </entry>
 </search>
