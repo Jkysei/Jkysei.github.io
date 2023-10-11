@@ -52,6 +52,23 @@
       </categories>
   </entry>
   <entry>
+    <title>ppt测试</title>
+    <url>/2023/10/08/ppt%E6%B5%8B%E8%AF%95/</url>
+    <content><![CDATA[<p>—占位—<br>本文提供了一个ppt预览和下载功能<br>—占位—</p>
+<span id="more"></span>
+<p><img src="https://suxingchahui.fun/2023/10/04/%E9%A2%9C%E8%89%BA%E5%A4%A7%E8%B5%8F2/asa51.png" alt="1"></p>
+<iframe src="/pdf/汇报.pdf" style="width:800px; height:500px;" frameborder="0"></iframe>
+
+<p><a target="_blank" href="/pdf/汇报.pdf" download="汇报.pdf">汇报.pdf</a></p>
+
+<p><a target="_blank" href="/pdf/汇报.pptx" download="汇报.pptx">汇报.pptx</a></p>
+
+]]></content>
+      <categories>
+        <category>测试</category>
+      </categories>
+  </entry>
+  <entry>
     <title>jQuery的css选择器的写法</title>
     <url>/2023/09/28/jQuery%E7%9A%84css%E9%80%89%E6%8B%A9%E5%99%A8%E7%9A%84%E5%86%99%E6%B3%95/</url>
     <content><![CDATA[<p>前文传送门<br><a href="/2023/09/27/%E7%94%A8JS%EF%BC%88%E5%89%8D%E7%AB%AF%EF%BC%89%E5%88%B6%E4%BD%9C%E7%9A%84%E7%AE%80%E6%98%93%E7%88%AC%E8%99%AB">前文：用JS（前端）制作的简易爬虫</a></p>
@@ -77,21 +94,27 @@
       </tags>
   </entry>
   <entry>
-    <title>ppt测试</title>
-    <url>/2023/10/08/ppt%E6%B5%8B%E8%AF%95/</url>
-    <content><![CDATA[<p>—占位—<br>本文提供了一个ppt预览和下载功能<br>—占位—</p>
+    <title>【Python/脚本】一个懒得自己打字的md图片插入脚本</title>
+    <url>/2023/10/05/%E3%80%90Python-%E8%84%9A%E6%9C%AC%E3%80%91%E4%B8%80%E4%B8%AA%E6%87%92%E5%BE%97%E8%87%AA%E5%B7%B1%E6%89%93%E5%AD%97%E7%9A%84md%E5%9B%BE%E7%89%87%E6%8F%92%E5%85%A5%E8%84%9A%E6%9C%AC/</url>
+    <content><![CDATA[<p>Markdown也就是md文件<br>Markdown文件插入可以遵循html的标签方式，但<br>这种插入方式比较麻烦，可以用md自己的格式</p>
 <span id="more"></span>
-<p><img src="https://suxingchahui.fun/2023/10/04/%E9%A2%9C%E8%89%BA%E5%A4%A7%E8%B5%8F2/asa51.png" alt="1"></p>
-<iframe src="/pdf/汇报.pdf" style="width:800px; height:500px;" frameborder="0"></iframe>
+<p>1.md图片插入格式</p>
+<figure class="highlight scss"><table><tr><td class="code"><pre><span class="line">!<span class="selector-attr">[若图片not Found显示的文字]</span>(路径)</span><br></pre></td></tr></table></figure>
+<p>一般可以这么写，&#x2F;image自动索引到资源文件</p>
+<figure class="highlight arcade"><table><tr><td class="code"><pre><span class="line">![<span class="number">28.</span>webp](<span class="regexp">/image/</span><span class="number">28.</span>webp)</span><br></pre></td></tr></table></figure>
+<p><img src="/2023/10/05/%E3%80%90Python-%E8%84%9A%E6%9C%AC%E3%80%91%E4%B8%80%E4%B8%AA%E6%87%92%E5%BE%97%E8%87%AA%E5%B7%B1%E6%89%93%E5%AD%97%E7%9A%84md%E5%9B%BE%E7%89%87%E6%8F%92%E5%85%A5%E8%84%9A%E6%9C%AC/1005D_140_1.jpg" alt="1005D_140_1.jpg"></p>
+<!--more-->
+<p>2.代码十分简单，不到一分钟写完了</p>
+<figure class="highlight dust"><table><tr><td class="code"><pre><span class="line"><span class="language-xml">import os</span></span><br><span class="line"><span class="language-xml">filePath = &#x27;D:\\Blog\\Blog1\\source\\_posts\\【图集】10-3图图&#x27;</span></span><br><span class="line"><span class="language-xml">n=0</span></span><br><span class="line"><span class="language-xml">for i,j,k in os.walk(filePath):</span></span><br><span class="line"><span class="language-xml">    for i in k:</span></span><br><span class="line"><span class="language-xml">        n+=1</span></span><br><span class="line"><span class="language-xml">        print(&quot;![</span><span class="template-variable">&#123;&#125;</span><span class="language-xml">](/image/</span><span class="template-variable">&#123;&#125;</span><span class="language-xml">)&quot;.format(i, i)) #中间部分自己改</span></span><br><span class="line"><span class="language-xml">        if n==2:</span></span><br><span class="line"><span class="language-xml">            print(&quot;<span class="comment">&lt;!--more--&gt;</span>&quot;)</span></span><br></pre></td></tr></table></figure>
 
-<p><a target="_blank" href="/pdf/汇报.pdf" download="汇报.pdf">汇报.pdf</a></p>
-
-<p><a target="_blank" href="/pdf/汇报.pptx" download="汇报.pptx">汇报.pptx</a></p>
-
+<p><code>&lt;!--more--&gt;</code><br>用来手动隐藏，图片占首页太长不好看</p>
 ]]></content>
       <categories>
-        <category>测试</category>
+        <category>Python</category>
       </categories>
+      <tags>
+        <tag>Python</tag>
+      </tags>
   </entry>
   <entry>
     <title>【Python】Pyquery 一个Python的CSS选择器</title>
@@ -123,29 +146,6 @@
       <categories>
         <category>Python</category>
       </categories>
-  </entry>
-  <entry>
-    <title>【Python/脚本】一个懒得自己打字的md图片插入脚本</title>
-    <url>/2023/10/05/%E3%80%90Python-%E8%84%9A%E6%9C%AC%E3%80%91%E4%B8%80%E4%B8%AA%E6%87%92%E5%BE%97%E8%87%AA%E5%B7%B1%E6%89%93%E5%AD%97%E7%9A%84md%E5%9B%BE%E7%89%87%E6%8F%92%E5%85%A5%E8%84%9A%E6%9C%AC/</url>
-    <content><![CDATA[<p>Markdown也就是md文件<br>Markdown文件插入可以遵循html的标签方式，但<br>这种插入方式比较麻烦，可以用md自己的格式</p>
-<span id="more"></span>
-<p>1.md图片插入格式</p>
-<figure class="highlight scss"><table><tr><td class="code"><pre><span class="line">!<span class="selector-attr">[若图片not Found显示的文字]</span>(路径)</span><br></pre></td></tr></table></figure>
-<p>一般可以这么写，&#x2F;image自动索引到资源文件</p>
-<figure class="highlight arcade"><table><tr><td class="code"><pre><span class="line">![<span class="number">28.</span>webp](<span class="regexp">/image/</span><span class="number">28.</span>webp)</span><br></pre></td></tr></table></figure>
-<p><img src="/2023/10/05/%E3%80%90Python-%E8%84%9A%E6%9C%AC%E3%80%91%E4%B8%80%E4%B8%AA%E6%87%92%E5%BE%97%E8%87%AA%E5%B7%B1%E6%89%93%E5%AD%97%E7%9A%84md%E5%9B%BE%E7%89%87%E6%8F%92%E5%85%A5%E8%84%9A%E6%9C%AC/1005D_140_1.jpg" alt="1005D_140_1.jpg"></p>
-<!--more-->
-<p>2.代码十分简单，不到一分钟写完了</p>
-<figure class="highlight dust"><table><tr><td class="code"><pre><span class="line"><span class="language-xml">import os</span></span><br><span class="line"><span class="language-xml">filePath = &#x27;D:\\Blog\\Blog1\\source\\_posts\\【图集】10-3图图&#x27;</span></span><br><span class="line"><span class="language-xml">n=0</span></span><br><span class="line"><span class="language-xml">for i,j,k in os.walk(filePath):</span></span><br><span class="line"><span class="language-xml">    for i in k:</span></span><br><span class="line"><span class="language-xml">        n+=1</span></span><br><span class="line"><span class="language-xml">        print(&quot;![</span><span class="template-variable">&#123;&#125;</span><span class="language-xml">](/image/</span><span class="template-variable">&#123;&#125;</span><span class="language-xml">)&quot;.format(i, i)) #中间部分自己改</span></span><br><span class="line"><span class="language-xml">        if n==2:</span></span><br><span class="line"><span class="language-xml">            print(&quot;<span class="comment">&lt;!--more--&gt;</span>&quot;)</span></span><br></pre></td></tr></table></figure>
-
-<p><code>&lt;!--more--&gt;</code><br>用来手动隐藏，图片占首页太长不好看</p>
-]]></content>
-      <categories>
-        <category>Python</category>
-      </categories>
-      <tags>
-        <tag>Python</tag>
-      </tags>
   </entry>
   <entry>
     <title>【搬运】html游戏 贪吃蛇</title>
@@ -785,27 +785,6 @@ function muplay(){
       </categories>
   </entry>
   <entry>
-    <title>【算法/Python】DataFrame的单行指定插入</title>
-    <url>/2023/09/29/%E3%80%90%E7%AE%97%E6%B3%95-Python%E3%80%91DataFrame%E7%9A%84%E5%8D%95%E8%A1%8C%E6%8C%87%E5%AE%9A%E6%8F%92%E5%85%A5/</url>
-    <content><![CDATA[<p>1.前言<br>Pandas的DataFrame常常用于存储二维数组<br>pandas的功能也比较强大，可以对接excel。<br>但当数据行数很多的情况，就想要新数据插入指定行，<br>似乎pandas并没有现成的函数支持<br>只有比较原始的插入，而且这种方法必须要求list的长度等于df的列数<br>于是就想写一个</p>
-<figure class="highlight vim"><table><tr><td class="code"><pre><span class="line">df.<span class="keyword">loc</span>[<span class="built_in">len</span>(df.<span class="built_in">index</span>)]=<span class="keyword">list</span> </span><br></pre></td></tr></table></figure>
-<span id="more"></span>
-
-<p><img src="/image/929D_226_1.jpg" alt="1"><br>2.算法<br>废话不多说上算法<br>利用分离，然后上下合并（concat）的方法<br>通常数据较多用行名作参数比较容易</p>
-<figure class="highlight scss"><table><tr><td class="code"><pre><span class="line">def <span class="built_in">dfinsert</span>(df, indexname, list,name):</span><br><span class="line">	#df为原数据，list为想要插入的数据</span><br><span class="line">    df_add = pd.<span class="built_in">DataFrame</span>(</span><br><span class="line">		columns=<span class="built_in">list</span>(<span class="built_in">range</span>(<span class="number">1</span>, <span class="built_in">len</span>(list) + <span class="number">1</span>))</span><br><span class="line">		)</span><br><span class="line">    df_add.loc[name] = list #创建想要插入的df数据</span><br><span class="line">    df1 = df.loc[:indexname, :]</span><br><span class="line">	# 不同于行数定位，要获取下一行有点绕</span><br><span class="line">    y=<span class="string">&quot;&quot;</span></span><br><span class="line">    for e in <span class="built_in">range</span>(<span class="built_in">len</span>(<span class="built_in">list</span>(df.index))):</span><br><span class="line">        if <span class="built_in">list</span>(df.index)[e]==indexname:</span><br><span class="line">            y=<span class="built_in">list</span>(df.index)[e+<span class="number">1</span>]</span><br><span class="line">    df2 = df.loc[y:, :]</span><br><span class="line">    df_new = pd.<span class="built_in">concat</span>([df1, df_add, df2])</span><br><span class="line">    return df_new #合并后的数据</span><br></pre></td></tr></table></figure>
-
-<p>也可以用行数作参数，基本就改一下</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">dfinsert</span>(<span class="params">df, i, listt1,name</span>):</span><br><span class="line">	i=<span class="built_in">int</span>(i) <span class="comment"># 如果i是str先换成int</span></span><br><span class="line">    df_add = pd.DataFrame(</span><br><span class="line">        columns=<span class="built_in">list</span>(<span class="built_in">range</span>(<span class="number">1</span>, <span class="built_in">len</span>(listt1) + <span class="number">1</span>)))</span><br><span class="line">    df_add.loc[name] = listt1</span><br><span class="line">    df1 = df.loc[:i, :]</span><br><span class="line">	<span class="comment"># 行数定位加1就完了</span></span><br><span class="line">    df2 = df.loc[i+<span class="number">1</span>:, :]</span><br><span class="line">    df_new = pd.concat([df1, df_add, df2])</span><br><span class="line">    <span class="keyword">return</span> df_new <span class="comment">#合并后的数据</span></span><br></pre></td></tr></table></figure>
-<p>完结</p>
-]]></content>
-      <categories>
-        <category>算法</category>
-      </categories>
-      <tags>
-        <tag>算法</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>【算法/Python】数字提取</title>
     <url>/2023/09/29/%E3%80%90%E7%AE%97%E6%B3%95-Python%E3%80%91%E6%95%B0%E5%AD%97%E6%8F%90%E5%8F%96/</url>
     <content><![CDATA[<p>1.前言<br>数字提取是一个难题，然而爬虫有些时候是非常需要，<br>如果爬下来的数字是错的，整个数学运算就寄了</p>
@@ -829,6 +808,27 @@ function muplay(){
 ]]></content>
       <categories>
         <category>Python</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【算法/Python】DataFrame的单行指定插入</title>
+    <url>/2023/09/29/%E3%80%90%E7%AE%97%E6%B3%95-Python%E3%80%91DataFrame%E7%9A%84%E5%8D%95%E8%A1%8C%E6%8C%87%E5%AE%9A%E6%8F%92%E5%85%A5/</url>
+    <content><![CDATA[<p>1.前言<br>Pandas的DataFrame常常用于存储二维数组<br>pandas的功能也比较强大，可以对接excel。<br>但当数据行数很多的情况，就想要新数据插入指定行，<br>似乎pandas并没有现成的函数支持<br>只有比较原始的插入，而且这种方法必须要求list的长度等于df的列数<br>于是就想写一个</p>
+<figure class="highlight vim"><table><tr><td class="code"><pre><span class="line">df.<span class="keyword">loc</span>[<span class="built_in">len</span>(df.<span class="built_in">index</span>)]=<span class="keyword">list</span> </span><br></pre></td></tr></table></figure>
+<span id="more"></span>
+
+<p><img src="/image/929D_226_1.jpg" alt="1"><br>2.算法<br>废话不多说上算法<br>利用分离，然后上下合并（concat）的方法<br>通常数据较多用行名作参数比较容易</p>
+<figure class="highlight scss"><table><tr><td class="code"><pre><span class="line">def <span class="built_in">dfinsert</span>(df, indexname, list,name):</span><br><span class="line">	#df为原数据，list为想要插入的数据</span><br><span class="line">    df_add = pd.<span class="built_in">DataFrame</span>(</span><br><span class="line">		columns=<span class="built_in">list</span>(<span class="built_in">range</span>(<span class="number">1</span>, <span class="built_in">len</span>(list) + <span class="number">1</span>))</span><br><span class="line">		)</span><br><span class="line">    df_add.loc[name] = list #创建想要插入的df数据</span><br><span class="line">    df1 = df.loc[:indexname, :]</span><br><span class="line">	# 不同于行数定位，要获取下一行有点绕</span><br><span class="line">    y=<span class="string">&quot;&quot;</span></span><br><span class="line">    for e in <span class="built_in">range</span>(<span class="built_in">len</span>(<span class="built_in">list</span>(df.index))):</span><br><span class="line">        if <span class="built_in">list</span>(df.index)[e]==indexname:</span><br><span class="line">            y=<span class="built_in">list</span>(df.index)[e+<span class="number">1</span>]</span><br><span class="line">    df2 = df.loc[y:, :]</span><br><span class="line">    df_new = pd.<span class="built_in">concat</span>([df1, df_add, df2])</span><br><span class="line">    return df_new #合并后的数据</span><br></pre></td></tr></table></figure>
+
+<p>也可以用行数作参数，基本就改一下</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">dfinsert</span>(<span class="params">df, i, listt1,name</span>):</span><br><span class="line">	i=<span class="built_in">int</span>(i) <span class="comment"># 如果i是str先换成int</span></span><br><span class="line">    df_add = pd.DataFrame(</span><br><span class="line">        columns=<span class="built_in">list</span>(<span class="built_in">range</span>(<span class="number">1</span>, <span class="built_in">len</span>(listt1) + <span class="number">1</span>)))</span><br><span class="line">    df_add.loc[name] = listt1</span><br><span class="line">    df1 = df.loc[:i, :]</span><br><span class="line">	<span class="comment"># 行数定位加1就完了</span></span><br><span class="line">    df2 = df.loc[i+<span class="number">1</span>:, :]</span><br><span class="line">    df_new = pd.concat([df1, df_add, df2])</span><br><span class="line">    <span class="keyword">return</span> df_new <span class="comment">#合并后的数据</span></span><br></pre></td></tr></table></figure>
+<p>完结</p>
+]]></content>
+      <categories>
+        <category>算法</category>
       </categories>
       <tags>
         <tag>算法</tag>
@@ -888,6 +888,24 @@ function muplay(){
       </tags>
   </entry>
   <entry>
+    <title>东华大学介绍</title>
+    <url>/2023/09/26/%E6%B5%8B%E8%AF%95/</url>
+    <content><![CDATA[<p>东华大学介绍<br>学校介绍<br>东华大学是教育部直属、国家“211工程”、国家“双一流”建设高校。学校秉承“崇德博学、砺志尚实”的校训，不断开拓奋进，已发展成为以纺织、材料、设计为优势，特色鲜明的多科性、高水平大学。</p>
+<span id="more"></span>
+<p><img src="/image/1.png" alt="1"><br>学校的办学历史可追溯至1912年实业家张謇创办的纺织染传习所。1951年建校，时名华东纺织工学院。1960年，被国家教育部确定为全国重点大学。1981年，成为中国首批具有博士、硕士、学士三级学位授予权的大学之一。1985年，更名为中国纺织大学。1998年，被确定为国家“211工程”重点建设的高等学校。1999年，更名为东华大学。2017年，列入国家“双一流”建设高校。</p>
+<p>学校地处中国上海，现有松江校区、延安路校区和新华路校区，占地面积近2000亩，校舍总建筑面积83万余平方米。学校是“上海市花园单位”和“上海市文明校园”。松江校区是国家级水利风景区。</p>
+<p>学校全校教职工2289人，专任教师1462人，其中专职院士２人，资深院士2人，兼职院士17人，万人计划、长江学者、国家杰青等高层次人才60余人次，其他高级职称教师900余名。全校本科生14422人，硕士研究生7255人，博士研究生1404人，学历留学生705人。</p>
+<p>学校现设有18个学院（部），拥有6个博士后流动站、11个一级学科博士点、3个博士专业学位授权类别、29个一级学科硕士点、2个二级学科硕士点、17个专业学位硕士授权类别、59个本科专业，涵盖工学、理学、管理学、经济学、艺术学、文学、法学、历史学、教育学九大学科门类。现有2个国家“双一流”建设学科， 1个上海高校Ι类高峰学科。纺织科学与工程保持国内领先，获评A+学科。化学、工程学、数学、材料科学、计算机科学、环境科学与生态学、生物与生化7个学科入围ESI全球前1%，其中材料科学学科进入全球前1‰。拥有1个国家重点实验室、1个国家工程技术研究中心、22个省部级重点科研平台，2个国家引智基地以及国家大学科技园。</p>
+<p>学校以培养德智体美劳全面发展的社会主义建设者和接班人为根本任务，坚持“严谨、勤奋、求实、创新”的优良校风，培养基础宽厚、实践能力强、具有创新精神和社会责任感的高素质人才。学校积极建设“五育并举”的教育体系，构建本科生“分层教学、分流培养、多元成才、人人成才”的培养体系，持续深化教育教学改革，新世纪以来，获国家级教学成果奖8项。拥有2个国家级实验教学示范中心，1个国家级虚拟仿真实验教学中心，3个国家工程实践教育中心，10个国家级特色专业，29个国家级一流本科专业。入选 “全国高校黄大年式教师团队” 2个。学校积极构建一流的研究生培养机制，大力发展专业学位研究生教育，获评全国示范性工程专业学位研究生联合培养基地2个，首批进入教育部“卓越工程师教育培养计划”，获评“全国工程硕士研究生教育创新院校”。东华学子近三年获得国内外学科竞赛、文体比赛冠军、金奖或一等奖260余项，充分彰显学生的创造力。女足获大学生联赛全国冠军，学校进入“中国高校体育竞赛榜”前20名。学校全面推进双创教育，产教融合人才培养协同机制成效显著，新材料现代产业学院获批教育部首批现代产业学院，成为全国首次获批的50所现代产业学院之一。获评全国高校实践育人创新创业基地、全国创新创业典型经验高校、全国高等学校毕业生就业工作先进集体等荣誉。近年来，毕业生平均就业率超过96%，薪资位于中国高校毕业生薪酬指数排名16-21位，近五年，学生自主创业420余人。建校至今，为国家培养各类人才26万余人，毕业生成为各行各业的中坚和栋梁。</p>
+<p>学校坚持产学研用相结合的办学特色，承接国家重大科研任务，支撑国家产业转型升级和新兴产业发展等战略需求。新世纪以来，获国家自然科学奖、国家技术发明奖和国家科技进步奖31项。大批科研成果广泛应用于航天航空、重大建筑工程、环境保护等领域，为“天宫”“天舟”“北斗”“天通”“嫦娥”做出贡献。纤维材料改性国家重点实验室获评“优秀”，获批建设国家先进功能纤维创新中心、国家先进印染技术创新中心、民用航空复合材料省部共建协同创新中心、上海市现代纺织前沿科学研究基地、“一带一路”纺织智能制造与工程国际联合实验室等。建立海派时尚设计及价值创造协同创新中心、城市创意经济与创新服务研究基地、东华大学“一带一路”研究中心等，服务国家经济社会发展、长三角一体化发展国家战略和上海时尚之都、设计之都建设。</p>
+<p>学校大力推进新时期教育对外开放，积极对接国家“一带一路”重要倡议，联合18个国家35所纺织特色高校成立“一带一路”世界纺织大学联盟，与全球150多所国（境）外高校建立了良好的合作关系。获批教育部“中非高校20+20合作计划”，在肯尼亚莫伊大学建立世界首家纺织服装特色的莫伊大学孔子学院。与爱丁堡大学合作创办东华大学上海国际时尚创意学院，培养国际一流时尚创意人才。</p>
+<p>面向未来，东华大学将继续以习近平新时代中国特色社会主义思想为指导，全面落实立德树人根本任务，加快“双一流”建设，全力服务国家和上海市的战略需求，为实现“国内一流、国际有影响，有特色的高水平研究型大学”的目标而不懈奋斗！</p>
+]]></content>
+      <categories>
+        <category>测试</category>
+      </categories>
+  </entry>
+  <entry>
     <title>（自用）梳理一下基本爬图思路</title>
     <url>/2023/10/01/%E6%A2%B3%E7%90%86%E4%B8%80%E4%B8%8B%E5%9F%BA%E6%9C%AC%E7%88%AC%E5%9B%BE%E6%80%9D%E8%B7%AF/</url>
     <content><![CDATA[<p><a href="/2023/09/28/%E7%94%A8selenum%E5%88%B6%E4%BD%9C%E5%89%8D%E7%AB%AF%E5%BC%8F%E7%88%AC%E8%99%AB/">前文:用Selenium制作前端式爬虫</a><br><del><em>其实也不能叫梳理了，依旧还是很乱，将就写吧</em></del><br>说到爬虫肯定少不了爬图<br><del><em>为什么说是自用，因为我回看我以前写的是根本看不懂啊</em></del><br>本来写的就很乱很乱，函数套用太多了<br>本文主要不写全部代码了，就写主要的函数的结构，以防以后维护出问题</p>
@@ -925,6 +943,58 @@ function muplay(){
       </categories>
       <tags>
         <tag>爬虫</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>用JS（前端）制作的简易爬虫</title>
+    <url>/2023/09/27/%E7%94%A8JS%EF%BC%88%E5%89%8D%E7%AB%AF%EF%BC%89%E5%88%B6%E4%BD%9C%E7%9A%84%E7%AE%80%E6%98%93%E7%88%AC%E8%99%AB/</url>
+    <content><![CDATA[<p>本文主要介绍用油猴（Tampermonkey）实现的前端爬虫<br>不涉及跨域传输，非常基础的内容<br>优点很明显，快速（有时按需求可以几分钟写完），针对性，不用担心反爬<br>缺点，不同排布的网站就会失效，或者网站更新就寄了<br>核心为CSS选择器<br><a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_Selectors">参考1</a><br><a href="https://www.runoob.com/jsref/met-document-queryselector.html">参考2</a></p>
+<span id="more"></span>
+<p><img src="/image/232_1.jpg" alt="1"><br>1.定位（CSS选择器）</p>
+<figure class="highlight dart"><table><tr><td class="code"><pre><span class="line"><span class="built_in">document</span>.<span class="built_in">querySelector</span>(<span class="string">&quot;标签(层级)定位/类定位/ID定位&quot;</span>);</span><br></pre></td></tr></table></figure>
+<p>（1）例:标签(层级)定位</p>
+<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span>&gt;</span>Hello</span><br><span class="line">	<span class="tag">&lt;<span class="name">p</span>&gt;</span>Hallo<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>你好<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight dart"><table><tr><td class="code"><pre><span class="line"><span class="built_in">document</span>.<span class="built_in">querySelector</span>(<span class="string">&quot;p&quot;</span>).innerText #取出的是Hallo和你好</span><br></pre></td></tr></table></figure>
+<p>如果想要只取出Hallo则应写成</p>
+<figure class="highlight dart"><table><tr><td class="code"><pre><span class="line"><span class="built_in">document</span>.<span class="built_in">querySelector</span>(<span class="string">&quot;div&gt;p&quot;</span>).innerText #取出的是Hallo</span><br></pre></td></tr></table></figure>
+<p>（2）例：类定位</p>
+<figure class="highlight angelscript"><table><tr><td class="code"><pre><span class="line">&lt;div <span class="keyword">class</span>=&quot;<span class="symbol">Hello_div</span>&quot;&gt;<span class="symbol">Hello</span></span><br><span class="line">	&lt;<span class="symbol">p</span>&gt;<span class="symbol">Hallo</span>&lt;/<span class="symbol">p</span>&gt;</span><br><span class="line">&lt;/<span class="symbol">div</span>&gt;</span><br><span class="line">&lt;<span class="symbol">div</span> <span class="symbol">class</span>=&quot;<span class="symbol">nihao_div</span>&quot;&gt;</span><br><span class="line">	&lt;<span class="symbol">p</span>&gt;你好&lt;/<span class="symbol">p</span>&gt;</span><br><span class="line">&lt;/<span class="symbol">div</span>&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight dart"><table><tr><td class="code"><pre><span class="line"><span class="built_in">document</span>.<span class="built_in">querySelector</span>(<span class="string">&quot;.Hello_div&quot;</span>).innerText #取出的是Hello和Hallo</span><br><span class="line"><span class="built_in">document</span>.<span class="built_in">querySelector</span>(<span class="string">&quot;.nihao_div&quot;</span>).innerText #取出的是你好</span><br></pre></td></tr></table></figure>
+<figure class="highlight actionscript"><table><tr><td class="code"><pre><span class="line">注：如果<span class="keyword">class</span>名中存在空格的情况,如<span class="string">&quot;Hello div&quot;</span>,应写成<span class="string">&quot;.Hello.div&quot;</span></span><br></pre></td></tr></table></figure>
+<p>Class定位也可以像进行层级，可用于存在多个标签叠放方式的情况<br>（3）ID定位<br>ID基本与Class相同<br>用法为</p>
+<figure class="highlight applescript"><table><tr><td class="code"><pre><span class="line">&lt;<span class="keyword">div</span> <span class="built_in">class</span>=<span class="string">&quot;nihao&quot;</span>&gt;</span><br><span class="line">	&lt;p&gt;你好&lt;/p&gt;</span><br><span class="line">&lt;/<span class="keyword">div</span>&gt;</span><br><span class="line">document.querySelector(<span class="string">&quot;#nihao&quot;</span>).innerText <span class="comment">#取出的是你好</span></span><br></pre></td></tr></table></figure>
+
+<p>2.常用函数<br>.innerText用于取出文本<br>.innerHTML可取出这个标签包含的HTML内容<br>.attributes(“属性名”)<br>.style(“样式”),具体样式则是.style.backgroundColor()<br>等，这里就不一一列全了，需要自己可以去查找。</p>
+<p>3.处理多个元素<br>.querySelector()只会取出单一元素，存在多个元素就只取第一个出现的<br>要取出多个元素需要用.querySelectorAll()，可以用for循环逐一取出<br>如</p>
+<figure class="highlight abnf"><table><tr><td class="code"><pre><span class="line">var items <span class="operator">=</span> document.querySelectorAll(<span class="string">&quot;p&quot;</span>)<span class="comment">;</span></span><br><span class="line">for (i <span class="operator">=</span> <span class="number">0</span><span class="comment">; i &lt; items.length; i++) &#123;</span></span><br><span class="line">    console.log(items.innerText)<span class="comment">; #逐个输出出p标签的text</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>或者用forEach写<br>forEach方法中的function回调有三个参数：<br>第一个参数是数组内容，<br>第二个参数是对应的数组索引，<br>第三个参数是数组本身</p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="variable language_">document</span>.<span class="title function_">querySelectorAll</span>(<span class="string">&quot;p&quot;</span>).<span class="title function_">forEach</span>(<span class="keyword">function</span> (<span class="params">item，index</span>)&#123;</span><br><span class="line">	<span class="variable language_">console</span>.<span class="title function_">log</span>(index.<span class="property">innerText</span>); #index是索引</span><br><span class="line">	<span class="variable language_">console</span>.<span class="title function_">log</span>(item.<span class="property">innerText</span>); #item是里面的内容</span><br><span class="line">&#125;);</span><br><span class="line"><span class="comment">//简写</span></span><br><span class="line"><span class="variable language_">document</span>.<span class="title function_">querySelectorAll</span>(<span class="string">&quot;p&quot;</span>).<span class="title function_">forEach</span>(<span class="function"><span class="params">e</span>=&gt;</span>&#123;</span><br><span class="line">	<span class="variable language_">console</span>.<span class="title function_">log</span>(e.<span class="property">innerText</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+
+
+<p>4.上述基本介绍了js爬虫实现的方法原理<br>下面介绍通过油猴实现的浏览器爬虫<br>新建脚本大致如下<br><img src="/image/1_5_1.png" alt="1"><br>前面部分是脚本声明</p>
+<figure class="highlight awk"><table><tr><td class="code"><pre><span class="line"><span class="regexp">//</span> @name         New Userscript   <span class="comment">#（脚本名称）</span></span><br><span class="line"><span class="regexp">//</span> @namespace    http:<span class="regexp">//</span>tampermonkey.net/</span><br><span class="line"><span class="regexp">//</span> @version      <span class="number">0.1</span></span><br><span class="line"><span class="regexp">//</span> @description  try to take over the world!   <span class="comment">#（介绍）</span></span><br><span class="line"><span class="regexp">//</span> @author       You  （制作者的名字）</span><br><span class="line"><span class="regexp">//</span> @match        http:<span class="regexp">//</span>*/*   <span class="comment">#（适用的网站）</span></span><br><span class="line"><span class="regexp">//</span> @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==   <span class="comment">#头像</span></span><br><span class="line"><span class="regexp">//</span> @grant        none    <span class="comment">#第三方库调用</span></span><br></pre></td></tr></table></figure>
+
+<p>下面部分是具体代码部分，可以直接删掉</p>
+<figure class="highlight scheme"><table><tr><td class="code"><pre><span class="line">(<span class="name">function</span>() &#123;</span><br><span class="line">    <span class="symbol">&#x27;use</span> strict&#x27;<span class="comment">;</span></span><br><span class="line"></span><br><span class="line">    // Your code here...</span><br><span class="line">&#125;)()<span class="comment">;</span></span><br></pre></td></tr></table></figure>
+
+<p>4.废话不多说下面上一个简单实例<br><img src="/image/1_5_2.png" alt="1"><br>其实像类似这样很陈旧的网站，很难定位，<br>因为它根本没有ID，甚至连Class都没有<br>所以想到的是层级定位，写法十分原始<br><img src="/image/1_5_3.png" alt="2"><br>可以发现一部分是为”td&gt;div&gt;a&gt;font”的层级写的<br>以下代码可以分别取出文本</p>
+<figure class="highlight dart"><table><tr><td class="code"><pre><span class="line"><span class="built_in">document</span>.<span class="built_in">querySelectorAll</span>(<span class="string">&quot;td&gt;div&gt;a&quot;</span>).forEach(el =&gt; &#123;</span><br><span class="line">        <span class="keyword">var</span> Text = el.<span class="built_in">querySelector</span>(<span class="string">&#x27;font&#x27;</span>).innerText</span><br><span class="line">	&#125;)	</span><br></pre></td></tr></table></figure>
+
+<p>数值取出</p>
+<figure class="highlight arcade"><table><tr><td class="code"><pre><span class="line">document.querySelectorAll(<span class="string">&quot;td&gt;input&quot;</span>).forEach(<span class="function"><span class="params">el</span> =&gt;</span> &#123;</span><br><span class="line">        <span class="keyword">var</span> <span class="built_in">Text</span> = el.value</span><br><span class="line">        List.<span class="built_in">push</span>(<span class="built_in">Text</span>)</span><br><span class="line">    &#125;)</span><br></pre></td></tr></table></figure>
+<p>用一个空Array存储然后输出后<br>会发现有一部分是没有取出的<br>因为有另外一部分不是以这个层级排布的<br>不过介绍了<br>下面是全代码,比较乱,将就着看</p>
+<figure class="highlight arcade"><table><tr><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">getTotal</span>(<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> List = <span class="keyword">new</span> <span class="built_in">Array</span>() </span><br><span class="line">    <span class="keyword">var</span> List1 = <span class="keyword">new</span> <span class="built_in">Array</span>()</span><br><span class="line">    document.querySelectorAll(<span class="string">&quot;td&gt;div&gt;div&gt;a&gt;font&quot;</span>).forEach(<span class="function"><span class="params">e0</span> =&gt;</span> &#123;</span><br><span class="line">        List1.<span class="built_in">push</span>(e0.innerText)</span><br><span class="line">    &#125;)</span><br><span class="line">    <span class="keyword">var</span> n = <span class="number">0</span></span><br><span class="line">    document.querySelectorAll(<span class="string">&quot;td&gt;a&quot;</span>).forEach(<span class="function"><span class="params">el</span> =&gt;</span> &#123;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">var</span> <span class="built_in">Text</span> = el.querySelector(<span class="string">&#x27;font&#x27;</span>).innerText</span><br><span class="line">        n=n+<span class="number">1</span></span><br><span class="line">        <span class="keyword">if</span> (n==<span class="number">16</span>)&#123;</span><br><span class="line">            <span class="keyword">var</span> Text2=List1[<span class="number">0</span>]</span><br><span class="line"></span><br><span class="line">            List.<span class="built_in">push</span>(Text2)</span><br><span class="line"></span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (n==<span class="number">19</span>)&#123;</span><br><span class="line">            <span class="keyword">var</span> Text3=List1[<span class="number">1</span>]</span><br><span class="line"></span><br><span class="line">            List.<span class="built_in">push</span>(Text3)</span><br><span class="line"></span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (<span class="built_in">Text</span>!=<span class="string">&quot;&quot;</span>||<span class="built_in">Text</span>!=<span class="literal">null</span>||<span class="built_in">Text</span>!=<span class="literal">undefined</span>)&#123;</span><br><span class="line">            List.<span class="built_in">push</span>(<span class="built_in">Text</span>)</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">    &#125;)</span><br><span class="line">    document.querySelectorAll(<span class="string">&quot;td&gt;div&gt;a&quot;</span>).forEach(<span class="function"><span class="params">el</span> =&gt;</span> &#123;</span><br><span class="line">        <span class="keyword">var</span> <span class="built_in">Text</span> = el.querySelector(<span class="string">&#x27;font&#x27;</span>).innerText</span><br><span class="line">        n=n+<span class="number">1</span></span><br><span class="line">        <span class="keyword">if</span> (n==<span class="number">16</span>)&#123;</span><br><span class="line">            <span class="keyword">var</span> Text2=List1[<span class="number">0</span>]</span><br><span class="line"></span><br><span class="line">            List.<span class="built_in">push</span>(Text2)</span><br><span class="line"></span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (n==<span class="number">19</span>)&#123;</span><br><span class="line">            <span class="keyword">var</span> Text3=List1[<span class="number">1</span>]</span><br><span class="line"></span><br><span class="line">            List.<span class="built_in">push</span>(Text3)</span><br><span class="line"></span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (<span class="built_in">Text</span>!=<span class="string">&quot;&quot;</span>||<span class="built_in">Text</span>!=<span class="literal">null</span>||<span class="built_in">Text</span>!=<span class="literal">undefined</span>)&#123;</span><br><span class="line">            List.<span class="built_in">push</span>(<span class="built_in">Text</span>)</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;)</span><br><span class="line">    <span class="keyword">var</span> num=<span class="number">1</span></span><br><span class="line">    document.querySelectorAll(<span class="string">&quot;td&gt;input&quot;</span>).forEach(<span class="function"><span class="params">el</span> =&gt;</span> &#123;</span><br><span class="line">        <span class="keyword">var</span> <span class="built_in">Text</span> = el.value</span><br><span class="line">        num=num+<span class="number">1</span></span><br><span class="line">        <span class="keyword">if</span> (num==<span class="number">5</span>)&#123;</span><br><span class="line">            <span class="keyword">var</span> Select=document.querySelector(<span class="string">&quot;td&gt;select&quot;</span>).size</span><br><span class="line"></span><br><span class="line">            <span class="keyword">if</span> (Select==<span class="number">1</span>)&#123;</span><br><span class="line">                Select=<span class="string">&quot;Yes&quot;</span></span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span>&#123;</span><br><span class="line">                Select=<span class="string">&quot;No&quot;</span></span><br><span class="line">            &#125;</span><br><span class="line"></span><br><span class="line">            List.<span class="built_in">push</span>(Select)</span><br><span class="line"></span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        List.<span class="built_in">push</span>(<span class="built_in">Text</span>)</span><br><span class="line">    &#125;)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="built_in">console</span>.<span class="built_in">log</span>(<span class="string">&#x27;Success:&#x27;</span>,List);</span><br><span class="line">&#125;</span><br><span class="line">getTotal()</span><br></pre></td></tr></table></figure>
+
+<p>5.结语<br><img src="/image/256_1.jpg" alt="1"><br>上面举例了一个比较离谱的例子（很好奇做的时候是怎么不弄混的）<br>其实上现在大部分网站都有类标识，用类定位会更加快速准确</p>
+]]></content>
+      <categories>
+        <category>前端JS</category>
+      </categories>
+      <tags>
+        <tag>介绍</tag>
+        <tag>前端爬虫</tag>
       </tags>
   </entry>
   <entry>
@@ -990,73 +1060,51 @@ function muplay(){
       </categories>
   </entry>
   <entry>
-    <title>东华大学介绍</title>
-    <url>/2023/09/26/%E6%B5%8B%E8%AF%95/</url>
-    <content><![CDATA[<p>东华大学介绍<br>学校介绍<br>东华大学是教育部直属、国家“211工程”、国家“双一流”建设高校。学校秉承“崇德博学、砺志尚实”的校训，不断开拓奋进，已发展成为以纺织、材料、设计为优势，特色鲜明的多科性、高水平大学。</p>
+    <title>用Selenium制作前端式爬虫</title>
+    <url>/2023/09/28/%E7%94%A8selenum%E5%88%B6%E4%BD%9C%E5%89%8D%E7%AB%AF%E5%BC%8F%E7%88%AC%E8%99%AB/</url>
+    <content><![CDATA[<p>笔者也就小白水平，写selenium也是边学边写的<br>本文只是介绍抓取部分模块，怎么处理可以看看上文<br><a href="https://jkysei.space/2023/09/27/%E7%94%A8JS%EF%BC%88%E5%89%8D%E7%AB%AF%EF%BC%89%E5%88%B6%E4%BD%9C%E7%9A%84%E7%AE%80%E6%98%93%E7%88%AC%E8%99%AB/">用JS（前端）制作的简易爬虫</a><br>python也有类似CSS选择器的第三方库，后续再更新</p>
 <span id="more"></span>
-<p><img src="/image/1.png" alt="1"><br>学校的办学历史可追溯至1912年实业家张謇创办的纺织染传习所。1951年建校，时名华东纺织工学院。1960年，被国家教育部确定为全国重点大学。1981年，成为中国首批具有博士、硕士、学士三级学位授予权的大学之一。1985年，更名为中国纺织大学。1998年，被确定为国家“211工程”重点建设的高等学校。1999年，更名为东华大学。2017年，列入国家“双一流”建设高校。</p>
-<p>学校地处中国上海，现有松江校区、延安路校区和新华路校区，占地面积近2000亩，校舍总建筑面积83万余平方米。学校是“上海市花园单位”和“上海市文明校园”。松江校区是国家级水利风景区。</p>
-<p>学校全校教职工2289人，专任教师1462人，其中专职院士２人，资深院士2人，兼职院士17人，万人计划、长江学者、国家杰青等高层次人才60余人次，其他高级职称教师900余名。全校本科生14422人，硕士研究生7255人，博士研究生1404人，学历留学生705人。</p>
-<p>学校现设有18个学院（部），拥有6个博士后流动站、11个一级学科博士点、3个博士专业学位授权类别、29个一级学科硕士点、2个二级学科硕士点、17个专业学位硕士授权类别、59个本科专业，涵盖工学、理学、管理学、经济学、艺术学、文学、法学、历史学、教育学九大学科门类。现有2个国家“双一流”建设学科， 1个上海高校Ι类高峰学科。纺织科学与工程保持国内领先，获评A+学科。化学、工程学、数学、材料科学、计算机科学、环境科学与生态学、生物与生化7个学科入围ESI全球前1%，其中材料科学学科进入全球前1‰。拥有1个国家重点实验室、1个国家工程技术研究中心、22个省部级重点科研平台，2个国家引智基地以及国家大学科技园。</p>
-<p>学校以培养德智体美劳全面发展的社会主义建设者和接班人为根本任务，坚持“严谨、勤奋、求实、创新”的优良校风，培养基础宽厚、实践能力强、具有创新精神和社会责任感的高素质人才。学校积极建设“五育并举”的教育体系，构建本科生“分层教学、分流培养、多元成才、人人成才”的培养体系，持续深化教育教学改革，新世纪以来，获国家级教学成果奖8项。拥有2个国家级实验教学示范中心，1个国家级虚拟仿真实验教学中心，3个国家工程实践教育中心，10个国家级特色专业，29个国家级一流本科专业。入选 “全国高校黄大年式教师团队” 2个。学校积极构建一流的研究生培养机制，大力发展专业学位研究生教育，获评全国示范性工程专业学位研究生联合培养基地2个，首批进入教育部“卓越工程师教育培养计划”，获评“全国工程硕士研究生教育创新院校”。东华学子近三年获得国内外学科竞赛、文体比赛冠军、金奖或一等奖260余项，充分彰显学生的创造力。女足获大学生联赛全国冠军，学校进入“中国高校体育竞赛榜”前20名。学校全面推进双创教育，产教融合人才培养协同机制成效显著，新材料现代产业学院获批教育部首批现代产业学院，成为全国首次获批的50所现代产业学院之一。获评全国高校实践育人创新创业基地、全国创新创业典型经验高校、全国高等学校毕业生就业工作先进集体等荣誉。近年来，毕业生平均就业率超过96%，薪资位于中国高校毕业生薪酬指数排名16-21位，近五年，学生自主创业420余人。建校至今，为国家培养各类人才26万余人，毕业生成为各行各业的中坚和栋梁。</p>
-<p>学校坚持产学研用相结合的办学特色，承接国家重大科研任务，支撑国家产业转型升级和新兴产业发展等战略需求。新世纪以来，获国家自然科学奖、国家技术发明奖和国家科技进步奖31项。大批科研成果广泛应用于航天航空、重大建筑工程、环境保护等领域，为“天宫”“天舟”“北斗”“天通”“嫦娥”做出贡献。纤维材料改性国家重点实验室获评“优秀”，获批建设国家先进功能纤维创新中心、国家先进印染技术创新中心、民用航空复合材料省部共建协同创新中心、上海市现代纺织前沿科学研究基地、“一带一路”纺织智能制造与工程国际联合实验室等。建立海派时尚设计及价值创造协同创新中心、城市创意经济与创新服务研究基地、东华大学“一带一路”研究中心等，服务国家经济社会发展、长三角一体化发展国家战略和上海时尚之都、设计之都建设。</p>
-<p>学校大力推进新时期教育对外开放，积极对接国家“一带一路”重要倡议，联合18个国家35所纺织特色高校成立“一带一路”世界纺织大学联盟，与全球150多所国（境）外高校建立了良好的合作关系。获批教育部“中非高校20+20合作计划”，在肯尼亚莫伊大学建立世界首家纺织服装特色的莫伊大学孔子学院。与爱丁堡大学合作创办东华大学上海国际时尚创意学院，培养国际一流时尚创意人才。</p>
-<p>面向未来，东华大学将继续以习近平新时代中国特色社会主义思想为指导，全面落实立德树人根本任务，加快“双一流”建设，全力服务国家和上海市的战略需求，为实现“国内一流、国际有影响，有特色的高水平研究型大学”的目标而不懈奋斗！</p>
+<p>1.前言<br>大部分的网站都有反爬机制<br><img src="/image/928D_113_1.jpg" alt="1"></p>
+<figure class="highlight applescript"><table><tr><td class="code"><pre><span class="line">requests.<span class="keyword">get</span>(url,headers,<span class="keyword">timeout</span>)</span><br></pre></td></tr></table></figure>
+<p>requests早已经无法爬取网页了，<br>所以希望用一种能够越过反爬虫的第三方库<br>selenium是模拟驱动chrome访问网站的方式越过反爬虫<br>2.Selenium的调用</p>
+<p>在Pycharm或pip上安装selenium<br>随后即可import</p>
+<figure class="highlight angelscript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> selenium <span class="keyword">import</span> webdriver</span><br></pre></td></tr></table></figure>
+<p>为了方便修改浏览器设置,引用Options模块</p>
+<figure class="highlight gradle"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> selenium.webdriver.chrome.<span class="keyword">options</span> <span class="keyword">import</span> <span class="keyword">Options</span></span><br></pre></td></tr></table></figure>
+<p>用chrome_options存放options</p>
+<figure class="highlight ini"><table><tr><td class="code"><pre><span class="line"><span class="attr">chrome_options</span> = Options()</span><br><span class="line"><span class="attr">chrome_options.page_load_strategy</span> = <span class="string">&#x27;eager&#x27;</span></span><br></pre></td></tr></table></figure>
+<p>page_load_strategy是浏览器加载策略，默认是normal，eager则是快速加载<br>在网页资源加载完成时就会立刻关闭，可以省很多时间。<br>网上有很多说有更加快速的方法，说实话是噱头，没有实际用处，<br>照着他的方法，会迅速加载网页然后光速关闭，根本无法正常抓取网页内容<br>eagle已经是最快的策略，更快可以尝试多线程的爬虫。</p>
+<p>如果电脑里安装了多个chrome或者python无法获取你的chrome程序位置，<br>可以引用service模块</p>
+<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line">from selenium<span class="selector-class">.webdriver</span><span class="selector-class">.chrome</span><span class="selector-class">.service</span> import Service</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight ini"><table><tr><td class="code"><pre><span class="line"><span class="attr">service</span>=Service(executable_path=<span class="string">&quot;路径&quot;</span>)</span><br><span class="line"><span class="comment">#注：python存放路径引号内,如果/可以只写一个,但是如果\\要写两个</span></span><br></pre></td></tr></table></figure>
+
+<p>设置好就可以驱动浏览器了</p>
+<figure class="highlight reasonml"><table><tr><td class="code"><pre><span class="line">driver = webdriver.<span class="constructor">Chrome(<span class="params">service</span>=<span class="params">service</span>,<span class="params">options</span>=<span class="params">chrome_options</span>)</span></span><br></pre></td></tr></table></figure>
+
+<p>随后便可以抓取网页资源</p>
+<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line">driver<span class="selector-class">.get</span>(url)</span><br><span class="line">url_get = driver<span class="selector-class">.page_source</span> <span class="selector-id">#url_get</span> 就是抓取下的网页</span><br><span class="line">driver<span class="selector-class">.close</span>()</span><br><span class="line">driver<span class="selector-class">.quit</span>()</span><br></pre></td></tr></table></figure>
+
+<p>3.报错模块<br>selenium虽然挺稳定，但有时因为网站连接不稳定，<br>就会报错，中途寄掉的情况。。。经常会有<br>特别是爬图，是需要爬到详细页面，页面数量也会倍增。<br>报错一般有，加载timeout，selenium一个狗血的地方，timeout会<br>让整个程序直接中断，所以一定要try，报错了让它except</p>
+<p>selenium设置timeout的方式</p>
+<figure class="highlight apache"><table><tr><td class="code"><pre><span class="line"><span class="attribute">browserset</span>.set_page_load_timeout(<span class="number">100</span>)</span><br><span class="line"><span class="attribute">browserset</span>.set_script_timeout(<span class="number">100</span>)</span><br></pre></td></tr></table></figure>
+<p>第一种是页面加载报timeout的错误，退出，第二种是脚本中止加载<br>两者有点小区别，详细请百度。</p>
+<p>驱动浏览器大致可以这么写</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#防空链接报错</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">printpause</span>(<span class="params">timepause</span>):</span><br><span class="line">	<span class="built_in">print</span>(<span class="string">&#x27;***访问超时，程序暂停***&#x27;</span>)</span><br><span class="line">	<span class="built_in">print</span>(<span class="string">&#x27;%d秒后继续&#x27;</span> %timepause)</span><br><span class="line">	time.sleep(timepause) <span class="comment">#报错会一时中止加载</span></span><br><span class="line">	</span><br><span class="line"><span class="keyword">def</span> <span class="title function_">drivebrowser</span>():</span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        browser=browser_set() <span class="comment">#browser_set()就是驱动浏览器的函数</span></span><br><span class="line">        <span class="keyword">return</span> browser <span class="comment">#如果try成功了就会return出browser</span></span><br><span class="line">    <span class="keyword">except</span>:</span><br><span class="line">        secends = random.randint(<span class="number">120</span>, <span class="number">150</span>) </span><br><span class="line">        printpause(secends) </span><br><span class="line">        <span class="keyword">try</span>:</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">&#x27;***重试请求***&#x27;</span>)</span><br><span class="line">            browser=browser_set()</span><br><span class="line">            <span class="keyword">return</span> browser </span><br><span class="line">		<span class="keyword">except</span>:         <span class="comment">#写多几层保险一点</span></span><br><span class="line">            printpause(<span class="number">150</span>)</span><br><span class="line">            <span class="keyword">try</span>:</span><br><span class="line">                <span class="built_in">print</span>(<span class="string">&#x27;***重试请求***&#x27;</span>)</span><br><span class="line">                browser=browser_set()</span><br><span class="line">                <span class="keyword">return</span> browser</span><br><span class="line">            <span class="keyword">except</span>:</span><br><span class="line">                <span class="built_in">print</span>(<span class="string">&#x27;***访问失败，程序继续***&#x27;</span>)</span><br><span class="line">                <span class="keyword">return</span> <span class="string">&#x27;&#x27;</span>  <span class="comment">#实在不行就跳过了</span></span><br></pre></td></tr></table></figure>
+<p>第二种报错就是访问超时的报错，也建议用try函数<br>访问函数也可以照着上面写try，except，这里就不多写了</p>
+<p>写了这么多try之后，我也在想应该不可能报错了，其实上还是<br>会报的只不过几率很小很小，所以大型爬虫操作还是悠着点，<br>几千秒的运行中间报了错可不是开玩笑的。。</p>
+<p><img src="/image/928D_91_1.jpg" alt="2"></p>
+<p>4.额额额什么？<br>selenium无法正确抓取网页了？？<br>现在的情况是，单是selenium的爬虫已经会被网站拦截了</p>
+<p>搜索别人的经验后，了解到了防侦测脚本驱动浏览器的第三库</p>
+<figure class="highlight elm"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> undetected_chromedriver <span class="keyword">as</span> uc</span><br></pre></td></tr></table></figure>
+<p>以下是抄的作业<br>以咱的水平看不懂，但确实神奇的解决了问题</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">browser_set</span>():</span><br><span class="line">    <span class="comment">#浏览器引擎设置</span></span><br><span class="line">    options = webdriver.ChromeOptions()</span><br><span class="line">	<span class="comment">#取出chrome的option设置</span></span><br><span class="line">    options.add_argument(<span class="string">&quot;--headless&quot;</span>)</span><br><span class="line">	<span class="comment">#后台驱动chrome</span></span><br><span class="line">    <span class="comment"># 去除“Chrome正受到自动测试软件的控制”的显示</span></span><br><span class="line">    options.add_experimental_option(<span class="string">&quot;excludeSwitches&quot;</span>, [<span class="string">&quot;enable-automation&quot;</span>])</span><br><span class="line">    browserset = webdriver.Chrome(options=options)</span><br><span class="line">    <span class="comment"># 设置headers</span></span><br><span class="line">    browserset.execute_cdp_cmd(<span class="string">&quot;Network.setExtraHTTPHeaders&quot;</span>,</span><br><span class="line">                           &#123;<span class="string">&quot;headers&quot;</span>:</span><br><span class="line">                                &#123;</span><br><span class="line">                                    <span class="string">&quot;User-Agent&quot;</span>: <span class="string">&quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36&quot;</span>,</span><br><span class="line">                                    &#125;</span><br><span class="line">                            &#125;)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 防止网站检测selenium的webdriver</span></span><br><span class="line">    browserset.execute_cdp_cmd(<span class="string">&quot;Page.addScriptToEvaluateOnNewDocument&quot;</span>, &#123;</span><br><span class="line">        <span class="string">&quot;source&quot;</span>: <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">                Object.defineProperty(navigator, &#x27;webdriver&#x27;, &#123;</span></span><br><span class="line"><span class="string">                    get: () =&gt; False</span></span><br><span class="line"><span class="string">                &#125;)</span></span><br><span class="line"><span class="string">            &quot;&quot;&quot;</span>&#125;)</span><br><span class="line"></span><br><span class="line">    browserset.set_page_load_timeout(<span class="number">100</span>)</span><br><span class="line">    browserset.set_script_timeout(<span class="number">100</span>)</span><br><span class="line">    <span class="keyword">return</span> browserset</span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
-        <category>测试</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>用JS（前端）制作的简易爬虫</title>
-    <url>/2023/09/27/%E7%94%A8JS%EF%BC%88%E5%89%8D%E7%AB%AF%EF%BC%89%E5%88%B6%E4%BD%9C%E7%9A%84%E7%AE%80%E6%98%93%E7%88%AC%E8%99%AB/</url>
-    <content><![CDATA[<p>本文主要介绍用油猴（Tampermonkey）实现的前端爬虫<br>不涉及跨域传输，非常基础的内容<br>优点很明显，快速（有时按需求可以几分钟写完），针对性，不用担心反爬<br>缺点，不同排布的网站就会失效，或者网站更新就寄了<br>核心为CSS选择器<br><a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_Selectors">参考1</a><br><a href="https://www.runoob.com/jsref/met-document-queryselector.html">参考2</a></p>
-<span id="more"></span>
-<p><img src="/image/232_1.jpg" alt="1"><br>1.定位（CSS选择器）</p>
-<figure class="highlight dart"><table><tr><td class="code"><pre><span class="line"><span class="built_in">document</span>.<span class="built_in">querySelector</span>(<span class="string">&quot;标签(层级)定位/类定位/ID定位&quot;</span>);</span><br></pre></td></tr></table></figure>
-<p>（1）例:标签(层级)定位</p>
-<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span>&gt;</span>Hello</span><br><span class="line">	<span class="tag">&lt;<span class="name">p</span>&gt;</span>Hallo<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>你好<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<figure class="highlight dart"><table><tr><td class="code"><pre><span class="line"><span class="built_in">document</span>.<span class="built_in">querySelector</span>(<span class="string">&quot;p&quot;</span>).innerText #取出的是Hallo和你好</span><br></pre></td></tr></table></figure>
-<p>如果想要只取出Hallo则应写成</p>
-<figure class="highlight dart"><table><tr><td class="code"><pre><span class="line"><span class="built_in">document</span>.<span class="built_in">querySelector</span>(<span class="string">&quot;div&gt;p&quot;</span>).innerText #取出的是Hallo</span><br></pre></td></tr></table></figure>
-<p>（2）例：类定位</p>
-<figure class="highlight angelscript"><table><tr><td class="code"><pre><span class="line">&lt;div <span class="keyword">class</span>=&quot;<span class="symbol">Hello_div</span>&quot;&gt;<span class="symbol">Hello</span></span><br><span class="line">	&lt;<span class="symbol">p</span>&gt;<span class="symbol">Hallo</span>&lt;/<span class="symbol">p</span>&gt;</span><br><span class="line">&lt;/<span class="symbol">div</span>&gt;</span><br><span class="line">&lt;<span class="symbol">div</span> <span class="symbol">class</span>=&quot;<span class="symbol">nihao_div</span>&quot;&gt;</span><br><span class="line">	&lt;<span class="symbol">p</span>&gt;你好&lt;/<span class="symbol">p</span>&gt;</span><br><span class="line">&lt;/<span class="symbol">div</span>&gt;</span><br></pre></td></tr></table></figure>
-<figure class="highlight dart"><table><tr><td class="code"><pre><span class="line"><span class="built_in">document</span>.<span class="built_in">querySelector</span>(<span class="string">&quot;.Hello_div&quot;</span>).innerText #取出的是Hello和Hallo</span><br><span class="line"><span class="built_in">document</span>.<span class="built_in">querySelector</span>(<span class="string">&quot;.nihao_div&quot;</span>).innerText #取出的是你好</span><br></pre></td></tr></table></figure>
-<figure class="highlight actionscript"><table><tr><td class="code"><pre><span class="line">注：如果<span class="keyword">class</span>名中存在空格的情况,如<span class="string">&quot;Hello div&quot;</span>,应写成<span class="string">&quot;.Hello.div&quot;</span></span><br></pre></td></tr></table></figure>
-<p>Class定位也可以像进行层级，可用于存在多个标签叠放方式的情况<br>（3）ID定位<br>ID基本与Class相同<br>用法为</p>
-<figure class="highlight applescript"><table><tr><td class="code"><pre><span class="line">&lt;<span class="keyword">div</span> <span class="built_in">class</span>=<span class="string">&quot;nihao&quot;</span>&gt;</span><br><span class="line">	&lt;p&gt;你好&lt;/p&gt;</span><br><span class="line">&lt;/<span class="keyword">div</span>&gt;</span><br><span class="line">document.querySelector(<span class="string">&quot;#nihao&quot;</span>).innerText <span class="comment">#取出的是你好</span></span><br></pre></td></tr></table></figure>
-
-<p>2.常用函数<br>.innerText用于取出文本<br>.innerHTML可取出这个标签包含的HTML内容<br>.attributes(“属性名”)<br>.style(“样式”),具体样式则是.style.backgroundColor()<br>等，这里就不一一列全了，需要自己可以去查找。</p>
-<p>3.处理多个元素<br>.querySelector()只会取出单一元素，存在多个元素就只取第一个出现的<br>要取出多个元素需要用.querySelectorAll()，可以用for循环逐一取出<br>如</p>
-<figure class="highlight abnf"><table><tr><td class="code"><pre><span class="line">var items <span class="operator">=</span> document.querySelectorAll(<span class="string">&quot;p&quot;</span>)<span class="comment">;</span></span><br><span class="line">for (i <span class="operator">=</span> <span class="number">0</span><span class="comment">; i &lt; items.length; i++) &#123;</span></span><br><span class="line">    console.log(items.innerText)<span class="comment">; #逐个输出出p标签的text</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>或者用forEach写<br>forEach方法中的function回调有三个参数：<br>第一个参数是数组内容，<br>第二个参数是对应的数组索引，<br>第三个参数是数组本身</p>
-<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="variable language_">document</span>.<span class="title function_">querySelectorAll</span>(<span class="string">&quot;p&quot;</span>).<span class="title function_">forEach</span>(<span class="keyword">function</span> (<span class="params">item，index</span>)&#123;</span><br><span class="line">	<span class="variable language_">console</span>.<span class="title function_">log</span>(index.<span class="property">innerText</span>); #index是索引</span><br><span class="line">	<span class="variable language_">console</span>.<span class="title function_">log</span>(item.<span class="property">innerText</span>); #item是里面的内容</span><br><span class="line">&#125;);</span><br><span class="line"><span class="comment">//简写</span></span><br><span class="line"><span class="variable language_">document</span>.<span class="title function_">querySelectorAll</span>(<span class="string">&quot;p&quot;</span>).<span class="title function_">forEach</span>(<span class="function"><span class="params">e</span>=&gt;</span>&#123;</span><br><span class="line">	<span class="variable language_">console</span>.<span class="title function_">log</span>(e.<span class="property">innerText</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-
-
-
-
-<p>4.上述基本介绍了js爬虫实现的方法原理<br>下面介绍通过油猴实现的浏览器爬虫<br>新建脚本大致如下<br><img src="/image/1_5_1.png" alt="1"><br>前面部分是脚本声明</p>
-<figure class="highlight awk"><table><tr><td class="code"><pre><span class="line"><span class="regexp">//</span> @name         New Userscript   <span class="comment">#（脚本名称）</span></span><br><span class="line"><span class="regexp">//</span> @namespace    http:<span class="regexp">//</span>tampermonkey.net/</span><br><span class="line"><span class="regexp">//</span> @version      <span class="number">0.1</span></span><br><span class="line"><span class="regexp">//</span> @description  try to take over the world!   <span class="comment">#（介绍）</span></span><br><span class="line"><span class="regexp">//</span> @author       You  （制作者的名字）</span><br><span class="line"><span class="regexp">//</span> @match        http:<span class="regexp">//</span>*/*   <span class="comment">#（适用的网站）</span></span><br><span class="line"><span class="regexp">//</span> @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==   <span class="comment">#头像</span></span><br><span class="line"><span class="regexp">//</span> @grant        none    <span class="comment">#第三方库调用</span></span><br></pre></td></tr></table></figure>
-
-<p>下面部分是具体代码部分，可以直接删掉</p>
-<figure class="highlight scheme"><table><tr><td class="code"><pre><span class="line">(<span class="name">function</span>() &#123;</span><br><span class="line">    <span class="symbol">&#x27;use</span> strict&#x27;<span class="comment">;</span></span><br><span class="line"></span><br><span class="line">    // Your code here...</span><br><span class="line">&#125;)()<span class="comment">;</span></span><br></pre></td></tr></table></figure>
-
-<p>4.废话不多说下面上一个简单实例<br><img src="/image/1_5_2.png" alt="1"><br>其实像类似这样很陈旧的网站，很难定位，<br>因为它根本没有ID，甚至连Class都没有<br>所以想到的是层级定位，写法十分原始<br><img src="/image/1_5_3.png" alt="2"><br>可以发现一部分是为”td&gt;div&gt;a&gt;font”的层级写的<br>以下代码可以分别取出文本</p>
-<figure class="highlight dart"><table><tr><td class="code"><pre><span class="line"><span class="built_in">document</span>.<span class="built_in">querySelectorAll</span>(<span class="string">&quot;td&gt;div&gt;a&quot;</span>).forEach(el =&gt; &#123;</span><br><span class="line">        <span class="keyword">var</span> Text = el.<span class="built_in">querySelector</span>(<span class="string">&#x27;font&#x27;</span>).innerText</span><br><span class="line">	&#125;)	</span><br></pre></td></tr></table></figure>
-
-<p>数值取出</p>
-<figure class="highlight arcade"><table><tr><td class="code"><pre><span class="line">document.querySelectorAll(<span class="string">&quot;td&gt;input&quot;</span>).forEach(<span class="function"><span class="params">el</span> =&gt;</span> &#123;</span><br><span class="line">        <span class="keyword">var</span> <span class="built_in">Text</span> = el.value</span><br><span class="line">        List.<span class="built_in">push</span>(<span class="built_in">Text</span>)</span><br><span class="line">    &#125;)</span><br></pre></td></tr></table></figure>
-<p>用一个空Array存储然后输出后<br>会发现有一部分是没有取出的<br>因为有另外一部分不是以这个层级排布的<br>不过介绍了<br>下面是全代码,比较乱,将就着看</p>
-<figure class="highlight arcade"><table><tr><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">getTotal</span>(<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> List = <span class="keyword">new</span> <span class="built_in">Array</span>() </span><br><span class="line">    <span class="keyword">var</span> List1 = <span class="keyword">new</span> <span class="built_in">Array</span>()</span><br><span class="line">    document.querySelectorAll(<span class="string">&quot;td&gt;div&gt;div&gt;a&gt;font&quot;</span>).forEach(<span class="function"><span class="params">e0</span> =&gt;</span> &#123;</span><br><span class="line">        List1.<span class="built_in">push</span>(e0.innerText)</span><br><span class="line">    &#125;)</span><br><span class="line">    <span class="keyword">var</span> n = <span class="number">0</span></span><br><span class="line">    document.querySelectorAll(<span class="string">&quot;td&gt;a&quot;</span>).forEach(<span class="function"><span class="params">el</span> =&gt;</span> &#123;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">var</span> <span class="built_in">Text</span> = el.querySelector(<span class="string">&#x27;font&#x27;</span>).innerText</span><br><span class="line">        n=n+<span class="number">1</span></span><br><span class="line">        <span class="keyword">if</span> (n==<span class="number">16</span>)&#123;</span><br><span class="line">            <span class="keyword">var</span> Text2=List1[<span class="number">0</span>]</span><br><span class="line"></span><br><span class="line">            List.<span class="built_in">push</span>(Text2)</span><br><span class="line"></span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (n==<span class="number">19</span>)&#123;</span><br><span class="line">            <span class="keyword">var</span> Text3=List1[<span class="number">1</span>]</span><br><span class="line"></span><br><span class="line">            List.<span class="built_in">push</span>(Text3)</span><br><span class="line"></span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (<span class="built_in">Text</span>!=<span class="string">&quot;&quot;</span>||<span class="built_in">Text</span>!=<span class="literal">null</span>||<span class="built_in">Text</span>!=<span class="literal">undefined</span>)&#123;</span><br><span class="line">            List.<span class="built_in">push</span>(<span class="built_in">Text</span>)</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">    &#125;)</span><br><span class="line">    document.querySelectorAll(<span class="string">&quot;td&gt;div&gt;a&quot;</span>).forEach(<span class="function"><span class="params">el</span> =&gt;</span> &#123;</span><br><span class="line">        <span class="keyword">var</span> <span class="built_in">Text</span> = el.querySelector(<span class="string">&#x27;font&#x27;</span>).innerText</span><br><span class="line">        n=n+<span class="number">1</span></span><br><span class="line">        <span class="keyword">if</span> (n==<span class="number">16</span>)&#123;</span><br><span class="line">            <span class="keyword">var</span> Text2=List1[<span class="number">0</span>]</span><br><span class="line"></span><br><span class="line">            List.<span class="built_in">push</span>(Text2)</span><br><span class="line"></span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (n==<span class="number">19</span>)&#123;</span><br><span class="line">            <span class="keyword">var</span> Text3=List1[<span class="number">1</span>]</span><br><span class="line"></span><br><span class="line">            List.<span class="built_in">push</span>(Text3)</span><br><span class="line"></span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (<span class="built_in">Text</span>!=<span class="string">&quot;&quot;</span>||<span class="built_in">Text</span>!=<span class="literal">null</span>||<span class="built_in">Text</span>!=<span class="literal">undefined</span>)&#123;</span><br><span class="line">            List.<span class="built_in">push</span>(<span class="built_in">Text</span>)</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;)</span><br><span class="line">    <span class="keyword">var</span> num=<span class="number">1</span></span><br><span class="line">    document.querySelectorAll(<span class="string">&quot;td&gt;input&quot;</span>).forEach(<span class="function"><span class="params">el</span> =&gt;</span> &#123;</span><br><span class="line">        <span class="keyword">var</span> <span class="built_in">Text</span> = el.value</span><br><span class="line">        num=num+<span class="number">1</span></span><br><span class="line">        <span class="keyword">if</span> (num==<span class="number">5</span>)&#123;</span><br><span class="line">            <span class="keyword">var</span> Select=document.querySelector(<span class="string">&quot;td&gt;select&quot;</span>).size</span><br><span class="line"></span><br><span class="line">            <span class="keyword">if</span> (Select==<span class="number">1</span>)&#123;</span><br><span class="line">                Select=<span class="string">&quot;Yes&quot;</span></span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span>&#123;</span><br><span class="line">                Select=<span class="string">&quot;No&quot;</span></span><br><span class="line">            &#125;</span><br><span class="line"></span><br><span class="line">            List.<span class="built_in">push</span>(Select)</span><br><span class="line"></span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        List.<span class="built_in">push</span>(<span class="built_in">Text</span>)</span><br><span class="line">    &#125;)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="built_in">console</span>.<span class="built_in">log</span>(<span class="string">&#x27;Success:&#x27;</span>,List);</span><br><span class="line">&#125;</span><br><span class="line">getTotal()</span><br></pre></td></tr></table></figure>
-
-<p>5.结语<br><img src="/image/256_1.jpg" alt="1"><br>上面举例了一个比较离谱的例子（很好奇做的时候是怎么不弄混的）<br>其实上现在大部分网站都有类标识，用类定位会更加快速准确</p>
-]]></content>
-      <categories>
-        <category>前端JS</category>
+        <category>Python</category>
       </categories>
       <tags>
-        <tag>介绍</tag>
-        <tag>前端爬虫</tag>
+        <tag>爬虫</tag>
       </tags>
   </entry>
   <entry>
@@ -1138,53 +1186,5 @@ function muplay(){
       <categories>
         <category>测试</category>
       </categories>
-  </entry>
-  <entry>
-    <title>用Selenium制作前端式爬虫</title>
-    <url>/2023/09/28/%E7%94%A8selenum%E5%88%B6%E4%BD%9C%E5%89%8D%E7%AB%AF%E5%BC%8F%E7%88%AC%E8%99%AB/</url>
-    <content><![CDATA[<p>笔者也就小白水平，写selenium也是边学边写的<br>本文只是介绍抓取部分模块，怎么处理可以看看上文<br><a href="https://jkysei.space/2023/09/27/%E7%94%A8JS%EF%BC%88%E5%89%8D%E7%AB%AF%EF%BC%89%E5%88%B6%E4%BD%9C%E7%9A%84%E7%AE%80%E6%98%93%E7%88%AC%E8%99%AB/">用JS（前端）制作的简易爬虫</a><br>python也有类似CSS选择器的第三方库，后续再更新</p>
-<span id="more"></span>
-<p>1.前言<br>大部分的网站都有反爬机制<br><img src="/image/928D_113_1.jpg" alt="1"></p>
-<figure class="highlight applescript"><table><tr><td class="code"><pre><span class="line">requests.<span class="keyword">get</span>(url,headers,<span class="keyword">timeout</span>)</span><br></pre></td></tr></table></figure>
-<p>requests早已经无法爬取网页了，<br>所以希望用一种能够越过反爬虫的第三方库<br>selenium是模拟驱动chrome访问网站的方式越过反爬虫<br>2.Selenium的调用</p>
-<p>在Pycharm或pip上安装selenium<br>随后即可import</p>
-<figure class="highlight angelscript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> selenium <span class="keyword">import</span> webdriver</span><br></pre></td></tr></table></figure>
-<p>为了方便修改浏览器设置,引用Options模块</p>
-<figure class="highlight gradle"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> selenium.webdriver.chrome.<span class="keyword">options</span> <span class="keyword">import</span> <span class="keyword">Options</span></span><br></pre></td></tr></table></figure>
-<p>用chrome_options存放options</p>
-<figure class="highlight ini"><table><tr><td class="code"><pre><span class="line"><span class="attr">chrome_options</span> = Options()</span><br><span class="line"><span class="attr">chrome_options.page_load_strategy</span> = <span class="string">&#x27;eager&#x27;</span></span><br></pre></td></tr></table></figure>
-<p>page_load_strategy是浏览器加载策略，默认是normal，eager则是快速加载<br>在网页资源加载完成时就会立刻关闭，可以省很多时间。<br>网上有很多说有更加快速的方法，说实话是噱头，没有实际用处，<br>照着他的方法，会迅速加载网页然后光速关闭，根本无法正常抓取网页内容<br>eagle已经是最快的策略，更快可以尝试多线程的爬虫。</p>
-<p>如果电脑里安装了多个chrome或者python无法获取你的chrome程序位置，<br>可以引用service模块</p>
-<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line">from selenium<span class="selector-class">.webdriver</span><span class="selector-class">.chrome</span><span class="selector-class">.service</span> import Service</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight ini"><table><tr><td class="code"><pre><span class="line"><span class="attr">service</span>=Service(executable_path=<span class="string">&quot;路径&quot;</span>)</span><br><span class="line"><span class="comment">#注：python存放路径引号内,如果/可以只写一个,但是如果\\要写两个</span></span><br></pre></td></tr></table></figure>
-
-<p>设置好就可以驱动浏览器了</p>
-<figure class="highlight reasonml"><table><tr><td class="code"><pre><span class="line">driver = webdriver.<span class="constructor">Chrome(<span class="params">service</span>=<span class="params">service</span>,<span class="params">options</span>=<span class="params">chrome_options</span>)</span></span><br></pre></td></tr></table></figure>
-
-<p>随后便可以抓取网页资源</p>
-<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line">driver<span class="selector-class">.get</span>(url)</span><br><span class="line">url_get = driver<span class="selector-class">.page_source</span> <span class="selector-id">#url_get</span> 就是抓取下的网页</span><br><span class="line">driver<span class="selector-class">.close</span>()</span><br><span class="line">driver<span class="selector-class">.quit</span>()</span><br></pre></td></tr></table></figure>
-
-<p>3.报错模块<br>selenium虽然挺稳定，但有时因为网站连接不稳定，<br>就会报错，中途寄掉的情况。。。经常会有<br>特别是爬图，是需要爬到详细页面，页面数量也会倍增。<br>报错一般有，加载timeout，selenium一个狗血的地方，timeout会<br>让整个程序直接中断，所以一定要try，报错了让它except</p>
-<p>selenium设置timeout的方式</p>
-<figure class="highlight apache"><table><tr><td class="code"><pre><span class="line"><span class="attribute">browserset</span>.set_page_load_timeout(<span class="number">100</span>)</span><br><span class="line"><span class="attribute">browserset</span>.set_script_timeout(<span class="number">100</span>)</span><br></pre></td></tr></table></figure>
-<p>第一种是页面加载报timeout的错误，退出，第二种是脚本中止加载<br>两者有点小区别，详细请百度。</p>
-<p>驱动浏览器大致可以这么写</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#防空链接报错</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">printpause</span>(<span class="params">timepause</span>):</span><br><span class="line">	<span class="built_in">print</span>(<span class="string">&#x27;***访问超时，程序暂停***&#x27;</span>)</span><br><span class="line">	<span class="built_in">print</span>(<span class="string">&#x27;%d秒后继续&#x27;</span> %timepause)</span><br><span class="line">	time.sleep(timepause) <span class="comment">#报错会一时中止加载</span></span><br><span class="line">	</span><br><span class="line"><span class="keyword">def</span> <span class="title function_">drivebrowser</span>():</span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        browser=browser_set() <span class="comment">#browser_set()就是驱动浏览器的函数</span></span><br><span class="line">        <span class="keyword">return</span> browser <span class="comment">#如果try成功了就会return出browser</span></span><br><span class="line">    <span class="keyword">except</span>:</span><br><span class="line">        secends = random.randint(<span class="number">120</span>, <span class="number">150</span>) </span><br><span class="line">        printpause(secends) </span><br><span class="line">        <span class="keyword">try</span>:</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">&#x27;***重试请求***&#x27;</span>)</span><br><span class="line">            browser=browser_set()</span><br><span class="line">            <span class="keyword">return</span> browser </span><br><span class="line">		<span class="keyword">except</span>:         <span class="comment">#写多几层保险一点</span></span><br><span class="line">            printpause(<span class="number">150</span>)</span><br><span class="line">            <span class="keyword">try</span>:</span><br><span class="line">                <span class="built_in">print</span>(<span class="string">&#x27;***重试请求***&#x27;</span>)</span><br><span class="line">                browser=browser_set()</span><br><span class="line">                <span class="keyword">return</span> browser</span><br><span class="line">            <span class="keyword">except</span>:</span><br><span class="line">                <span class="built_in">print</span>(<span class="string">&#x27;***访问失败，程序继续***&#x27;</span>)</span><br><span class="line">                <span class="keyword">return</span> <span class="string">&#x27;&#x27;</span>  <span class="comment">#实在不行就跳过了</span></span><br></pre></td></tr></table></figure>
-<p>第二种报错就是访问超时的报错，也建议用try函数<br>访问函数也可以照着上面写try，except，这里就不多写了</p>
-<p>写了这么多try之后，我也在想应该不可能报错了，其实上还是<br>会报的只不过几率很小很小，所以大型爬虫操作还是悠着点，<br>几千秒的运行中间报了错可不是开玩笑的。。</p>
-<p><img src="/image/928D_91_1.jpg" alt="2"></p>
-<p>4.额额额什么？<br>selenium无法正确抓取网页了？？<br>现在的情况是，单是selenium的爬虫已经会被网站拦截了</p>
-<p>搜索别人的经验后，了解到了防侦测脚本驱动浏览器的第三库</p>
-<figure class="highlight elm"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> undetected_chromedriver <span class="keyword">as</span> uc</span><br></pre></td></tr></table></figure>
-<p>以下是抄的作业<br>以咱的水平看不懂，但确实神奇的解决了问题</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">browser_set</span>():</span><br><span class="line">    <span class="comment">#浏览器引擎设置</span></span><br><span class="line">    options = webdriver.ChromeOptions()</span><br><span class="line">	<span class="comment">#取出chrome的option设置</span></span><br><span class="line">    options.add_argument(<span class="string">&quot;--headless&quot;</span>)</span><br><span class="line">	<span class="comment">#后台驱动chrome</span></span><br><span class="line">    <span class="comment"># 去除“Chrome正受到自动测试软件的控制”的显示</span></span><br><span class="line">    options.add_experimental_option(<span class="string">&quot;excludeSwitches&quot;</span>, [<span class="string">&quot;enable-automation&quot;</span>])</span><br><span class="line">    browserset = webdriver.Chrome(options=options)</span><br><span class="line">    <span class="comment"># 设置headers</span></span><br><span class="line">    browserset.execute_cdp_cmd(<span class="string">&quot;Network.setExtraHTTPHeaders&quot;</span>,</span><br><span class="line">                           &#123;<span class="string">&quot;headers&quot;</span>:</span><br><span class="line">                                &#123;</span><br><span class="line">                                    <span class="string">&quot;User-Agent&quot;</span>: <span class="string">&quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36&quot;</span>,</span><br><span class="line">                                    &#125;</span><br><span class="line">                            &#125;)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 防止网站检测selenium的webdriver</span></span><br><span class="line">    browserset.execute_cdp_cmd(<span class="string">&quot;Page.addScriptToEvaluateOnNewDocument&quot;</span>, &#123;</span><br><span class="line">        <span class="string">&quot;source&quot;</span>: <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">                Object.defineProperty(navigator, &#x27;webdriver&#x27;, &#123;</span></span><br><span class="line"><span class="string">                    get: () =&gt; False</span></span><br><span class="line"><span class="string">                &#125;)</span></span><br><span class="line"><span class="string">            &quot;&quot;&quot;</span>&#125;)</span><br><span class="line"></span><br><span class="line">    browserset.set_page_load_timeout(<span class="number">100</span>)</span><br><span class="line">    browserset.set_script_timeout(<span class="number">100</span>)</span><br><span class="line">    <span class="keyword">return</span> browserset</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>Python</category>
-      </categories>
-      <tags>
-        <tag>爬虫</tag>
-      </tags>
   </entry>
 </search>
