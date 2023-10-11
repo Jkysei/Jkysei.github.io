@@ -41,34 +41,6 @@
       </categories>
   </entry>
   <entry>
-    <title>css音频波浪动画</title>
-    <url>/2023/10/03/css%E9%9F%B3%E9%A2%91%E6%B3%A2%E6%B5%AA%E5%8A%A8%E7%94%BB/</url>
-    <content><![CDATA[<p>如题<br>本文主要收藏一个CSS动画，<br>可以用来配合音乐做出音频波浪的效果。</p>
-<span id="more"></span>
-<p><img src="/2023/10/03/css%E9%9F%B3%E9%A2%91%E6%B3%A2%E6%B5%AA%E5%8A%A8%E7%94%BB/1005D_253_1.jpg" alt="1005D_253_1.jpg"></p>
-<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bars_music&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span>   </span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bars_music</span>&#123;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">width</span>: <span class="number">60px</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">height</span>: <span class="number">30px</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">position</span>: absolute;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">left</span>: <span class="number">0</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">right</span>: <span class="number">0</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">margin</span>: auto;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span>&#123;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">background</span>: <span class="number">#FF88C2</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">border</span>:<span class="number">1px</span> solid;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">height</span>: <span class="number">3px</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">width</span>: <span class="number">4px</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">position</span>: absolute;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">bottom</span>:<span class="number">1px</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">animation</span>: voice <span class="number">0ms</span> -<span class="number">800ms</span> linear infinite alternate;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"><span class="keyword">@keyframes</span> voice&#123;</span></span><br><span class="line"><span class="language-css">	</span></span><br><span class="line"><span class="language-css">	<span class="number">0%</span>&#123;</span></span><br><span class="line"><span class="language-css">		<span class="attribute">height</span>: <span class="number">3px</span>;</span></span><br><span class="line"><span class="language-css">		<span class="attribute">opacity</span>: .<span class="number">35</span>;</span></span><br><span class="line"><span class="language-css">	&#125;</span></span><br><span class="line"><span class="language-css">	<span class="number">100%</span>&#123;</span></span><br><span class="line"><span class="language-css">		<span class="attribute">height</span>: <span class="number">24px</span>;</span></span><br><span class="line"><span class="language-css">		<span class="attribute">opacity</span>: <span class="number">1</span>;</span></span><br><span class="line"><span class="language-css">	&#125;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">1</span>)  &#123; <span class="attribute">left</span>: <span class="number">1px</span>; <span class="attribute">animation-duration</span>: <span class="number">474ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">2</span>)  &#123; <span class="attribute">left</span>: <span class="number">6px</span>; <span class="attribute">animation-duration</span>: <span class="number">433ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">3</span>)  &#123; <span class="attribute">left</span>: <span class="number">11px</span>; <span class="attribute">animation-duration</span>: <span class="number">407ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">4</span>)  &#123; <span class="attribute">left</span>: <span class="number">16px</span>; <span class="attribute">animation-duration</span>: <span class="number">458ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">5</span>)  &#123; <span class="attribute">left</span>: <span class="number">21px</span>; <span class="attribute">animation-duration</span>: <span class="number">400ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">6</span>)  &#123; <span class="attribute">left</span>: <span class="number">26px</span>; <span class="attribute">animation-duration</span>: <span class="number">427ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">7</span>)  &#123; <span class="attribute">left</span>: <span class="number">31px</span>; <span class="attribute">animation-duration</span>: <span class="number">441ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">8</span>)  &#123; <span class="attribute">left</span>: <span class="number">36px</span>; <span class="attribute">animation-duration</span>: <span class="number">419ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">9</span>)  &#123; <span class="attribute">left</span>: <span class="number">41px</span>; <span class="attribute">animation-duration</span>: <span class="number">487ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">10</span>) &#123; <span class="attribute">left</span>: <span class="number">46px</span>; <span class="attribute">animation-duration</span>: <span class="number">442ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>前端CSS</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>ppt测试</title>
-    <url>/2023/10/08/ppt%E6%B5%8B%E8%AF%95/</url>
-    <content><![CDATA[<p>—占位—<br>本文提供了一个ppt预览和下载功能<br>—占位—</p>
-<span id="more"></span>
-<p><img src="https://suxingchahui.fun/2023/10/04/%E9%A2%9C%E8%89%BA%E5%A4%A7%E8%B5%8F2/asa51.png" alt="1"></p>
-<iframe src="/pdf/汇报.pdf" style="width:800px; height:500px;" frameborder="0"></iframe>
-
-<p><a target="_blank" href="/pdf/汇报.pdf" download="汇报.pdf">汇报.pdf</a></p>
-
-<p><a target="_blank" href="/pdf/汇报.pptx" download="汇报.pptx">汇报.pptx</a></p>
-
-]]></content>
-      <categories>
-        <category>测试</category>
-      </categories>
-  </entry>
-  <entry>
     <title>jQuery的css选择器的写法</title>
     <url>/2023/09/28/jQuery%E7%9A%84css%E9%80%89%E6%8B%A9%E5%99%A8%E7%9A%84%E5%86%99%E6%B3%95/</url>
     <content><![CDATA[<p>前文传送门<br><a href="/2023/09/27/%E7%94%A8JS%EF%BC%88%E5%89%8D%E7%AB%AF%EF%BC%89%E5%88%B6%E4%BD%9C%E7%9A%84%E7%AE%80%E6%98%93%E7%88%AC%E8%99%AB">前文：用JS（前端）制作的简易爬虫</a></p>
@@ -115,6 +87,148 @@
       <tags>
         <tag>Python</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>css音频波浪动画</title>
+    <url>/2023/10/03/css%E9%9F%B3%E9%A2%91%E6%B3%A2%E6%B5%AA%E5%8A%A8%E7%94%BB/</url>
+    <content><![CDATA[<p>如题<br>本文主要收藏一个CSS动画，<br>可以用来配合音乐做出音频波浪的效果。</p>
+<span id="more"></span>
+<p><img src="/2023/10/03/css%E9%9F%B3%E9%A2%91%E6%B3%A2%E6%B5%AA%E5%8A%A8%E7%94%BB/1005D_253_1.jpg" alt="1005D_253_1.jpg"></p>
+<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bars_music&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span>   </span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bars_music</span>&#123;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">width</span>: <span class="number">60px</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">height</span>: <span class="number">30px</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">position</span>: absolute;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">left</span>: <span class="number">0</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">right</span>: <span class="number">0</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">margin</span>: auto;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span>&#123;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">background</span>: <span class="number">#FF88C2</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">border</span>:<span class="number">1px</span> solid;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">height</span>: <span class="number">3px</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">width</span>: <span class="number">4px</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">position</span>: absolute;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">bottom</span>:<span class="number">1px</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">animation</span>: voice <span class="number">0ms</span> -<span class="number">800ms</span> linear infinite alternate;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"><span class="keyword">@keyframes</span> voice&#123;</span></span><br><span class="line"><span class="language-css">	</span></span><br><span class="line"><span class="language-css">	<span class="number">0%</span>&#123;</span></span><br><span class="line"><span class="language-css">		<span class="attribute">height</span>: <span class="number">3px</span>;</span></span><br><span class="line"><span class="language-css">		<span class="attribute">opacity</span>: .<span class="number">35</span>;</span></span><br><span class="line"><span class="language-css">	&#125;</span></span><br><span class="line"><span class="language-css">	<span class="number">100%</span>&#123;</span></span><br><span class="line"><span class="language-css">		<span class="attribute">height</span>: <span class="number">24px</span>;</span></span><br><span class="line"><span class="language-css">		<span class="attribute">opacity</span>: <span class="number">1</span>;</span></span><br><span class="line"><span class="language-css">	&#125;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">1</span>)  &#123; <span class="attribute">left</span>: <span class="number">1px</span>; <span class="attribute">animation-duration</span>: <span class="number">474ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">2</span>)  &#123; <span class="attribute">left</span>: <span class="number">6px</span>; <span class="attribute">animation-duration</span>: <span class="number">433ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">3</span>)  &#123; <span class="attribute">left</span>: <span class="number">11px</span>; <span class="attribute">animation-duration</span>: <span class="number">407ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">4</span>)  &#123; <span class="attribute">left</span>: <span class="number">16px</span>; <span class="attribute">animation-duration</span>: <span class="number">458ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">5</span>)  &#123; <span class="attribute">left</span>: <span class="number">21px</span>; <span class="attribute">animation-duration</span>: <span class="number">400ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">6</span>)  &#123; <span class="attribute">left</span>: <span class="number">26px</span>; <span class="attribute">animation-duration</span>: <span class="number">427ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">7</span>)  &#123; <span class="attribute">left</span>: <span class="number">31px</span>; <span class="attribute">animation-duration</span>: <span class="number">441ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">8</span>)  &#123; <span class="attribute">left</span>: <span class="number">36px</span>; <span class="attribute">animation-duration</span>: <span class="number">419ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">9</span>)  &#123; <span class="attribute">left</span>: <span class="number">41px</span>; <span class="attribute">animation-duration</span>: <span class="number">487ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">10</span>) &#123; <span class="attribute">left</span>: <span class="number">46px</span>; <span class="attribute">animation-duration</span>: <span class="number">442ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>前端CSS</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>ppt测试</title>
+    <url>/2023/10/08/ppt%E6%B5%8B%E8%AF%95/</url>
+    <content><![CDATA[<p>—占位—<br>本文提供了一个ppt预览和下载功能<br>—占位—</p>
+<span id="more"></span>
+<p><img src="https://suxingchahui.fun/2023/10/04/%E9%A2%9C%E8%89%BA%E5%A4%A7%E8%B5%8F2/asa51.png" alt="1"></p>
+<iframe src="/pdf/汇报.pdf" style="width:800px; height:500px;" frameborder="0"></iframe>
+
+<p><a target="_blank" href="/pdf/汇报.pdf" download="汇报.pdf">汇报.pdf</a></p>
+
+<p><a target="_blank" href="/pdf/汇报.pptx" download="汇报.pptx">汇报.pptx</a></p>
+
+]]></content>
+      <categories>
+        <category>测试</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>word测试</title>
+    <url>/2023/10/11/word%E6%B5%8B%E8%AF%95/</url>
+    <content><![CDATA[<p>—占位—<br>本文提供了一个ppt预览和下载功能<br>—占位—</p>
+<span id="more"></span>
+<p><a target="_blank" href="/word/物流小组作业（调度优化）.docx" download="物流小组作业（调度优化）.docx">物流小组作业（调度优化）.docx</a></p>
+]]></content>
+      <categories>
+        <category>测试</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>【测试】js做的歌碟</title>
+    <url>/2023/09/30/%E3%80%90%E7%9E%8E%E6%90%9E-%E6%B5%8B%E8%AF%95%E3%80%91js%E5%81%9A%E7%9A%84%E6%AD%8C%E7%A2%9F/</url>
+    <content><![CDATA[<p>本文写的用纯JS（Jquery）写出的歌碟，<br>歌碟通过CSS转动，可以切歌。</p>
+<span id="more"></span>
+
+<p><img src="/image/929D_257_1.jpg" alt="1"></p>
+<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js">
+</script>
+<script>
+var s1=true;
+var musicbox=$(".musicbox_test");
+function mutr(){
+    if (s1==false){
+        s1=true;
+        $(".music_test").attr("src","/image/Akatsuki.mp3")
+        $(".recent_text").text("歌曲1")
+        console.log("ch1")	
+        if ($(".pic_box").css("animation-play-state")=="running"){
+                $(".music_pic").css({"animation-play-state":"paused"});
+                $(".pic_box").css({"animation-play-state":"paused"});
+                $(".music_test").get(0).pause();
+                s=true;
+            }
+    }
+    else{
+        s1=false;
+        $(".music_test").attr("src","/image/wonderland.mp3")
+        $(".recent_text").text("歌曲2")
+        console.log("ch2")
+        if ($(".pic_box").css("animation-play-state")=="running"){
+                $(".music_pic").css({"animation-play-state":"paused"});
+                $(".pic_box").css({"animation-play-state":"paused"});
+                $(".music_test").get(0).pause();
+                s=true;
+            }
+        }
+}
+s=true;
+
+function muplay(){
+    if (s==false){
+        s=true;
+        var music=$(".music_test").get(0);
+        var pic=$(".music_pic");
+        var box=$(".pic_box");
+        music.pause();	 
+        pic.css({"animation-play-state":"paused"});
+        box.css({"animation-play-state":"paused"});
+        }
+    else{
+        var music=$(".music_test").get(0);
+        var pic=$(".music_pic");
+        var box=$(".pic_box");
+        s=false;
+        music.play();
+        pic.css({"animation-play-state":"running"});
+        box.css({"animation-play-state":"running"});
+        
+        }
+}
+</script>
+<style>
+.pic_box{
+    width:250px;
+    border-radius: 50%;
+    background-color:white;
+    animation: Box 3s linear infinite;
+    animation-play-state:paused;
+}
+.pic_box img{
+    width:200px;
+    height:200px;
+    animation: Box 3s linear infinite;
+    animation-play-state:paused;
+    
+    }
+@keyframes Box{
+    0%{transform: rotate(0deg);}
+    50%{transform: rotate(180deg);}
+    100%{transform: rotate(360deg);}
+}
+</style>
+<!--more-->
+<div onclick="mutr()">
+<p>音乐盒（点我切歌）</p>
+<p class="recent_text">&nbsp;歌曲1</p>
+</div>
+<div id="box1" class="pic_box">
+  <img id="pic" class="music_pic" onclick="muplay()" src="/image/420px-KoishiSubterranean封面.jpg" alt="" />
+</div>
+<div id="musicbox" class="musicbox_test">
+    <audio id="Akatsuki" class="music_test" src="/image/Akatsuki.mp3" loop="loop" >
+    </audio>
+</div>
+
+
+<p>源代码</p>
+<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="keyword">var</span> s1=<span class="literal">true</span>;</span></span><br><span class="line"><span class="language-javascript"><span class="keyword">var</span> musicbox=$(<span class="string">&quot;.musicbox_test&quot;</span>);</span></span><br><span class="line"><span class="language-javascript"><span class="keyword">function</span> <span class="title function_">mutr</span>(<span class="params"></span>)&#123;</span></span><br><span class="line"><span class="language-javascript">	<span class="keyword">if</span> (s1==<span class="literal">false</span>)&#123;</span></span><br><span class="line"><span class="language-javascript">		s1=<span class="literal">true</span>;</span></span><br><span class="line"><span class="language-javascript">		$(<span class="string">&quot;.music_test&quot;</span>).<span class="title function_">attr</span>(<span class="string">&quot;src&quot;</span>,<span class="string">&quot;/image/Akatsuki.mp3&quot;</span>)</span></span><br><span class="line"><span class="language-javascript">		$(<span class="string">&quot;.recent_text&quot;</span>).<span class="title function_">text</span>(<span class="string">&quot;歌曲1&quot;</span>)</span></span><br><span class="line"><span class="language-javascript">		<span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&quot;ch1&quot;</span>)	</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">if</span> ($(<span class="string">&quot;.pic_box&quot;</span>).<span class="title function_">css</span>(<span class="string">&quot;animation-play-state&quot;</span>)==<span class="string">&quot;running&quot;</span>)&#123;</span></span><br><span class="line"><span class="language-javascript">				$(<span class="string">&quot;.music_pic&quot;</span>).<span class="title function_">css</span>(&#123;<span class="string">&quot;animation-play-state&quot;</span>:<span class="string">&quot;paused&quot;</span>&#125;);</span></span><br><span class="line"><span class="language-javascript">				$(<span class="string">&quot;.pic_box&quot;</span>).<span class="title function_">css</span>(&#123;<span class="string">&quot;animation-play-state&quot;</span>:<span class="string">&quot;paused&quot;</span>&#125;);</span></span><br><span class="line"><span class="language-javascript">				$(<span class="string">&quot;.music_test&quot;</span>).<span class="title function_">get</span>(<span class="number">0</span>).<span class="title function_">pause</span>();</span></span><br><span class="line"><span class="language-javascript">				s=<span class="literal">true</span>;</span></span><br><span class="line"><span class="language-javascript">			&#125;</span></span><br><span class="line"><span class="language-javascript">	&#125;</span></span><br><span class="line"><span class="language-javascript">	<span class="keyword">else</span>&#123;</span></span><br><span class="line"><span class="language-javascript">		s1=<span class="literal">false</span>;</span></span><br><span class="line"><span class="language-javascript">		$(<span class="string">&quot;.music_test&quot;</span>).<span class="title function_">attr</span>(<span class="string">&quot;src&quot;</span>,<span class="string">&quot;/image/wonderland.mp3&quot;</span>)</span></span><br><span class="line"><span class="language-javascript">		$(<span class="string">&quot;.recent_text&quot;</span>).<span class="title function_">text</span>(<span class="string">&quot;歌曲2&quot;</span>)</span></span><br><span class="line"><span class="language-javascript">		<span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&quot;ch2&quot;</span>)</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">if</span> ($(<span class="string">&quot;.pic_box&quot;</span>).<span class="title function_">css</span>(<span class="string">&quot;animation-play-state&quot;</span>)==<span class="string">&quot;running&quot;</span>)&#123;</span></span><br><span class="line"><span class="language-javascript">				$(<span class="string">&quot;.music_pic&quot;</span>).<span class="title function_">css</span>(&#123;<span class="string">&quot;animation-play-state&quot;</span>:<span class="string">&quot;paused&quot;</span>&#125;);</span></span><br><span class="line"><span class="language-javascript">				$(<span class="string">&quot;.pic_box&quot;</span>).<span class="title function_">css</span>(&#123;<span class="string">&quot;animation-play-state&quot;</span>:<span class="string">&quot;paused&quot;</span>&#125;);</span></span><br><span class="line"><span class="language-javascript">				$(<span class="string">&quot;.music_test&quot;</span>).<span class="title function_">get</span>(<span class="number">0</span>).<span class="title function_">pause</span>();</span></span><br><span class="line"><span class="language-javascript">				s=<span class="literal">true</span>;</span></span><br><span class="line"><span class="language-javascript">			&#125;</span></span><br><span class="line"><span class="language-javascript">		&#125;</span></span><br><span class="line"><span class="language-javascript">&#125;</span></span><br><span class="line"><span class="language-javascript">s=<span class="literal">true</span>;</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="keyword">function</span> <span class="title function_">muplay</span>(<span class="params"></span>)&#123;</span></span><br><span class="line"><span class="language-javascript">	<span class="keyword">if</span> (s==<span class="literal">false</span>)&#123;</span></span><br><span class="line"><span class="language-javascript">		s=<span class="literal">true</span>;</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">var</span> music=$(<span class="string">&quot;.music_test&quot;</span>).<span class="title function_">get</span>(<span class="number">0</span>);</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">var</span> pic=$(<span class="string">&quot;.music_pic&quot;</span>);</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">var</span> box=$(<span class="string">&quot;.pic_box&quot;</span>);</span></span><br><span class="line"><span class="language-javascript">		music.<span class="title function_">pause</span>();	 </span></span><br><span class="line"><span class="language-javascript">		pic.<span class="title function_">css</span>(&#123;<span class="string">&quot;animation-play-state&quot;</span>:<span class="string">&quot;paused&quot;</span>&#125;);</span></span><br><span class="line"><span class="language-javascript">		box.<span class="title function_">css</span>(&#123;<span class="string">&quot;animation-play-state&quot;</span>:<span class="string">&quot;paused&quot;</span>&#125;);</span></span><br><span class="line"><span class="language-javascript">		&#125;</span></span><br><span class="line"><span class="language-javascript">	<span class="keyword">else</span>&#123;</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">var</span> music=$(<span class="string">&quot;.music_test&quot;</span>).<span class="title function_">get</span>(<span class="number">0</span>);</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">var</span> pic=$(<span class="string">&quot;.music_pic&quot;</span>);</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">var</span> box=$(<span class="string">&quot;.pic_box&quot;</span>);</span></span><br><span class="line"><span class="language-javascript">		s=<span class="literal">false</span>;</span></span><br><span class="line"><span class="language-javascript">		music.<span class="title function_">play</span>();</span></span><br><span class="line"><span class="language-javascript">		pic.<span class="title function_">css</span>(&#123;<span class="string">&quot;animation-play-state&quot;</span>:<span class="string">&quot;running&quot;</span>&#125;);</span></span><br><span class="line"><span class="language-javascript">		box.<span class="title function_">css</span>(&#123;<span class="string">&quot;animation-play-state&quot;</span>:<span class="string">&quot;running&quot;</span>&#125;);</span></span><br><span class="line"><span class="language-javascript">		</span></span><br><span class="line"><span class="language-javascript">		&#125;</span></span><br><span class="line"><span class="language-javascript">&#125;</span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.pic_box</span>&#123;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">width</span>:<span class="number">250px</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">border-radius</span>: <span class="number">50%</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">background-color</span>:white;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">animation</span>: Box <span class="number">3s</span> linear infinite;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">animation-play-state</span>:paused;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.pic_box</span> <span class="selector-tag">img</span>&#123;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">width</span>:<span class="number">200px</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">height</span>:<span class="number">200px</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">animation</span>: Box <span class="number">3s</span> linear infinite;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">animation-play-state</span>:paused;</span></span><br><span class="line"><span class="language-css">	</span></span><br><span class="line"><span class="language-css">	&#125;</span></span><br><span class="line"><span class="language-css"><span class="keyword">@keyframes</span> Box&#123;</span></span><br><span class="line"><span class="language-css">	<span class="number">0%</span>&#123;<span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">0deg</span>);&#125;</span></span><br><span class="line"><span class="language-css">	<span class="number">50%</span>&#123;<span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">180deg</span>);&#125;</span></span><br><span class="line"><span class="language-css">	<span class="number">100%</span>&#123;<span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">360deg</span>);&#125;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!--more--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">onclick</span>=<span class="string">&quot;mutr()&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>音乐盒（点我切歌）<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span> <span class="attr">class</span>=<span class="string">&quot;recent_text&quot;</span>&gt;</span><span class="symbol">&amp;nbsp;</span>歌曲1<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;box1&quot;</span> <span class="attr">class</span>=<span class="string">&quot;pic_box&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">img</span> <span class="attr">id</span>=<span class="string">&quot;pic&quot;</span> <span class="attr">class</span>=<span class="string">&quot;music_pic&quot;</span> <span class="attr">onclick</span>=<span class="string">&quot;muplay()&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/image/420px-KoishiSubterranean封面.jpg&quot;</span> <span class="attr">alt</span>=<span class="string">&quot;&quot;</span> /&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;musicbox&quot;</span> <span class="attr">class</span>=<span class="string">&quot;musicbox_test&quot;</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">audio</span> <span class="attr">id</span>=<span class="string">&quot;Akatsuki&quot;</span> <span class="attr">class</span>=<span class="string">&quot;music_test&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/image/Akatsuki.mp3&quot;</span>  <span class="attr">loop</span>=<span class="string">&quot;loop&quot;</span> &gt;</span></span><br><span class="line">	<span class="tag">&lt;/<span class="name">audio</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>前端JS</category>
+      </categories>
   </entry>
   <entry>
     <title>【Python】Pyquery 一个Python的CSS选择器</title>
@@ -682,107 +796,25 @@
       </tags>
   </entry>
   <entry>
-    <title>【测试】js做的歌碟</title>
-    <url>/2023/09/30/%E3%80%90%E7%9E%8E%E6%90%9E-%E6%B5%8B%E8%AF%95%E3%80%91js%E5%81%9A%E7%9A%84%E6%AD%8C%E7%A2%9F/</url>
-    <content><![CDATA[<p>本文写的用纯JS（Jquery）写出的歌碟，<br>歌碟通过CSS转动，可以切歌。</p>
+    <title>【算法/Python】DataFrame的单行指定插入</title>
+    <url>/2023/09/29/%E3%80%90%E7%AE%97%E6%B3%95-Python%E3%80%91DataFrame%E7%9A%84%E5%8D%95%E8%A1%8C%E6%8C%87%E5%AE%9A%E6%8F%92%E5%85%A5/</url>
+    <content><![CDATA[<p>1.前言<br>Pandas的DataFrame常常用于存储二维数组<br>pandas的功能也比较强大，可以对接excel。<br>但当数据行数很多的情况，就想要新数据插入指定行，<br>似乎pandas并没有现成的函数支持<br>只有比较原始的插入，而且这种方法必须要求list的长度等于df的列数<br>于是就想写一个</p>
+<figure class="highlight vim"><table><tr><td class="code"><pre><span class="line">df.<span class="keyword">loc</span>[<span class="built_in">len</span>(df.<span class="built_in">index</span>)]=<span class="keyword">list</span> </span><br></pre></td></tr></table></figure>
 <span id="more"></span>
 
-<p><img src="/image/929D_257_1.jpg" alt="1"></p>
-<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js">
-</script>
-<script>
-var s1=true;
-var musicbox=$(".musicbox_test");
-function mutr(){
-    if (s1==false){
-        s1=true;
-        $(".music_test").attr("src","/image/Akatsuki.mp3")
-        $(".recent_text").text("歌曲1")
-        console.log("ch1")	
-        if ($(".pic_box").css("animation-play-state")=="running"){
-                $(".music_pic").css({"animation-play-state":"paused"});
-                $(".pic_box").css({"animation-play-state":"paused"});
-                $(".music_test").get(0).pause();
-                s=true;
-            }
-    }
-    else{
-        s1=false;
-        $(".music_test").attr("src","/image/wonderland.mp3")
-        $(".recent_text").text("歌曲2")
-        console.log("ch2")
-        if ($(".pic_box").css("animation-play-state")=="running"){
-                $(".music_pic").css({"animation-play-state":"paused"});
-                $(".pic_box").css({"animation-play-state":"paused"});
-                $(".music_test").get(0).pause();
-                s=true;
-            }
-        }
-}
-s=true;
+<p><img src="/image/929D_226_1.jpg" alt="1"><br>2.算法<br>废话不多说上算法<br>利用分离，然后上下合并（concat）的方法<br>通常数据较多用行名作参数比较容易</p>
+<figure class="highlight scss"><table><tr><td class="code"><pre><span class="line">def <span class="built_in">dfinsert</span>(df, indexname, list,name):</span><br><span class="line">	#df为原数据，list为想要插入的数据</span><br><span class="line">    df_add = pd.<span class="built_in">DataFrame</span>(</span><br><span class="line">		columns=<span class="built_in">list</span>(<span class="built_in">range</span>(<span class="number">1</span>, <span class="built_in">len</span>(list) + <span class="number">1</span>))</span><br><span class="line">		)</span><br><span class="line">    df_add.loc[name] = list #创建想要插入的df数据</span><br><span class="line">    df1 = df.loc[:indexname, :]</span><br><span class="line">	# 不同于行数定位，要获取下一行有点绕</span><br><span class="line">    y=<span class="string">&quot;&quot;</span></span><br><span class="line">    for e in <span class="built_in">range</span>(<span class="built_in">len</span>(<span class="built_in">list</span>(df.index))):</span><br><span class="line">        if <span class="built_in">list</span>(df.index)[e]==indexname:</span><br><span class="line">            y=<span class="built_in">list</span>(df.index)[e+<span class="number">1</span>]</span><br><span class="line">    df2 = df.loc[y:, :]</span><br><span class="line">    df_new = pd.<span class="built_in">concat</span>([df1, df_add, df2])</span><br><span class="line">    return df_new #合并后的数据</span><br></pre></td></tr></table></figure>
 
-function muplay(){
-    if (s==false){
-        s=true;
-        var music=$(".music_test").get(0);
-        var pic=$(".music_pic");
-        var box=$(".pic_box");
-        music.pause();	 
-        pic.css({"animation-play-state":"paused"});
-        box.css({"animation-play-state":"paused"});
-        }
-    else{
-        var music=$(".music_test").get(0);
-        var pic=$(".music_pic");
-        var box=$(".pic_box");
-        s=false;
-        music.play();
-        pic.css({"animation-play-state":"running"});
-        box.css({"animation-play-state":"running"});
-        
-        }
-}
-</script>
-<style>
-.pic_box{
-    width:250px;
-    border-radius: 50%;
-    background-color:white;
-    animation: Box 3s linear infinite;
-    animation-play-state:paused;
-}
-.pic_box img{
-    width:200px;
-    height:200px;
-    animation: Box 3s linear infinite;
-    animation-play-state:paused;
-    
-    }
-@keyframes Box{
-    0%{transform: rotate(0deg);}
-    50%{transform: rotate(180deg);}
-    100%{transform: rotate(360deg);}
-}
-</style>
-<!--more-->
-<div onclick="mutr()">
-<p>音乐盒（点我切歌）</p>
-<p class="recent_text">&nbsp;歌曲1</p>
-</div>
-<div id="box1" class="pic_box">
-  <img id="pic" class="music_pic" onclick="muplay()" src="/image/420px-KoishiSubterranean封面.jpg" alt="" />
-</div>
-<div id="musicbox" class="musicbox_test">
-    <audio id="Akatsuki" class="music_test" src="/image/Akatsuki.mp3" loop="loop" >
-    </audio>
-</div>
-
-
-<p>源代码</p>
-<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="keyword">var</span> s1=<span class="literal">true</span>;</span></span><br><span class="line"><span class="language-javascript"><span class="keyword">var</span> musicbox=$(<span class="string">&quot;.musicbox_test&quot;</span>);</span></span><br><span class="line"><span class="language-javascript"><span class="keyword">function</span> <span class="title function_">mutr</span>(<span class="params"></span>)&#123;</span></span><br><span class="line"><span class="language-javascript">	<span class="keyword">if</span> (s1==<span class="literal">false</span>)&#123;</span></span><br><span class="line"><span class="language-javascript">		s1=<span class="literal">true</span>;</span></span><br><span class="line"><span class="language-javascript">		$(<span class="string">&quot;.music_test&quot;</span>).<span class="title function_">attr</span>(<span class="string">&quot;src&quot;</span>,<span class="string">&quot;/image/Akatsuki.mp3&quot;</span>)</span></span><br><span class="line"><span class="language-javascript">		$(<span class="string">&quot;.recent_text&quot;</span>).<span class="title function_">text</span>(<span class="string">&quot;歌曲1&quot;</span>)</span></span><br><span class="line"><span class="language-javascript">		<span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&quot;ch1&quot;</span>)	</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">if</span> ($(<span class="string">&quot;.pic_box&quot;</span>).<span class="title function_">css</span>(<span class="string">&quot;animation-play-state&quot;</span>)==<span class="string">&quot;running&quot;</span>)&#123;</span></span><br><span class="line"><span class="language-javascript">				$(<span class="string">&quot;.music_pic&quot;</span>).<span class="title function_">css</span>(&#123;<span class="string">&quot;animation-play-state&quot;</span>:<span class="string">&quot;paused&quot;</span>&#125;);</span></span><br><span class="line"><span class="language-javascript">				$(<span class="string">&quot;.pic_box&quot;</span>).<span class="title function_">css</span>(&#123;<span class="string">&quot;animation-play-state&quot;</span>:<span class="string">&quot;paused&quot;</span>&#125;);</span></span><br><span class="line"><span class="language-javascript">				$(<span class="string">&quot;.music_test&quot;</span>).<span class="title function_">get</span>(<span class="number">0</span>).<span class="title function_">pause</span>();</span></span><br><span class="line"><span class="language-javascript">				s=<span class="literal">true</span>;</span></span><br><span class="line"><span class="language-javascript">			&#125;</span></span><br><span class="line"><span class="language-javascript">	&#125;</span></span><br><span class="line"><span class="language-javascript">	<span class="keyword">else</span>&#123;</span></span><br><span class="line"><span class="language-javascript">		s1=<span class="literal">false</span>;</span></span><br><span class="line"><span class="language-javascript">		$(<span class="string">&quot;.music_test&quot;</span>).<span class="title function_">attr</span>(<span class="string">&quot;src&quot;</span>,<span class="string">&quot;/image/wonderland.mp3&quot;</span>)</span></span><br><span class="line"><span class="language-javascript">		$(<span class="string">&quot;.recent_text&quot;</span>).<span class="title function_">text</span>(<span class="string">&quot;歌曲2&quot;</span>)</span></span><br><span class="line"><span class="language-javascript">		<span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&quot;ch2&quot;</span>)</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">if</span> ($(<span class="string">&quot;.pic_box&quot;</span>).<span class="title function_">css</span>(<span class="string">&quot;animation-play-state&quot;</span>)==<span class="string">&quot;running&quot;</span>)&#123;</span></span><br><span class="line"><span class="language-javascript">				$(<span class="string">&quot;.music_pic&quot;</span>).<span class="title function_">css</span>(&#123;<span class="string">&quot;animation-play-state&quot;</span>:<span class="string">&quot;paused&quot;</span>&#125;);</span></span><br><span class="line"><span class="language-javascript">				$(<span class="string">&quot;.pic_box&quot;</span>).<span class="title function_">css</span>(&#123;<span class="string">&quot;animation-play-state&quot;</span>:<span class="string">&quot;paused&quot;</span>&#125;);</span></span><br><span class="line"><span class="language-javascript">				$(<span class="string">&quot;.music_test&quot;</span>).<span class="title function_">get</span>(<span class="number">0</span>).<span class="title function_">pause</span>();</span></span><br><span class="line"><span class="language-javascript">				s=<span class="literal">true</span>;</span></span><br><span class="line"><span class="language-javascript">			&#125;</span></span><br><span class="line"><span class="language-javascript">		&#125;</span></span><br><span class="line"><span class="language-javascript">&#125;</span></span><br><span class="line"><span class="language-javascript">s=<span class="literal">true</span>;</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="keyword">function</span> <span class="title function_">muplay</span>(<span class="params"></span>)&#123;</span></span><br><span class="line"><span class="language-javascript">	<span class="keyword">if</span> (s==<span class="literal">false</span>)&#123;</span></span><br><span class="line"><span class="language-javascript">		s=<span class="literal">true</span>;</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">var</span> music=$(<span class="string">&quot;.music_test&quot;</span>).<span class="title function_">get</span>(<span class="number">0</span>);</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">var</span> pic=$(<span class="string">&quot;.music_pic&quot;</span>);</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">var</span> box=$(<span class="string">&quot;.pic_box&quot;</span>);</span></span><br><span class="line"><span class="language-javascript">		music.<span class="title function_">pause</span>();	 </span></span><br><span class="line"><span class="language-javascript">		pic.<span class="title function_">css</span>(&#123;<span class="string">&quot;animation-play-state&quot;</span>:<span class="string">&quot;paused&quot;</span>&#125;);</span></span><br><span class="line"><span class="language-javascript">		box.<span class="title function_">css</span>(&#123;<span class="string">&quot;animation-play-state&quot;</span>:<span class="string">&quot;paused&quot;</span>&#125;);</span></span><br><span class="line"><span class="language-javascript">		&#125;</span></span><br><span class="line"><span class="language-javascript">	<span class="keyword">else</span>&#123;</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">var</span> music=$(<span class="string">&quot;.music_test&quot;</span>).<span class="title function_">get</span>(<span class="number">0</span>);</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">var</span> pic=$(<span class="string">&quot;.music_pic&quot;</span>);</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">var</span> box=$(<span class="string">&quot;.pic_box&quot;</span>);</span></span><br><span class="line"><span class="language-javascript">		s=<span class="literal">false</span>;</span></span><br><span class="line"><span class="language-javascript">		music.<span class="title function_">play</span>();</span></span><br><span class="line"><span class="language-javascript">		pic.<span class="title function_">css</span>(&#123;<span class="string">&quot;animation-play-state&quot;</span>:<span class="string">&quot;running&quot;</span>&#125;);</span></span><br><span class="line"><span class="language-javascript">		box.<span class="title function_">css</span>(&#123;<span class="string">&quot;animation-play-state&quot;</span>:<span class="string">&quot;running&quot;</span>&#125;);</span></span><br><span class="line"><span class="language-javascript">		</span></span><br><span class="line"><span class="language-javascript">		&#125;</span></span><br><span class="line"><span class="language-javascript">&#125;</span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.pic_box</span>&#123;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">width</span>:<span class="number">250px</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">border-radius</span>: <span class="number">50%</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">background-color</span>:white;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">animation</span>: Box <span class="number">3s</span> linear infinite;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">animation-play-state</span>:paused;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.pic_box</span> <span class="selector-tag">img</span>&#123;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">width</span>:<span class="number">200px</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">height</span>:<span class="number">200px</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">animation</span>: Box <span class="number">3s</span> linear infinite;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">animation-play-state</span>:paused;</span></span><br><span class="line"><span class="language-css">	</span></span><br><span class="line"><span class="language-css">	&#125;</span></span><br><span class="line"><span class="language-css"><span class="keyword">@keyframes</span> Box&#123;</span></span><br><span class="line"><span class="language-css">	<span class="number">0%</span>&#123;<span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">0deg</span>);&#125;</span></span><br><span class="line"><span class="language-css">	<span class="number">50%</span>&#123;<span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">180deg</span>);&#125;</span></span><br><span class="line"><span class="language-css">	<span class="number">100%</span>&#123;<span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">360deg</span>);&#125;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!--more--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">onclick</span>=<span class="string">&quot;mutr()&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>音乐盒（点我切歌）<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span> <span class="attr">class</span>=<span class="string">&quot;recent_text&quot;</span>&gt;</span><span class="symbol">&amp;nbsp;</span>歌曲1<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;box1&quot;</span> <span class="attr">class</span>=<span class="string">&quot;pic_box&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">img</span> <span class="attr">id</span>=<span class="string">&quot;pic&quot;</span> <span class="attr">class</span>=<span class="string">&quot;music_pic&quot;</span> <span class="attr">onclick</span>=<span class="string">&quot;muplay()&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/image/420px-KoishiSubterranean封面.jpg&quot;</span> <span class="attr">alt</span>=<span class="string">&quot;&quot;</span> /&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;musicbox&quot;</span> <span class="attr">class</span>=<span class="string">&quot;musicbox_test&quot;</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">audio</span> <span class="attr">id</span>=<span class="string">&quot;Akatsuki&quot;</span> <span class="attr">class</span>=<span class="string">&quot;music_test&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/image/Akatsuki.mp3&quot;</span>  <span class="attr">loop</span>=<span class="string">&quot;loop&quot;</span> &gt;</span></span><br><span class="line">	<span class="tag">&lt;/<span class="name">audio</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+<p>也可以用行数作参数，基本就改一下</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">dfinsert</span>(<span class="params">df, i, listt1,name</span>):</span><br><span class="line">	i=<span class="built_in">int</span>(i) <span class="comment"># 如果i是str先换成int</span></span><br><span class="line">    df_add = pd.DataFrame(</span><br><span class="line">        columns=<span class="built_in">list</span>(<span class="built_in">range</span>(<span class="number">1</span>, <span class="built_in">len</span>(listt1) + <span class="number">1</span>)))</span><br><span class="line">    df_add.loc[name] = listt1</span><br><span class="line">    df1 = df.loc[:i, :]</span><br><span class="line">	<span class="comment"># 行数定位加1就完了</span></span><br><span class="line">    df2 = df.loc[i+<span class="number">1</span>:, :]</span><br><span class="line">    df_new = pd.concat([df1, df_add, df2])</span><br><span class="line">    <span class="keyword">return</span> df_new <span class="comment">#合并后的数据</span></span><br></pre></td></tr></table></figure>
+<p>完结</p>
+]]></content>
       <categories>
-        <category>前端JS</category>
+        <category>算法</category>
       </categories>
+      <tags>
+        <tag>算法</tag>
+      </tags>
   </entry>
   <entry>
     <title>【算法/Python】数字提取</title>
@@ -812,98 +844,6 @@ function muplay(){
       <tags>
         <tag>算法</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>【算法/Python】DataFrame的单行指定插入</title>
-    <url>/2023/09/29/%E3%80%90%E7%AE%97%E6%B3%95-Python%E3%80%91DataFrame%E7%9A%84%E5%8D%95%E8%A1%8C%E6%8C%87%E5%AE%9A%E6%8F%92%E5%85%A5/</url>
-    <content><![CDATA[<p>1.前言<br>Pandas的DataFrame常常用于存储二维数组<br>pandas的功能也比较强大，可以对接excel。<br>但当数据行数很多的情况，就想要新数据插入指定行，<br>似乎pandas并没有现成的函数支持<br>只有比较原始的插入，而且这种方法必须要求list的长度等于df的列数<br>于是就想写一个</p>
-<figure class="highlight vim"><table><tr><td class="code"><pre><span class="line">df.<span class="keyword">loc</span>[<span class="built_in">len</span>(df.<span class="built_in">index</span>)]=<span class="keyword">list</span> </span><br></pre></td></tr></table></figure>
-<span id="more"></span>
-
-<p><img src="/image/929D_226_1.jpg" alt="1"><br>2.算法<br>废话不多说上算法<br>利用分离，然后上下合并（concat）的方法<br>通常数据较多用行名作参数比较容易</p>
-<figure class="highlight scss"><table><tr><td class="code"><pre><span class="line">def <span class="built_in">dfinsert</span>(df, indexname, list,name):</span><br><span class="line">	#df为原数据，list为想要插入的数据</span><br><span class="line">    df_add = pd.<span class="built_in">DataFrame</span>(</span><br><span class="line">		columns=<span class="built_in">list</span>(<span class="built_in">range</span>(<span class="number">1</span>, <span class="built_in">len</span>(list) + <span class="number">1</span>))</span><br><span class="line">		)</span><br><span class="line">    df_add.loc[name] = list #创建想要插入的df数据</span><br><span class="line">    df1 = df.loc[:indexname, :]</span><br><span class="line">	# 不同于行数定位，要获取下一行有点绕</span><br><span class="line">    y=<span class="string">&quot;&quot;</span></span><br><span class="line">    for e in <span class="built_in">range</span>(<span class="built_in">len</span>(<span class="built_in">list</span>(df.index))):</span><br><span class="line">        if <span class="built_in">list</span>(df.index)[e]==indexname:</span><br><span class="line">            y=<span class="built_in">list</span>(df.index)[e+<span class="number">1</span>]</span><br><span class="line">    df2 = df.loc[y:, :]</span><br><span class="line">    df_new = pd.<span class="built_in">concat</span>([df1, df_add, df2])</span><br><span class="line">    return df_new #合并后的数据</span><br></pre></td></tr></table></figure>
-
-<p>也可以用行数作参数，基本就改一下</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">dfinsert</span>(<span class="params">df, i, listt1,name</span>):</span><br><span class="line">	i=<span class="built_in">int</span>(i) <span class="comment"># 如果i是str先换成int</span></span><br><span class="line">    df_add = pd.DataFrame(</span><br><span class="line">        columns=<span class="built_in">list</span>(<span class="built_in">range</span>(<span class="number">1</span>, <span class="built_in">len</span>(listt1) + <span class="number">1</span>)))</span><br><span class="line">    df_add.loc[name] = listt1</span><br><span class="line">    df1 = df.loc[:i, :]</span><br><span class="line">	<span class="comment"># 行数定位加1就完了</span></span><br><span class="line">    df2 = df.loc[i+<span class="number">1</span>:, :]</span><br><span class="line">    df_new = pd.concat([df1, df_add, df2])</span><br><span class="line">    <span class="keyword">return</span> df_new <span class="comment">#合并后的数据</span></span><br></pre></td></tr></table></figure>
-<p>完结</p>
-]]></content>
-      <categories>
-        <category>算法</category>
-      </categories>
-      <tags>
-        <tag>算法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>基于hexo部署github的个人网站</title>
-    <url>/2023/10/09/%E5%9F%BA%E4%BA%8Ehexo%E9%83%A8%E7%BD%B2github%E7%9A%84%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/</url>
-    <content><![CDATA[<p>前言：<br>GithubPages提供了免费的网页部署功能，一旦发布了网站，无论何时何地都可以在互联网上<br>查看。同时网站稳定，即使网站长年未更新，依旧仍然可以在互联网上查看。hexo是一个能够<br>快速通过GithubPages构建一个个人博客的框架，hexo生成出的网页，具有个人博客的基本<br>结构和组件，sidebar，menu，localsearch等，你只需要修改一些设置就能够建立出一个简<br>洁干净的个人博客的网站。同时hexo存在大量的第三方组件的支持，通过设置可以快捷调用出<br>想要的功能，如字数统计，置顶设置等操作。</p>
-<span id="more"></span>
-
-<p>正文：<br>以下是基于Github用hexo部署一个网站的步骤，最终会发布一个<br>hexo默认的网页，也就是landscape的主题，hexo还存在其他很多的第三方集成的主题<br>本文不包括网页设计部分和流程</p>
-<p>1.首先是搭建环境<br>(1)<br><a href="https://nodejs.org/en">Nodejs下载</a><br>Nodejs安装后会携带npm，通过npm可以快速安装<br>一些第三方插件<br>(2)<br><a href="https://git-scm.com/download/win">Git下载</a><br>git安装可以打开git窗口，git可以在终端push到Github<br>hexo也主要通过git进行网页部署</p>
-<p>2.Github基础配置<br>(1)注册登录<br><a href="https://github.com/">Github</a><br>(登不上请科学上网)</p>
-<p>(2)创建新的仓库(repository)<br><img src="/2023/10/09/%E5%9F%BA%E4%BA%8Ehexo%E9%83%A8%E7%BD%B2github%E7%9A%84%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/4.png" alt="1"><br>登录后创建一个新的repository，命名尽量按<br>用户名&#x2F;用户名.github.io，其他没要求，仓库设置为public</p>
-<p>(3)SSH创建<br>SSH公钥是Github识别终端的其中一种方式，<br>在Github个人中心的右侧栏Setting点击后<br>在左侧栏进入带有的SSH字眼<br>创建一个新的SSH,名称随意,其中内容后续有用</p>
-<p>3.Hexo<br><a href="https://hexo.io/zh-cn/index.html">Hexo官网</a><br><img src="/2023/10/09/%E5%9F%BA%E4%BA%8Ehexo%E9%83%A8%E7%BD%B2github%E7%9A%84%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/1.png" alt="1"><br>(1)创建一个空的文件夹（可自己命名）<br>随意在任意磁盘的路径，创建一个空的文件夹<br>在文件夹里，右键点进Git Bash里<br>并在黑色命令框里依次输入<br>记住在命令框粘贴不是Ctrl+V,尽量用鼠标右键<br><img src="/2023/10/09/%E5%9F%BA%E4%BA%8Ehexo%E9%83%A8%E7%BD%B2github%E7%9A%84%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/2.png" alt="1"></p>
-<figure class="highlight cmake"><table><tr><td class="code"><pre><span class="line">npm <span class="keyword">install</span> hexo-cli <span class="comment">#安装hexo</span></span><br><span class="line">hexo init <span class="comment">#hexo初始化</span></span><br><span class="line">npm <span class="keyword">install</span> <span class="comment">#npm安装</span></span><br></pre></td></tr></table></figure>
-<p>(2)成功后,尝试输入</p>
-<figure class="highlight verilog"><table><tr><td class="code"><pre><span class="line">hexo <span class="keyword">generate</span> #hexo解析md等文件，生成文件结构</span><br><span class="line">hexo server #hexo本地服务器查看</span><br></pre></td></tr></table></figure>
-<p>可简写为</p>
-<figure class="highlight ebnf"><table><tr><td class="code"><pre><span class="line"><span class="attribute">hexo g</span></span><br><span class="line"><span class="attribute">hexo s</span></span><br></pre></td></tr></table></figure>
-<p>如下图左边这样的界面（这是官网给的图片）<br><img src="/2023/10/09/%E5%9F%BA%E4%BA%8Ehexo%E9%83%A8%E7%BD%B2github%E7%9A%84%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/3.png" alt="1"><br>(3)上述代码成功<br>按住Ctrl就可以打开本地链接<br>测试成功后用键盘输入</p>
-<figure class="highlight mathematica"><table><tr><td class="code"><pre><span class="line"><span class="variable">Ctrl</span><span class="operator">+</span><span class="built_in">C</span></span><br></pre></td></tr></table></figure>
-<p>可以关闭本地服务器，Ctrl+C的操作可以停止任意命令操作</p>
-<p>4.SSH公钥创建<br>(1)用cd命令进入SSH根目录<br>window打开命令框,win10可以快捷键win+r输入cmd<br>进行命令框，输入用cd命令进入SSH根目录</p>
-<figure class="highlight arcade"><table><tr><td class="code"><pre><span class="line">cd ~<span class="regexp">/.ssh/</span></span><br></pre></td></tr></table></figure>
-<p>(2)在公钥中添加github信息</p>
-<figure class="highlight arcade"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -f  ~<span class="regexp">/.ssh/</span>密钥名称 -C <span class="string">&quot;邮箱&quot;</span></span><br></pre></td></tr></table></figure>
-<p>(3)在SSH根目录找到config文件并更改</p>
-<figure class="highlight crmsh"><table><tr><td class="code"><pre><span class="line">Host xxxxxx.github.com</span><br><span class="line">    HostName ssh/github.com</span><br><span class="line">    <span class="keyword">User</span> <span class="title">git</span></span><br><span class="line">    IdentityFile ~/.ssh/密钥名称</span><br></pre></td></tr></table></figure>
-<p>(4)创建公钥</p>
-<figure class="highlight arcade"><table><tr><td class="code"><pre><span class="line"><span class="built_in">clip</span> &lt; ~<span class="regexp">/.ssh/</span>密钥的名称.pub</span><br></pre></td></tr></table></figure>
-<p>在目录下找到密钥名称的pub文件,打开复制里面内容,<br>粘贴到Github的SSH的内容里</p>
-<p>(5)添加SSH</p>
-<figure class="highlight avrasm"><table><tr><td class="code"><pre><span class="line">ssh-<span class="keyword">add</span> xxxxxx <span class="meta">#密钥名称</span></span><br></pre></td></tr></table></figure>
-<p>如果执行以上命令出现错误：Could not open a<br>connection to your authentication agent.，<br>那么就需要先执行ssh-agent bash，再执行以上命令</p>
-<p>(6)检验是否成功<br>xxxxxx”ssh目录下config文件中的命名</p>
-<figure class="highlight nginx"><table><tr><td class="code"><pre><span class="line"><span class="attribute">ssh</span> -T git<span class="variable">@xxxxxxx</span>.github.com</span><br></pre></td></tr></table></figure>
-<p>出现</p>
-<figure class="highlight ada"><table><tr><td class="code"><pre><span class="line">You<span class="symbol">&#x27;ve</span> successfully authenticated, </span><br><span class="line">but GitHub does <span class="keyword">not</span> provide shell <span class="keyword">access</span>.</span><br></pre></td></tr></table></figure>
-<p>则代表成功</p>
-<p>5.配置github<br>(1)点进博客文件夹中的.deploy_git&#x2F;.git中<br>进入Git Bash里<br>.deploy_git需要打开查看隐藏文件的功能才能够找到，<br>详情自己百度查看，.deploy_git没有就hexo部署一次<br>就会出来了，会报错tell me who are you</p>
-<figure class="highlight pgsql"><table><tr><td class="code"><pre><span class="line">git config <span class="keyword">user</span>.name &quot;用户名&quot;</span><br><span class="line">git config <span class="keyword">user</span>.email &quot;邮箱&quot;</span><br></pre></td></tr></table></figure>
-<p>(2)在博客文件夹中的_config.yml文件<br>打开在末尾更改下列代码</p>
-<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: git@xxxxxx<span class="selector-class">.github</span><span class="selector-class">.com</span>:用户名/用户名<span class="selector-class">.github</span><span class="selector-class">.io</span><span class="selector-class">.git</span></span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
-<p>如果在github输入的不是上述这个格式，可能会打不开网页</p>
-<p>(3)服务器部署<br>在博客文件夹的目录下进入Git Bash<br>依次输入</p>
-<figure class="highlight ebnf"><table><tr><td class="code"><pre><span class="line"><span class="attribute">hexo clean</span></span><br><span class="line"><span class="attribute">hexo g</span></span><br><span class="line"><span class="attribute">hexo d</span></span><br></pre></td></tr></table></figure>
-<p>部署成功后，服务器会有延迟，大概过一两分钟会更新页面<br>可以在github上看部署是否成功，如果失败github会发邮件的</p>
-]]></content>
-      <categories>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>介绍</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>东华大学介绍</title>
-    <url>/2023/09/26/%E6%B5%8B%E8%AF%95/</url>
-    <content><![CDATA[<p>东华大学介绍<br>学校介绍<br>东华大学是教育部直属、国家“211工程”、国家“双一流”建设高校。学校秉承“崇德博学、砺志尚实”的校训，不断开拓奋进，已发展成为以纺织、材料、设计为优势，特色鲜明的多科性、高水平大学。</p>
-<span id="more"></span>
-<p><img src="/image/1.png" alt="1"><br>学校的办学历史可追溯至1912年实业家张謇创办的纺织染传习所。1951年建校，时名华东纺织工学院。1960年，被国家教育部确定为全国重点大学。1981年，成为中国首批具有博士、硕士、学士三级学位授予权的大学之一。1985年，更名为中国纺织大学。1998年，被确定为国家“211工程”重点建设的高等学校。1999年，更名为东华大学。2017年，列入国家“双一流”建设高校。</p>
-<p>学校地处中国上海，现有松江校区、延安路校区和新华路校区，占地面积近2000亩，校舍总建筑面积83万余平方米。学校是“上海市花园单位”和“上海市文明校园”。松江校区是国家级水利风景区。</p>
-<p>学校全校教职工2289人，专任教师1462人，其中专职院士２人，资深院士2人，兼职院士17人，万人计划、长江学者、国家杰青等高层次人才60余人次，其他高级职称教师900余名。全校本科生14422人，硕士研究生7255人，博士研究生1404人，学历留学生705人。</p>
-<p>学校现设有18个学院（部），拥有6个博士后流动站、11个一级学科博士点、3个博士专业学位授权类别、29个一级学科硕士点、2个二级学科硕士点、17个专业学位硕士授权类别、59个本科专业，涵盖工学、理学、管理学、经济学、艺术学、文学、法学、历史学、教育学九大学科门类。现有2个国家“双一流”建设学科， 1个上海高校Ι类高峰学科。纺织科学与工程保持国内领先，获评A+学科。化学、工程学、数学、材料科学、计算机科学、环境科学与生态学、生物与生化7个学科入围ESI全球前1%，其中材料科学学科进入全球前1‰。拥有1个国家重点实验室、1个国家工程技术研究中心、22个省部级重点科研平台，2个国家引智基地以及国家大学科技园。</p>
-<p>学校以培养德智体美劳全面发展的社会主义建设者和接班人为根本任务，坚持“严谨、勤奋、求实、创新”的优良校风，培养基础宽厚、实践能力强、具有创新精神和社会责任感的高素质人才。学校积极建设“五育并举”的教育体系，构建本科生“分层教学、分流培养、多元成才、人人成才”的培养体系，持续深化教育教学改革，新世纪以来，获国家级教学成果奖8项。拥有2个国家级实验教学示范中心，1个国家级虚拟仿真实验教学中心，3个国家工程实践教育中心，10个国家级特色专业，29个国家级一流本科专业。入选 “全国高校黄大年式教师团队” 2个。学校积极构建一流的研究生培养机制，大力发展专业学位研究生教育，获评全国示范性工程专业学位研究生联合培养基地2个，首批进入教育部“卓越工程师教育培养计划”，获评“全国工程硕士研究生教育创新院校”。东华学子近三年获得国内外学科竞赛、文体比赛冠军、金奖或一等奖260余项，充分彰显学生的创造力。女足获大学生联赛全国冠军，学校进入“中国高校体育竞赛榜”前20名。学校全面推进双创教育，产教融合人才培养协同机制成效显著，新材料现代产业学院获批教育部首批现代产业学院，成为全国首次获批的50所现代产业学院之一。获评全国高校实践育人创新创业基地、全国创新创业典型经验高校、全国高等学校毕业生就业工作先进集体等荣誉。近年来，毕业生平均就业率超过96%，薪资位于中国高校毕业生薪酬指数排名16-21位，近五年，学生自主创业420余人。建校至今，为国家培养各类人才26万余人，毕业生成为各行各业的中坚和栋梁。</p>
-<p>学校坚持产学研用相结合的办学特色，承接国家重大科研任务，支撑国家产业转型升级和新兴产业发展等战略需求。新世纪以来，获国家自然科学奖、国家技术发明奖和国家科技进步奖31项。大批科研成果广泛应用于航天航空、重大建筑工程、环境保护等领域，为“天宫”“天舟”“北斗”“天通”“嫦娥”做出贡献。纤维材料改性国家重点实验室获评“优秀”，获批建设国家先进功能纤维创新中心、国家先进印染技术创新中心、民用航空复合材料省部共建协同创新中心、上海市现代纺织前沿科学研究基地、“一带一路”纺织智能制造与工程国际联合实验室等。建立海派时尚设计及价值创造协同创新中心、城市创意经济与创新服务研究基地、东华大学“一带一路”研究中心等，服务国家经济社会发展、长三角一体化发展国家战略和上海时尚之都、设计之都建设。</p>
-<p>学校大力推进新时期教育对外开放，积极对接国家“一带一路”重要倡议，联合18个国家35所纺织特色高校成立“一带一路”世界纺织大学联盟，与全球150多所国（境）外高校建立了良好的合作关系。获批教育部“中非高校20+20合作计划”，在肯尼亚莫伊大学建立世界首家纺织服装特色的莫伊大学孔子学院。与爱丁堡大学合作创办东华大学上海国际时尚创意学院，培养国际一流时尚创意人才。</p>
-<p>面向未来，东华大学将继续以习近平新时代中国特色社会主义思想为指导，全面落实立德树人根本任务，加快“双一流”建设，全力服务国家和上海市的战略需求，为实现“国内一流、国际有影响，有特色的高水平研究型大学”的目标而不懈奋斗！</p>
-]]></content>
-      <categories>
-        <category>测试</category>
-      </categories>
   </entry>
   <entry>
     <title>（自用）梳理一下基本爬图思路</title>
@@ -996,6 +936,157 @@ function muplay(){
         <tag>介绍</tag>
         <tag>前端爬虫</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>基于hexo部署github的个人网站</title>
+    <url>/2023/10/09/%E5%9F%BA%E4%BA%8Ehexo%E9%83%A8%E7%BD%B2github%E7%9A%84%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/</url>
+    <content><![CDATA[<p>前言：<br>GithubPages提供了免费的网页部署功能，一旦发布了网站，无论何时何地都可以在互联网上<br>查看。同时网站稳定，即使网站长年未更新，依旧仍然可以在互联网上查看。hexo是一个能够<br>快速通过GithubPages构建一个个人博客的框架，hexo生成出的网页，具有个人博客的基本<br>结构和组件，sidebar，menu，localsearch等，你只需要修改一些设置就能够建立出一个简<br>洁干净的个人博客的网站。同时hexo存在大量的第三方组件的支持，通过设置可以快捷调用出<br>想要的功能，如字数统计，置顶设置等操作。</p>
+<span id="more"></span>
+
+<p>正文：<br>以下是基于Github用hexo部署一个网站的步骤，最终会发布一个<br>hexo默认的网页，也就是landscape的主题，hexo还存在其他很多的第三方集成的主题<br>本文不包括网页设计部分和流程</p>
+<p>1.首先是搭建环境<br>(1)<br><a href="https://nodejs.org/en">Nodejs下载</a><br>Nodejs安装后会携带npm，通过npm可以快速安装<br>一些第三方插件<br>(2)<br><a href="https://git-scm.com/download/win">Git下载</a><br>git安装可以打开git窗口，git可以在终端push到Github<br>hexo也主要通过git进行网页部署</p>
+<p>2.Github基础配置<br>(1)注册登录<br><a href="https://github.com/">Github</a><br>(登不上请科学上网)</p>
+<p>(2)创建新的仓库(repository)<br><img src="/2023/10/09/%E5%9F%BA%E4%BA%8Ehexo%E9%83%A8%E7%BD%B2github%E7%9A%84%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/4.png" alt="1"><br>登录后创建一个新的repository，命名尽量按<br>用户名&#x2F;用户名.github.io，其他没要求，仓库设置为public</p>
+<p>(3)SSH创建<br>SSH公钥是Github识别终端的其中一种方式，<br>在Github个人中心的右侧栏Setting点击后<br>在左侧栏进入带有的SSH字眼<br>创建一个新的SSH,名称随意,其中内容后续有用</p>
+<p>3.Hexo<br><a href="https://hexo.io/zh-cn/index.html">Hexo官网</a><br><img src="/2023/10/09/%E5%9F%BA%E4%BA%8Ehexo%E9%83%A8%E7%BD%B2github%E7%9A%84%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/1.png" alt="1"><br>(1)创建一个空的文件夹（可自己命名）<br>随意在任意磁盘的路径，创建一个空的文件夹<br>在文件夹里，右键点进Git Bash里<br>并在黑色命令框里依次输入<br>记住在命令框粘贴不是Ctrl+V,尽量用鼠标右键<br><img src="/2023/10/09/%E5%9F%BA%E4%BA%8Ehexo%E9%83%A8%E7%BD%B2github%E7%9A%84%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/2.png" alt="1"></p>
+<figure class="highlight cmake"><table><tr><td class="code"><pre><span class="line">npm <span class="keyword">install</span> hexo-cli <span class="comment">#安装hexo</span></span><br><span class="line">hexo init <span class="comment">#hexo初始化</span></span><br><span class="line">npm <span class="keyword">install</span> <span class="comment">#npm安装</span></span><br></pre></td></tr></table></figure>
+<p>(2)成功后,尝试输入</p>
+<figure class="highlight verilog"><table><tr><td class="code"><pre><span class="line">hexo <span class="keyword">generate</span> #hexo解析md等文件，生成文件结构</span><br><span class="line">hexo server #hexo本地服务器查看</span><br></pre></td></tr></table></figure>
+<p>可简写为</p>
+<figure class="highlight ebnf"><table><tr><td class="code"><pre><span class="line"><span class="attribute">hexo g</span></span><br><span class="line"><span class="attribute">hexo s</span></span><br></pre></td></tr></table></figure>
+<p>如下图左边这样的界面（这是官网给的图片）<br><img src="/2023/10/09/%E5%9F%BA%E4%BA%8Ehexo%E9%83%A8%E7%BD%B2github%E7%9A%84%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/3.png" alt="1"><br>(3)上述代码成功<br>按住Ctrl就可以打开本地链接<br>测试成功后用键盘输入</p>
+<figure class="highlight mathematica"><table><tr><td class="code"><pre><span class="line"><span class="variable">Ctrl</span><span class="operator">+</span><span class="built_in">C</span></span><br></pre></td></tr></table></figure>
+<p>可以关闭本地服务器，Ctrl+C的操作可以停止任意命令操作</p>
+<p>4.SSH公钥创建<br>(1)用cd命令进入SSH根目录<br>window打开命令框,win10可以快捷键win+r输入cmd<br>进行命令框，输入用cd命令进入SSH根目录</p>
+<figure class="highlight arcade"><table><tr><td class="code"><pre><span class="line">cd ~<span class="regexp">/.ssh/</span></span><br></pre></td></tr></table></figure>
+<p>(2)在公钥中添加github信息</p>
+<figure class="highlight arcade"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -f  ~<span class="regexp">/.ssh/</span>密钥名称 -C <span class="string">&quot;邮箱&quot;</span></span><br></pre></td></tr></table></figure>
+<p>(3)在SSH根目录找到config文件并更改</p>
+<figure class="highlight crmsh"><table><tr><td class="code"><pre><span class="line">Host xxxxxx.github.com</span><br><span class="line">    HostName ssh/github.com</span><br><span class="line">    <span class="keyword">User</span> <span class="title">git</span></span><br><span class="line">    IdentityFile ~/.ssh/密钥名称</span><br></pre></td></tr></table></figure>
+<p>(4)创建公钥</p>
+<figure class="highlight arcade"><table><tr><td class="code"><pre><span class="line"><span class="built_in">clip</span> &lt; ~<span class="regexp">/.ssh/</span>密钥的名称.pub</span><br></pre></td></tr></table></figure>
+<p>在目录下找到密钥名称的pub文件,打开复制里面内容,<br>粘贴到Github的SSH的内容里</p>
+<p>(5)添加SSH</p>
+<figure class="highlight avrasm"><table><tr><td class="code"><pre><span class="line">ssh-<span class="keyword">add</span> xxxxxx <span class="meta">#密钥名称</span></span><br></pre></td></tr></table></figure>
+<p>如果执行以上命令出现错误：Could not open a<br>connection to your authentication agent.，<br>那么就需要先执行ssh-agent bash，再执行以上命令</p>
+<p>(6)检验是否成功<br>xxxxxx”ssh目录下config文件中的命名</p>
+<figure class="highlight nginx"><table><tr><td class="code"><pre><span class="line"><span class="attribute">ssh</span> -T git<span class="variable">@xxxxxxx</span>.github.com</span><br></pre></td></tr></table></figure>
+<p>出现</p>
+<figure class="highlight ada"><table><tr><td class="code"><pre><span class="line">You<span class="symbol">&#x27;ve</span> successfully authenticated, </span><br><span class="line">but GitHub does <span class="keyword">not</span> provide shell <span class="keyword">access</span>.</span><br></pre></td></tr></table></figure>
+<p>则代表成功</p>
+<p>5.配置github<br>(1)点进博客文件夹中的.deploy_git&#x2F;.git中<br>进入Git Bash里<br>.deploy_git需要打开查看隐藏文件的功能才能够找到，<br>详情自己百度查看，.deploy_git没有就hexo部署一次<br>就会出来了，会报错tell me who are you</p>
+<figure class="highlight pgsql"><table><tr><td class="code"><pre><span class="line">git config <span class="keyword">user</span>.name &quot;用户名&quot;</span><br><span class="line">git config <span class="keyword">user</span>.email &quot;邮箱&quot;</span><br></pre></td></tr></table></figure>
+<p>(2)在博客文件夹中的_config.yml文件<br>打开在末尾更改下列代码</p>
+<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: git@xxxxxx<span class="selector-class">.github</span><span class="selector-class">.com</span>:用户名/用户名<span class="selector-class">.github</span><span class="selector-class">.io</span><span class="selector-class">.git</span></span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+<p>如果在github输入的不是上述这个格式，可能会打不开网页</p>
+<p>(3)服务器部署<br>在博客文件夹的目录下进入Git Bash<br>依次输入</p>
+<figure class="highlight ebnf"><table><tr><td class="code"><pre><span class="line"><span class="attribute">hexo clean</span></span><br><span class="line"><span class="attribute">hexo g</span></span><br><span class="line"><span class="attribute">hexo d</span></span><br></pre></td></tr></table></figure>
+<p>部署成功后，服务器会有延迟，大概过一两分钟会更新页面<br>可以在github上看部署是否成功，如果失败github会发邮件的</p>
+]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>介绍</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【搬运】HTML5游戏 糖豆人</title>
+    <url>/2023/10/08/%E7%B3%96%E8%B1%86%E4%BA%BA%E6%B5%8B%E8%AF%95/</url>
+    <content><![CDATA[<p>请使用电脑进入，游戏画面需要刷新页面<br><a href="https://github.com/mumuy/pacman">搬运Pacman 吃豆游戏</a><br>—占位—</p>
+<p>—占位—</p>
+<span id="more"></span>
+<link rel="shortcut icon" href="/image/favicon.png">
+<style>
+    .mod-game .info{
+        padding: 10px 0;
+        margin-bottom: 5px;
+        line-height: 20px;
+        text-align: center;
+        color: #666;
+    }
+    .mod-game .info p{
+        line-height: 20px;
+        font-size: 14px;
+        color: #666;
+    }
+    .mod-game .intro{
+        padding: 10px 15px;
+        background: #f8f8f8;
+        border-radius: 5px;
+    }
+    .mod-game .intro p{
+        line-height: 22px;
+        text-indent: 2em;
+        font-size: 14px;
+        color: #666;
+    }
+    .mod-button{
+        height: 32px;
+        padding: 15px 0;
+        text-align: center;
+    }
+    .mod-button span,.mod-button a{
+        vertical-align: middle;
+    }
+    .mod-button .btn{
+        display: inline-block;
+        padding: 0 12px;
+        line-height: 26px;
+        color: #24292f;
+        border: 1px solid #dddede;
+        text-decoration: none;
+        font-size: 13px;
+        color: #24292f;
+        border-radius: 2px;
+    }
+</style>
+<div class="wrapper">
+    <div class="mod-game">
+        <canvas id="pacman_canvas" width="960" height="640">不支持画布</canvas>
+        <div class="info">
+            <p>按 [空格键] 暂停或继续</p>
+        </div>	
+    </div>
+</div>
+<script src="/js/pacman_game.js"></script>
+<script src="/js/pacman_index.js"></script>
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+
+]]></content>
+      <categories>
+        <category>HTML游戏</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>东华大学介绍</title>
+    <url>/2023/09/26/%E6%B5%8B%E8%AF%95/</url>
+    <content><![CDATA[<p>东华大学介绍<br>学校介绍<br>东华大学是教育部直属、国家“211工程”、国家“双一流”建设高校。学校秉承“崇德博学、砺志尚实”的校训，不断开拓奋进，已发展成为以纺织、材料、设计为优势，特色鲜明的多科性、高水平大学。</p>
+<span id="more"></span>
+<p><img src="/image/1.png" alt="1"><br>学校的办学历史可追溯至1912年实业家张謇创办的纺织染传习所。1951年建校，时名华东纺织工学院。1960年，被国家教育部确定为全国重点大学。1981年，成为中国首批具有博士、硕士、学士三级学位授予权的大学之一。1985年，更名为中国纺织大学。1998年，被确定为国家“211工程”重点建设的高等学校。1999年，更名为东华大学。2017年，列入国家“双一流”建设高校。</p>
+<p>学校地处中国上海，现有松江校区、延安路校区和新华路校区，占地面积近2000亩，校舍总建筑面积83万余平方米。学校是“上海市花园单位”和“上海市文明校园”。松江校区是国家级水利风景区。</p>
+<p>学校全校教职工2289人，专任教师1462人，其中专职院士２人，资深院士2人，兼职院士17人，万人计划、长江学者、国家杰青等高层次人才60余人次，其他高级职称教师900余名。全校本科生14422人，硕士研究生7255人，博士研究生1404人，学历留学生705人。</p>
+<p>学校现设有18个学院（部），拥有6个博士后流动站、11个一级学科博士点、3个博士专业学位授权类别、29个一级学科硕士点、2个二级学科硕士点、17个专业学位硕士授权类别、59个本科专业，涵盖工学、理学、管理学、经济学、艺术学、文学、法学、历史学、教育学九大学科门类。现有2个国家“双一流”建设学科， 1个上海高校Ι类高峰学科。纺织科学与工程保持国内领先，获评A+学科。化学、工程学、数学、材料科学、计算机科学、环境科学与生态学、生物与生化7个学科入围ESI全球前1%，其中材料科学学科进入全球前1‰。拥有1个国家重点实验室、1个国家工程技术研究中心、22个省部级重点科研平台，2个国家引智基地以及国家大学科技园。</p>
+<p>学校以培养德智体美劳全面发展的社会主义建设者和接班人为根本任务，坚持“严谨、勤奋、求实、创新”的优良校风，培养基础宽厚、实践能力强、具有创新精神和社会责任感的高素质人才。学校积极建设“五育并举”的教育体系，构建本科生“分层教学、分流培养、多元成才、人人成才”的培养体系，持续深化教育教学改革，新世纪以来，获国家级教学成果奖8项。拥有2个国家级实验教学示范中心，1个国家级虚拟仿真实验教学中心，3个国家工程实践教育中心，10个国家级特色专业，29个国家级一流本科专业。入选 “全国高校黄大年式教师团队” 2个。学校积极构建一流的研究生培养机制，大力发展专业学位研究生教育，获评全国示范性工程专业学位研究生联合培养基地2个，首批进入教育部“卓越工程师教育培养计划”，获评“全国工程硕士研究生教育创新院校”。东华学子近三年获得国内外学科竞赛、文体比赛冠军、金奖或一等奖260余项，充分彰显学生的创造力。女足获大学生联赛全国冠军，学校进入“中国高校体育竞赛榜”前20名。学校全面推进双创教育，产教融合人才培养协同机制成效显著，新材料现代产业学院获批教育部首批现代产业学院，成为全国首次获批的50所现代产业学院之一。获评全国高校实践育人创新创业基地、全国创新创业典型经验高校、全国高等学校毕业生就业工作先进集体等荣誉。近年来，毕业生平均就业率超过96%，薪资位于中国高校毕业生薪酬指数排名16-21位，近五年，学生自主创业420余人。建校至今，为国家培养各类人才26万余人，毕业生成为各行各业的中坚和栋梁。</p>
+<p>学校坚持产学研用相结合的办学特色，承接国家重大科研任务，支撑国家产业转型升级和新兴产业发展等战略需求。新世纪以来，获国家自然科学奖、国家技术发明奖和国家科技进步奖31项。大批科研成果广泛应用于航天航空、重大建筑工程、环境保护等领域，为“天宫”“天舟”“北斗”“天通”“嫦娥”做出贡献。纤维材料改性国家重点实验室获评“优秀”，获批建设国家先进功能纤维创新中心、国家先进印染技术创新中心、民用航空复合材料省部共建协同创新中心、上海市现代纺织前沿科学研究基地、“一带一路”纺织智能制造与工程国际联合实验室等。建立海派时尚设计及价值创造协同创新中心、城市创意经济与创新服务研究基地、东华大学“一带一路”研究中心等，服务国家经济社会发展、长三角一体化发展国家战略和上海时尚之都、设计之都建设。</p>
+<p>学校大力推进新时期教育对外开放，积极对接国家“一带一路”重要倡议，联合18个国家35所纺织特色高校成立“一带一路”世界纺织大学联盟，与全球150多所国（境）外高校建立了良好的合作关系。获批教育部“中非高校20+20合作计划”，在肯尼亚莫伊大学建立世界首家纺织服装特色的莫伊大学孔子学院。与爱丁堡大学合作创办东华大学上海国际时尚创意学院，培养国际一流时尚创意人才。</p>
+<p>面向未来，东华大学将继续以习近平新时代中国特色社会主义思想为指导，全面落实立德树人根本任务，加快“双一流”建设，全力服务国家和上海市的战略需求，为实现“国内一流、国际有影响，有特色的高水平研究型大学”的目标而不懈奋斗！</p>
+]]></content>
+      <categories>
+        <category>测试</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>搬运资料</title>
+    <url>/2023/09/26/%E8%B5%84%E6%96%99/</url>
+    <content><![CDATA[<p>hexo单设备部署多个服务器<br><a href="https://zhuanlan.zhihu.com/p/69218641">引用文章</a><br>毕竟github可以免费提供网页部署，github注册方式<br>又很简单，所以多账号部署并不是难事</p>
+<span id="more"></span>
+<p><img src="/image/2.jpeg" alt="1"></p>
+]]></content>
+      <categories>
+        <category>测试</category>
+      </categories>
   </entry>
   <entry>
     <title>测试JS玩法</title>
@@ -1106,85 +1197,5 @@ function muplay(){
       <tags>
         <tag>爬虫</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>【搬运】HTML5游戏 糖豆人</title>
-    <url>/2023/10/08/%E7%B3%96%E8%B1%86%E4%BA%BA%E6%B5%8B%E8%AF%95/</url>
-    <content><![CDATA[<p>请使用电脑进入，游戏画面需要刷新页面<br><a href="https://github.com/mumuy/pacman">搬运Pacman 吃豆游戏</a><br>—占位—</p>
-<p>—占位—</p>
-<span id="more"></span>
-<link rel="shortcut icon" href="/image/favicon.png">
-<style>
-    .mod-game .info{
-        padding: 10px 0;
-        margin-bottom: 5px;
-        line-height: 20px;
-        text-align: center;
-        color: #666;
-    }
-    .mod-game .info p{
-        line-height: 20px;
-        font-size: 14px;
-        color: #666;
-    }
-    .mod-game .intro{
-        padding: 10px 15px;
-        background: #f8f8f8;
-        border-radius: 5px;
-    }
-    .mod-game .intro p{
-        line-height: 22px;
-        text-indent: 2em;
-        font-size: 14px;
-        color: #666;
-    }
-    .mod-button{
-        height: 32px;
-        padding: 15px 0;
-        text-align: center;
-    }
-    .mod-button span,.mod-button a{
-        vertical-align: middle;
-    }
-    .mod-button .btn{
-        display: inline-block;
-        padding: 0 12px;
-        line-height: 26px;
-        color: #24292f;
-        border: 1px solid #dddede;
-        text-decoration: none;
-        font-size: 13px;
-        color: #24292f;
-        border-radius: 2px;
-    }
-</style>
-<div class="wrapper">
-    <div class="mod-game">
-        <canvas id="pacman_canvas" width="960" height="640">不支持画布</canvas>
-        <div class="info">
-            <p>按 [空格键] 暂停或继续</p>
-        </div>	
-    </div>
-</div>
-<script src="/js/pacman_game.js"></script>
-<script src="/js/pacman_index.js"></script>
-<script async defer src="https://buttons.github.io/buttons.js"></script>
-
-
-]]></content>
-      <categories>
-        <category>HTML游戏</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>搬运资料</title>
-    <url>/2023/09/26/%E8%B5%84%E6%96%99/</url>
-    <content><![CDATA[<p>hexo单设备部署多个服务器<br><a href="https://zhuanlan.zhihu.com/p/69218641">引用文章</a><br>毕竟github可以免费提供网页部署，github注册方式<br>又很简单，所以多账号部署并不是难事</p>
-<span id="more"></span>
-<p><img src="/image/2.jpeg" alt="1"></p>
-]]></content>
-      <categories>
-        <category>测试</category>
-      </categories>
   </entry>
 </search>
