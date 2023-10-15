@@ -28,7 +28,10 @@ const pjax = new Pjax({
   scrollTo : !CONFIG.bookmark.enable
 });
 
+
+
 document.addEventListener('pjax:success', () => {
+  
   pjax.executeScripts(document.querySelectorAll('script[data-pjax]'));
   NexT.boot.refresh();
   // Define Motion Sequence & Bootstrap Motion.
