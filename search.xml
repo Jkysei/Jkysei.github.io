@@ -52,22 +52,6 @@
       </categories>
   </entry>
   <entry>
-    <title>hexo常用的API（插件）</title>
-    <url>/2023/10/01/hexo%E5%B8%B8%E7%94%A8%E7%9A%84API%EF%BC%88%E6%8F%92%E4%BB%B6%EF%BC%89/</url>
-    <content><![CDATA[<p>一、前言<br>本文主要介绍一些常用&#x2F;必用插件，我用的主题主要是next，<br>next里面有很多已经支持的API，只需要在配置文件修改。<br>其他一部分则需要npm或者git安装。但一些API长年<br>没有维护或者版本更新，配置发生了变化。<br>主要说一下已经能够完成完整功能，没有出bug的插件，<br>避一下踩过的坑</p>
-<span id="more"></span>
-<p>二、正文<br>待更新—-<br>1.</p>
-<h1 id="设置博客单词统计"><a href="#设置博客单词统计" class="headerlink" title="设置博客单词统计"></a>设置博客单词统计</h1><p>symbols_count_time:</p>
-<h1 id="文章字数统计"><a href="#文章字数统计" class="headerlink" title="文章字数统计"></a>文章字数统计</h1><p>symbols: true</p>
-<h1 id="文章阅读时间统计"><a href="#文章阅读时间统计" class="headerlink" title="文章阅读时间统计"></a>文章阅读时间统计</h1><p>time: true</p>
-<h1 id="站点总字数统计"><a href="#站点总字数统计" class="headerlink" title="站点总字数统计"></a>站点总字数统计</h1><p>total_symbols: true</p>
-<h1 id="站点总阅读时间统计"><a href="#站点总阅读时间统计" class="headerlink" title="站点总阅读时间统计"></a>站点总阅读时间统计</h1><p>total_time: true<br>exclude_codeblock: false</p>
-]]></content>
-      <categories>
-        <category>hexo</category>
-      </categories>
-  </entry>
-  <entry>
     <title>jQuery的css选择器的写法</title>
     <url>/2023/09/28/jQuery%E7%9A%84css%E9%80%89%E6%8B%A9%E5%99%A8%E7%9A%84%E5%86%99%E6%B3%95/</url>
     <content><![CDATA[<p>前文传送门<br><a href="/2023/09/27/%E7%94%A8JS%EF%BC%88%E5%89%8D%E7%AB%AF%EF%BC%89%E5%88%B6%E4%BD%9C%E7%9A%84%E7%AE%80%E6%98%93%E7%88%AC%E8%99%AB">前文：用JS（前端）制作的简易爬虫</a></p>
@@ -91,6 +75,22 @@
       <tags>
         <tag>介绍</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>hexo常用的API（插件）</title>
+    <url>/2023/10/01/hexo%E5%B8%B8%E7%94%A8%E7%9A%84API%EF%BC%88%E6%8F%92%E4%BB%B6%EF%BC%89/</url>
+    <content><![CDATA[<p>一、前言<br>本文主要介绍一些常用&#x2F;必用插件，我用的主题主要是next，<br>next里面有很多已经支持的API，只需要在配置文件修改。<br>其他一部分则需要npm或者git安装。但一些API长年<br>没有维护或者版本更新，配置发生了变化。<br>主要说一下已经能够完成完整功能，没有出bug的插件，<br>避一下踩过的坑</p>
+<span id="more"></span>
+<p>二、正文<br>待更新—-<br>1.</p>
+<h1 id="设置博客单词统计"><a href="#设置博客单词统计" class="headerlink" title="设置博客单词统计"></a>设置博客单词统计</h1><p>symbols_count_time:</p>
+<h1 id="文章字数统计"><a href="#文章字数统计" class="headerlink" title="文章字数统计"></a>文章字数统计</h1><p>symbols: true</p>
+<h1 id="文章阅读时间统计"><a href="#文章阅读时间统计" class="headerlink" title="文章阅读时间统计"></a>文章阅读时间统计</h1><p>time: true</p>
+<h1 id="站点总字数统计"><a href="#站点总字数统计" class="headerlink" title="站点总字数统计"></a>站点总字数统计</h1><p>total_symbols: true</p>
+<h1 id="站点总阅读时间统计"><a href="#站点总阅读时间统计" class="headerlink" title="站点总阅读时间统计"></a>站点总阅读时间统计</h1><p>total_time: true<br>exclude_codeblock: false</p>
+]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
   </entry>
   <entry>
     <title>ppt测试</title>
@@ -126,8 +126,36 @@
     <content><![CDATA[<p>一、前言<br>二维数据分析时往往会需要用到综合评价分析，其中TOPSIS就是一种<br>比较常用的分析方法<br>TOPSIS全名（Technique for Order Preference by Similarity to Ideal Solution）<br>逼近理想解排序法，理想解一般认为是数据（每列）中最优的数值，topsis主要将<br>数值标准化，通过计算与理想解的距离，得出综合评价，取得排名</p>
 <span id="more"></span>
 
+<script src="/js/mathjax_post.js"></script>
+<p onclick="location.reload()">注：本文含有数学公式请点击我或者手动刷新才能正常浏览</p>
+
 <p>二、正文<br>废话不多说，直接上代码<br>TOPSIS主函数如下</p>
 <figure class="highlight sql"><table><tr><td class="code"><pre><span class="line">def topsis(data, weight):</span><br><span class="line">    data <span class="operator">=</span> data <span class="operator">/</span> np.<span class="built_in">sqrt</span>((data <span class="operator">*</span><span class="operator">*</span> <span class="number">2</span>).<span class="built_in">sum</span>()) </span><br><span class="line">	#将所有数据标准化，每个数据除以每行数据的平方和</span><br><span class="line">    Z <span class="operator">=</span> pd.DataFrame([data.<span class="built_in">min</span>(), data.<span class="built_in">max</span>()], index<span class="operator">=</span>[<span class="string">&#x27;负理想解&#x27;</span>, <span class="string">&#x27;正理想解&#x27;</span>]) </span><br><span class="line">	#最优和最劣为正负理想解</span><br><span class="line">    weight <span class="operator">=</span> np.array(weight)</span><br><span class="line">    <span class="keyword">Result</span> <span class="operator">=</span> data.copy()</span><br><span class="line">    <span class="keyword">Result</span>[<span class="string">&#x27;正理想解&#x27;</span>] <span class="operator">=</span> np.<span class="built_in">sqrt</span>(((data <span class="operator">-</span> Z.loc[<span class="string">&#x27;正理想解&#x27;</span>]) <span class="operator">*</span><span class="operator">*</span> <span class="number">2</span> <span class="operator">*</span> weight).<span class="built_in">sum</span>(axis<span class="operator">=</span><span class="number">1</span>)) </span><br><span class="line">	#计算整行与正理想解的距离的总和乘以权重</span><br><span class="line">    <span class="keyword">Result</span>[<span class="string">&#x27;负理想解&#x27;</span>] <span class="operator">=</span> np.<span class="built_in">sqrt</span>(((data <span class="operator">-</span> Z.loc[<span class="string">&#x27;负理想解&#x27;</span>]) <span class="operator">*</span><span class="operator">*</span> <span class="number">2</span> <span class="operator">*</span> weight).<span class="built_in">sum</span>(axis<span class="operator">=</span><span class="number">1</span>))</span><br><span class="line">	#计算整行与负理想解的距离的总和乘以权重</span><br><span class="line">    <span class="keyword">Result</span>[<span class="string">&#x27;综合得分指数&#x27;</span>] <span class="operator">=</span> <span class="keyword">Result</span>[<span class="string">&#x27;负理想解&#x27;</span>] <span class="operator">/</span> (<span class="keyword">Result</span>[<span class="string">&#x27;负理想解&#x27;</span>] <span class="operator">+</span> <span class="keyword">Result</span>[<span class="string">&#x27;正理想解&#x27;</span>])</span><br><span class="line">	#得出综合得分</span><br><span class="line">    <span class="keyword">Result</span>[<span class="string">&#x27;排序&#x27;</span>] <span class="operator">=</span> Result.<span class="built_in">rank</span>(ascending<span class="operator">=</span><span class="literal">False</span>)[<span class="string">&#x27;综合得分指数&#x27;</span>] </span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">Result</span>, Z, weight</span><br></pre></td></tr></table></figure>
+<p>–10月15号更新<br>上述函数少了一部正向化处理的步骤，也就是对数据的标准进行处理，<br>极大型指标：越大越好，这是我们想要的<br>下面是需要转化的指标<br>极小型指标：越小越好，如成本量数据，<br>处理方式：</p>
+<p>
+$ \hat{x} _{i} = max_{i} -x _{i} \\  \hat{x} =\frac{1}{x} $
+</p>
+
+<p>中间指标：越接近中间的完美值越好，如PH值，误差等，<br>处理方式：设$x_{best}$为最佳数值</p>
+<p>
+$ \hat{x} _{i} =1- \frac{x _{i}- x _{best} } { max_{i} \left \{ |x _{i}-x _{best}| \right \}  } $
+</p>
+
+<p>区间型指标：在区间内就是最佳<br>处理方式：设 [a,b]为最佳值的区间</p>
+<p>设：
+$M= max \left \{ a-min \left \{ x_{i}  \right \} , max\left \{ x_{i} -b \right \} \right \} $
+</p>
+
+<p>
+$ \quad \quad \quad 1- \frac{a-x _{i}} { M} \quad,\quad x _{i} < a \\ \hat{x} _{i}= \quad 1 \quad,\quad a < x _{i} < b \\ \quad \quad \quad 1- \frac{x_{i}-b}{M} \quad,\quad x _{i} > a $
+</p>
+
+<p>标准化：</p>
+<p>
+$ x_{ij} ^{'} = \frac{x_{ij}}{\sqrt{\sum ^{n} _{i=1} x _{ij} ^{2} }  }
+$
+</p>
+
 
 <p>大概数据要长这样,每行是一个地方的各项指标，由于无法通过这堆数据，<br>直接获得到哪个地方更好，因此需要通过topsis进行综合评价</p>
 <figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line">data = pd<span class="selector-class">.DataFrame</span>(</span><br><span class="line">        &#123;<span class="string">&#x27;旅游增量&#x27;</span>: <span class="selector-attr">[5,2,3,3,6]</span>,</span><br><span class="line">		 <span class="string">&#x27;经济增量&#x27;</span>: <span class="selector-attr">[1,4,6,2,5]</span>,</span><br><span class="line">		 <span class="string">&#x27;旅客评价&#x27;</span>: <span class="selector-attr">[5,1,4,6,7]</span>,</span><br><span class="line">         <span class="string">&#x27;政府投资&#x27;</span>: <span class="selector-attr">[5,7,1,5,6]</span>,</span><br><span class="line">		 <span class="string">&#x27;其他扶持&#x27;</span>: <span class="selector-attr">[6,5,7,2,1]</span>&#125;,</span><br><span class="line">	index=<span class="selector-attr">[<span class="string">&#x27;地方&#x27;</span> + i for i in list(<span class="string">&#x27;ABCDE&#x27;</span>)]</span></span><br><span class="line">)</span><br></pre></td></tr></table></figure>
@@ -150,12 +178,12 @@
   </entry>
   <entry>
     <title>【Python/数模】利用Python解决线性规划</title>
-    <url>/2023/10/14/%E3%80%90Python-%E6%95%B0%E6%A8%A1%E3%80%91%E5%88%A9%E7%94%A8Python%E8%A7%A3%E5%86%B3%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92/</url>
-    <content><![CDATA[<script src="/js/mathjax_post.js"></script>
-<p onclick="location.reload()">注：本文含有数学公式请手动刷新才能正常浏览</p>
-
-<p>一、前言<br>线性规划是非常常见的数学问题，主要解决的是在约束条件下达到的<br>目标值达到最大或者最小时各个变量的取值，然而学过运筹学都知道<br>这方面的算法十分复杂。本文并不是研究算法，主要使用PuLP处理<br>线性规划问题。</p>
+    <url>/2023/10/14/%E3%80%90Python-%E6%95%B0%E6%A8%A1%E3%80%91%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92%E6%B1%82%E8%A7%A3/</url>
+    <content><![CDATA[<p>一、前言<br>线性规划是非常常见的数学问题，主要解决的是在约束条件下达到的<br>目标值达到最大或者最小时各个变量的取值，然而学过运筹学都知道<br>这方面的算法十分复杂。本文并不是研究算法，主要使用PuLP处理<br>线性规划问题。</p>
 <span id="more"></span>
+
+<script src="/js/mathjax_post.js"></script>
+<p onclick="location.reload()">注：本文含有数学公式请点击我或者手动刷新才能正常浏览</p>
 
 <p>二、正文<br>1.安装PuLP<br>PuLP是一个用于处理线性规划问题的第三方库，<br>首先老操作</p>
 <figure class="highlight cmake"><table><tr><td class="code"><pre><span class="line">pip in <span class="keyword">install</span> PuLP</span><br></pre></td></tr></table></figure>
@@ -186,7 +214,7 @@ ${\max Z }  = x_{1}+2x_{2}\\s.t.\quad x_{1}+x_{2}\le3\\ \quad \quad \quad x_{1}\
 </p>
 <figure class="highlight asciidoc"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">l<span class="emphasis">_prob1=LpProblem(&quot;lp1&quot;,sense=LpMaximize)</span></span><br><span class="line"><span class="emphasis">l_prob1 += x1 + 2*x2</span></span><br><span class="line"><span class="emphasis">l_prob1 += (x1 + x2 &lt;=3)</span></span><br><span class="line"><span class="emphasis">l_prob1.solve(PULP_CBC_CMD(msg=0))</span></span><br><span class="line"><span class="emphasis">mainout(l_</span>prob1)</span><br><span class="line">&#x27;&#x27;&#x27;</span><br><span class="line">打印结果：</span><br><span class="line">z=  5.0</span><br><span class="line">x1 = 1.0</span><br><span class="line">x2 = 2.0</span><br><span class="line">&#x27;&#x27;&#x27;</span><br></pre></td></tr></table></figure>
 
-<p>4.这些操作可以解决一些简单的线性规划，<br>但这样的方法只能求一些存在最优解的线性规划问题，面对<br>存在多个解的问题，目前仍在学习，以后待更新<br>完结~~<br><img src="/2023/10/14/%E3%80%90Python-%E6%95%B0%E6%A8%A1%E3%80%91%E5%88%A9%E7%94%A8Python%E8%A7%A3%E5%86%B3%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92/1010D_258_1.jpg" alt="1"></p>
+<p>4.这些操作可以解决一些简单的线性规划，<br>但这样的方法只能求一些存在最优解的线性规划问题，面对<br>存在多个解的问题，目前仍在学习，以后待更新<br>完结~~<br><img src="/1010D_258_1.jpg" alt="1"></p>
 ]]></content>
       <categories>
         <category>Python</category>
@@ -195,11 +223,11 @@ ${\max Z }  = x_{1}+2x_{2}\\s.t.\quad x_{1}+x_{2}\le3\\ \quad \quad \quad x_{1}\
   <entry>
     <title>【Python/数模】灰色关联分析</title>
     <url>/2023/10/13/%E3%80%90Python-%E6%95%B0%E6%A8%A1%E3%80%91%E7%81%B0%E8%89%B2%E5%85%B3%E8%81%94%E5%88%86%E6%9E%90/</url>
-    <content><![CDATA[<script src="/js/mathjax_post.js"></script>
-<p onclick="location.reload()">注：该页面含有数学公式请手动刷新才能正常浏览</p>
-
-<p>一、前言<br>灰色关联分析(Grey Relation Analysis，GRA)<br>主要分析的是多因素对于指标的影响的关联度，<br>通过对数据的灰色关联分析，可以得到哪一个因素对于指标<br>的影响程度最高，关联度最高。哪一个因素关联度最低。</p>
+    <content><![CDATA[<p>一、前言<br>灰色关联分析(Grey Relation Analysis，GRA)<br>主要分析的是多因素对于指标的影响的关联度，<br>通过对数据的灰色关联分析，可以得到哪一个因素对于指标<br>的影响程度最高，关联度最高。哪一个因素关联度最低。</p>
 <span id="more"></span>
+<script src="/js/mathjax_post.js"></script>
+<p onclick="location.reload()">注：本文含有数学公式请手动刷新才能正常浏览</p>
+
 <p>二、正文<br>1.数据<br>首先是数据，大概长这样,建立矩阵然后numpy化<br>这里数据使用了一组超市营收的数据,行索引值为年份<br>（按年份排列的数据）</p>
 <figure class="highlight apache"><table><tr><td class="code"><pre><span class="line"><span class="attribute">name0</span>=[<span class="string">&quot;总营收&quot;</span>]</span><br><span class="line"><span class="attribute">li_name</span>=[ <span class="string">&quot;顾客量&quot;</span>,<span class="string">&quot;销售量&quot;</span>,<span class="string">&quot;采购量&quot;</span>]</span><br><span class="line"><span class="attribute">l1</span>=[<span class="number">340</span>,<span class="number">355</span>,<span class="number">458</span>,<span class="number">502</span>,<span class="number">568</span>]; #指标数据也就作为参考数列</span><br><span class="line"><span class="attribute">l2</span>=[<span class="number">400</span>,<span class="number">559</span>,<span class="number">580</span>,<span class="number">725</span>,<span class="number">840</span>]; </span><br><span class="line"><span class="attribute">l3</span>=[<span class="number">349</span>,<span class="number">361</span>,<span class="number">366</span>,<span class="number">402</span>,<span class="number">424</span>];</span><br><span class="line"><span class="attribute">l4</span>=[<span class="number">23</span>,<span class="number">93</span>,<span class="number">228</span>,<span class="number">268</span>,<span class="number">304</span>]</span><br><span class="line"><span class="attribute">matrix</span>=[l1,l2,l3,l4]</span><br><span class="line"><span class="attribute">matrix</span>=np.array(matrix)</span><br></pre></td></tr></table></figure>
 <p>2.灰色关联系数的计算<br>然后灰色关联分析核心函数</p>
@@ -218,29 +246,6 @@ ${\max Z }  = x_{1}+2x_{2}\\s.t.\quad x_{1}+x_{2}\le3\\ \quad \quad \quad x_{1}\
       <categories>
         <category>Python</category>
       </categories>
-  </entry>
-  <entry>
-    <title>【Python/脚本】一个懒得自己打字的md图片插入脚本</title>
-    <url>/2023/10/05/%E3%80%90Python-%E8%84%9A%E6%9C%AC%E3%80%91%E4%B8%80%E4%B8%AA%E6%87%92%E5%BE%97%E8%87%AA%E5%B7%B1%E6%89%93%E5%AD%97%E7%9A%84md%E5%9B%BE%E7%89%87%E6%8F%92%E5%85%A5%E8%84%9A%E6%9C%AC/</url>
-    <content><![CDATA[<p>Markdown也就是md文件<br>Markdown文件插入可以遵循html的标签方式，但<br>这种插入方式比较麻烦，可以用md自己的格式</p>
-<span id="more"></span>
-<p>1.md图片插入格式</p>
-<figure class="highlight scss"><table><tr><td class="code"><pre><span class="line">!<span class="selector-attr">[若图片not Found显示的文字]</span>(路径)</span><br></pre></td></tr></table></figure>
-<p>一般可以这么写，&#x2F;image自动索引到资源文件</p>
-<figure class="highlight arcade"><table><tr><td class="code"><pre><span class="line">![<span class="number">28.</span>webp](<span class="regexp">/image/</span><span class="number">28.</span>webp)</span><br></pre></td></tr></table></figure>
-<p><img src="/2023/10/05/%E3%80%90Python-%E8%84%9A%E6%9C%AC%E3%80%91%E4%B8%80%E4%B8%AA%E6%87%92%E5%BE%97%E8%87%AA%E5%B7%B1%E6%89%93%E5%AD%97%E7%9A%84md%E5%9B%BE%E7%89%87%E6%8F%92%E5%85%A5%E8%84%9A%E6%9C%AC/1005D_140_1.jpg" alt="1005D_140_1.jpg"></p>
-<!--more-->
-<p>2.代码十分简单，不到一分钟写完了</p>
-<figure class="highlight dust"><table><tr><td class="code"><pre><span class="line"><span class="language-xml">import os</span></span><br><span class="line"><span class="language-xml">filePath = &#x27;D:\\Blog\\Blog1\\source\\_posts\\【图集】10-3图图&#x27;</span></span><br><span class="line"><span class="language-xml">n=0</span></span><br><span class="line"><span class="language-xml">for i,j,k in os.walk(filePath):</span></span><br><span class="line"><span class="language-xml">    for i in k:</span></span><br><span class="line"><span class="language-xml">        n+=1</span></span><br><span class="line"><span class="language-xml">        print(&quot;![</span><span class="template-variable">&#123;&#125;</span><span class="language-xml">](/image/</span><span class="template-variable">&#123;&#125;</span><span class="language-xml">)&quot;.format(i, i)) #中间部分自己改</span></span><br><span class="line"><span class="language-xml">        if n==2:</span></span><br><span class="line"><span class="language-xml">            print(&quot;<span class="comment">&lt;!--more--&gt;</span>&quot;)</span></span><br></pre></td></tr></table></figure>
-
-<p><code>&lt;!--more--&gt;</code><br>用来手动隐藏，图片占首页太长不好看</p>
-]]></content>
-      <categories>
-        <category>Python</category>
-      </categories>
-      <tags>
-        <tag>Python</tag>
-      </tags>
   </entry>
   <entry>
     <title>【Python】Pyquery 一个Python的CSS选择器</title>
@@ -274,6 +279,29 @@ ${\max Z }  = x_{1}+2x_{2}\\s.t.\quad x_{1}+x_{2}\le3\\ \quad \quad \quad x_{1}\
       </categories>
   </entry>
   <entry>
+    <title>【Python/脚本】一个懒得自己打字的md图片插入脚本</title>
+    <url>/2023/10/05/%E3%80%90Python-%E8%84%9A%E6%9C%AC%E3%80%91%E4%B8%80%E4%B8%AA%E6%87%92%E5%BE%97%E8%87%AA%E5%B7%B1%E6%89%93%E5%AD%97%E7%9A%84md%E5%9B%BE%E7%89%87%E6%8F%92%E5%85%A5%E8%84%9A%E6%9C%AC/</url>
+    <content><![CDATA[<p>Markdown也就是md文件<br>Markdown文件插入可以遵循html的标签方式，但<br>这种插入方式比较麻烦，可以用md自己的格式</p>
+<span id="more"></span>
+<p>1.md图片插入格式</p>
+<figure class="highlight scss"><table><tr><td class="code"><pre><span class="line">!<span class="selector-attr">[若图片not Found显示的文字]</span>(路径)</span><br></pre></td></tr></table></figure>
+<p>一般可以这么写，&#x2F;image自动索引到资源文件</p>
+<figure class="highlight arcade"><table><tr><td class="code"><pre><span class="line">![<span class="number">28.</span>webp](<span class="regexp">/image/</span><span class="number">28.</span>webp)</span><br></pre></td></tr></table></figure>
+<p><img src="/2023/10/05/%E3%80%90Python-%E8%84%9A%E6%9C%AC%E3%80%91%E4%B8%80%E4%B8%AA%E6%87%92%E5%BE%97%E8%87%AA%E5%B7%B1%E6%89%93%E5%AD%97%E7%9A%84md%E5%9B%BE%E7%89%87%E6%8F%92%E5%85%A5%E8%84%9A%E6%9C%AC/1005D_140_1.jpg" alt="1005D_140_1.jpg"></p>
+<!--more-->
+<p>2.代码十分简单，不到一分钟写完了</p>
+<figure class="highlight dust"><table><tr><td class="code"><pre><span class="line"><span class="language-xml">import os</span></span><br><span class="line"><span class="language-xml">filePath = &#x27;D:\\Blog\\Blog1\\source\\_posts\\【图集】10-3图图&#x27;</span></span><br><span class="line"><span class="language-xml">n=0</span></span><br><span class="line"><span class="language-xml">for i,j,k in os.walk(filePath):</span></span><br><span class="line"><span class="language-xml">    for i in k:</span></span><br><span class="line"><span class="language-xml">        n+=1</span></span><br><span class="line"><span class="language-xml">        print(&quot;![</span><span class="template-variable">&#123;&#125;</span><span class="language-xml">](/image/</span><span class="template-variable">&#123;&#125;</span><span class="language-xml">)&quot;.format(i, i)) #中间部分自己改</span></span><br><span class="line"><span class="language-xml">        if n==2:</span></span><br><span class="line"><span class="language-xml">            print(&quot;<span class="comment">&lt;!--more--&gt;</span>&quot;)</span></span><br></pre></td></tr></table></figure>
+
+<p><code>&lt;!--more--&gt;</code><br>用来手动隐藏，图片占首页太长不好看</p>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>Python</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>【Pytohn/数模】AHP层次分析法</title>
     <url>/2023/10/12/%E3%80%90Pytohn-%E6%95%B0%E6%A8%A1%E3%80%91AHP%E5%B1%82%E6%AC%A1%E5%88%86%E6%9E%90%E6%B3%95/</url>
     <content><![CDATA[<p>一、前言<br>AHP即层次分析法，也就是需要分层次来分析，<br>第一层是目标层，最终选择的方案，<br>第二层是准则层，要选择的方案考虑的基本因素。<br>第三层就是方案层，待选择的方案的层次。<br>然而这样讲肯定听不懂，所以举个栗子。</p>
@@ -303,6 +331,10 @@ ${\max Z }  = x_{1}+2x_{2}\\s.t.\quad x_{1}+x_{2}\le3\\ \quad \quad \quad x_{1}\
     <url>/2023/10/09/%E3%80%90%E6%90%AC%E8%BF%90%E3%80%91html%E6%B8%B8%E6%88%8F-%E8%B4%AA%E5%90%83%E8%9B%87/</url>
     <content><![CDATA[<p>请使用电脑进入，游戏画面需要刷新页面<br>—占位—<br>如题<br>本文为搬运的html游戏<br>—占位—</p>
 <span id="more"></span>
+
+<p onclick="location.reload()">注：本文含有JS请点击我或者手动刷新才能正常浏览</p>
+
+
 <canvas id="tanchishe_Canvas" width="400" height="400" >
 </canvas>
 <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js">
@@ -349,6 +381,109 @@ ${\max Z }  = x_{1}+2x_{2}\\s.t.\quad x_{1}+x_{2}\le3\\ \quad \quad \quad x_{1}\
 ]]></content>
       <categories>
         <category>Python</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>【测试】js做的歌碟</title>
+    <url>/2023/09/30/%E3%80%90%E7%9E%8E%E6%90%9E-%E6%B5%8B%E8%AF%95%E3%80%91js%E5%81%9A%E7%9A%84%E6%AD%8C%E7%A2%9F/</url>
+    <content><![CDATA[<p>本文写的用纯JS（Jquery）写出的歌碟，<br>歌碟通过CSS转动，可以切歌。</p>
+<span id="more"></span>
+
+<p><img src="/image/929D_257_1.jpg" alt="1"></p>
+<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js">
+</script>
+<script>
+var s1=true;
+var musicbox=$(".musicbox_test");
+function mutr(){
+    if (s1==false){
+        s1=true;
+        $(".music_test").attr("src","/image/Akatsuki.mp3")
+        $(".recent_text").text("歌曲1")
+        console.log("ch1")	
+        if ($(".pic_box").css("animation-play-state")=="running"){
+                $(".music_pic").css({"animation-play-state":"paused"});
+                $(".pic_box").css({"animation-play-state":"paused"});
+                $(".music_test").get(0).pause();
+                s=true;
+            }
+    }
+    else{
+        s1=false;
+        $(".music_test").attr("src","/image/wonderland.mp3")
+        $(".recent_text").text("歌曲2")
+        console.log("ch2")
+        if ($(".pic_box").css("animation-play-state")=="running"){
+                $(".music_pic").css({"animation-play-state":"paused"});
+                $(".pic_box").css({"animation-play-state":"paused"});
+                $(".music_test").get(0).pause();
+                s=true;
+            }
+        }
+}
+s=true;
+
+function muplay(){
+    if (s==false){
+        s=true;
+        var music=$(".music_test").get(0);
+        var pic=$(".music_pic");
+        var box=$(".pic_box");
+        music.pause();	 
+        pic.css({"animation-play-state":"paused"});
+        box.css({"animation-play-state":"paused"});
+        }
+    else{
+        var music=$(".music_test").get(0);
+        var pic=$(".music_pic");
+        var box=$(".pic_box");
+        s=false;
+        music.play();
+        pic.css({"animation-play-state":"running"});
+        box.css({"animation-play-state":"running"});
+        
+        }
+}
+</script>
+<style>
+.pic_box{
+    width:250px;
+    border-radius: 50%;
+    background-color:white;
+    animation: Box 3s linear infinite;
+    animation-play-state:paused;
+}
+.pic_box img{
+    width:200px;
+    height:200px;
+    animation: Box 3s linear infinite;
+    animation-play-state:paused;
+    
+    }
+@keyframes Box{
+    0%{transform: rotate(0deg);}
+    50%{transform: rotate(180deg);}
+    100%{transform: rotate(360deg);}
+}
+</style>
+<!--more-->
+<div onclick="mutr()">
+<p>音乐盒（点我切歌）</p>
+<p class="recent_text">&nbsp;歌曲1</p>
+</div>
+<div id="box1" class="pic_box">
+  <img id="pic" class="music_pic" onclick="muplay()" src="/image/420px-KoishiSubterranean封面.jpg" alt="" />
+</div>
+<div id="musicbox" class="musicbox_test">
+    <audio id="Akatsuki" class="music_test" src="/image/Akatsuki.mp3" loop="loop" >
+    </audio>
+</div>
+
+
+<p>源代码</p>
+<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="keyword">var</span> s1=<span class="literal">true</span>;</span></span><br><span class="line"><span class="language-javascript"><span class="keyword">var</span> musicbox=$(<span class="string">&quot;.musicbox_test&quot;</span>);</span></span><br><span class="line"><span class="language-javascript"><span class="keyword">function</span> <span class="title function_">mutr</span>(<span class="params"></span>)&#123;</span></span><br><span class="line"><span class="language-javascript">	<span class="keyword">if</span> (s1==<span class="literal">false</span>)&#123;</span></span><br><span class="line"><span class="language-javascript">		s1=<span class="literal">true</span>;</span></span><br><span class="line"><span class="language-javascript">		$(<span class="string">&quot;.music_test&quot;</span>).<span class="title function_">attr</span>(<span class="string">&quot;src&quot;</span>,<span class="string">&quot;/image/Akatsuki.mp3&quot;</span>)</span></span><br><span class="line"><span class="language-javascript">		$(<span class="string">&quot;.recent_text&quot;</span>).<span class="title function_">text</span>(<span class="string">&quot;歌曲1&quot;</span>)</span></span><br><span class="line"><span class="language-javascript">		<span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&quot;ch1&quot;</span>)	</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">if</span> ($(<span class="string">&quot;.pic_box&quot;</span>).<span class="title function_">css</span>(<span class="string">&quot;animation-play-state&quot;</span>)==<span class="string">&quot;running&quot;</span>)&#123;</span></span><br><span class="line"><span class="language-javascript">				$(<span class="string">&quot;.music_pic&quot;</span>).<span class="title function_">css</span>(&#123;<span class="string">&quot;animation-play-state&quot;</span>:<span class="string">&quot;paused&quot;</span>&#125;);</span></span><br><span class="line"><span class="language-javascript">				$(<span class="string">&quot;.pic_box&quot;</span>).<span class="title function_">css</span>(&#123;<span class="string">&quot;animation-play-state&quot;</span>:<span class="string">&quot;paused&quot;</span>&#125;);</span></span><br><span class="line"><span class="language-javascript">				$(<span class="string">&quot;.music_test&quot;</span>).<span class="title function_">get</span>(<span class="number">0</span>).<span class="title function_">pause</span>();</span></span><br><span class="line"><span class="language-javascript">				s=<span class="literal">true</span>;</span></span><br><span class="line"><span class="language-javascript">			&#125;</span></span><br><span class="line"><span class="language-javascript">	&#125;</span></span><br><span class="line"><span class="language-javascript">	<span class="keyword">else</span>&#123;</span></span><br><span class="line"><span class="language-javascript">		s1=<span class="literal">false</span>;</span></span><br><span class="line"><span class="language-javascript">		$(<span class="string">&quot;.music_test&quot;</span>).<span class="title function_">attr</span>(<span class="string">&quot;src&quot;</span>,<span class="string">&quot;/image/wonderland.mp3&quot;</span>)</span></span><br><span class="line"><span class="language-javascript">		$(<span class="string">&quot;.recent_text&quot;</span>).<span class="title function_">text</span>(<span class="string">&quot;歌曲2&quot;</span>)</span></span><br><span class="line"><span class="language-javascript">		<span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&quot;ch2&quot;</span>)</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">if</span> ($(<span class="string">&quot;.pic_box&quot;</span>).<span class="title function_">css</span>(<span class="string">&quot;animation-play-state&quot;</span>)==<span class="string">&quot;running&quot;</span>)&#123;</span></span><br><span class="line"><span class="language-javascript">				$(<span class="string">&quot;.music_pic&quot;</span>).<span class="title function_">css</span>(&#123;<span class="string">&quot;animation-play-state&quot;</span>:<span class="string">&quot;paused&quot;</span>&#125;);</span></span><br><span class="line"><span class="language-javascript">				$(<span class="string">&quot;.pic_box&quot;</span>).<span class="title function_">css</span>(&#123;<span class="string">&quot;animation-play-state&quot;</span>:<span class="string">&quot;paused&quot;</span>&#125;);</span></span><br><span class="line"><span class="language-javascript">				$(<span class="string">&quot;.music_test&quot;</span>).<span class="title function_">get</span>(<span class="number">0</span>).<span class="title function_">pause</span>();</span></span><br><span class="line"><span class="language-javascript">				s=<span class="literal">true</span>;</span></span><br><span class="line"><span class="language-javascript">			&#125;</span></span><br><span class="line"><span class="language-javascript">		&#125;</span></span><br><span class="line"><span class="language-javascript">&#125;</span></span><br><span class="line"><span class="language-javascript">s=<span class="literal">true</span>;</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="keyword">function</span> <span class="title function_">muplay</span>(<span class="params"></span>)&#123;</span></span><br><span class="line"><span class="language-javascript">	<span class="keyword">if</span> (s==<span class="literal">false</span>)&#123;</span></span><br><span class="line"><span class="language-javascript">		s=<span class="literal">true</span>;</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">var</span> music=$(<span class="string">&quot;.music_test&quot;</span>).<span class="title function_">get</span>(<span class="number">0</span>);</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">var</span> pic=$(<span class="string">&quot;.music_pic&quot;</span>);</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">var</span> box=$(<span class="string">&quot;.pic_box&quot;</span>);</span></span><br><span class="line"><span class="language-javascript">		music.<span class="title function_">pause</span>();	 </span></span><br><span class="line"><span class="language-javascript">		pic.<span class="title function_">css</span>(&#123;<span class="string">&quot;animation-play-state&quot;</span>:<span class="string">&quot;paused&quot;</span>&#125;);</span></span><br><span class="line"><span class="language-javascript">		box.<span class="title function_">css</span>(&#123;<span class="string">&quot;animation-play-state&quot;</span>:<span class="string">&quot;paused&quot;</span>&#125;);</span></span><br><span class="line"><span class="language-javascript">		&#125;</span></span><br><span class="line"><span class="language-javascript">	<span class="keyword">else</span>&#123;</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">var</span> music=$(<span class="string">&quot;.music_test&quot;</span>).<span class="title function_">get</span>(<span class="number">0</span>);</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">var</span> pic=$(<span class="string">&quot;.music_pic&quot;</span>);</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">var</span> box=$(<span class="string">&quot;.pic_box&quot;</span>);</span></span><br><span class="line"><span class="language-javascript">		s=<span class="literal">false</span>;</span></span><br><span class="line"><span class="language-javascript">		music.<span class="title function_">play</span>();</span></span><br><span class="line"><span class="language-javascript">		pic.<span class="title function_">css</span>(&#123;<span class="string">&quot;animation-play-state&quot;</span>:<span class="string">&quot;running&quot;</span>&#125;);</span></span><br><span class="line"><span class="language-javascript">		box.<span class="title function_">css</span>(&#123;<span class="string">&quot;animation-play-state&quot;</span>:<span class="string">&quot;running&quot;</span>&#125;);</span></span><br><span class="line"><span class="language-javascript">		</span></span><br><span class="line"><span class="language-javascript">		&#125;</span></span><br><span class="line"><span class="language-javascript">&#125;</span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.pic_box</span>&#123;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">width</span>:<span class="number">250px</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">border-radius</span>: <span class="number">50%</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">background-color</span>:white;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">animation</span>: Box <span class="number">3s</span> linear infinite;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">animation-play-state</span>:paused;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.pic_box</span> <span class="selector-tag">img</span>&#123;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">width</span>:<span class="number">200px</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">height</span>:<span class="number">200px</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">animation</span>: Box <span class="number">3s</span> linear infinite;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">animation-play-state</span>:paused;</span></span><br><span class="line"><span class="language-css">	</span></span><br><span class="line"><span class="language-css">	&#125;</span></span><br><span class="line"><span class="language-css"><span class="keyword">@keyframes</span> Box&#123;</span></span><br><span class="line"><span class="language-css">	<span class="number">0%</span>&#123;<span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">0deg</span>);&#125;</span></span><br><span class="line"><span class="language-css">	<span class="number">50%</span>&#123;<span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">180deg</span>);&#125;</span></span><br><span class="line"><span class="language-css">	<span class="number">100%</span>&#123;<span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">360deg</span>);&#125;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!--more--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">onclick</span>=<span class="string">&quot;mutr()&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>音乐盒（点我切歌）<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span> <span class="attr">class</span>=<span class="string">&quot;recent_text&quot;</span>&gt;</span><span class="symbol">&amp;nbsp;</span>歌曲1<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;box1&quot;</span> <span class="attr">class</span>=<span class="string">&quot;pic_box&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">img</span> <span class="attr">id</span>=<span class="string">&quot;pic&quot;</span> <span class="attr">class</span>=<span class="string">&quot;music_pic&quot;</span> <span class="attr">onclick</span>=<span class="string">&quot;muplay()&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/image/420px-KoishiSubterranean封面.jpg&quot;</span> <span class="attr">alt</span>=<span class="string">&quot;&quot;</span> /&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;musicbox&quot;</span> <span class="attr">class</span>=<span class="string">&quot;musicbox_test&quot;</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">audio</span> <span class="attr">id</span>=<span class="string">&quot;Akatsuki&quot;</span> <span class="attr">class</span>=<span class="string">&quot;music_test&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/image/Akatsuki.mp3&quot;</span>  <span class="attr">loop</span>=<span class="string">&quot;loop&quot;</span> &gt;</span></span><br><span class="line">	<span class="tag">&lt;/<span class="name">audio</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>前端JS</category>
       </categories>
   </entry>
   <entry>
@@ -863,109 +998,6 @@ ${\max Z }  = x_{1}+2x_{2}\\s.t.\quad x_{1}+x_{2}\le3\\ \quad \quad \quad x_{1}\
       </tags>
   </entry>
   <entry>
-    <title>【测试】js做的歌碟</title>
-    <url>/2023/09/30/%E3%80%90%E7%9E%8E%E6%90%9E-%E6%B5%8B%E8%AF%95%E3%80%91js%E5%81%9A%E7%9A%84%E6%AD%8C%E7%A2%9F/</url>
-    <content><![CDATA[<p>本文写的用纯JS（Jquery）写出的歌碟，<br>歌碟通过CSS转动，可以切歌。</p>
-<span id="more"></span>
-
-<p><img src="/image/929D_257_1.jpg" alt="1"></p>
-<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js">
-</script>
-<script>
-var s1=true;
-var musicbox=$(".musicbox_test");
-function mutr(){
-    if (s1==false){
-        s1=true;
-        $(".music_test").attr("src","/image/Akatsuki.mp3")
-        $(".recent_text").text("歌曲1")
-        console.log("ch1")	
-        if ($(".pic_box").css("animation-play-state")=="running"){
-                $(".music_pic").css({"animation-play-state":"paused"});
-                $(".pic_box").css({"animation-play-state":"paused"});
-                $(".music_test").get(0).pause();
-                s=true;
-            }
-    }
-    else{
-        s1=false;
-        $(".music_test").attr("src","/image/wonderland.mp3")
-        $(".recent_text").text("歌曲2")
-        console.log("ch2")
-        if ($(".pic_box").css("animation-play-state")=="running"){
-                $(".music_pic").css({"animation-play-state":"paused"});
-                $(".pic_box").css({"animation-play-state":"paused"});
-                $(".music_test").get(0).pause();
-                s=true;
-            }
-        }
-}
-s=true;
-
-function muplay(){
-    if (s==false){
-        s=true;
-        var music=$(".music_test").get(0);
-        var pic=$(".music_pic");
-        var box=$(".pic_box");
-        music.pause();	 
-        pic.css({"animation-play-state":"paused"});
-        box.css({"animation-play-state":"paused"});
-        }
-    else{
-        var music=$(".music_test").get(0);
-        var pic=$(".music_pic");
-        var box=$(".pic_box");
-        s=false;
-        music.play();
-        pic.css({"animation-play-state":"running"});
-        box.css({"animation-play-state":"running"});
-        
-        }
-}
-</script>
-<style>
-.pic_box{
-    width:250px;
-    border-radius: 50%;
-    background-color:white;
-    animation: Box 3s linear infinite;
-    animation-play-state:paused;
-}
-.pic_box img{
-    width:200px;
-    height:200px;
-    animation: Box 3s linear infinite;
-    animation-play-state:paused;
-    
-    }
-@keyframes Box{
-    0%{transform: rotate(0deg);}
-    50%{transform: rotate(180deg);}
-    100%{transform: rotate(360deg);}
-}
-</style>
-<!--more-->
-<div onclick="mutr()">
-<p>音乐盒（点我切歌）</p>
-<p class="recent_text">&nbsp;歌曲1</p>
-</div>
-<div id="box1" class="pic_box">
-  <img id="pic" class="music_pic" onclick="muplay()" src="/image/420px-KoishiSubterranean封面.jpg" alt="" />
-</div>
-<div id="musicbox" class="musicbox_test">
-    <audio id="Akatsuki" class="music_test" src="/image/Akatsuki.mp3" loop="loop" >
-    </audio>
-</div>
-
-
-<p>源代码</p>
-<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="keyword">var</span> s1=<span class="literal">true</span>;</span></span><br><span class="line"><span class="language-javascript"><span class="keyword">var</span> musicbox=$(<span class="string">&quot;.musicbox_test&quot;</span>);</span></span><br><span class="line"><span class="language-javascript"><span class="keyword">function</span> <span class="title function_">mutr</span>(<span class="params"></span>)&#123;</span></span><br><span class="line"><span class="language-javascript">	<span class="keyword">if</span> (s1==<span class="literal">false</span>)&#123;</span></span><br><span class="line"><span class="language-javascript">		s1=<span class="literal">true</span>;</span></span><br><span class="line"><span class="language-javascript">		$(<span class="string">&quot;.music_test&quot;</span>).<span class="title function_">attr</span>(<span class="string">&quot;src&quot;</span>,<span class="string">&quot;/image/Akatsuki.mp3&quot;</span>)</span></span><br><span class="line"><span class="language-javascript">		$(<span class="string">&quot;.recent_text&quot;</span>).<span class="title function_">text</span>(<span class="string">&quot;歌曲1&quot;</span>)</span></span><br><span class="line"><span class="language-javascript">		<span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&quot;ch1&quot;</span>)	</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">if</span> ($(<span class="string">&quot;.pic_box&quot;</span>).<span class="title function_">css</span>(<span class="string">&quot;animation-play-state&quot;</span>)==<span class="string">&quot;running&quot;</span>)&#123;</span></span><br><span class="line"><span class="language-javascript">				$(<span class="string">&quot;.music_pic&quot;</span>).<span class="title function_">css</span>(&#123;<span class="string">&quot;animation-play-state&quot;</span>:<span class="string">&quot;paused&quot;</span>&#125;);</span></span><br><span class="line"><span class="language-javascript">				$(<span class="string">&quot;.pic_box&quot;</span>).<span class="title function_">css</span>(&#123;<span class="string">&quot;animation-play-state&quot;</span>:<span class="string">&quot;paused&quot;</span>&#125;);</span></span><br><span class="line"><span class="language-javascript">				$(<span class="string">&quot;.music_test&quot;</span>).<span class="title function_">get</span>(<span class="number">0</span>).<span class="title function_">pause</span>();</span></span><br><span class="line"><span class="language-javascript">				s=<span class="literal">true</span>;</span></span><br><span class="line"><span class="language-javascript">			&#125;</span></span><br><span class="line"><span class="language-javascript">	&#125;</span></span><br><span class="line"><span class="language-javascript">	<span class="keyword">else</span>&#123;</span></span><br><span class="line"><span class="language-javascript">		s1=<span class="literal">false</span>;</span></span><br><span class="line"><span class="language-javascript">		$(<span class="string">&quot;.music_test&quot;</span>).<span class="title function_">attr</span>(<span class="string">&quot;src&quot;</span>,<span class="string">&quot;/image/wonderland.mp3&quot;</span>)</span></span><br><span class="line"><span class="language-javascript">		$(<span class="string">&quot;.recent_text&quot;</span>).<span class="title function_">text</span>(<span class="string">&quot;歌曲2&quot;</span>)</span></span><br><span class="line"><span class="language-javascript">		<span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&quot;ch2&quot;</span>)</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">if</span> ($(<span class="string">&quot;.pic_box&quot;</span>).<span class="title function_">css</span>(<span class="string">&quot;animation-play-state&quot;</span>)==<span class="string">&quot;running&quot;</span>)&#123;</span></span><br><span class="line"><span class="language-javascript">				$(<span class="string">&quot;.music_pic&quot;</span>).<span class="title function_">css</span>(&#123;<span class="string">&quot;animation-play-state&quot;</span>:<span class="string">&quot;paused&quot;</span>&#125;);</span></span><br><span class="line"><span class="language-javascript">				$(<span class="string">&quot;.pic_box&quot;</span>).<span class="title function_">css</span>(&#123;<span class="string">&quot;animation-play-state&quot;</span>:<span class="string">&quot;paused&quot;</span>&#125;);</span></span><br><span class="line"><span class="language-javascript">				$(<span class="string">&quot;.music_test&quot;</span>).<span class="title function_">get</span>(<span class="number">0</span>).<span class="title function_">pause</span>();</span></span><br><span class="line"><span class="language-javascript">				s=<span class="literal">true</span>;</span></span><br><span class="line"><span class="language-javascript">			&#125;</span></span><br><span class="line"><span class="language-javascript">		&#125;</span></span><br><span class="line"><span class="language-javascript">&#125;</span></span><br><span class="line"><span class="language-javascript">s=<span class="literal">true</span>;</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="keyword">function</span> <span class="title function_">muplay</span>(<span class="params"></span>)&#123;</span></span><br><span class="line"><span class="language-javascript">	<span class="keyword">if</span> (s==<span class="literal">false</span>)&#123;</span></span><br><span class="line"><span class="language-javascript">		s=<span class="literal">true</span>;</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">var</span> music=$(<span class="string">&quot;.music_test&quot;</span>).<span class="title function_">get</span>(<span class="number">0</span>);</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">var</span> pic=$(<span class="string">&quot;.music_pic&quot;</span>);</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">var</span> box=$(<span class="string">&quot;.pic_box&quot;</span>);</span></span><br><span class="line"><span class="language-javascript">		music.<span class="title function_">pause</span>();	 </span></span><br><span class="line"><span class="language-javascript">		pic.<span class="title function_">css</span>(&#123;<span class="string">&quot;animation-play-state&quot;</span>:<span class="string">&quot;paused&quot;</span>&#125;);</span></span><br><span class="line"><span class="language-javascript">		box.<span class="title function_">css</span>(&#123;<span class="string">&quot;animation-play-state&quot;</span>:<span class="string">&quot;paused&quot;</span>&#125;);</span></span><br><span class="line"><span class="language-javascript">		&#125;</span></span><br><span class="line"><span class="language-javascript">	<span class="keyword">else</span>&#123;</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">var</span> music=$(<span class="string">&quot;.music_test&quot;</span>).<span class="title function_">get</span>(<span class="number">0</span>);</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">var</span> pic=$(<span class="string">&quot;.music_pic&quot;</span>);</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">var</span> box=$(<span class="string">&quot;.pic_box&quot;</span>);</span></span><br><span class="line"><span class="language-javascript">		s=<span class="literal">false</span>;</span></span><br><span class="line"><span class="language-javascript">		music.<span class="title function_">play</span>();</span></span><br><span class="line"><span class="language-javascript">		pic.<span class="title function_">css</span>(&#123;<span class="string">&quot;animation-play-state&quot;</span>:<span class="string">&quot;running&quot;</span>&#125;);</span></span><br><span class="line"><span class="language-javascript">		box.<span class="title function_">css</span>(&#123;<span class="string">&quot;animation-play-state&quot;</span>:<span class="string">&quot;running&quot;</span>&#125;);</span></span><br><span class="line"><span class="language-javascript">		</span></span><br><span class="line"><span class="language-javascript">		&#125;</span></span><br><span class="line"><span class="language-javascript">&#125;</span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.pic_box</span>&#123;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">width</span>:<span class="number">250px</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">border-radius</span>: <span class="number">50%</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">background-color</span>:white;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">animation</span>: Box <span class="number">3s</span> linear infinite;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">animation-play-state</span>:paused;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.pic_box</span> <span class="selector-tag">img</span>&#123;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">width</span>:<span class="number">200px</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">height</span>:<span class="number">200px</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">animation</span>: Box <span class="number">3s</span> linear infinite;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">animation-play-state</span>:paused;</span></span><br><span class="line"><span class="language-css">	</span></span><br><span class="line"><span class="language-css">	&#125;</span></span><br><span class="line"><span class="language-css"><span class="keyword">@keyframes</span> Box&#123;</span></span><br><span class="line"><span class="language-css">	<span class="number">0%</span>&#123;<span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">0deg</span>);&#125;</span></span><br><span class="line"><span class="language-css">	<span class="number">50%</span>&#123;<span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">180deg</span>);&#125;</span></span><br><span class="line"><span class="language-css">	<span class="number">100%</span>&#123;<span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">360deg</span>);&#125;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!--more--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">onclick</span>=<span class="string">&quot;mutr()&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>音乐盒（点我切歌）<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span> <span class="attr">class</span>=<span class="string">&quot;recent_text&quot;</span>&gt;</span><span class="symbol">&amp;nbsp;</span>歌曲1<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;box1&quot;</span> <span class="attr">class</span>=<span class="string">&quot;pic_box&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">img</span> <span class="attr">id</span>=<span class="string">&quot;pic&quot;</span> <span class="attr">class</span>=<span class="string">&quot;music_pic&quot;</span> <span class="attr">onclick</span>=<span class="string">&quot;muplay()&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/image/420px-KoishiSubterranean封面.jpg&quot;</span> <span class="attr">alt</span>=<span class="string">&quot;&quot;</span> /&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;musicbox&quot;</span> <span class="attr">class</span>=<span class="string">&quot;musicbox_test&quot;</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">audio</span> <span class="attr">id</span>=<span class="string">&quot;Akatsuki&quot;</span> <span class="attr">class</span>=<span class="string">&quot;music_test&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/image/Akatsuki.mp3&quot;</span>  <span class="attr">loop</span>=<span class="string">&quot;loop&quot;</span> &gt;</span></span><br><span class="line">	<span class="tag">&lt;/<span class="name">audio</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>前端JS</category>
-      </categories>
-  </entry>
-  <entry>
     <title>【算法/Python】DataFrame的单行指定插入</title>
     <url>/2023/09/29/%E3%80%90%E7%AE%97%E6%B3%95-Python%E3%80%91DataFrame%E7%9A%84%E5%8D%95%E8%A1%8C%E6%8C%87%E5%AE%9A%E6%8F%92%E5%85%A5/</url>
     <content><![CDATA[<p>1.前言<br>Pandas的DataFrame常常用于存储二维数组<br>pandas的功能也比较强大，可以对接excel。<br>但当数据行数很多的情况，就想要新数据插入指定行，<br>似乎pandas并没有现成的函数支持<br>只有比较原始的插入，而且这种方法必须要求list的长度等于df的列数<br>于是就想写一个</p>
@@ -1291,9 +1323,11 @@ function muplay(){
   <entry>
     <title>【搬运】HTML5游戏 糖豆人</title>
     <url>/2023/10/08/%E7%B3%96%E8%B1%86%E4%BA%BA%E6%B5%8B%E8%AF%95/</url>
-    <content><![CDATA[<p>请使用电脑进入，游戏画面需要刷新页面<br><a href="https://github.com/mumuy/pacman">搬运Pacman 吃豆游戏</a><br>—占位—</p>
+    <content><![CDATA[<p><a href="https://github.com/mumuy/pacman">搬运Pacman 吃豆游戏</a><br>—占位—</p>
 <p>—占位—</p>
 <span id="more"></span>
+<p onclick="location.reload()">注：本文含有JS请点击我或者手动刷新才能正常浏览</p>
+
 <link rel="shortcut icon" href="/image/favicon.png">
 <style>
     .mod-game .info{
