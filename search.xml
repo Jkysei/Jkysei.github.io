@@ -114,6 +114,21 @@
       </tags>
   </entry>
   <entry>
+    <title>【Python/算法】（补充）DataFrame指定位置插入</title>
+    <url>/2023/10/16/%E3%80%90Python-%E7%AE%97%E6%B3%95%E3%80%91%EF%BC%88%E8%A1%A5%E5%85%85%EF%BC%89DataFrame%E6%8C%87%E5%AE%9A%E4%BD%8D%E7%BD%AE%E6%8F%92%E5%85%A5/</url>
+    <content><![CDATA[<p><a href="/2023/09/29/%E3%80%90%E7%AE%97%E6%B3%95-Python%E3%80%91DataFrame%E7%9A%84%E5%8D%95%E8%A1%8C%E6%8C%87%E5%AE%9A%E6%8F%92%E5%85%A5/">上文实现了DF的单行插入</a><br>然而有些情况想要实现，单列插入，所以做一个补充</p>
+<span id="more"></span>
+<p>单列插入算法，用默认索引值插入</p>
+<figure class="highlight pgsql"><table><tr><td class="code"><pre><span class="line">def dfinsert_column(df, i, listt1,<span class="type">name</span>):</span><br><span class="line">    i=<span class="type">int</span>(i) # 如果i是str先换成<span class="type">int</span></span><br><span class="line">    df_add = pd.DataFrame(&#123;<span class="type">name</span>:listt1&#125;,</span><br><span class="line">        <span class="keyword">index</span>=df.<span class="keyword">index</span>)</span><br><span class="line">    y=i+<span class="number">1</span></span><br><span class="line">    df1 = df.iloc[:, :y]</span><br><span class="line">    df2 = df.iloc[:, y:]</span><br><span class="line">    df_new = pd.concat([df1, df_add, df2],axis=<span class="number">1</span>)</span><br><span class="line">    <span class="keyword">return</span> df_new #合并后的数据</span><br></pre></td></tr></table></figure>
+<p>用名称索引值插入</p>
+<figure class="highlight vim"><table><tr><td class="code"><pre><span class="line">def dfinsert_column1(df, columnname, listt1,name):</span><br><span class="line">    df_add = pd.DataFrame(&#123;name:listt1&#125;,</span><br><span class="line">        <span class="built_in">index</span>=df.<span class="built_in">index</span>)</span><br><span class="line">    df1 = df.<span class="keyword">loc</span>[:, :columnname]</span><br><span class="line">    <span class="keyword">y</span> = <span class="string">&quot;&quot;</span></span><br><span class="line">    <span class="keyword">for</span> <span class="keyword">e</span> in <span class="built_in">range</span>(<span class="built_in">len</span>(df.columns)):</span><br><span class="line">        <span class="keyword">if</span> df.columns[<span class="keyword">e</span>] == columnname:</span><br><span class="line">            <span class="keyword">y</span> = df.columns[<span class="keyword">e</span> + <span class="number">1</span>]</span><br><span class="line">    df2 = df.<span class="keyword">loc</span>[:, <span class="keyword">y</span>:]</span><br><span class="line">    df_new = pd.concat([df1, df_add, df2],axis=<span class="number">1</span>)</span><br><span class="line">    <span class="keyword">return</span> df_new #合并后的数据</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>完结~~<br><img src="/image/10.14/1011D_216_1.jpg" alt="1"></p>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+  </entry>
+  <entry>
     <title>【Python/数模】利用Python解决线性规划</title>
     <url>/2023/10/14/%E3%80%90Python-%E6%95%B0%E6%A8%A1%E3%80%91%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92%E6%B1%82%E8%A7%A3/</url>
     <content><![CDATA[<p>一、前言<br>线性规划是非常常见的数学问题，主要解决的是在约束条件下达到的<br>目标值达到最大或者最小时各个变量的取值，然而学过运筹学都知道<br>这方面的算法十分复杂。本文并不是研究算法，主要使用PuLP处理<br>线性规划问题。</p>
@@ -300,8 +315,15 @@ $
     <url>/2023/10/11/word%E6%B5%8B%E8%AF%95/</url>
     <content><![CDATA[<p>—占位—<br>本文提供了一个ppt预览和下载功能<br>—占位—</p>
 <span id="more"></span>
-<p><a target="_blank" href="/word/物流小组作业（新调度优化）.docx" download="物流小组作业（新调度优化）.docx">物流小组作业（新调度优化）.docx</a></p>
-]]></content>
+<p>
+<a target="_blank" href="/word/第11组分组任务.docx" download="第11组分组任务.docx">第11组分组任务.docx</a>
+<a target="_blank" href="/pdf/11组分组作业.pptx" download="11组分组作业.pptx">11组分组作业.pptx</a>
+</p>
+
+<p>
+<a target="_blank" href="/word/物流小组作业（新调度优化）.docx" download="物流小组作业（新调度优化）.docx">物流小组作业（新调度优化）.docx</a>
+
+</p>]]></content>
       <categories>
         <category>测试</category>
       </categories>
@@ -1294,12 +1316,13 @@ function muplay(){
 <figure class="highlight vim"><table><tr><td class="code"><pre><span class="line">df.<span class="keyword">loc</span>[<span class="built_in">len</span>(df.<span class="built_in">index</span>)]=<span class="keyword">list</span> </span><br></pre></td></tr></table></figure>
 <span id="more"></span>
 
-<p><img src="/image/929D_226_1.jpg" alt="1"><br>2.算法<br>废话不多说上算法<br>利用分离，然后上下合并（concat）的方法<br>通常数据较多用行名作参数比较容易</p>
-<figure class="highlight scss"><table><tr><td class="code"><pre><span class="line">def <span class="built_in">dfinsert</span>(df, indexname, list,name):</span><br><span class="line">	#df为原数据，list为想要插入的数据</span><br><span class="line">    df_add = pd.<span class="built_in">DataFrame</span>(</span><br><span class="line">		columns=<span class="built_in">list</span>(<span class="built_in">range</span>(<span class="number">1</span>, <span class="built_in">len</span>(list) + <span class="number">1</span>))</span><br><span class="line">		)</span><br><span class="line">    df_add.loc[name] = list #创建想要插入的df数据</span><br><span class="line">    df1 = df.loc[:indexname, :]</span><br><span class="line">	# 不同于行数定位，要获取下一行有点绕</span><br><span class="line">    y=<span class="string">&quot;&quot;</span></span><br><span class="line">    for e in <span class="built_in">range</span>(<span class="built_in">len</span>(<span class="built_in">list</span>(df.index))):</span><br><span class="line">        if <span class="built_in">list</span>(df.index)[e]==indexname:</span><br><span class="line">            y=<span class="built_in">list</span>(df.index)[e+<span class="number">1</span>]</span><br><span class="line">    df2 = df.loc[y:, :]</span><br><span class="line">    df_new = pd.<span class="built_in">concat</span>([df1, df_add, df2])</span><br><span class="line">    return df_new #合并后的数据</span><br></pre></td></tr></table></figure>
+
+<p>2.算法<br>废话不多说上算法<br>利用分离，然后上下合并（concat）的方法<br>通常数据较多用行名作参数比较容易<br>–10.16更新，修正了代码错误，修改一些遗留问题。</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">dfinsert</span>(<span class="params">df, indexname, <span class="built_in">list</span>,name</span>):</span><br><span class="line">    <span class="comment">#df为原数据，list为想要插入的数据</span></span><br><span class="line">    df_add = pd.DataFrame(</span><br><span class="line">        columns=df.columns</span><br><span class="line">        )</span><br><span class="line">    df_add.loc[name] = <span class="built_in">list</span> <span class="comment">#创建想要插入的df数据</span></span><br><span class="line">    df1 = df.loc[:indexname, :]</span><br><span class="line">    <span class="comment"># 不同于行数定位，要获取下一行有点绕</span></span><br><span class="line">    y=<span class="string">&quot;&quot;</span></span><br><span class="line">    <span class="keyword">for</span> e <span class="keyword">in</span> <span class="built_in">range</span>(<span class="built_in">len</span>(df.index)):</span><br><span class="line">        <span class="keyword">if</span> df.index[e]==indexname:</span><br><span class="line">            y=df.index[e+<span class="number">1</span>]</span><br><span class="line">    df2 = df.loc[y:, :]</span><br><span class="line">    df_new = pd.concat([df1, df_add, df2])</span><br><span class="line">    <span class="keyword">return</span> df_new <span class="comment">#合并后的数据</span></span><br></pre></td></tr></table></figure>
 
 <p>也可以用行数作参数，基本就改一下</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">dfinsert</span>(<span class="params">df, i, listt1,name</span>):</span><br><span class="line">	i=<span class="built_in">int</span>(i) <span class="comment"># 如果i是str先换成int</span></span><br><span class="line">    df_add = pd.DataFrame(</span><br><span class="line">        columns=<span class="built_in">list</span>(<span class="built_in">range</span>(<span class="number">1</span>, <span class="built_in">len</span>(listt1) + <span class="number">1</span>)))</span><br><span class="line">    df_add.loc[name] = listt1</span><br><span class="line">    df1 = df.loc[:i, :]</span><br><span class="line">	<span class="comment"># 行数定位加1就完了</span></span><br><span class="line">    df2 = df.loc[i+<span class="number">1</span>:, :]</span><br><span class="line">    df_new = pd.concat([df1, df_add, df2])</span><br><span class="line">    <span class="keyword">return</span> df_new <span class="comment">#合并后的数据</span></span><br></pre></td></tr></table></figure>
-<p>完结</p>
+<figure class="highlight ruby"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">dfinsert_index</span>(<span class="params">df, i, listt1,name</span>):</span><br><span class="line">    i=int(i) <span class="comment"># 如果i是str先换成int</span></span><br><span class="line">    df_add = pd.<span class="title class_">DataFrame</span>(</span><br><span class="line">        columns=df.columns)</span><br><span class="line">    df_add.loc[name] = listt1</span><br><span class="line">    <span class="comment">#因为索引值python的0为序号1所以加1</span></span><br><span class="line">    y=i+<span class="number">1</span></span><br><span class="line">    df1 = df.iloc[<span class="symbol">:y</span>, <span class="symbol">:</span>]</span><br><span class="line">    <span class="comment"># 行数定位加1就完了</span></span><br><span class="line">    df2 = df.iloc[<span class="symbol">y:</span>, <span class="symbol">:</span>]</span><br><span class="line">    df_new = pd.concat([df1, df_add, df2])</span><br><span class="line">    <span class="keyword">return</span> df_new <span class="comment">#合并后的数据</span></span><br></pre></td></tr></table></figure>
+<p>完结<br><img src="/image/929D_226_1.jpg" alt="1"></p>
 ]]></content>
       <categories>
         <category>算法</category>
