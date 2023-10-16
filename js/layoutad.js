@@ -32,12 +32,7 @@ function adtitle(){
 	$(".post-title").before('<div class="Title_text"><a>---Title---</a></div>');
 }
 
-//try{
-	//ad3()
-//}
-//catch(err2){
-	//console.log("ad3 Failed")
-//}
+
 
 function post_button(){
 	$(".post-button>a").text("点进去更精彩>>>")

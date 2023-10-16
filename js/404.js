@@ -1,5 +1,4 @@
 function cd0(){	
-	
 	setTimeout(cd,1000);
 }
 function cd(){
