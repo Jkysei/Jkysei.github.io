@@ -8,7 +8,19 @@ function ad2(){
 					font-weight:bold;\
 					text-shadow: 2px 1px 2px black;"
 }
+body=$("body")
+function bodybg(){
+	body.addEventListener("animationiteration",bodylistener,false)
+}
+function bodylistener(t){
+	switch(t.type){
+		case "animationiteration":
+			body.css("animation-play-state","paused")
+			setTimeout(5000)
+			body.css("animation-play-state","play")
+	}
 
+}
 
 try{
 	ad2()
