@@ -1,3 +1,30 @@
+/*
+var request= new XMLHttpRequest
+var Bingapi="https://cn.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1&mkt=zh-CN"
+request.open('GET',Bingapi,true)
+request.onload=function(){
+
+}
+
+
+function getData(url) {
+	$.ajax({
+		url: url,
+		data: {
+			username: 'admin', 
+			password: 'root'
+		}
+	})
+	.done(function(msg) {
+		alert( 'Data Saved: ' + msg );
+	  });
+}
+urlapi="https://cn.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1&mkt=zh-CN"
+try {
+	getData(urlapi)
+}
+catch(err){alert("Failed")}*/
+
 
 
 function ad2(){
