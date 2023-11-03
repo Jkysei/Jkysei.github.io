@@ -1,6 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>css音频波浪动画</title>
+    <url>/2023/10/03/css%E9%9F%B3%E9%A2%91%E6%B3%A2%E6%B5%AA%E5%8A%A8%E7%94%BB/</url>
+    <content><![CDATA[<p>如题<br>
+本文主要收藏一个CSS动画，<br>
+可以用来配合音乐做出音频波浪的效果。</p>
+<span id="more"></span>
+<p><img src="1005D_253_1.jpg" alt="1005D_253_1.jpg"></p>
+<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bars_music&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span>   </span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bars_music</span>&#123;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">width</span>: <span class="number">60px</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">height</span>: <span class="number">30px</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">position</span>: absolute;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">left</span>: <span class="number">0</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">right</span>: <span class="number">0</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">margin</span>: auto;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span>&#123;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">background</span>: <span class="number">#FF88C2</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">border</span>:<span class="number">1px</span> solid;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">height</span>: <span class="number">3px</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">width</span>: <span class="number">4px</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">position</span>: absolute;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">bottom</span>:<span class="number">1px</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">animation</span>: voice <span class="number">0ms</span> -<span class="number">800ms</span> linear infinite alternate;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"><span class="keyword">@keyframes</span> voice&#123;</span></span><br><span class="line"><span class="language-css">	</span></span><br><span class="line"><span class="language-css">	<span class="number">0%</span>&#123;</span></span><br><span class="line"><span class="language-css">		<span class="attribute">height</span>: <span class="number">3px</span>;</span></span><br><span class="line"><span class="language-css">		<span class="attribute">opacity</span>: .<span class="number">35</span>;</span></span><br><span class="line"><span class="language-css">	&#125;</span></span><br><span class="line"><span class="language-css">	<span class="number">100%</span>&#123;</span></span><br><span class="line"><span class="language-css">		<span class="attribute">height</span>: <span class="number">24px</span>;</span></span><br><span class="line"><span class="language-css">		<span class="attribute">opacity</span>: <span class="number">1</span>;</span></span><br><span class="line"><span class="language-css">	&#125;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">1</span>)  &#123; <span class="attribute">left</span>: <span class="number">1px</span>; <span class="attribute">animation-duration</span>: <span class="number">474ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">2</span>)  &#123; <span class="attribute">left</span>: <span class="number">6px</span>; <span class="attribute">animation-duration</span>: <span class="number">433ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">3</span>)  &#123; <span class="attribute">left</span>: <span class="number">11px</span>; <span class="attribute">animation-duration</span>: <span class="number">407ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">4</span>)  &#123; <span class="attribute">left</span>: <span class="number">16px</span>; <span class="attribute">animation-duration</span>: <span class="number">458ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">5</span>)  &#123; <span class="attribute">left</span>: <span class="number">21px</span>; <span class="attribute">animation-duration</span>: <span class="number">400ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">6</span>)  &#123; <span class="attribute">left</span>: <span class="number">26px</span>; <span class="attribute">animation-duration</span>: <span class="number">427ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">7</span>)  &#123; <span class="attribute">left</span>: <span class="number">31px</span>; <span class="attribute">animation-duration</span>: <span class="number">441ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">8</span>)  &#123; <span class="attribute">left</span>: <span class="number">36px</span>; <span class="attribute">animation-duration</span>: <span class="number">419ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">9</span>)  &#123; <span class="attribute">left</span>: <span class="number">41px</span>; <span class="attribute">animation-duration</span>: <span class="number">487ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">10</span>) &#123; <span class="attribute">left</span>: <span class="number">46px</span>; <span class="attribute">animation-duration</span>: <span class="number">442ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>前端CSS</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>(自用/收藏)CSS效果/CSS动画</title>
+    <url>/2023/09/29/CSS%E5%8A%A8%E7%94%BB/</url>
+    <content><![CDATA[<p>本文主要收藏一些有用常用的CSS语句，<br>
+可以修饰文字或者炫酷的特效等。</p>
+<span id="more"></span>
+<div class="biankuang">
+<p>边框效果</p>
+</div>
+<style>
+.biankuang{
+		font-size:30px;
+		font-weight:bold;
+		color: black;
+		border: 5px solid;
+		border-radius: 5px;
+		padding: 15px;
+		background-color:white;
+	}
+</style>
+<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.biankuang</span>&#123;</span></span><br><span class="line"><span class="language-css">		<span class="attribute">font-size</span>:<span class="number">30px</span>;</span></span><br><span class="line"><span class="language-css">		<span class="attribute">font-weight</span>:bold;</span></span><br><span class="line"><span class="language-css">		<span class="attribute">color</span>: black;</span></span><br><span class="line"><span class="language-css">		<span class="attribute">border</span>: <span class="number">5px</span> solid; #厚度</span></span><br><span class="line"><span class="language-css">		<span class="attribute">border-radius</span>: <span class="number">5px</span>; #曲率</span></span><br><span class="line"><span class="language-css">		<span class="attribute">padding</span>: <span class="number">15px</span>; </span></span><br><span class="line"><span class="language-css">		<span class="attribute">background-color</span>:white;</span></span><br><span class="line"><span class="language-css">	&#125;</span></span><br><span class="line"><span class="language-css"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<!--more-->
+<div class="animate_test">
+<p>边框效果</p>
+</div>
+<style>
+.animate_test{
+	animation: bounce; 
+	animation-duration: 2s; 
+}
+</style>
+<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;animate_test&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>边框效果<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.animate_test</span>&#123;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">animation</span>: bounce; </span></span><br><span class="line"><span class="language-css">	<span class="attribute">animation-duration</span>: <span class="number">2s</span>; </span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>前端CSS</category>
+      </categories>
+  </entry>
+  <entry>
     <title>hexo常用的API（插件）</title>
     <url>/2023/10/01/hexo%E5%B8%B8%E7%94%A8%E7%9A%84API%EF%BC%88%E6%8F%92%E4%BB%B6%EF%BC%89/</url>
     <content><![CDATA[<p>一、前言<br>
@@ -28,19 +77,6 @@ exclude_codeblock: false</p>
 ]]></content>
       <categories>
         <category>hexo</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>css音频波浪动画</title>
-    <url>/2023/10/03/css%E9%9F%B3%E9%A2%91%E6%B3%A2%E6%B5%AA%E5%8A%A8%E7%94%BB/</url>
-    <content><![CDATA[<p>如题<br>
-本文主要收藏一个CSS动画，<br>
-可以用来配合音乐做出音频波浪的效果。</p>
-<span id="more"></span>
-<p><img src="1005D_253_1.jpg" alt="1005D_253_1.jpg"></p>
-<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bars_music&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span>   </span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bars_music</span>&#123;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">width</span>: <span class="number">60px</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">height</span>: <span class="number">30px</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">position</span>: absolute;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">left</span>: <span class="number">0</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">right</span>: <span class="number">0</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">margin</span>: auto;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span>&#123;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">background</span>: <span class="number">#FF88C2</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">border</span>:<span class="number">1px</span> solid;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">height</span>: <span class="number">3px</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">width</span>: <span class="number">4px</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">position</span>: absolute;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">bottom</span>:<span class="number">1px</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">animation</span>: voice <span class="number">0ms</span> -<span class="number">800ms</span> linear infinite alternate;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"><span class="keyword">@keyframes</span> voice&#123;</span></span><br><span class="line"><span class="language-css">	</span></span><br><span class="line"><span class="language-css">	<span class="number">0%</span>&#123;</span></span><br><span class="line"><span class="language-css">		<span class="attribute">height</span>: <span class="number">3px</span>;</span></span><br><span class="line"><span class="language-css">		<span class="attribute">opacity</span>: .<span class="number">35</span>;</span></span><br><span class="line"><span class="language-css">	&#125;</span></span><br><span class="line"><span class="language-css">	<span class="number">100%</span>&#123;</span></span><br><span class="line"><span class="language-css">		<span class="attribute">height</span>: <span class="number">24px</span>;</span></span><br><span class="line"><span class="language-css">		<span class="attribute">opacity</span>: <span class="number">1</span>;</span></span><br><span class="line"><span class="language-css">	&#125;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">1</span>)  &#123; <span class="attribute">left</span>: <span class="number">1px</span>; <span class="attribute">animation-duration</span>: <span class="number">474ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">2</span>)  &#123; <span class="attribute">left</span>: <span class="number">6px</span>; <span class="attribute">animation-duration</span>: <span class="number">433ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">3</span>)  &#123; <span class="attribute">left</span>: <span class="number">11px</span>; <span class="attribute">animation-duration</span>: <span class="number">407ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">4</span>)  &#123; <span class="attribute">left</span>: <span class="number">16px</span>; <span class="attribute">animation-duration</span>: <span class="number">458ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">5</span>)  &#123; <span class="attribute">left</span>: <span class="number">21px</span>; <span class="attribute">animation-duration</span>: <span class="number">400ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">6</span>)  &#123; <span class="attribute">left</span>: <span class="number">26px</span>; <span class="attribute">animation-duration</span>: <span class="number">427ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">7</span>)  &#123; <span class="attribute">left</span>: <span class="number">31px</span>; <span class="attribute">animation-duration</span>: <span class="number">441ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">8</span>)  &#123; <span class="attribute">left</span>: <span class="number">36px</span>; <span class="attribute">animation-duration</span>: <span class="number">419ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">9</span>)  &#123; <span class="attribute">left</span>: <span class="number">41px</span>; <span class="attribute">animation-duration</span>: <span class="number">487ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">10</span>) &#123; <span class="attribute">left</span>: <span class="number">46px</span>; <span class="attribute">animation-duration</span>: <span class="number">442ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>前端CSS</category>
       </categories>
   </entry>
   <entry>
@@ -82,42 +118,6 @@ $(“”).attr(“animation-play-state”,“running”)</p>
       <tags>
         <tag>介绍</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>(自用/收藏)CSS效果/CSS动画</title>
-    <url>/2023/09/29/CSS%E5%8A%A8%E7%94%BB/</url>
-    <content><![CDATA[<p>本文主要收藏一些有用常用的CSS语句，<br>
-可以修饰文字或者炫酷的特效等。</p>
-<span id="more"></span>
-<div class="biankuang">
-<p>边框效果</p>
-</div>
-<style>
-.biankuang{
-		font-size:30px;
-		font-weight:bold;
-		color: black;
-		border: 5px solid;
-		border-radius: 5px;
-		padding: 15px;
-		background-color:white;
-	}
-</style>
-<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.biankuang</span>&#123;</span></span><br><span class="line"><span class="language-css">		<span class="attribute">font-size</span>:<span class="number">30px</span>;</span></span><br><span class="line"><span class="language-css">		<span class="attribute">font-weight</span>:bold;</span></span><br><span class="line"><span class="language-css">		<span class="attribute">color</span>: black;</span></span><br><span class="line"><span class="language-css">		<span class="attribute">border</span>: <span class="number">5px</span> solid; #厚度</span></span><br><span class="line"><span class="language-css">		<span class="attribute">border-radius</span>: <span class="number">5px</span>; #曲率</span></span><br><span class="line"><span class="language-css">		<span class="attribute">padding</span>: <span class="number">15px</span>; </span></span><br><span class="line"><span class="language-css">		<span class="attribute">background-color</span>:white;</span></span><br><span class="line"><span class="language-css">	&#125;</span></span><br><span class="line"><span class="language-css"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<!--more-->
-<div class="animate_test">
-<p>边框效果</p>
-</div>
-<style>
-.animate_test{
-	animation: bounce; 
-	animation-duration: 2s; 
-}
-</style>
-<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;animate_test&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>边框效果<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.animate_test</span>&#123;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">animation</span>: bounce; </span></span><br><span class="line"><span class="language-css">	<span class="attribute">animation-duration</span>: <span class="number">2s</span>; </span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>前端CSS</category>
-      </categories>
   </entry>
   <entry>
     <title>word测试</title>
@@ -300,73 +300,6 @@ outie不心慈手软，innie也不会乖乖就范。为<br>
       </categories>
   </entry>
   <entry>
-    <title>【Python/数模】topsis综合评价</title>
-    <url>/2023/10/11/%E3%80%90Python-%E6%95%B0%E6%A8%A1%E3%80%91topsis%E7%BB%BC%E5%90%88%E8%AF%84%E4%BB%B7/</url>
-    <content><![CDATA[<p>一、前言<br>
-二维数据分析时往往会需要用到综合评价分析，其中TOPSIS就是一种<br>
-比较常用的分析方法<br>
-TOPSIS全名（Technique for Order Preference by Similarity to Ideal Solution）<br>
-逼近理想解排序法，理想解一般认为是数据（每列）中最优的数值，topsis主要将<br>
-数值标准化，通过计算与理想解的距离，得出综合评价，取得排名</p>
-<span id="more"></span>
-<script src="/js/mathjax_post.js"></script>
-<p>二、正文<br>
-废话不多说，直接上代码<br>
-TOPSIS主函数如下</p>
-<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line">def topsis(data, weight):</span><br><span class="line">    data <span class="operator">=</span> data <span class="operator">/</span> np.<span class="built_in">sqrt</span>((data <span class="operator">*</span><span class="operator">*</span> <span class="number">2</span>).<span class="built_in">sum</span>()) </span><br><span class="line">	#将所有数据标准化，每个数据除以每行数据的平方和</span><br><span class="line">    Z <span class="operator">=</span> pd.DataFrame([data.<span class="built_in">min</span>(), data.<span class="built_in">max</span>()], index<span class="operator">=</span>[<span class="string">&#x27;负理想解&#x27;</span>, <span class="string">&#x27;正理想解&#x27;</span>]) </span><br><span class="line">	#最优和最劣为正负理想解</span><br><span class="line">    weight <span class="operator">=</span> np.array(weight)</span><br><span class="line">    <span class="keyword">Result</span> <span class="operator">=</span> data.copy()</span><br><span class="line">    <span class="keyword">Result</span>[<span class="string">&#x27;正理想解&#x27;</span>] <span class="operator">=</span> np.<span class="built_in">sqrt</span>(((data <span class="operator">-</span> Z.loc[<span class="string">&#x27;正理想解&#x27;</span>]) <span class="operator">*</span><span class="operator">*</span> <span class="number">2</span> <span class="operator">*</span> weight).<span class="built_in">sum</span>(axis<span class="operator">=</span><span class="number">1</span>)) </span><br><span class="line">	#计算整行与正理想解的距离的总和乘以权重</span><br><span class="line">    <span class="keyword">Result</span>[<span class="string">&#x27;负理想解&#x27;</span>] <span class="operator">=</span> np.<span class="built_in">sqrt</span>(((data <span class="operator">-</span> Z.loc[<span class="string">&#x27;负理想解&#x27;</span>]) <span class="operator">*</span><span class="operator">*</span> <span class="number">2</span> <span class="operator">*</span> weight).<span class="built_in">sum</span>(axis<span class="operator">=</span><span class="number">1</span>))</span><br><span class="line">	#计算整行与负理想解的距离的总和乘以权重</span><br><span class="line">    <span class="keyword">Result</span>[<span class="string">&#x27;综合得分指数&#x27;</span>] <span class="operator">=</span> <span class="keyword">Result</span>[<span class="string">&#x27;负理想解&#x27;</span>] <span class="operator">/</span> (<span class="keyword">Result</span>[<span class="string">&#x27;负理想解&#x27;</span>] <span class="operator">+</span> <span class="keyword">Result</span>[<span class="string">&#x27;正理想解&#x27;</span>])</span><br><span class="line">	#得出综合得分</span><br><span class="line">    <span class="keyword">Result</span>[<span class="string">&#x27;排序&#x27;</span>] <span class="operator">=</span> Result.<span class="built_in">rank</span>(ascending<span class="operator">=</span><span class="literal">False</span>)[<span class="string">&#x27;综合得分指数&#x27;</span>] </span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">Result</span>, Z, weight</span><br></pre></td></tr></table></figure>
-<p>–10月15号更新<br>
-上述函数少了一部正向化处理的步骤，也就是对数据的标准进行处理，<br>
-极大型指标：越大越好，这是我们想要的<br>
-下面是需要转化的指标<br>
-极小型指标：越小越好，如成本量数据，<br>
-处理方式：</p>
-<p>
-$ \hat{x} _{i} = max_{i} -x _{i} \\  \hat{x} =\frac{1}{x} $
-</p>
-<p>中间指标：越接近中间的完美值越好，如PH值，误差等，<br>
-处理方式：设$x_{best}$为最佳数值</p>
-<p>
-$ \hat{x} _{i} =1- \frac{x _{i}- x _{best} } { max_{i} \left \{ |x _{i}-x _{best}| \right \}  } $
-</p>
-<p>区间型指标：在区间内就是最佳<br>
-处理方式：设 [a,b]为最佳值的区间</p>
-<p>设：
-$M= max \left \{ a-min \left \{ x_{i}  \right \} , max\left \{ x_{i} -b \right \} \right \} $
-</p>
-<p>
-$ \quad \quad \quad 1- \frac{a-x _{i}} { M} \quad,\quad x _{i} < a \\ \hat{x} _{i}= \quad 1 \quad,\quad a < x _{i} < b \\ \quad \quad \quad 1- \frac{x_{i}-b}{M} \quad,\quad x _{i} > a $
-</p>
-<p>标准化：</p>
-<p>
-$ x_{ij} ^{'} = \frac{x_{ij}}{\sqrt{\sum ^{n} _{i=1} x _{ij} ^{2} }  }
-$
-</p>
-<p>大概数据要长这样,每行是一个地方的各项指标，由于无法通过这堆数据，<br>
-直接获得到哪个地方更好，因此需要通过topsis进行综合评价</p>
-<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line">data = pd<span class="selector-class">.DataFrame</span>(</span><br><span class="line">        &#123;<span class="string">&#x27;旅游增量&#x27;</span>: <span class="selector-attr">[5,2,3,3,6]</span>,</span><br><span class="line">		 <span class="string">&#x27;经济增量&#x27;</span>: <span class="selector-attr">[1,4,6,2,5]</span>,</span><br><span class="line">		 <span class="string">&#x27;旅客评价&#x27;</span>: <span class="selector-attr">[5,1,4,6,7]</span>,</span><br><span class="line">         <span class="string">&#x27;政府投资&#x27;</span>: <span class="selector-attr">[5,7,1,5,6]</span>,</span><br><span class="line">		 <span class="string">&#x27;其他扶持&#x27;</span>: <span class="selector-attr">[6,5,7,2,1]</span>&#125;,</span><br><span class="line">	index=<span class="selector-attr">[<span class="string">&#x27;地方&#x27;</span> + i for i in list(<span class="string">&#x27;ABCDE&#x27;</span>)]</span></span><br><span class="line">)</span><br></pre></td></tr></table></figure>
-<p>之后是权重设置，假设Weight平分那么应该是</p>
-<figure class="highlight fortran"><table><tr><td class="code"><pre><span class="line">Result=topsis(<span class="keyword">data</span>=<span class="keyword">data</span>,</span><br><span class="line">	weight=[<span class="number">1</span>/<span class="built_in">int</span>(len(<span class="keyword">data</span>.columns))]*<span class="built_in">int</span>(len(<span class="keyword">data</span>.columns))</span><br><span class="line">	)</span><br></pre></td></tr></table></figure>
-<p>其实权重分析也是一项重要的数据分析，这个地方就不多介绍了<br>
-得到了数据就是输出了</p>
-<figure class="highlight routeros"><table><tr><td class="code"><pre><span class="line">def output(data,path,weight):</span><br><span class="line">	<span class="keyword">if</span>(os.path.isfile(path)):</span><br><span class="line">		os.<span class="built_in">remove</span>(path)</span><br><span class="line">	<span class="attribute">out1</span>=textput(data=data,</span><br><span class="line">			<span class="attribute">weight</span>=weight,</span><br><span class="line">			<span class="attribute">name</span>=<span class="string">&quot;自定义权重&quot;</span>)</span><br><span class="line">	with pd.ExcelWriter(path) as writer:</span><br><span class="line">		data.to_excel(writer, <span class="attribute">sheet_name</span>=<span class="string">&quot;原始数据&quot;</span>, <span class="attribute">index</span>=<span class="literal">True</span>)</span><br><span class="line">		out1.to_excel(writer, <span class="attribute">sheet_name</span>=<span class="string">&quot;自定义权重&quot;</span>, <span class="attribute">index</span>=<span class="literal">True</span>)</span><br><span class="line">		</span><br><span class="line">def textput(data,weight,name):</span><br><span class="line">	out = topsis(data, weight)[0]</span><br><span class="line">	weight = list(weight)</span><br><span class="line">	<span class="keyword">for</span> i <span class="keyword">in</span> range(len(out.columns) - len(weight)):</span><br><span class="line">		weight.append(<span class="string">&#x27;/&#x27;</span>)</span><br><span class="line">	out.loc[name] = weight </span><br><span class="line">	#加一行weight数据</span><br><span class="line">	return out</span><br><span class="line">output(data,</span><br><span class="line">	   <span class="attribute">path</span>=<span class="string">&#x27;Topsis评价.xlsx&#x27;</span>,</span><br><span class="line">	   weight=[0.2, 0.3, 0.3, 0.1,0.1]) #权重设置</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p><img src="top1.png" alt="1"><br>
-输出结果如上</p>
-<p>三、然而这样看得比较空，<br>
-所以可以加上一个分析图，雷达图比较适合<br>
-雷达图的绘制比较复杂，代码如下</p>
-<figure class="highlight maxima"><table><tr><td class="code"><pre><span class="line">def picput(choice,data,name,weight):</span><br><span class="line">	leng = len(data.<span class="built_in">columns</span>)</span><br><span class="line">	<span class="keyword">if</span> choice != &#x27;A&#x27;:</span><br><span class="line">		# choice用来判断是否为原始数据</span><br><span class="line">		result = topsis(data,weight)[<span class="number">0</span>]</span><br><span class="line">		list1 = list(<span class="built_in">range</span>(leng))</span><br><span class="line">		list1.<span class="built_in">append</span>(leng + <span class="number">2</span>)</span><br><span class="line">		</span><br><span class="line">	<span class="keyword">else</span>:</span><br><span class="line">		result=data</span><br><span class="line">		list1 = list(<span class="built_in">range</span>(leng))</span><br><span class="line">	<span class="built_in">labels</span> = result.<span class="built_in">columns</span>[list1]</span><br><span class="line">	#设置<span class="built_in">label</span>元素</span><br><span class="line">	<span class="built_in">length</span> = len(<span class="built_in">labels</span>)</span><br><span class="line">	#angle角元素</span><br><span class="line">	angles = <span class="built_in">np</span>.linspace(<span class="number">0</span>, <span class="number">2</span> * <span class="built_in">np</span>.pi, <span class="built_in">length</span>, endpoint=False)</span><br><span class="line">	angles = <span class="built_in">np</span>.concatenate((angles, [angles[<span class="number">0</span>]]))</span><br><span class="line">	<span class="built_in">labels</span> = <span class="built_in">np</span>.concatenate((<span class="built_in">labels</span>, [<span class="built_in">labels</span>[<span class="number">0</span>]]))</span><br><span class="line">	fig = plt.figure()</span><br><span class="line">	<span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(len(list(result.index))):</span><br><span class="line">		temp = result.iloc[i, list1]</span><br><span class="line">		temp = <span class="built_in">np</span>.concatenate((temp, [temp[<span class="number">0</span>]]))</span><br><span class="line">		#设置数据</span><br><span class="line">		plt.<span class="built_in">polar</span>(angles, temp, <span class="built_in">label</span>=result.index[i])</span><br><span class="line">	plt.thetagrids(angles * <span class="number">180</span> / <span class="built_in">np</span>.pi, <span class="built_in">labels</span>)</span><br><span class="line">	plt.<span class="built_in">legend</span>(bbox_to_anchor=(<span class="number">1.2</span>, <span class="number">1</span>))</span><br><span class="line">	plt.<span class="built_in">title</span>(name, y=<span class="number">1.2</span>)</span><br><span class="line">	<span class="built_in">return</span> fig</span><br></pre></td></tr></table></figure>
-<p>return回图形后，再写一个图形导出函数，<br>
-将图形导出到excel里</p>
-<figure class="highlight routeros"><table><tr><td class="code"><pre><span class="line">def resultpic1(data,path,weight):</span><br><span class="line">	<span class="attribute">fig0</span>=picput(choice=&#x27;A&#x27;,</span><br><span class="line">				<span class="attribute">data</span>=data,</span><br><span class="line">				<span class="attribute">name</span>=<span class="string">&quot;原始数据&quot;</span>,</span><br><span class="line">				<span class="attribute">weight</span>=None,</span><br><span class="line">				)</span><br><span class="line">	fig1 = picput(<span class="attribute">choice</span>=<span class="string">&#x27;B&#x27;</span>,</span><br><span class="line">				  <span class="attribute">data</span>=data,</span><br><span class="line">				  <span class="attribute">name</span>=<span class="string">&quot;自定义权重Topsis评价&quot;</span>,</span><br><span class="line">				  <span class="attribute">weight</span>=weight,</span><br><span class="line">				  )</span><br><span class="line">	app = xw.App(<span class="attribute">visible</span>=<span class="literal">False</span>)</span><br><span class="line">	wb = app.books.open(path)</span><br><span class="line">	ws0 = wb.sheets[0]</span><br><span class="line">	ws1 = wb.sheets[1]</span><br><span class="line">	ws0.pictures.<span class="built_in">add</span>(fig0,</span><br><span class="line">					 <span class="attribute">left</span>=ws0.range(&#x27;K7&#x27;).left</span><br><span class="line">					 )</span><br><span class="line">	ws1.pictures.<span class="built_in">add</span>(fig1,</span><br><span class="line">					 <span class="attribute">left</span>=ws1.range(&#x27;K7&#x27;).left</span><br><span class="line">					 )</span><br><span class="line">	wb.save(path)</span><br><span class="line">	wb.close()</span><br><span class="line">	app.quit()</span><br></pre></td></tr></table></figure>
-<p><img src="top2.png" alt="1"><br>
-~~完结<br>
-<img src="1010D_173_1.jpg" alt="1"></p>
-]]></content>
-      <categories>
-        <category>Python</category>
-      </categories>
-  </entry>
-  <entry>
     <title>【电影】《漫长的季节》，掰不过命运，还要仰着头往前</title>
     <url>/2023/10/21/%E3%80%8A%E6%BC%AB%E9%95%BF%E7%9A%84%E5%AD%A3%E8%8A%82%E3%80%8B%EF%BC%8C%E6%8E%B0%E4%B8%8D%E8%BF%87%E5%91%BD%E8%BF%90%EF%BC%8C%E8%BF%98%E8%A6%81%E4%BB%B0%E7%9D%80%E5%A4%B4%E5%BE%80%E5%89%8D/</url>
     <content><![CDATA[<p>《漫长的季节》，掰不过命运，还要仰着头往前</p>
@@ -435,6 +368,73 @@ $
       </categories>
   </entry>
   <entry>
+    <title>【Python/数模】topsis综合评价</title>
+    <url>/2023/10/11/%E3%80%90Python-%E6%95%B0%E6%A8%A1%E3%80%91topsis%E7%BB%BC%E5%90%88%E8%AF%84%E4%BB%B7/</url>
+    <content><![CDATA[<p>一、前言<br>
+二维数据分析时往往会需要用到综合评价分析，其中TOPSIS就是一种<br>
+比较常用的分析方法<br>
+TOPSIS全名（Technique for Order Preference by Similarity to Ideal Solution）<br>
+逼近理想解排序法，理想解一般认为是数据（每列）中最优的数值，topsis主要将<br>
+数值标准化，通过计算与理想解的距离，得出综合评价，取得排名</p>
+<span id="more"></span>
+<script src="/js/mathjax_post.js"></script>
+<p>二、正文<br>
+废话不多说，直接上代码<br>
+TOPSIS主函数如下</p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line">def topsis(data, weight):</span><br><span class="line">    data <span class="operator">=</span> data <span class="operator">/</span> np.<span class="built_in">sqrt</span>((data <span class="operator">*</span><span class="operator">*</span> <span class="number">2</span>).<span class="built_in">sum</span>()) </span><br><span class="line">	#将所有数据标准化，每个数据除以每行数据的平方和</span><br><span class="line">    Z <span class="operator">=</span> pd.DataFrame([data.<span class="built_in">min</span>(), data.<span class="built_in">max</span>()], index<span class="operator">=</span>[<span class="string">&#x27;负理想解&#x27;</span>, <span class="string">&#x27;正理想解&#x27;</span>]) </span><br><span class="line">	#最优和最劣为正负理想解</span><br><span class="line">    weight <span class="operator">=</span> np.array(weight)</span><br><span class="line">    <span class="keyword">Result</span> <span class="operator">=</span> data.copy()</span><br><span class="line">    <span class="keyword">Result</span>[<span class="string">&#x27;正理想解&#x27;</span>] <span class="operator">=</span> np.<span class="built_in">sqrt</span>(((data <span class="operator">-</span> Z.loc[<span class="string">&#x27;正理想解&#x27;</span>]) <span class="operator">*</span><span class="operator">*</span> <span class="number">2</span> <span class="operator">*</span> weight).<span class="built_in">sum</span>(axis<span class="operator">=</span><span class="number">1</span>)) </span><br><span class="line">	#计算整行与正理想解的距离的总和乘以权重</span><br><span class="line">    <span class="keyword">Result</span>[<span class="string">&#x27;负理想解&#x27;</span>] <span class="operator">=</span> np.<span class="built_in">sqrt</span>(((data <span class="operator">-</span> Z.loc[<span class="string">&#x27;负理想解&#x27;</span>]) <span class="operator">*</span><span class="operator">*</span> <span class="number">2</span> <span class="operator">*</span> weight).<span class="built_in">sum</span>(axis<span class="operator">=</span><span class="number">1</span>))</span><br><span class="line">	#计算整行与负理想解的距离的总和乘以权重</span><br><span class="line">    <span class="keyword">Result</span>[<span class="string">&#x27;综合得分指数&#x27;</span>] <span class="operator">=</span> <span class="keyword">Result</span>[<span class="string">&#x27;负理想解&#x27;</span>] <span class="operator">/</span> (<span class="keyword">Result</span>[<span class="string">&#x27;负理想解&#x27;</span>] <span class="operator">+</span> <span class="keyword">Result</span>[<span class="string">&#x27;正理想解&#x27;</span>])</span><br><span class="line">	#得出综合得分</span><br><span class="line">    <span class="keyword">Result</span>[<span class="string">&#x27;排序&#x27;</span>] <span class="operator">=</span> Result.<span class="built_in">rank</span>(ascending<span class="operator">=</span><span class="literal">False</span>)[<span class="string">&#x27;综合得分指数&#x27;</span>] </span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">Result</span>, Z, weight</span><br></pre></td></tr></table></figure>
+<p>–10月15号更新<br>
+上述函数少了一部正向化处理的步骤，也就是对数据的标准进行处理，<br>
+极大型指标：越大越好，这是我们想要的<br>
+下面是需要转化的指标<br>
+极小型指标：越小越好，如成本量数据，<br>
+处理方式：</p>
+<p>
+$ \hat{x} _{i} = max_{i} -x _{i} \\  \hat{x} =\frac{1}{x} $
+</p>
+<p>中间指标：越接近中间的完美值越好，如PH值，误差等，<br>
+处理方式：设$x_{best}$为最佳数值</p>
+<p>
+$ \hat{x} _{i} =1- \frac{x _{i}- x _{best} } { max_{i} \left \{ |x _{i}-x _{best}| \right \}  } $
+</p>
+<p>区间型指标：在区间内就是最佳<br>
+处理方式：设 [a,b]为最佳值的区间</p>
+<p>设：
+$M= max \left \{ a-min \left \{ x_{i}  \right \} , max\left \{ x_{i} -b \right \} \right \} $
+</p>
+<p>
+$ \quad \quad \quad 1- \frac{a-x _{i}} { M} \quad,\quad x _{i} < a \\ \hat{x} _{i}= \quad 1 \quad,\quad a < x _{i} < b \\ \quad \quad \quad 1- \frac{x_{i}-b}{M} \quad,\quad x _{i} > a $
+</p>
+<p>标准化：</p>
+<p>
+$ x_{ij} ^{'} = \frac{x_{ij}}{\sqrt{\sum ^{n} _{i=1} x _{ij} ^{2} }  }
+$
+</p>
+<p>大概数据要长这样,每行是一个地方的各项指标，由于无法通过这堆数据，<br>
+直接获得到哪个地方更好，因此需要通过topsis进行综合评价</p>
+<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line">data = pd<span class="selector-class">.DataFrame</span>(</span><br><span class="line">        &#123;<span class="string">&#x27;旅游增量&#x27;</span>: <span class="selector-attr">[5,2,3,3,6]</span>,</span><br><span class="line">		 <span class="string">&#x27;经济增量&#x27;</span>: <span class="selector-attr">[1,4,6,2,5]</span>,</span><br><span class="line">		 <span class="string">&#x27;旅客评价&#x27;</span>: <span class="selector-attr">[5,1,4,6,7]</span>,</span><br><span class="line">         <span class="string">&#x27;政府投资&#x27;</span>: <span class="selector-attr">[5,7,1,5,6]</span>,</span><br><span class="line">		 <span class="string">&#x27;其他扶持&#x27;</span>: <span class="selector-attr">[6,5,7,2,1]</span>&#125;,</span><br><span class="line">	index=<span class="selector-attr">[<span class="string">&#x27;地方&#x27;</span> + i for i in list(<span class="string">&#x27;ABCDE&#x27;</span>)]</span></span><br><span class="line">)</span><br></pre></td></tr></table></figure>
+<p>之后是权重设置，假设Weight平分那么应该是</p>
+<figure class="highlight fortran"><table><tr><td class="code"><pre><span class="line">Result=topsis(<span class="keyword">data</span>=<span class="keyword">data</span>,</span><br><span class="line">	weight=[<span class="number">1</span>/<span class="built_in">int</span>(len(<span class="keyword">data</span>.columns))]*<span class="built_in">int</span>(len(<span class="keyword">data</span>.columns))</span><br><span class="line">	)</span><br></pre></td></tr></table></figure>
+<p>其实权重分析也是一项重要的数据分析，这个地方就不多介绍了<br>
+得到了数据就是输出了</p>
+<figure class="highlight routeros"><table><tr><td class="code"><pre><span class="line">def output(data,path,weight):</span><br><span class="line">	<span class="keyword">if</span>(os.path.isfile(path)):</span><br><span class="line">		os.<span class="built_in">remove</span>(path)</span><br><span class="line">	<span class="attribute">out1</span>=textput(data=data,</span><br><span class="line">			<span class="attribute">weight</span>=weight,</span><br><span class="line">			<span class="attribute">name</span>=<span class="string">&quot;自定义权重&quot;</span>)</span><br><span class="line">	with pd.ExcelWriter(path) as writer:</span><br><span class="line">		data.to_excel(writer, <span class="attribute">sheet_name</span>=<span class="string">&quot;原始数据&quot;</span>, <span class="attribute">index</span>=<span class="literal">True</span>)</span><br><span class="line">		out1.to_excel(writer, <span class="attribute">sheet_name</span>=<span class="string">&quot;自定义权重&quot;</span>, <span class="attribute">index</span>=<span class="literal">True</span>)</span><br><span class="line">		</span><br><span class="line">def textput(data,weight,name):</span><br><span class="line">	out = topsis(data, weight)[0]</span><br><span class="line">	weight = list(weight)</span><br><span class="line">	<span class="keyword">for</span> i <span class="keyword">in</span> range(len(out.columns) - len(weight)):</span><br><span class="line">		weight.append(<span class="string">&#x27;/&#x27;</span>)</span><br><span class="line">	out.loc[name] = weight </span><br><span class="line">	#加一行weight数据</span><br><span class="line">	return out</span><br><span class="line">output(data,</span><br><span class="line">	   <span class="attribute">path</span>=<span class="string">&#x27;Topsis评价.xlsx&#x27;</span>,</span><br><span class="line">	   weight=[0.2, 0.3, 0.3, 0.1,0.1]) #权重设置</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p><img src="top1.png" alt="1"><br>
+输出结果如上</p>
+<p>三、然而这样看得比较空，<br>
+所以可以加上一个分析图，雷达图比较适合<br>
+雷达图的绘制比较复杂，代码如下</p>
+<figure class="highlight maxima"><table><tr><td class="code"><pre><span class="line">def picput(choice,data,name,weight):</span><br><span class="line">	leng = len(data.<span class="built_in">columns</span>)</span><br><span class="line">	<span class="keyword">if</span> choice != &#x27;A&#x27;:</span><br><span class="line">		# choice用来判断是否为原始数据</span><br><span class="line">		result = topsis(data,weight)[<span class="number">0</span>]</span><br><span class="line">		list1 = list(<span class="built_in">range</span>(leng))</span><br><span class="line">		list1.<span class="built_in">append</span>(leng + <span class="number">2</span>)</span><br><span class="line">		</span><br><span class="line">	<span class="keyword">else</span>:</span><br><span class="line">		result=data</span><br><span class="line">		list1 = list(<span class="built_in">range</span>(leng))</span><br><span class="line">	<span class="built_in">labels</span> = result.<span class="built_in">columns</span>[list1]</span><br><span class="line">	#设置<span class="built_in">label</span>元素</span><br><span class="line">	<span class="built_in">length</span> = len(<span class="built_in">labels</span>)</span><br><span class="line">	#angle角元素</span><br><span class="line">	angles = <span class="built_in">np</span>.linspace(<span class="number">0</span>, <span class="number">2</span> * <span class="built_in">np</span>.pi, <span class="built_in">length</span>, endpoint=False)</span><br><span class="line">	angles = <span class="built_in">np</span>.concatenate((angles, [angles[<span class="number">0</span>]]))</span><br><span class="line">	<span class="built_in">labels</span> = <span class="built_in">np</span>.concatenate((<span class="built_in">labels</span>, [<span class="built_in">labels</span>[<span class="number">0</span>]]))</span><br><span class="line">	fig = plt.figure()</span><br><span class="line">	<span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(len(list(result.index))):</span><br><span class="line">		temp = result.iloc[i, list1]</span><br><span class="line">		temp = <span class="built_in">np</span>.concatenate((temp, [temp[<span class="number">0</span>]]))</span><br><span class="line">		#设置数据</span><br><span class="line">		plt.<span class="built_in">polar</span>(angles, temp, <span class="built_in">label</span>=result.index[i])</span><br><span class="line">	plt.thetagrids(angles * <span class="number">180</span> / <span class="built_in">np</span>.pi, <span class="built_in">labels</span>)</span><br><span class="line">	plt.<span class="built_in">legend</span>(bbox_to_anchor=(<span class="number">1.2</span>, <span class="number">1</span>))</span><br><span class="line">	plt.<span class="built_in">title</span>(name, y=<span class="number">1.2</span>)</span><br><span class="line">	<span class="built_in">return</span> fig</span><br></pre></td></tr></table></figure>
+<p>return回图形后，再写一个图形导出函数，<br>
+将图形导出到excel里</p>
+<figure class="highlight routeros"><table><tr><td class="code"><pre><span class="line">def resultpic1(data,path,weight):</span><br><span class="line">	<span class="attribute">fig0</span>=picput(choice=&#x27;A&#x27;,</span><br><span class="line">				<span class="attribute">data</span>=data,</span><br><span class="line">				<span class="attribute">name</span>=<span class="string">&quot;原始数据&quot;</span>,</span><br><span class="line">				<span class="attribute">weight</span>=None,</span><br><span class="line">				)</span><br><span class="line">	fig1 = picput(<span class="attribute">choice</span>=<span class="string">&#x27;B&#x27;</span>,</span><br><span class="line">				  <span class="attribute">data</span>=data,</span><br><span class="line">				  <span class="attribute">name</span>=<span class="string">&quot;自定义权重Topsis评价&quot;</span>,</span><br><span class="line">				  <span class="attribute">weight</span>=weight,</span><br><span class="line">				  )</span><br><span class="line">	app = xw.App(<span class="attribute">visible</span>=<span class="literal">False</span>)</span><br><span class="line">	wb = app.books.open(path)</span><br><span class="line">	ws0 = wb.sheets[0]</span><br><span class="line">	ws1 = wb.sheets[1]</span><br><span class="line">	ws0.pictures.<span class="built_in">add</span>(fig0,</span><br><span class="line">					 <span class="attribute">left</span>=ws0.range(&#x27;K7&#x27;).left</span><br><span class="line">					 )</span><br><span class="line">	ws1.pictures.<span class="built_in">add</span>(fig1,</span><br><span class="line">					 <span class="attribute">left</span>=ws1.range(&#x27;K7&#x27;).left</span><br><span class="line">					 )</span><br><span class="line">	wb.save(path)</span><br><span class="line">	wb.close()</span><br><span class="line">	app.quit()</span><br></pre></td></tr></table></figure>
+<p><img src="top2.png" alt="1"><br>
+~~完结<br>
+<img src="1010D_173_1.jpg" alt="1"></p>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+  </entry>
+  <entry>
     <title>【Python/数模】整理目录</title>
     <url>/2023/10/15/%E3%80%90Python-%E6%95%B0%E6%A8%A1%E3%80%91%E6%95%B4%E7%90%86%E7%9B%AE%E5%BD%95/</url>
     <content><![CDATA[<p>一、综合评价类：<br>
@@ -500,6 +500,43 @@ $
       </categories>
   </entry>
   <entry>
+    <title>【Python/爬图】效率改进-多线程</title>
+    <url>/2023/10/19/%E3%80%90Python-%E7%88%AC%E5%9B%BE%E3%80%91%E6%95%88%E7%8E%87%E6%94%B9%E8%BF%9B-%E5%A4%9A%E7%BA%BF%E7%A8%8B/</url>
+    <content><![CDATA[<p>一、前言<br>
+<a href="/2023/10/16/%E3%80%90Python%E3%80%91%E7%88%AC%E8%99%AB%E8%84%9A%E6%9C%AC%E7%9B%AE%E5%BD%95">爬虫目录</a><br>
+前文介绍了爬图的思路和核心函数，其中也留下了一个想法，<br>
+selenium虽然比较稳定，但是访问速度实在太慢了。<br>
+<em>page_load_strategy是浏览器加载策略，默认是normal，eager则是快速加载</em><br>
+<em>在网页资源加载完成时就会立刻关闭，可以省很多时间。</em><br>
+<em>网上有很多说有更加快速的方法，说实话是噱头，没有实际用处，</em><br>
+<em>照着他的方法，会迅速加载网页然后光速关闭，根本无法正常抓取网页内容</em><br>
+<em>eagle已经是最快的策略，更快可以尝试多线程的爬虫。</em></p>
+<span id="more"></span>
+<p>二、正文<br>
+1.如何分配，哪个步骤需要多线程，<br>
+把多线程用在for循环分配上，原程序通过爬取页面页资源，获得一系列<br>
+详细页的元素，然后通过for循环逐一个取出，调用详细页函数。因此可以<br>
+把页面页的链接分半走多线程就行。</p>
+<p>2.多线程函数<br>
+threading是python一个常用的多线程模块，threading一般都是pip自带的，<br>
+不需要手动下载</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> threading <span class="keyword">import</span> Thread</span><br></pre></td></tr></table></figure>
+<p>启动函数如下</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">t1=Thread(target=temp_thread1,args=(arg)) <span class="comment">#变量</span></span><br><span class="line">t2 = Thread(target=temp_thread2, args=(arg)) <span class="comment">#变量</span></span><br><span class="line">t1.start()</span><br><span class="line">t2.start()</span><br><span class="line">t1.join()</span><br><span class="line">t2.join() <span class="comment">#join函数会让先完成的线程等待未完成</span></span><br></pre></td></tr></table></figure>
+<p>分半方法，这个地方我用的是pyquery，pyquery直接爬下来的<br>
+并不是python的list，不容易使用索引，所以应该需要处理一下</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">pa_li=[]</span><br><span class="line"><span class="keyword">for</span> temp_pa <span class="keyword">in</span> pa0: <span class="comment">#pa0是在页面页爬取下来的详细页资源</span></span><br><span class="line">    t+=<span class="number">1</span></span><br><span class="line">    pa_li.append(temp_pa)</span><br><span class="line">pa1=pa_li[:<span class="built_in">len</span>(pa_li)//<span class="number">2</span>];pa2=pa_li[<span class="built_in">len</span>(pa_li)//<span class="number">2</span>:]</span><br></pre></td></tr></table></figure>
+<p>3.效果<br>
+双线程并非单线程的速度翻倍，经几次使用发现，双线程经常是<br>
+一个线程快速完成，另一个线程还需要等很久。我自身用下来，双线程<br>
+比单线程会快30~40%，但这应该跟cpu性能也有关系，多核性能更强的<br>
+cpu或许多线程的效率更高吧</p>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+  </entry>
+  <entry>
     <title>【Python/数模】利用Python解决线性规划</title>
     <url>/2023/10/14/%E3%80%90Python-%E6%95%B0%E6%A8%A1%E3%80%91%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92%E6%B1%82%E8%A7%A3/</url>
     <content><![CDATA[<p>一、前言<br>
@@ -549,43 +586,6 @@ ${\max Z }  = x_{1}+2x_{2}\\s.t.\quad x_{1}+x_{2}\le3\\ \quad \quad \quad x_{1}\
       </categories>
   </entry>
   <entry>
-    <title>【Python/爬图】效率改进-多线程</title>
-    <url>/2023/10/19/%E3%80%90Python-%E7%88%AC%E5%9B%BE%E3%80%91%E6%95%88%E7%8E%87%E6%94%B9%E8%BF%9B-%E5%A4%9A%E7%BA%BF%E7%A8%8B/</url>
-    <content><![CDATA[<p>一、前言<br>
-<a href="/2023/10/16/%E3%80%90Python%E3%80%91%E7%88%AC%E8%99%AB%E8%84%9A%E6%9C%AC%E7%9B%AE%E5%BD%95">爬虫目录</a><br>
-前文介绍了爬图的思路和核心函数，其中也留下了一个想法，<br>
-selenium虽然比较稳定，但是访问速度实在太慢了。<br>
-<em>page_load_strategy是浏览器加载策略，默认是normal，eager则是快速加载</em><br>
-<em>在网页资源加载完成时就会立刻关闭，可以省很多时间。</em><br>
-<em>网上有很多说有更加快速的方法，说实话是噱头，没有实际用处，</em><br>
-<em>照着他的方法，会迅速加载网页然后光速关闭，根本无法正常抓取网页内容</em><br>
-<em>eagle已经是最快的策略，更快可以尝试多线程的爬虫。</em></p>
-<span id="more"></span>
-<p>二、正文<br>
-1.如何分配，哪个步骤需要多线程，<br>
-把多线程用在for循环分配上，原程序通过爬取页面页资源，获得一系列<br>
-详细页的元素，然后通过for循环逐一个取出，调用详细页函数。因此可以<br>
-把页面页的链接分半走多线程就行。</p>
-<p>2.多线程函数<br>
-threading是python一个常用的多线程模块，threading一般都是pip自带的，<br>
-不需要手动下载</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> threading <span class="keyword">import</span> Thread</span><br></pre></td></tr></table></figure>
-<p>启动函数如下</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">t1=Thread(target=temp_thread1,args=(arg)) <span class="comment">#变量</span></span><br><span class="line">t2 = Thread(target=temp_thread2, args=(arg)) <span class="comment">#变量</span></span><br><span class="line">t1.start()</span><br><span class="line">t2.start()</span><br><span class="line">t1.join()</span><br><span class="line">t2.join() <span class="comment">#join函数会让先完成的线程等待未完成</span></span><br></pre></td></tr></table></figure>
-<p>分半方法，这个地方我用的是pyquery，pyquery直接爬下来的<br>
-并不是python的list，不容易使用索引，所以应该需要处理一下</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">pa_li=[]</span><br><span class="line"><span class="keyword">for</span> temp_pa <span class="keyword">in</span> pa0: <span class="comment">#pa0是在页面页爬取下来的详细页资源</span></span><br><span class="line">    t+=<span class="number">1</span></span><br><span class="line">    pa_li.append(temp_pa)</span><br><span class="line">pa1=pa_li[:<span class="built_in">len</span>(pa_li)//<span class="number">2</span>];pa2=pa_li[<span class="built_in">len</span>(pa_li)//<span class="number">2</span>:]</span><br></pre></td></tr></table></figure>
-<p>3.效果<br>
-双线程并非单线程的速度翻倍，经几次使用发现，双线程经常是<br>
-一个线程快速完成，另一个线程还需要等很久。我自身用下来，双线程<br>
-比单线程会快30~40%，但这应该跟cpu性能也有关系，多核性能更强的<br>
-cpu或许多线程的效率更高吧</p>
-]]></content>
-      <categories>
-        <category>Python</category>
-      </categories>
-  </entry>
-  <entry>
     <title>【Python/算法】（补充）DataFrame指定位置插入</title>
     <url>/2023/10/16/%E3%80%90Python-%E7%AE%97%E6%B3%95%E3%80%91%EF%BC%88%E8%A1%A5%E5%85%85%EF%BC%89DataFrame%E6%8C%87%E5%AE%9A%E4%BD%8D%E7%BD%AE%E6%8F%92%E5%85%A5/</url>
     <content><![CDATA[<p><a href="/2023/09/29/%E3%80%90%E7%AE%97%E6%B3%95-Python%E3%80%91DataFrame%E7%9A%84%E5%8D%95%E8%A1%8C%E6%8C%87%E5%AE%9A%E6%8F%92%E5%85%A5/">上文实现了DF的单行插入</a><br>
@@ -601,31 +601,6 @@ cpu或许多线程的效率更高吧</p>
       <categories>
         <category>Python</category>
       </categories>
-  </entry>
-  <entry>
-    <title>【Python/脚本】一个懒得自己打字的md图片插入脚本</title>
-    <url>/2023/10/05/%E3%80%90Python-%E8%84%9A%E6%9C%AC%E3%80%91%E4%B8%80%E4%B8%AA%E6%87%92%E5%BE%97%E8%87%AA%E5%B7%B1%E6%89%93%E5%AD%97%E7%9A%84md%E5%9B%BE%E7%89%87%E6%8F%92%E5%85%A5%E8%84%9A%E6%9C%AC/</url>
-    <content><![CDATA[<p>Markdown也就是md文件<br>
-Markdown文件插入可以遵循html的标签方式，但<br>
-这种插入方式比较麻烦，可以用md自己的格式</p>
-<span id="more"></span>
-<p>1.md图片插入格式</p>
-<figure class="highlight scss"><table><tr><td class="code"><pre><span class="line">!<span class="selector-attr">[若图片not Found显示的文字]</span>(路径)</span><br></pre></td></tr></table></figure>
-<p>一般可以这么写，/image自动索引到资源文件</p>
-<figure class="highlight arcade"><table><tr><td class="code"><pre><span class="line">![<span class="number">28.</span>webp](<span class="regexp">/image/</span><span class="number">28.</span>webp)</span><br></pre></td></tr></table></figure>
-<p><img src="1005D_140_1.jpg" alt="1005D_140_1.jpg"></p>
-<!--more-->
-<p>2.代码十分简单，不到一分钟写完了</p>
-<figure class="highlight dust"><table><tr><td class="code"><pre><span class="line"><span class="language-xml">import os</span></span><br><span class="line"><span class="language-xml">filePath = &#x27;D:\\Blog\\Blog1\\source\\_posts\\【图集】10-3图图&#x27;</span></span><br><span class="line"><span class="language-xml">n=0</span></span><br><span class="line"><span class="language-xml">for i,j,k in os.walk(filePath):</span></span><br><span class="line"><span class="language-xml">    for i in k:</span></span><br><span class="line"><span class="language-xml">        n+=1</span></span><br><span class="line"><span class="language-xml">        print(&quot;![</span><span class="template-variable">&#123;&#125;</span><span class="language-xml">](/image/</span><span class="template-variable">&#123;&#125;</span><span class="language-xml">)&quot;.format(i, i)) #中间部分自己改</span></span><br><span class="line"><span class="language-xml">        if n==2:</span></span><br><span class="line"><span class="language-xml">            print(&quot;<span class="comment">&lt;!--more--&gt;</span>&quot;)</span></span><br></pre></td></tr></table></figure>
-<p><code>&lt;!--more--&gt;</code><br>
-用来手动隐藏，图片占首页太长不好看</p>
-]]></content>
-      <categories>
-        <category>Python</category>
-      </categories>
-      <tags>
-        <tag>Python</tag>
-      </tags>
   </entry>
   <entry>
     <title>【Python】Pyquery 一个Python的CSS选择器</title>
@@ -675,6 +650,151 @@ pyquery提供了for循环的方式,如</p>
 ]]></content>
       <categories>
         <category>Python</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>【Python/脚本】一个懒得自己打字的md图片插入脚本</title>
+    <url>/2023/10/05/%E3%80%90Python-%E8%84%9A%E6%9C%AC%E3%80%91%E4%B8%80%E4%B8%AA%E6%87%92%E5%BE%97%E8%87%AA%E5%B7%B1%E6%89%93%E5%AD%97%E7%9A%84md%E5%9B%BE%E7%89%87%E6%8F%92%E5%85%A5%E8%84%9A%E6%9C%AC/</url>
+    <content><![CDATA[<p>Markdown也就是md文件<br>
+Markdown文件插入可以遵循html的标签方式，但<br>
+这种插入方式比较麻烦，可以用md自己的格式</p>
+<span id="more"></span>
+<p>1.md图片插入格式</p>
+<figure class="highlight scss"><table><tr><td class="code"><pre><span class="line">!<span class="selector-attr">[若图片not Found显示的文字]</span>(路径)</span><br></pre></td></tr></table></figure>
+<p>一般可以这么写，/image自动索引到资源文件</p>
+<figure class="highlight arcade"><table><tr><td class="code"><pre><span class="line">![<span class="number">28.</span>webp](<span class="regexp">/image/</span><span class="number">28.</span>webp)</span><br></pre></td></tr></table></figure>
+<p><img src="1005D_140_1.jpg" alt="1005D_140_1.jpg"></p>
+<!--more-->
+<p>2.代码十分简单，不到一分钟写完了</p>
+<figure class="highlight dust"><table><tr><td class="code"><pre><span class="line"><span class="language-xml">import os</span></span><br><span class="line"><span class="language-xml">filePath = &#x27;D:\\Blog\\Blog1\\source\\_posts\\【图集】10-3图图&#x27;</span></span><br><span class="line"><span class="language-xml">n=0</span></span><br><span class="line"><span class="language-xml">for i,j,k in os.walk(filePath):</span></span><br><span class="line"><span class="language-xml">    for i in k:</span></span><br><span class="line"><span class="language-xml">        n+=1</span></span><br><span class="line"><span class="language-xml">        print(&quot;![</span><span class="template-variable">&#123;&#125;</span><span class="language-xml">](/image/</span><span class="template-variable">&#123;&#125;</span><span class="language-xml">)&quot;.format(i, i)) #中间部分自己改</span></span><br><span class="line"><span class="language-xml">        if n==2:</span></span><br><span class="line"><span class="language-xml">            print(&quot;<span class="comment">&lt;!--more--&gt;</span>&quot;)</span></span><br></pre></td></tr></table></figure>
+<p><code>&lt;!--more--&gt;</code><br>
+用来手动隐藏，图片占首页太长不好看</p>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>Python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【Python】爬虫脚本目录</title>
+    <url>/2023/10/16/%E3%80%90Python%E3%80%91%E7%88%AC%E8%99%AB%E8%84%9A%E6%9C%AC%E7%9B%AE%E5%BD%95/</url>
+    <content><![CDATA[<p>本文是一个文章目录，整理文章之间的关系<br>
+一、基础篇（CSS选择器）<br>
+1.<a href="/2023/09/27/%E7%94%A8JS%EF%BC%88%E5%89%8D%E7%AB%AF%EF%BC%89%E5%88%B6%E4%BD%9C%E7%9A%84%E7%AE%80%E6%98%93%E7%88%AC%E8%99%AB/">用JS（前端）制作的简易爬虫</a><br>
+本文主要介绍CSS选择器的简单运用，达成简易爬虫的效果，其中举了一个小栗子<br>
+2.<a href="/2023/09/28/jQuery%E7%9A%84css%E9%80%89%E6%8B%A9%E5%99%A8%E7%9A%84%E5%86%99%E6%B3%95/">Jquery的简化CSS选择器</a><br>
+Jquery是用的比较多的JS第三方库，Jquery简化了CSS选择器函数的写法<br>
+易得学习看懂</p>
+<span id="more"></span>
+<p>3.<a href="/2023/10/10/%E3%80%90Python%E3%80%91Pyquery/">Python的类CSS选择器</a><br>
+Pyquery是Python处理网页HTML的第三方库，它写法与Jquery十分相似。</p>
+<p>二、访问篇<br>
+1.<a href="/2023/09/28/%E7%94%A8selenum%E5%88%B6%E4%BD%9C%E5%89%8D%E7%AB%AF%E5%BC%8F%E7%88%AC%E8%99%AB/">Selenium</a><br>
+Selenium是一个模拟浏览器访问的第三方库<br>
+2.<a href="/2023/10/01/%E6%A2%B3%E7%90%86%E4%B8%80%E4%B8%8B%E5%9F%BA%E6%9C%AC%E7%88%AC%E5%9B%BE%E6%80%9D%E8%B7%AF/">爬图的一个总体思路</a><br>
+梳理一下基本爬图思路,有兴趣可以看看。忽略很多部分，写出了部分<br>
+核心函数</p>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>【Python/数模】AHP层次分析法</title>
+    <url>/2023/10/12/%E3%80%90Pytohn-%E6%95%B0%E6%A8%A1%E3%80%91AHP%E5%B1%82%E6%AC%A1%E5%88%86%E6%9E%90%E6%B3%95/</url>
+    <content><![CDATA[<p>一、前言<br>
+AHP即层次分析法，也就是需要分层次来分析，<br>
+第一层是目标层，最终选择的方案，<br>
+第二层是准则层，要选择的方案考虑的基本因素。<br>
+第三层就是方案层，待选择的方案的层次。<br>
+然而这样讲肯定听不懂，所以举个栗子。</p>
+<span id="more"></span>
+<script src="/js/mathjax_post.js"></script>
+<p>二、正文<br>
+准则层的判断矩阵<br>
+<img src="1.png" alt="1"><br>
+每格的数字代表行的元素对于列的元素的重要度，<br>
+数字越大则代表相对重要度就越高<br>
+可以看到主对角线全都为1（自身对自身的重要度为1）<br>
+与对角线相对称的两格数字相乘等于1<br>
+（自身对对方乘对方对自身=1）</p>
+<p>之后是方案层<br>
+方案层也就是不同地方对于因素的取舍<br>
+依次在五个因素中不同地方之间比对的矩阵，数值大<br>
+代表该地相较于比对的地方的对应因素要好。<br>
+<img src="2.png" alt="1"><br>
+<img src="3.png" alt="2"></p>
+<p>判断矩阵的处理函数如下</p>
+<figure class="highlight apache"><table><tr><td class="code"><pre><span class="line"><span class="attribute">def</span> ahp(datamatrix):</span><br><span class="line">    <span class="attribute">datamatrix</span> = np.array(datamatrix)</span><br><span class="line">	<span class="comment">#numpy化</span></span><br><span class="line">    <span class="attribute">m</span> = len(datamatrix)</span><br><span class="line">	<span class="comment">#获取矩阵的维度</span></span><br><span class="line">	<span class="comment">#每个数值标准：每个数值除以该行总和，axis=0是行的意思</span></span><br><span class="line">	<span class="comment">#然后每列求和除以维度得到的就是权重，axis=1是列的意思</span></span><br><span class="line">    <span class="attribute">weight</span> = (datamatrix / datamatrix.sum(axis=<span class="number">0</span>)).sum(axis=<span class="number">1</span>) / m</span><br><span class="line">	<span class="comment">#用权重乘以每个数值整列求和，除以权重求和再除以维度</span></span><br><span class="line">	<span class="comment">#得到最大特征值</span></span><br><span class="line">	<span class="comment">#lambda_max=1/n∑(AWi)/Wi (i为列，n为行)</span></span><br><span class="line">	<span class="comment">#AWi是乘以权重后每列的累计值</span></span><br><span class="line">    <span class="attribute">Lambda_max</span> = sum((weight * datamatrix).sum(axis=<span class="number">1</span>) / (m * weight))</span><br><span class="line">    <span class="attribute">CI</span> = (Lambda_max - m) / (m - <span class="number">1</span>)</span><br><span class="line">    <span class="attribute">RI</span> = &#123;<span class="number">1</span>: <span class="number">0</span>,</span><br><span class="line">          <span class="attribute">2</span>: <span class="number">0</span>,</span><br><span class="line">          <span class="attribute">3</span>: <span class="number">0</span>.<span class="number">58</span>,</span><br><span class="line">          <span class="attribute">4</span>: <span class="number">0</span>.<span class="number">90</span>,</span><br><span class="line">          <span class="attribute">5</span>: <span class="number">1</span>.<span class="number">12</span>,</span><br><span class="line">          <span class="attribute">6</span>: <span class="number">1</span>.<span class="number">24</span>,</span><br><span class="line">          <span class="attribute">7</span>: <span class="number">1</span>.<span class="number">32</span>,</span><br><span class="line">          <span class="attribute">8</span>: <span class="number">1</span>.<span class="number">41</span>,</span><br><span class="line">          <span class="attribute">9</span>: <span class="number">1</span>.<span class="number">45</span>,</span><br><span class="line">          <span class="attribute">10</span>: <span class="number">1</span>.<span class="number">49</span>,</span><br><span class="line">          <span class="attribute">11</span>: <span class="number">1</span>.<span class="number">51</span>&#125;</span><br><span class="line">    <span class="attribute">CR</span> = CI / RI[m]</span><br><span class="line">    <span class="attribute">if</span> CR &lt; <span class="number">0</span>.<span class="number">1</span>:</span><br><span class="line">        <span class="attribute">extra</span> = &#x27;True&#x27;</span><br><span class="line">    <span class="attribute">else</span>:</span><br><span class="line">        <span class="attribute">extra</span> = &#x27;False&#x27;</span><br><span class="line">    <span class="attribute">return</span> Lambda_max, extra, weight</span><br></pre></td></tr></table></figure>
+<p>第一步：标准化，这里采用除以总和的方法,即(i为行，k为列)<br>
+$x ^{'} _{ik}= \frac {x _{ik} } {\sum ^{m} _{i} x _{ik} } $</p>
+<p>第二步：计算权重，标准化后的数值整行相加再除以行数<br>
+$ Weight= \frac {\sum ^{n} _{k} x ^{'} _{ik} } {m} $</p>
+<p>第三步：计算Lambda，然后得到最大特征值<br>
+$ \lambda _{max} =\frac {1} {m} \sum ^{m} _{i}  \frac {\sum ^{n} _{k} \left  ( x ^{'} _{ik}  Weight \right  ) } {Weight}$</p>
+<p>第四步：计算CI（Consistency Index），CI是一个一致性指标，<br>
+$ CI= \frac {\lambda _{max}- m} {\left ( m-1 \right )} $</p>
+<p>CI=0 表示判断矩阵完全一致，CI越大，则代表矩阵的不一致性程度越严重。<br>
+RI是一个参数，它与矩阵的维度对应</p>
+<p>m  1  2  3  4  5  6  7  8  9  10  11<br>
+RI 0 0 0.58 0.90 1.12 1.24 1.32 1.41 1.45 1.49 1.51</p>
+<p>然后计算出CR判断一致性,当 CR&lt;0.1 时，表明判断矩阵的一致性程度被认为在容许的范围内，但如果 CR≥0.1, 则应考虑对判断矩阵进行修正。<br>
+$ CR = \frac {CI} {RI} $</p>
+<p>然而也有这种计算方式，有兴趣就看一下，<br>
+计算结果是一样的</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">cal_weights</span>(<span class="params">input_matrix</span>):</span><br><span class="line">	input_matrix = np.array(input_matrix)</span><br><span class="line">	n, n1 = input_matrix.shape</span><br><span class="line">	<span class="comment">#获取矩阵行，列</span></span><br><span class="line">	<span class="comment">##这一部分为判断矩阵是否符合上述的要求</span></span><br><span class="line">	<span class="keyword">assert</span> n == n1, <span class="string">&#x27;不是一个方阵&#x27;</span></span><br><span class="line">	<span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(n):</span><br><span class="line">		<span class="keyword">for</span> j <span class="keyword">in</span> <span class="built_in">range</span>(n):</span><br><span class="line">			<span class="keyword">if</span> np.<span class="built_in">abs</span>(input_matrix[i, j] * input_matrix[j, i] - <span class="number">1</span>) &gt; <span class="number">1e-7</span>:</span><br><span class="line">				<span class="keyword">raise</span> ValueError(<span class="string">&#x27;不是反互对称矩阵&#x27;</span>)</span><br><span class="line">	<span class="comment">##np.linalg.eig是获取矩阵的特征值和特征向量</span></span><br><span class="line">	eigenvalues, eigenvectors = np.linalg.eig(input_matrix)</span><br><span class="line">	<span class="comment">#获取到最大特征值的索引</span></span><br><span class="line">	max_idx = np.argmax(eigenvalues)</span><br><span class="line">	<span class="comment">#获取到最大特征值</span></span><br><span class="line">	max_eigen = eigenvalues[max_idx].real</span><br><span class="line">	eigen = eigenvectors[:, max_idx].real</span><br><span class="line">	<span class="comment">#获取特征值</span></span><br><span class="line">	eigen = eigen / eigen.<span class="built_in">sum</span>()</span><br><span class="line">	<span class="comment">#判断一致性</span></span><br><span class="line">	<span class="keyword">if</span> n &gt; <span class="number">9</span>:</span><br><span class="line">		CR = <span class="literal">None</span></span><br><span class="line">		warnings.warn(<span class="string">&#x27;无法判断一致性&#x27;</span>)</span><br><span class="line">	<span class="keyword">else</span>:</span><br><span class="line">		CI = (max_eigen - n) / (n - <span class="number">1</span>)</span><br><span class="line">		CR = CI / RI[n]</span><br><span class="line">	<span class="keyword">return</span> max_eigen, CR, eigen</span><br><span class="line">	<span class="comment">#RI = (0, 0, 0.58, 0.9, 1.12, 1.24, 1.32, 1.41, 1.45, 1.49)</span></span><br><span class="line">	<span class="comment">#RI是一个判断常数，根据矩阵的维度变化，一般最大为10。</span></span><br><span class="line">	</span><br></pre></td></tr></table></figure>
+<p>准则层通过函数调用得到结果如下<br>
+<img src="4.png" alt="1"></p>
+<p>之后是目标层，目标层通过函数调用得到5对权重，<br>
+W1,W2,W3,W4,W5，对应五个因素在不同地方的得分<br>
+相应数值乘以对应因素权重再求和<br>
+就可以得到不同地方的总和得分，<br>
+用总和得分就可以得到最终方案的选择<br>
+文字有点绕，姑且写个函数出来。</p>
+<figure class="highlight prolog"><table><tr><td class="code"><pre><span class="line">#目标层矩阵</span><br><span class="line">b1 = [[<span class="number">1</span>, <span class="number">1</span> / <span class="number">3</span>, <span class="number">1</span> / <span class="number">8</span>], [<span class="number">3</span>, <span class="number">1</span>, <span class="number">1</span> / <span class="number">3</span>], [<span class="number">8</span>, <span class="number">3</span>, <span class="number">1</span>]]</span><br><span class="line">b2 = [[<span class="number">1</span>, <span class="number">2</span>, <span class="number">5</span>], [<span class="number">1</span> / <span class="number">2</span>, <span class="number">1</span>, <span class="number">2</span>], [<span class="number">1</span> / <span class="number">5</span>, <span class="number">1</span> / <span class="number">2</span>, <span class="number">1</span>]]</span><br><span class="line">b3 = [[<span class="number">1</span>, <span class="number">1</span>, <span class="number">3</span>], [<span class="number">1</span>, <span class="number">1</span>, <span class="number">3</span>], [<span class="number">1</span> / <span class="number">3</span>, <span class="number">1</span> / <span class="number">3</span>, <span class="number">1</span>]]</span><br><span class="line">b4 = [[<span class="number">1</span>, <span class="number">3</span>, <span class="number">4</span>], [<span class="number">1</span> / <span class="number">3</span>, <span class="number">1</span>, <span class="number">1</span>], [<span class="number">1</span> / <span class="number">4</span>, <span class="number">1</span>, <span class="number">1</span>]]</span><br><span class="line">b5 = [[<span class="number">1</span>, <span class="number">4</span>, <span class="number">1</span> / <span class="number">2</span>], [<span class="number">1</span> / <span class="number">4</span>, <span class="number">1</span>, <span class="number">1</span> / <span class="number">4</span>], [<span class="number">2</span>, <span class="number">4</span>, <span class="number">1</span>]]</span><br><span class="line"></span><br><span class="line">def target_h(weight):</span><br><span class="line">    #获取目标层矩阵的权重</span><br><span class="line">    w1=ahp(b1)[<span class="number">2</span>];w2=ahp(b2)[<span class="number">2</span>];w3=ahp(b3)[<span class="number">2</span>];w4=ahp(b4)[<span class="number">2</span>];w5=ahp(b5)[<span class="number">2</span>];</span><br><span class="line">    s_li=[]</span><br><span class="line">    for i in range(len(w1)):</span><br><span class="line">        #for 循环<span class="number">3</span>次</span><br><span class="line">        t1=w1[i];t2=w2[i];t3=w3[i];t4=w4[i];t5=w5[i];</span><br><span class="line">        #乘以权重</span><br><span class="line">        s=t1*weight[<span class="number">0</span>]+t2*weight[<span class="number">1</span>]+t3*weight[<span class="number">2</span>]+t4*weight[<span class="number">3</span>]+t5*weight[<span class="number">4</span>]</span><br><span class="line">        s_li.append(s)</span><br><span class="line">    return s_li</span><br><span class="line">print(<span class="string">&quot;目标层得分 %s&quot;</span> <span class="comment">%target_h(weight))</span></span><br><span class="line"></span><br><span class="line">#print结果</span><br><span class="line">#目标层得分 [<span class="number">0.3187820596698437</span>, <span class="number">0.2391959202186192</span>, <span class="number">0.44202202011153713</span>]</span><br><span class="line">#分别代表地方<span class="number">1</span>，地方<span class="number">2</span>，地方<span class="number">3</span>三处的评分，可以得出地方<span class="number">3</span>的评分最高，</span><br><span class="line">#因此最优选择为地方<span class="number">3</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>三、附加<br>
+结果着色，让结果看起来更好看一点。<br>
+这里也可以采用雷达图的方式<br>
+稍微修改一下函数</p>
+<figure class="highlight routeros"><table><tr><td class="code"><pre><span class="line">def target_h1(weight):</span><br><span class="line">    #获取目标层矩阵的权重</span><br><span class="line">    <span class="attribute">w1</span>=ahp(b1)[2];<span class="attribute">w2</span>=ahp(b2)[2];<span class="attribute">w3</span>=ahp(b3)[2];<span class="attribute">w4</span>=ahp(b4)[2];<span class="attribute">w5</span>=ahp(b5)[2];</span><br><span class="line">    s_li=[]</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> range(len(w1)):</span><br><span class="line">        t_li=[]</span><br><span class="line">        #<span class="keyword">for</span> 循环3次</span><br><span class="line">        <span class="attribute">t1</span>=w1[i];<span class="attribute">t2</span>=w2[i];<span class="attribute">t3</span>=w3[i];<span class="attribute">t4</span>=w4[i];<span class="attribute">t5</span>=w5[i];</span><br><span class="line">        #乘以权重</span><br><span class="line">        <span class="attribute">s1</span>=t1*weight[0];<span class="attribute">s2</span>=t2*weight[1];<span class="attribute">s3</span>=t3*weight[2];<span class="attribute">s4</span>=t4*weight[3];<span class="attribute">s5</span>=t5*weight[4]</span><br><span class="line">        <span class="keyword">for</span> i <span class="keyword">in</span> [s1, s2, s3, s4, s5]:</span><br><span class="line">            t_li.append(i );</span><br><span class="line">			#把每个地方的每个因素的得分给分出来</span><br><span class="line">        <span class="attribute">s</span>=s1+s2+s3+s4+s5</span><br><span class="line">		#将总得分添加到里面</span><br><span class="line">        t_li.append(s);s_li.append(t_li);</span><br><span class="line">    return s_li</span><br></pre></td></tr></table></figure>
+<figure class="highlight routeros"><table><tr><td class="code"><pre><span class="line"><span class="attribute">t_l1</span>=target_h1(weight)</span><br><span class="line">df= pd.DataFrame(</span><br><span class="line">    t_l1[0:],</span><br><span class="line">    columns=[<span class="string">&quot;景色&quot;</span>,<span class="string">&quot;费用&quot;</span>,<span class="string">&quot;居住&quot;</span>,<span class="string">&quot;饮食&quot;</span>,<span class="string">&quot;旅途&quot;</span>,<span class="string">&quot;总得分&quot;</span>],</span><br><span class="line">    index=[<span class="string">&#x27;地方&#x27;</span> + i <span class="keyword">for</span> i <span class="keyword">in</span> list(<span class="string">&#x27;ABC&#x27;</span>) ]</span><br><span class="line">)</span><br><span class="line"><span class="attribute">path</span>=<span class="string">&quot;AHP分析.xlsx&quot;</span></span><br><span class="line">with pd.ExcelWriter(path) as writer:</span><br><span class="line">    df.to_excel(writer, <span class="attribute">sheet_name</span>=<span class="string">&quot;AHP分析&quot;</span>, <span class="attribute">index</span>=<span class="literal">True</span>)</span><br><span class="line">resultpic1(<span class="attribute">data</span>=df,</span><br><span class="line">           <span class="attribute">path</span>=path)</span><br><span class="line"><span class="comment">#resultpic1是雷达图生成函数，这个地方在上文用过，可以回头看看</span></span><br></pre></td></tr></table></figure>
+<p>最终结果如下图<br>
+<img src="5.png" alt="1"><br>
+可能由于数据是随机填的，得到的结果比较离谱<br>
+完结<br>
+<img src="1010D_48_1.jpg" alt="2"></p>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>【搬运】html游戏 贪吃蛇</title>
+    <url>/2023/10/09/%E3%80%90%E6%90%AC%E8%BF%90%E3%80%91html%E6%B8%B8%E6%88%8F-%E8%B4%AA%E5%90%83%E8%9B%87/</url>
+    <content><![CDATA[<p>请使用电脑进入<br>
+—占位—<br>
+如题<br>
+本文为搬运的html游戏<br>
+—占位—</p>
+<span id="more"></span>
+<canvas id="tanchishe_Canvas" width="400" height="400" >
+</canvas>
+<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js">
+</script>
+<script type="text/javascript" src="/js/tanchishe_js.js">
+</script>
+<style>
+	#tanchishe_Canvas{	
+			background-color:white;
+			z-index:1;
+			border:5px solid;
+			border-color:black;
+		}
+</style>]]></content>
+      <categories>
+        <category>HTML游戏</category>
       </categories>
   </entry>
   <entry>
@@ -729,6 +849,123 @@ Python的mlxtend就有apriori模块，<br>
 ]]></content>
       <categories>
         <category>Python</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>【电影】整理目录</title>
+    <url>/2023/10/21/%E3%80%90%E7%94%B5%E5%BD%B1%E3%80%91%E6%95%B4%E7%90%86%E7%9B%AE%E5%BD%95/</url>
+    <content><![CDATA[<p>电影的整理目录<br>
+1.<a href="/2023/10/21/%E3%80%8A%E6%BC%AB%E9%95%BF%E7%9A%84%E5%AD%A3%E8%8A%82%E3%80%8B%EF%BC%8C%E6%8E%B0%E4%B8%8D%E8%BF%87%E5%91%BD%E8%BF%90%EF%BC%8C%E8%BF%98%E8%A6%81%E4%BB%B0%E7%9D%80%E5%A4%B4%E5%BE%80%E5%89%8D/">《漫长的季节》，掰不过命运，还要仰着头往前</a></p>
+<span id="more"></span>
+<p>2.<a href="/2023/10/21/%E5%9C%A8%E5%B4%A9%E5%9D%8F%E7%9A%84%E4%B8%96%E7%95%8C%E9%87%8C%E5%AF%BB%E6%89%BE%E5%85%89/">在崩坏的世界里寻找光</a><br>
+3.<a href="/2023/10/21/%E8%A1%80%E8%A7%82%E9%9F%B3/">血观音</a><br>
+4.<a href="/2023/10/28/%E7%BB%A7%E6%89%BF%E8%80%85%E4%B9%8B%E6%88%98/">继承者之战</a><br>
+5.<a href="/2023/10/28/%E3%80%8A%E4%BA%BA%E7%94%9F%E5%88%87%E5%89%B2%E6%95%B0%E3%80%8B%E6%89%93%E5%B7%A5%E4%BA%BA%E7%9A%84%E5%9B%B0%E5%A2%83%E4%B8%8E%E8%8D%92%E5%94%90/">《人生切割数》打工人的困境与荒唐</a><br>
+6.<a href="/2023/10/28/%E3%80%8A1923%E3%80%8B%E5%BE%80%E4%BA%8B%E5%A6%82%E9%85%92/">《1923》往事如酒</a></p>
+]]></content>
+      <categories>
+        <category>电影</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>【测试】js做的歌碟</title>
+    <url>/2023/09/30/%E3%80%90%E7%9E%8E%E6%90%9E-%E6%B5%8B%E8%AF%95%E3%80%91js%E5%81%9A%E7%9A%84%E6%AD%8C%E7%A2%9F/</url>
+    <content><![CDATA[<p>本文写的用纯JS（Jquery）写出的歌碟，<br>
+歌碟通过CSS转动，可以切歌。</p>
+<span id="more"></span>
+<p><img src="/image/929D_257_1.jpg" alt="1"></p>
+<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js">
+</script>
+<script>
+var s1=true;
+var musicbox=$(".musicbox_test");
+function mutr(){
+	if (s1==false){
+		s1=true;
+		$(".music_test").attr("src","/image/Akatsuki.mp3")
+		$(".recent_text").text("歌曲1")
+		console.log("ch1")	
+		if ($(".pic_box").css("animation-play-state")=="running"){
+				$(".music_pic").css({"animation-play-state":"paused"});
+				$(".pic_box").css({"animation-play-state":"paused"});
+				$(".music_test").get(0).pause();
+				s=true;
+			}
+	}
+	else{
+		s1=false;
+		$(".music_test").attr("src","/image/wonderland.mp3")
+		$(".recent_text").text("歌曲2")
+		console.log("ch2")
+		if ($(".pic_box").css("animation-play-state")=="running"){
+				$(".music_pic").css({"animation-play-state":"paused"});
+				$(".pic_box").css({"animation-play-state":"paused"});
+				$(".music_test").get(0).pause();
+				s=true;
+			}
+		}
+}
+s=true;
+
+function muplay(){
+	if (s==false){
+		s=true;
+		var music=$(".music_test").get(0);
+		var pic=$(".music_pic");
+		var box=$(".pic_box");
+		music.pause();	 
+		pic.css({"animation-play-state":"paused"});
+		box.css({"animation-play-state":"paused"});
+		}
+	else{
+		var music=$(".music_test").get(0);
+		var pic=$(".music_pic");
+		var box=$(".pic_box");
+		s=false;
+		music.play();
+		pic.css({"animation-play-state":"running"});
+		box.css({"animation-play-state":"running"});
+		
+		}
+}
+</script>
+<style>
+.pic_box{
+	width:250px;
+	border-radius: 50%;
+	background-color:white;
+	animation: Box 3s linear infinite;
+	animation-play-state:paused;
+}
+.pic_box img{
+	width:200px;
+	height:200px;
+	animation: Box 3s linear infinite;
+	animation-play-state:paused;
+	
+	}
+@keyframes Box{
+	0%{transform: rotate(0deg);}
+	50%{transform: rotate(180deg);}
+	100%{transform: rotate(360deg);}
+}
+</style>
+<!--more-->
+<div onclick="mutr()">
+<p>音乐盒（点我切歌）</p>
+<p class="recent_text">&nbsp;歌曲1</p>
+</div>
+<div id="box1" class="pic_box">
+  <img id="pic" class="music_pic" onclick="muplay()" src="/image/420px-KoishiSubterranean封面.jpg" alt="" />
+</div>
+<div id="musicbox" class="musicbox_test">
+	<audio id="Akatsuki" class="music_test" src="/image/Akatsuki.mp3" loop="loop" >
+	</audio>
+</div>
+<p>源代码</p>
+<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="keyword">var</span> s1=<span class="literal">true</span>;</span></span><br><span class="line"><span class="language-javascript"><span class="keyword">var</span> musicbox=$(<span class="string">&quot;.musicbox_test&quot;</span>);</span></span><br><span class="line"><span class="language-javascript"><span class="keyword">function</span> <span class="title function_">mutr</span>(<span class="params"></span>)&#123;</span></span><br><span class="line"><span class="language-javascript">	<span class="keyword">if</span> (s1==<span class="literal">false</span>)&#123;</span></span><br><span class="line"><span class="language-javascript">		s1=<span class="literal">true</span>;</span></span><br><span class="line"><span class="language-javascript">		$(<span class="string">&quot;.music_test&quot;</span>).<span class="title function_">attr</span>(<span class="string">&quot;src&quot;</span>,<span class="string">&quot;/image/Akatsuki.mp3&quot;</span>)</span></span><br><span class="line"><span class="language-javascript">		$(<span class="string">&quot;.recent_text&quot;</span>).<span class="title function_">text</span>(<span class="string">&quot;歌曲1&quot;</span>)</span></span><br><span class="line"><span class="language-javascript">		<span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&quot;ch1&quot;</span>)	</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">if</span> ($(<span class="string">&quot;.pic_box&quot;</span>).<span class="title function_">css</span>(<span class="string">&quot;animation-play-state&quot;</span>)==<span class="string">&quot;running&quot;</span>)&#123;</span></span><br><span class="line"><span class="language-javascript">				$(<span class="string">&quot;.music_pic&quot;</span>).<span class="title function_">css</span>(&#123;<span class="string">&quot;animation-play-state&quot;</span>:<span class="string">&quot;paused&quot;</span>&#125;);</span></span><br><span class="line"><span class="language-javascript">				$(<span class="string">&quot;.pic_box&quot;</span>).<span class="title function_">css</span>(&#123;<span class="string">&quot;animation-play-state&quot;</span>:<span class="string">&quot;paused&quot;</span>&#125;);</span></span><br><span class="line"><span class="language-javascript">				$(<span class="string">&quot;.music_test&quot;</span>).<span class="title function_">get</span>(<span class="number">0</span>).<span class="title function_">pause</span>();</span></span><br><span class="line"><span class="language-javascript">				s=<span class="literal">true</span>;</span></span><br><span class="line"><span class="language-javascript">			&#125;</span></span><br><span class="line"><span class="language-javascript">	&#125;</span></span><br><span class="line"><span class="language-javascript">	<span class="keyword">else</span>&#123;</span></span><br><span class="line"><span class="language-javascript">		s1=<span class="literal">false</span>;</span></span><br><span class="line"><span class="language-javascript">		$(<span class="string">&quot;.music_test&quot;</span>).<span class="title function_">attr</span>(<span class="string">&quot;src&quot;</span>,<span class="string">&quot;/image/wonderland.mp3&quot;</span>)</span></span><br><span class="line"><span class="language-javascript">		$(<span class="string">&quot;.recent_text&quot;</span>).<span class="title function_">text</span>(<span class="string">&quot;歌曲2&quot;</span>)</span></span><br><span class="line"><span class="language-javascript">		<span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&quot;ch2&quot;</span>)</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">if</span> ($(<span class="string">&quot;.pic_box&quot;</span>).<span class="title function_">css</span>(<span class="string">&quot;animation-play-state&quot;</span>)==<span class="string">&quot;running&quot;</span>)&#123;</span></span><br><span class="line"><span class="language-javascript">				$(<span class="string">&quot;.music_pic&quot;</span>).<span class="title function_">css</span>(&#123;<span class="string">&quot;animation-play-state&quot;</span>:<span class="string">&quot;paused&quot;</span>&#125;);</span></span><br><span class="line"><span class="language-javascript">				$(<span class="string">&quot;.pic_box&quot;</span>).<span class="title function_">css</span>(&#123;<span class="string">&quot;animation-play-state&quot;</span>:<span class="string">&quot;paused&quot;</span>&#125;);</span></span><br><span class="line"><span class="language-javascript">				$(<span class="string">&quot;.music_test&quot;</span>).<span class="title function_">get</span>(<span class="number">0</span>).<span class="title function_">pause</span>();</span></span><br><span class="line"><span class="language-javascript">				s=<span class="literal">true</span>;</span></span><br><span class="line"><span class="language-javascript">			&#125;</span></span><br><span class="line"><span class="language-javascript">		&#125;</span></span><br><span class="line"><span class="language-javascript">&#125;</span></span><br><span class="line"><span class="language-javascript">s=<span class="literal">true</span>;</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="keyword">function</span> <span class="title function_">muplay</span>(<span class="params"></span>)&#123;</span></span><br><span class="line"><span class="language-javascript">	<span class="keyword">if</span> (s==<span class="literal">false</span>)&#123;</span></span><br><span class="line"><span class="language-javascript">		s=<span class="literal">true</span>;</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">var</span> music=$(<span class="string">&quot;.music_test&quot;</span>).<span class="title function_">get</span>(<span class="number">0</span>);</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">var</span> pic=$(<span class="string">&quot;.music_pic&quot;</span>);</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">var</span> box=$(<span class="string">&quot;.pic_box&quot;</span>);</span></span><br><span class="line"><span class="language-javascript">		music.<span class="title function_">pause</span>();	 </span></span><br><span class="line"><span class="language-javascript">		pic.<span class="title function_">css</span>(&#123;<span class="string">&quot;animation-play-state&quot;</span>:<span class="string">&quot;paused&quot;</span>&#125;);</span></span><br><span class="line"><span class="language-javascript">		box.<span class="title function_">css</span>(&#123;<span class="string">&quot;animation-play-state&quot;</span>:<span class="string">&quot;paused&quot;</span>&#125;);</span></span><br><span class="line"><span class="language-javascript">		&#125;</span></span><br><span class="line"><span class="language-javascript">	<span class="keyword">else</span>&#123;</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">var</span> music=$(<span class="string">&quot;.music_test&quot;</span>).<span class="title function_">get</span>(<span class="number">0</span>);</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">var</span> pic=$(<span class="string">&quot;.music_pic&quot;</span>);</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">var</span> box=$(<span class="string">&quot;.pic_box&quot;</span>);</span></span><br><span class="line"><span class="language-javascript">		s=<span class="literal">false</span>;</span></span><br><span class="line"><span class="language-javascript">		music.<span class="title function_">play</span>();</span></span><br><span class="line"><span class="language-javascript">		pic.<span class="title function_">css</span>(&#123;<span class="string">&quot;animation-play-state&quot;</span>:<span class="string">&quot;running&quot;</span>&#125;);</span></span><br><span class="line"><span class="language-javascript">		box.<span class="title function_">css</span>(&#123;<span class="string">&quot;animation-play-state&quot;</span>:<span class="string">&quot;running&quot;</span>&#125;);</span></span><br><span class="line"><span class="language-javascript">		</span></span><br><span class="line"><span class="language-javascript">		&#125;</span></span><br><span class="line"><span class="language-javascript">&#125;</span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.pic_box</span>&#123;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">width</span>:<span class="number">250px</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">border-radius</span>: <span class="number">50%</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">background-color</span>:white;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">animation</span>: Box <span class="number">3s</span> linear infinite;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">animation-play-state</span>:paused;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.pic_box</span> <span class="selector-tag">img</span>&#123;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">width</span>:<span class="number">200px</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">height</span>:<span class="number">200px</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">animation</span>: Box <span class="number">3s</span> linear infinite;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">animation-play-state</span>:paused;</span></span><br><span class="line"><span class="language-css">	</span></span><br><span class="line"><span class="language-css">	&#125;</span></span><br><span class="line"><span class="language-css"><span class="keyword">@keyframes</span> Box&#123;</span></span><br><span class="line"><span class="language-css">	<span class="number">0%</span>&#123;<span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">0deg</span>);&#125;</span></span><br><span class="line"><span class="language-css">	<span class="number">50%</span>&#123;<span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">180deg</span>);&#125;</span></span><br><span class="line"><span class="language-css">	<span class="number">100%</span>&#123;<span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">360deg</span>);&#125;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!--more--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">onclick</span>=<span class="string">&quot;mutr()&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>音乐盒（点我切歌）<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span> <span class="attr">class</span>=<span class="string">&quot;recent_text&quot;</span>&gt;</span><span class="symbol">&amp;nbsp;</span>歌曲1<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;box1&quot;</span> <span class="attr">class</span>=<span class="string">&quot;pic_box&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">img</span> <span class="attr">id</span>=<span class="string">&quot;pic&quot;</span> <span class="attr">class</span>=<span class="string">&quot;music_pic&quot;</span> <span class="attr">onclick</span>=<span class="string">&quot;muplay()&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/image/420px-KoishiSubterranean封面.jpg&quot;</span> <span class="attr">alt</span>=<span class="string">&quot;&quot;</span> /&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;musicbox&quot;</span> <span class="attr">class</span>=<span class="string">&quot;musicbox_test&quot;</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">audio</span> <span class="attr">id</span>=<span class="string">&quot;Akatsuki&quot;</span> <span class="attr">class</span>=<span class="string">&quot;music_test&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/image/Akatsuki.mp3&quot;</span>  <span class="attr">loop</span>=<span class="string">&quot;loop&quot;</span> &gt;</span></span><br><span class="line">	<span class="tag">&lt;/<span class="name">audio</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>前端JS</category>
       </categories>
   </entry>
   <entry>
@@ -1255,243 +1492,6 @@ Python的mlxtend就有apriori模块，<br>
       </tags>
   </entry>
   <entry>
-    <title>【Python】爬虫脚本目录</title>
-    <url>/2023/10/16/%E3%80%90Python%E3%80%91%E7%88%AC%E8%99%AB%E8%84%9A%E6%9C%AC%E7%9B%AE%E5%BD%95/</url>
-    <content><![CDATA[<p>本文是一个文章目录，整理文章之间的关系<br>
-一、基础篇（CSS选择器）<br>
-1.<a href="/2023/09/27/%E7%94%A8JS%EF%BC%88%E5%89%8D%E7%AB%AF%EF%BC%89%E5%88%B6%E4%BD%9C%E7%9A%84%E7%AE%80%E6%98%93%E7%88%AC%E8%99%AB/">用JS（前端）制作的简易爬虫</a><br>
-本文主要介绍CSS选择器的简单运用，达成简易爬虫的效果，其中举了一个小栗子<br>
-2.<a href="/2023/09/28/jQuery%E7%9A%84css%E9%80%89%E6%8B%A9%E5%99%A8%E7%9A%84%E5%86%99%E6%B3%95/">Jquery的简化CSS选择器</a><br>
-Jquery是用的比较多的JS第三方库，Jquery简化了CSS选择器函数的写法<br>
-易得学习看懂</p>
-<span id="more"></span>
-<p>3.<a href="/2023/10/10/%E3%80%90Python%E3%80%91Pyquery/">Python的类CSS选择器</a><br>
-Pyquery是Python处理网页HTML的第三方库，它写法与Jquery十分相似。</p>
-<p>二、访问篇<br>
-1.<a href="/2023/09/28/%E7%94%A8selenum%E5%88%B6%E4%BD%9C%E5%89%8D%E7%AB%AF%E5%BC%8F%E7%88%AC%E8%99%AB/">Selenium</a><br>
-Selenium是一个模拟浏览器访问的第三方库<br>
-2.<a href="/2023/10/01/%E6%A2%B3%E7%90%86%E4%B8%80%E4%B8%8B%E5%9F%BA%E6%9C%AC%E7%88%AC%E5%9B%BE%E6%80%9D%E8%B7%AF/">爬图的一个总体思路</a><br>
-梳理一下基本爬图思路,有兴趣可以看看。忽略很多部分，写出了部分<br>
-核心函数</p>
-]]></content>
-      <categories>
-        <category>Python</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>【Python/数模】AHP层次分析法</title>
-    <url>/2023/10/12/%E3%80%90Pytohn-%E6%95%B0%E6%A8%A1%E3%80%91AHP%E5%B1%82%E6%AC%A1%E5%88%86%E6%9E%90%E6%B3%95/</url>
-    <content><![CDATA[<p>一、前言<br>
-AHP即层次分析法，也就是需要分层次来分析，<br>
-第一层是目标层，最终选择的方案，<br>
-第二层是准则层，要选择的方案考虑的基本因素。<br>
-第三层就是方案层，待选择的方案的层次。<br>
-然而这样讲肯定听不懂，所以举个栗子。</p>
-<span id="more"></span>
-<script src="/js/mathjax_post.js"></script>
-<p>二、正文<br>
-准则层的判断矩阵<br>
-<img src="1.png" alt="1"><br>
-每格的数字代表行的元素对于列的元素的重要度，<br>
-数字越大则代表相对重要度就越高<br>
-可以看到主对角线全都为1（自身对自身的重要度为1）<br>
-与对角线相对称的两格数字相乘等于1<br>
-（自身对对方乘对方对自身=1）</p>
-<p>之后是方案层<br>
-方案层也就是不同地方对于因素的取舍<br>
-依次在五个因素中不同地方之间比对的矩阵，数值大<br>
-代表该地相较于比对的地方的对应因素要好。<br>
-<img src="2.png" alt="1"><br>
-<img src="3.png" alt="2"></p>
-<p>判断矩阵的处理函数如下</p>
-<figure class="highlight apache"><table><tr><td class="code"><pre><span class="line"><span class="attribute">def</span> ahp(datamatrix):</span><br><span class="line">    <span class="attribute">datamatrix</span> = np.array(datamatrix)</span><br><span class="line">	<span class="comment">#numpy化</span></span><br><span class="line">    <span class="attribute">m</span> = len(datamatrix)</span><br><span class="line">	<span class="comment">#获取矩阵的维度</span></span><br><span class="line">	<span class="comment">#每个数值标准：每个数值除以该行总和，axis=0是行的意思</span></span><br><span class="line">	<span class="comment">#然后每列求和除以维度得到的就是权重，axis=1是列的意思</span></span><br><span class="line">    <span class="attribute">weight</span> = (datamatrix / datamatrix.sum(axis=<span class="number">0</span>)).sum(axis=<span class="number">1</span>) / m</span><br><span class="line">	<span class="comment">#用权重乘以每个数值整列求和，除以权重求和再除以维度</span></span><br><span class="line">	<span class="comment">#得到最大特征值</span></span><br><span class="line">	<span class="comment">#lambda_max=1/n∑(AWi)/Wi (i为列，n为行)</span></span><br><span class="line">	<span class="comment">#AWi是乘以权重后每列的累计值</span></span><br><span class="line">    <span class="attribute">Lambda_max</span> = sum((weight * datamatrix).sum(axis=<span class="number">1</span>) / (m * weight))</span><br><span class="line">    <span class="attribute">CI</span> = (Lambda_max - m) / (m - <span class="number">1</span>)</span><br><span class="line">    <span class="attribute">RI</span> = &#123;<span class="number">1</span>: <span class="number">0</span>,</span><br><span class="line">          <span class="attribute">2</span>: <span class="number">0</span>,</span><br><span class="line">          <span class="attribute">3</span>: <span class="number">0</span>.<span class="number">58</span>,</span><br><span class="line">          <span class="attribute">4</span>: <span class="number">0</span>.<span class="number">90</span>,</span><br><span class="line">          <span class="attribute">5</span>: <span class="number">1</span>.<span class="number">12</span>,</span><br><span class="line">          <span class="attribute">6</span>: <span class="number">1</span>.<span class="number">24</span>,</span><br><span class="line">          <span class="attribute">7</span>: <span class="number">1</span>.<span class="number">32</span>,</span><br><span class="line">          <span class="attribute">8</span>: <span class="number">1</span>.<span class="number">41</span>,</span><br><span class="line">          <span class="attribute">9</span>: <span class="number">1</span>.<span class="number">45</span>,</span><br><span class="line">          <span class="attribute">10</span>: <span class="number">1</span>.<span class="number">49</span>,</span><br><span class="line">          <span class="attribute">11</span>: <span class="number">1</span>.<span class="number">51</span>&#125;</span><br><span class="line">    <span class="attribute">CR</span> = CI / RI[m]</span><br><span class="line">    <span class="attribute">if</span> CR &lt; <span class="number">0</span>.<span class="number">1</span>:</span><br><span class="line">        <span class="attribute">extra</span> = &#x27;True&#x27;</span><br><span class="line">    <span class="attribute">else</span>:</span><br><span class="line">        <span class="attribute">extra</span> = &#x27;False&#x27;</span><br><span class="line">    <span class="attribute">return</span> Lambda_max, extra, weight</span><br></pre></td></tr></table></figure>
-<p>第一步：标准化，这里采用除以总和的方法,即(i为行，k为列)<br>
-$x ^{'} _{ik}= \frac {x _{ik} } {\sum ^{m} _{i} x _{ik} } $</p>
-<p>第二步：计算权重，标准化后的数值整行相加再除以行数<br>
-$ Weight= \frac {\sum ^{n} _{k} x ^{'} _{ik} } {m} $</p>
-<p>第三步：计算Lambda，然后得到最大特征值<br>
-$ \lambda _{max} =\frac {1} {m} \sum ^{m} _{i}  \frac {\sum ^{n} _{k} \left  ( x ^{'} _{ik}  Weight \right  ) } {Weight}$</p>
-<p>第四步：计算CI（Consistency Index），CI是一个一致性指标，<br>
-$ CI= \frac {\lambda _{max}- m} {\left ( m-1 \right )} $</p>
-<p>CI=0 表示判断矩阵完全一致，CI越大，则代表矩阵的不一致性程度越严重。<br>
-RI是一个参数，它与矩阵的维度对应</p>
-<p>m  1  2  3  4  5  6  7  8  9  10  11<br>
-RI 0 0 0.58 0.90 1.12 1.24 1.32 1.41 1.45 1.49 1.51</p>
-<p>然后计算出CR判断一致性,当 CR&lt;0.1 时，表明判断矩阵的一致性程度被认为在容许的范围内，但如果 CR≥0.1, 则应考虑对判断矩阵进行修正。<br>
-$ CR = \frac {CI} {RI} $</p>
-<p>然而也有这种计算方式，有兴趣就看一下，<br>
-计算结果是一样的</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">cal_weights</span>(<span class="params">input_matrix</span>):</span><br><span class="line">	input_matrix = np.array(input_matrix)</span><br><span class="line">	n, n1 = input_matrix.shape</span><br><span class="line">	<span class="comment">#获取矩阵行，列</span></span><br><span class="line">	<span class="comment">##这一部分为判断矩阵是否符合上述的要求</span></span><br><span class="line">	<span class="keyword">assert</span> n == n1, <span class="string">&#x27;不是一个方阵&#x27;</span></span><br><span class="line">	<span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(n):</span><br><span class="line">		<span class="keyword">for</span> j <span class="keyword">in</span> <span class="built_in">range</span>(n):</span><br><span class="line">			<span class="keyword">if</span> np.<span class="built_in">abs</span>(input_matrix[i, j] * input_matrix[j, i] - <span class="number">1</span>) &gt; <span class="number">1e-7</span>:</span><br><span class="line">				<span class="keyword">raise</span> ValueError(<span class="string">&#x27;不是反互对称矩阵&#x27;</span>)</span><br><span class="line">	<span class="comment">##np.linalg.eig是获取矩阵的特征值和特征向量</span></span><br><span class="line">	eigenvalues, eigenvectors = np.linalg.eig(input_matrix)</span><br><span class="line">	<span class="comment">#获取到最大特征值的索引</span></span><br><span class="line">	max_idx = np.argmax(eigenvalues)</span><br><span class="line">	<span class="comment">#获取到最大特征值</span></span><br><span class="line">	max_eigen = eigenvalues[max_idx].real</span><br><span class="line">	eigen = eigenvectors[:, max_idx].real</span><br><span class="line">	<span class="comment">#获取特征值</span></span><br><span class="line">	eigen = eigen / eigen.<span class="built_in">sum</span>()</span><br><span class="line">	<span class="comment">#判断一致性</span></span><br><span class="line">	<span class="keyword">if</span> n &gt; <span class="number">9</span>:</span><br><span class="line">		CR = <span class="literal">None</span></span><br><span class="line">		warnings.warn(<span class="string">&#x27;无法判断一致性&#x27;</span>)</span><br><span class="line">	<span class="keyword">else</span>:</span><br><span class="line">		CI = (max_eigen - n) / (n - <span class="number">1</span>)</span><br><span class="line">		CR = CI / RI[n]</span><br><span class="line">	<span class="keyword">return</span> max_eigen, CR, eigen</span><br><span class="line">	<span class="comment">#RI = (0, 0, 0.58, 0.9, 1.12, 1.24, 1.32, 1.41, 1.45, 1.49)</span></span><br><span class="line">	<span class="comment">#RI是一个判断常数，根据矩阵的维度变化，一般最大为10。</span></span><br><span class="line">	</span><br></pre></td></tr></table></figure>
-<p>准则层通过函数调用得到结果如下<br>
-<img src="4.png" alt="1"></p>
-<p>之后是目标层，目标层通过函数调用得到5对权重，<br>
-W1,W2,W3,W4,W5，对应五个因素在不同地方的得分<br>
-相应数值乘以对应因素权重再求和<br>
-就可以得到不同地方的总和得分，<br>
-用总和得分就可以得到最终方案的选择<br>
-文字有点绕，姑且写个函数出来。</p>
-<figure class="highlight prolog"><table><tr><td class="code"><pre><span class="line">#目标层矩阵</span><br><span class="line">b1 = [[<span class="number">1</span>, <span class="number">1</span> / <span class="number">3</span>, <span class="number">1</span> / <span class="number">8</span>], [<span class="number">3</span>, <span class="number">1</span>, <span class="number">1</span> / <span class="number">3</span>], [<span class="number">8</span>, <span class="number">3</span>, <span class="number">1</span>]]</span><br><span class="line">b2 = [[<span class="number">1</span>, <span class="number">2</span>, <span class="number">5</span>], [<span class="number">1</span> / <span class="number">2</span>, <span class="number">1</span>, <span class="number">2</span>], [<span class="number">1</span> / <span class="number">5</span>, <span class="number">1</span> / <span class="number">2</span>, <span class="number">1</span>]]</span><br><span class="line">b3 = [[<span class="number">1</span>, <span class="number">1</span>, <span class="number">3</span>], [<span class="number">1</span>, <span class="number">1</span>, <span class="number">3</span>], [<span class="number">1</span> / <span class="number">3</span>, <span class="number">1</span> / <span class="number">3</span>, <span class="number">1</span>]]</span><br><span class="line">b4 = [[<span class="number">1</span>, <span class="number">3</span>, <span class="number">4</span>], [<span class="number">1</span> / <span class="number">3</span>, <span class="number">1</span>, <span class="number">1</span>], [<span class="number">1</span> / <span class="number">4</span>, <span class="number">1</span>, <span class="number">1</span>]]</span><br><span class="line">b5 = [[<span class="number">1</span>, <span class="number">4</span>, <span class="number">1</span> / <span class="number">2</span>], [<span class="number">1</span> / <span class="number">4</span>, <span class="number">1</span>, <span class="number">1</span> / <span class="number">4</span>], [<span class="number">2</span>, <span class="number">4</span>, <span class="number">1</span>]]</span><br><span class="line"></span><br><span class="line">def target_h(weight):</span><br><span class="line">    #获取目标层矩阵的权重</span><br><span class="line">    w1=ahp(b1)[<span class="number">2</span>];w2=ahp(b2)[<span class="number">2</span>];w3=ahp(b3)[<span class="number">2</span>];w4=ahp(b4)[<span class="number">2</span>];w5=ahp(b5)[<span class="number">2</span>];</span><br><span class="line">    s_li=[]</span><br><span class="line">    for i in range(len(w1)):</span><br><span class="line">        #for 循环<span class="number">3</span>次</span><br><span class="line">        t1=w1[i];t2=w2[i];t3=w3[i];t4=w4[i];t5=w5[i];</span><br><span class="line">        #乘以权重</span><br><span class="line">        s=t1*weight[<span class="number">0</span>]+t2*weight[<span class="number">1</span>]+t3*weight[<span class="number">2</span>]+t4*weight[<span class="number">3</span>]+t5*weight[<span class="number">4</span>]</span><br><span class="line">        s_li.append(s)</span><br><span class="line">    return s_li</span><br><span class="line">print(<span class="string">&quot;目标层得分 %s&quot;</span> <span class="comment">%target_h(weight))</span></span><br><span class="line"></span><br><span class="line">#print结果</span><br><span class="line">#目标层得分 [<span class="number">0.3187820596698437</span>, <span class="number">0.2391959202186192</span>, <span class="number">0.44202202011153713</span>]</span><br><span class="line">#分别代表地方<span class="number">1</span>，地方<span class="number">2</span>，地方<span class="number">3</span>三处的评分，可以得出地方<span class="number">3</span>的评分最高，</span><br><span class="line">#因此最优选择为地方<span class="number">3</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>三、附加<br>
-结果着色，让结果看起来更好看一点。<br>
-这里也可以采用雷达图的方式<br>
-稍微修改一下函数</p>
-<figure class="highlight routeros"><table><tr><td class="code"><pre><span class="line">def target_h1(weight):</span><br><span class="line">    #获取目标层矩阵的权重</span><br><span class="line">    <span class="attribute">w1</span>=ahp(b1)[2];<span class="attribute">w2</span>=ahp(b2)[2];<span class="attribute">w3</span>=ahp(b3)[2];<span class="attribute">w4</span>=ahp(b4)[2];<span class="attribute">w5</span>=ahp(b5)[2];</span><br><span class="line">    s_li=[]</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> range(len(w1)):</span><br><span class="line">        t_li=[]</span><br><span class="line">        #<span class="keyword">for</span> 循环3次</span><br><span class="line">        <span class="attribute">t1</span>=w1[i];<span class="attribute">t2</span>=w2[i];<span class="attribute">t3</span>=w3[i];<span class="attribute">t4</span>=w4[i];<span class="attribute">t5</span>=w5[i];</span><br><span class="line">        #乘以权重</span><br><span class="line">        <span class="attribute">s1</span>=t1*weight[0];<span class="attribute">s2</span>=t2*weight[1];<span class="attribute">s3</span>=t3*weight[2];<span class="attribute">s4</span>=t4*weight[3];<span class="attribute">s5</span>=t5*weight[4]</span><br><span class="line">        <span class="keyword">for</span> i <span class="keyword">in</span> [s1, s2, s3, s4, s5]:</span><br><span class="line">            t_li.append(i );</span><br><span class="line">			#把每个地方的每个因素的得分给分出来</span><br><span class="line">        <span class="attribute">s</span>=s1+s2+s3+s4+s5</span><br><span class="line">		#将总得分添加到里面</span><br><span class="line">        t_li.append(s);s_li.append(t_li);</span><br><span class="line">    return s_li</span><br></pre></td></tr></table></figure>
-<figure class="highlight routeros"><table><tr><td class="code"><pre><span class="line"><span class="attribute">t_l1</span>=target_h1(weight)</span><br><span class="line">df= pd.DataFrame(</span><br><span class="line">    t_l1[0:],</span><br><span class="line">    columns=[<span class="string">&quot;景色&quot;</span>,<span class="string">&quot;费用&quot;</span>,<span class="string">&quot;居住&quot;</span>,<span class="string">&quot;饮食&quot;</span>,<span class="string">&quot;旅途&quot;</span>,<span class="string">&quot;总得分&quot;</span>],</span><br><span class="line">    index=[<span class="string">&#x27;地方&#x27;</span> + i <span class="keyword">for</span> i <span class="keyword">in</span> list(<span class="string">&#x27;ABC&#x27;</span>) ]</span><br><span class="line">)</span><br><span class="line"><span class="attribute">path</span>=<span class="string">&quot;AHP分析.xlsx&quot;</span></span><br><span class="line">with pd.ExcelWriter(path) as writer:</span><br><span class="line">    df.to_excel(writer, <span class="attribute">sheet_name</span>=<span class="string">&quot;AHP分析&quot;</span>, <span class="attribute">index</span>=<span class="literal">True</span>)</span><br><span class="line">resultpic1(<span class="attribute">data</span>=df,</span><br><span class="line">           <span class="attribute">path</span>=path)</span><br><span class="line"><span class="comment">#resultpic1是雷达图生成函数，这个地方在上文用过，可以回头看看</span></span><br></pre></td></tr></table></figure>
-<p>最终结果如下图<br>
-<img src="5.png" alt="1"><br>
-可能由于数据是随机填的，得到的结果比较离谱<br>
-完结<br>
-<img src="1010D_48_1.jpg" alt="2"></p>
-]]></content>
-      <categories>
-        <category>Python</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>【电影】整理目录</title>
-    <url>/2023/10/21/%E3%80%90%E7%94%B5%E5%BD%B1%E3%80%91%E6%95%B4%E7%90%86%E7%9B%AE%E5%BD%95/</url>
-    <content><![CDATA[<p>电影的整理目录<br>
-1.<a href="/2023/10/21/%E3%80%8A%E6%BC%AB%E9%95%BF%E7%9A%84%E5%AD%A3%E8%8A%82%E3%80%8B%EF%BC%8C%E6%8E%B0%E4%B8%8D%E8%BF%87%E5%91%BD%E8%BF%90%EF%BC%8C%E8%BF%98%E8%A6%81%E4%BB%B0%E7%9D%80%E5%A4%B4%E5%BE%80%E5%89%8D/">《漫长的季节》，掰不过命运，还要仰着头往前</a></p>
-<span id="more"></span>
-<p>2.<a href="/2023/10/21/%E5%9C%A8%E5%B4%A9%E5%9D%8F%E7%9A%84%E4%B8%96%E7%95%8C%E9%87%8C%E5%AF%BB%E6%89%BE%E5%85%89/">在崩坏的世界里寻找光</a><br>
-3.<a href="/2023/10/21/%E8%A1%80%E8%A7%82%E9%9F%B3/">血观音</a><br>
-4.<a href="/2023/10/28/%E7%BB%A7%E6%89%BF%E8%80%85%E4%B9%8B%E6%88%98/">继承者之战</a><br>
-5.<a href="/2023/10/28/%E3%80%8A%E4%BA%BA%E7%94%9F%E5%88%87%E5%89%B2%E6%95%B0%E3%80%8B%E6%89%93%E5%B7%A5%E4%BA%BA%E7%9A%84%E5%9B%B0%E5%A2%83%E4%B8%8E%E8%8D%92%E5%94%90/">《人生切割数》打工人的困境与荒唐</a><br>
-6.<a href="/2023/10/28/%E3%80%8A1923%E3%80%8B%E5%BE%80%E4%BA%8B%E5%A6%82%E9%85%92/">《1923》往事如酒</a></p>
-]]></content>
-      <categories>
-        <category>电影</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>【搬运】html游戏 贪吃蛇</title>
-    <url>/2023/10/09/%E3%80%90%E6%90%AC%E8%BF%90%E3%80%91html%E6%B8%B8%E6%88%8F-%E8%B4%AA%E5%90%83%E8%9B%87/</url>
-    <content><![CDATA[<p>请使用电脑进入<br>
-—占位—<br>
-如题<br>
-本文为搬运的html游戏<br>
-—占位—</p>
-<span id="more"></span>
-<canvas id="tanchishe_Canvas" width="400" height="400" >
-</canvas>
-<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js">
-</script>
-<script type="text/javascript" src="/js/tanchishe_js.js">
-</script>
-<style>
-	#tanchishe_Canvas{	
-			background-color:white;
-			z-index:1;
-			border:5px solid;
-			border-color:black;
-		}
-</style>]]></content>
-      <categories>
-        <category>HTML游戏</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>【测试】js做的歌碟</title>
-    <url>/2023/09/30/%E3%80%90%E7%9E%8E%E6%90%9E-%E6%B5%8B%E8%AF%95%E3%80%91js%E5%81%9A%E7%9A%84%E6%AD%8C%E7%A2%9F/</url>
-    <content><![CDATA[<p>本文写的用纯JS（Jquery）写出的歌碟，<br>
-歌碟通过CSS转动，可以切歌。</p>
-<span id="more"></span>
-<p><img src="/image/929D_257_1.jpg" alt="1"></p>
-<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js">
-</script>
-<script>
-var s1=true;
-var musicbox=$(".musicbox_test");
-function mutr(){
-	if (s1==false){
-		s1=true;
-		$(".music_test").attr("src","/image/Akatsuki.mp3")
-		$(".recent_text").text("歌曲1")
-		console.log("ch1")	
-		if ($(".pic_box").css("animation-play-state")=="running"){
-				$(".music_pic").css({"animation-play-state":"paused"});
-				$(".pic_box").css({"animation-play-state":"paused"});
-				$(".music_test").get(0).pause();
-				s=true;
-			}
-	}
-	else{
-		s1=false;
-		$(".music_test").attr("src","/image/wonderland.mp3")
-		$(".recent_text").text("歌曲2")
-		console.log("ch2")
-		if ($(".pic_box").css("animation-play-state")=="running"){
-				$(".music_pic").css({"animation-play-state":"paused"});
-				$(".pic_box").css({"animation-play-state":"paused"});
-				$(".music_test").get(0).pause();
-				s=true;
-			}
-		}
-}
-s=true;
-
-function muplay(){
-	if (s==false){
-		s=true;
-		var music=$(".music_test").get(0);
-		var pic=$(".music_pic");
-		var box=$(".pic_box");
-		music.pause();	 
-		pic.css({"animation-play-state":"paused"});
-		box.css({"animation-play-state":"paused"});
-		}
-	else{
-		var music=$(".music_test").get(0);
-		var pic=$(".music_pic");
-		var box=$(".pic_box");
-		s=false;
-		music.play();
-		pic.css({"animation-play-state":"running"});
-		box.css({"animation-play-state":"running"});
-		
-		}
-}
-</script>
-<style>
-.pic_box{
-	width:250px;
-	border-radius: 50%;
-	background-color:white;
-	animation: Box 3s linear infinite;
-	animation-play-state:paused;
-}
-.pic_box img{
-	width:200px;
-	height:200px;
-	animation: Box 3s linear infinite;
-	animation-play-state:paused;
-	
-	}
-@keyframes Box{
-	0%{transform: rotate(0deg);}
-	50%{transform: rotate(180deg);}
-	100%{transform: rotate(360deg);}
-}
-</style>
-<!--more-->
-<div onclick="mutr()">
-<p>音乐盒（点我切歌）</p>
-<p class="recent_text">&nbsp;歌曲1</p>
-</div>
-<div id="box1" class="pic_box">
-  <img id="pic" class="music_pic" onclick="muplay()" src="/image/420px-KoishiSubterranean封面.jpg" alt="" />
-</div>
-<div id="musicbox" class="musicbox_test">
-	<audio id="Akatsuki" class="music_test" src="/image/Akatsuki.mp3" loop="loop" >
-	</audio>
-</div>
-<p>源代码</p>
-<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="keyword">var</span> s1=<span class="literal">true</span>;</span></span><br><span class="line"><span class="language-javascript"><span class="keyword">var</span> musicbox=$(<span class="string">&quot;.musicbox_test&quot;</span>);</span></span><br><span class="line"><span class="language-javascript"><span class="keyword">function</span> <span class="title function_">mutr</span>(<span class="params"></span>)&#123;</span></span><br><span class="line"><span class="language-javascript">	<span class="keyword">if</span> (s1==<span class="literal">false</span>)&#123;</span></span><br><span class="line"><span class="language-javascript">		s1=<span class="literal">true</span>;</span></span><br><span class="line"><span class="language-javascript">		$(<span class="string">&quot;.music_test&quot;</span>).<span class="title function_">attr</span>(<span class="string">&quot;src&quot;</span>,<span class="string">&quot;/image/Akatsuki.mp3&quot;</span>)</span></span><br><span class="line"><span class="language-javascript">		$(<span class="string">&quot;.recent_text&quot;</span>).<span class="title function_">text</span>(<span class="string">&quot;歌曲1&quot;</span>)</span></span><br><span class="line"><span class="language-javascript">		<span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&quot;ch1&quot;</span>)	</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">if</span> ($(<span class="string">&quot;.pic_box&quot;</span>).<span class="title function_">css</span>(<span class="string">&quot;animation-play-state&quot;</span>)==<span class="string">&quot;running&quot;</span>)&#123;</span></span><br><span class="line"><span class="language-javascript">				$(<span class="string">&quot;.music_pic&quot;</span>).<span class="title function_">css</span>(&#123;<span class="string">&quot;animation-play-state&quot;</span>:<span class="string">&quot;paused&quot;</span>&#125;);</span></span><br><span class="line"><span class="language-javascript">				$(<span class="string">&quot;.pic_box&quot;</span>).<span class="title function_">css</span>(&#123;<span class="string">&quot;animation-play-state&quot;</span>:<span class="string">&quot;paused&quot;</span>&#125;);</span></span><br><span class="line"><span class="language-javascript">				$(<span class="string">&quot;.music_test&quot;</span>).<span class="title function_">get</span>(<span class="number">0</span>).<span class="title function_">pause</span>();</span></span><br><span class="line"><span class="language-javascript">				s=<span class="literal">true</span>;</span></span><br><span class="line"><span class="language-javascript">			&#125;</span></span><br><span class="line"><span class="language-javascript">	&#125;</span></span><br><span class="line"><span class="language-javascript">	<span class="keyword">else</span>&#123;</span></span><br><span class="line"><span class="language-javascript">		s1=<span class="literal">false</span>;</span></span><br><span class="line"><span class="language-javascript">		$(<span class="string">&quot;.music_test&quot;</span>).<span class="title function_">attr</span>(<span class="string">&quot;src&quot;</span>,<span class="string">&quot;/image/wonderland.mp3&quot;</span>)</span></span><br><span class="line"><span class="language-javascript">		$(<span class="string">&quot;.recent_text&quot;</span>).<span class="title function_">text</span>(<span class="string">&quot;歌曲2&quot;</span>)</span></span><br><span class="line"><span class="language-javascript">		<span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&quot;ch2&quot;</span>)</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">if</span> ($(<span class="string">&quot;.pic_box&quot;</span>).<span class="title function_">css</span>(<span class="string">&quot;animation-play-state&quot;</span>)==<span class="string">&quot;running&quot;</span>)&#123;</span></span><br><span class="line"><span class="language-javascript">				$(<span class="string">&quot;.music_pic&quot;</span>).<span class="title function_">css</span>(&#123;<span class="string">&quot;animation-play-state&quot;</span>:<span class="string">&quot;paused&quot;</span>&#125;);</span></span><br><span class="line"><span class="language-javascript">				$(<span class="string">&quot;.pic_box&quot;</span>).<span class="title function_">css</span>(&#123;<span class="string">&quot;animation-play-state&quot;</span>:<span class="string">&quot;paused&quot;</span>&#125;);</span></span><br><span class="line"><span class="language-javascript">				$(<span class="string">&quot;.music_test&quot;</span>).<span class="title function_">get</span>(<span class="number">0</span>).<span class="title function_">pause</span>();</span></span><br><span class="line"><span class="language-javascript">				s=<span class="literal">true</span>;</span></span><br><span class="line"><span class="language-javascript">			&#125;</span></span><br><span class="line"><span class="language-javascript">		&#125;</span></span><br><span class="line"><span class="language-javascript">&#125;</span></span><br><span class="line"><span class="language-javascript">s=<span class="literal">true</span>;</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="keyword">function</span> <span class="title function_">muplay</span>(<span class="params"></span>)&#123;</span></span><br><span class="line"><span class="language-javascript">	<span class="keyword">if</span> (s==<span class="literal">false</span>)&#123;</span></span><br><span class="line"><span class="language-javascript">		s=<span class="literal">true</span>;</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">var</span> music=$(<span class="string">&quot;.music_test&quot;</span>).<span class="title function_">get</span>(<span class="number">0</span>);</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">var</span> pic=$(<span class="string">&quot;.music_pic&quot;</span>);</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">var</span> box=$(<span class="string">&quot;.pic_box&quot;</span>);</span></span><br><span class="line"><span class="language-javascript">		music.<span class="title function_">pause</span>();	 </span></span><br><span class="line"><span class="language-javascript">		pic.<span class="title function_">css</span>(&#123;<span class="string">&quot;animation-play-state&quot;</span>:<span class="string">&quot;paused&quot;</span>&#125;);</span></span><br><span class="line"><span class="language-javascript">		box.<span class="title function_">css</span>(&#123;<span class="string">&quot;animation-play-state&quot;</span>:<span class="string">&quot;paused&quot;</span>&#125;);</span></span><br><span class="line"><span class="language-javascript">		&#125;</span></span><br><span class="line"><span class="language-javascript">	<span class="keyword">else</span>&#123;</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">var</span> music=$(<span class="string">&quot;.music_test&quot;</span>).<span class="title function_">get</span>(<span class="number">0</span>);</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">var</span> pic=$(<span class="string">&quot;.music_pic&quot;</span>);</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">var</span> box=$(<span class="string">&quot;.pic_box&quot;</span>);</span></span><br><span class="line"><span class="language-javascript">		s=<span class="literal">false</span>;</span></span><br><span class="line"><span class="language-javascript">		music.<span class="title function_">play</span>();</span></span><br><span class="line"><span class="language-javascript">		pic.<span class="title function_">css</span>(&#123;<span class="string">&quot;animation-play-state&quot;</span>:<span class="string">&quot;running&quot;</span>&#125;);</span></span><br><span class="line"><span class="language-javascript">		box.<span class="title function_">css</span>(&#123;<span class="string">&quot;animation-play-state&quot;</span>:<span class="string">&quot;running&quot;</span>&#125;);</span></span><br><span class="line"><span class="language-javascript">		</span></span><br><span class="line"><span class="language-javascript">		&#125;</span></span><br><span class="line"><span class="language-javascript">&#125;</span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.pic_box</span>&#123;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">width</span>:<span class="number">250px</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">border-radius</span>: <span class="number">50%</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">background-color</span>:white;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">animation</span>: Box <span class="number">3s</span> linear infinite;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">animation-play-state</span>:paused;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.pic_box</span> <span class="selector-tag">img</span>&#123;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">width</span>:<span class="number">200px</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">height</span>:<span class="number">200px</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">animation</span>: Box <span class="number">3s</span> linear infinite;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">animation-play-state</span>:paused;</span></span><br><span class="line"><span class="language-css">	</span></span><br><span class="line"><span class="language-css">	&#125;</span></span><br><span class="line"><span class="language-css"><span class="keyword">@keyframes</span> Box&#123;</span></span><br><span class="line"><span class="language-css">	<span class="number">0%</span>&#123;<span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">0deg</span>);&#125;</span></span><br><span class="line"><span class="language-css">	<span class="number">50%</span>&#123;<span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">180deg</span>);&#125;</span></span><br><span class="line"><span class="language-css">	<span class="number">100%</span>&#123;<span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">360deg</span>);&#125;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!--more--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">onclick</span>=<span class="string">&quot;mutr()&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>音乐盒（点我切歌）<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span> <span class="attr">class</span>=<span class="string">&quot;recent_text&quot;</span>&gt;</span><span class="symbol">&amp;nbsp;</span>歌曲1<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;box1&quot;</span> <span class="attr">class</span>=<span class="string">&quot;pic_box&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">img</span> <span class="attr">id</span>=<span class="string">&quot;pic&quot;</span> <span class="attr">class</span>=<span class="string">&quot;music_pic&quot;</span> <span class="attr">onclick</span>=<span class="string">&quot;muplay()&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/image/420px-KoishiSubterranean封面.jpg&quot;</span> <span class="attr">alt</span>=<span class="string">&quot;&quot;</span> /&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;musicbox&quot;</span> <span class="attr">class</span>=<span class="string">&quot;musicbox_test&quot;</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">audio</span> <span class="attr">id</span>=<span class="string">&quot;Akatsuki&quot;</span> <span class="attr">class</span>=<span class="string">&quot;music_test&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/image/Akatsuki.mp3&quot;</span>  <span class="attr">loop</span>=<span class="string">&quot;loop&quot;</span> &gt;</span></span><br><span class="line">	<span class="tag">&lt;/<span class="name">audio</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>前端JS</category>
-      </categories>
-  </entry>
-  <entry>
     <title>【算法/Python】DataFrame的单行指定插入</title>
     <url>/2023/09/29/%E3%80%90%E7%AE%97%E6%B3%95-Python%E3%80%91DataFrame%E7%9A%84%E5%8D%95%E8%A1%8C%E6%8C%87%E5%AE%9A%E6%8F%92%E5%85%A5/</url>
     <content><![CDATA[<p>1.前言<br>
@@ -1982,49 +1982,74 @@ forEach方法中的function回调有三个参数：<br>
       </tags>
   </entry>
   <entry>
-    <title>继承者之战</title>
-    <url>/2023/10/28/%E7%BB%A7%E6%89%BF%E8%80%85%E4%B9%8B%E6%88%98/</url>
-    <content><![CDATA[<p>能击败我们的，只有我们自己！<br>
-<img src="%E5%9B%BE%E4%B8%80.jpg" alt="图一.jpg"></p>
+    <title>用Selenium制作前端式爬虫</title>
+    <url>/2023/09/28/%E7%94%A8selenum%E5%88%B6%E4%BD%9C%E5%89%8D%E7%AB%AF%E5%BC%8F%E7%88%AC%E8%99%AB/</url>
+    <content><![CDATA[<p>笔者也就小白水平，写selenium也是边学边写的<br>
+本文只是介绍抓取部分模块，怎么处理可以看看上文<br>
+<a href="https://jkysei.space/2023/09/27/%E7%94%A8JS%EF%BC%88%E5%89%8D%E7%AB%AF%EF%BC%89%E5%88%B6%E4%BD%9C%E7%9A%84%E7%AE%80%E6%98%93%E7%88%AC%E8%99%AB/">用JS（前端）制作的简易爬虫</a><br>
+python也有类似CSS选择器的第三方库，后续再更新</p>
 <span id="more"></span>
-<p>曾获得诸多奖项的美剧《继承之战》（Succession）第四季近日播出大结局，整部剧集也正式落下帷幕。它讲述了虚构的全球最大媒体娱乐集团控制者罗伊家族针对公司继承权的内斗，充斥着莎士比亚文学色彩。<br>
-在最终季里，年迈的公司掌舵人罗根·罗伊去世，这场继承之战的胜利者也以出人意料的方式揭晓。不难看出，这部剧参考了媒体大亨默多克的经历和家族关系，许多人也对其中超级富豪生活细节的真实性予以认可。<br>
-那么现实世界中的默多克以及其他富豪，也会上演跌宕起伏的“继承之战”吗？他们会如何分配自己庞大的商业帝国？<br>
-<img src="%E5%9B%BE%E4%BA%8C.jpg" alt="图二.jpg"><br>
-《继承之战》巧妙地抓住了超级富豪生活中的愤怒、自我怀疑和家庭内部冲突等元素。<br>
-伦敦商学院组织行为学教授奈杰尔·尼科尔森指出， 《继承之战》描述了富豪家族的两大经典冲突，一个是亲子冲突，另一个是手足之争。手足之争是年轻一代争夺父母的资源和注意力，代际冲突是父母对孩子的质疑。<br>
-与剧集相比，这两大冲突在默多克家族中体现得更加淋漓尽致。<br>
-媒体传奇人物鲁珀特·默多克出生于澳大利亚墨尔本，其麾下的新闻集团目前是全球最大的跨国媒体集团之一。据《福布斯》杂志统计，默多克家族目前以170亿美元的资产排名全球富豪榜第97位。<br>
-如今默多克已经92岁，健康状况每况愈下。经过几任妻子和6个孩子多年的“权力斗争”，目前默多克的分配规划是：他与第一任妻子生育的大女儿，和第三任妻子邓文迪生育的两个00后女儿，能够继承家族信托基金的一定份额，但与公司管理无关。而第二任妻子安娜的三个孩子—54岁的安娜·伊丽莎白、51岁的拉克兰和50岁的詹姆斯中的一位，将来会接管家族企<br>
-业。<br>
-<img src="%E5%9B%BE%E4%B8%89.jpg" alt="图三.jpg"><br>
-伊丽莎白性格犀利，与父亲多次发生冲突，并一直批评他的保守政治观点，已经早早退出“继承之战”。而拉克兰和詹姆斯之间的明争暗斗已经持续多年，拉克兰性格随和，詹姆斯则咄咄逼人。<br>
-2005年，拉克兰因与福克斯新闻首席运营官发生冲突，离开新闻集团回到悉尼。詹姆斯接下了哥哥的工作，并在接下来的十年里步步高升。但他自由主义的政治立场激怒了默多克，2015年，拉克兰又被默多克召回继续做他的接班人，但默多克始终对他的性格不满。默多克过世后拉克兰能否顺利接管集团还是个谜。<br>
-伊丽莎白性格犀利，与父亲多次发生冲突，并一直批评他的保守政治观点，已经早早退出“继承之战”。而拉克兰和詹姆斯之间的明争暗斗已经持续多年，拉克兰性格随和，詹姆斯则咄咄逼人。<br>
-2005年，拉克兰因与福克斯新闻首席运营官发生冲突，离开新闻集团回到悉尼。詹姆斯接下了哥哥的工作，并在接下来的十年里步步高升。但他自由主义的政治立场激怒了默多克，2015年，拉克兰又被默多克召回继续做他的接班人，但默多克始终对他的性格不满。默多克过世后拉克兰能否顺利接管集团还是个谜。<br>
-除了默多克家族，近年来欧美最受关注的继承之战是沃尔玛争夺战。沃尔玛超市创始人山姆沃尔顿于1992年去世后留下数百亿美元遗产。他的三个孩子罗布森·沃尔顿、吉姆·沃尔顿和爱丽丝·沃尔顿为此官司不断。<br>
-其中一场纠纷涉及山姆·沃尔顿在沃尔玛公司35%的股份所有权。三个孩子原本同意平分股份，但吉姆·沃尔顿后来改变了主意，想为自己保留更多的股份。这场纠纷最终在庭外和解，吉姆·沃尔顿同意让他的兄弟姐妹持有沃尔玛1.5%的股份，以换取他们同意让他保留剩余的33.5%股份。<br>
-另一起纠纷涉及山姆·沃尔顿在爱丽丝创建的Arvest银行中的50%股份。三个孩子也同意平分，但爱丽丝后来同样改变了主意。这场纠纷最终也在庭外和解，爱丽丝同意出让25%的股份，自己保留另一半。<br>
-<img src="%E5%9B%BE%E5%9B%9B.jpg" alt="图四.jpg"><br>
-与沃尔顿家族类似的继承权纠纷，可能就是美国富裕家庭最大的苦恼。咨询公司埃森哲2022年报告预计，在未来30年内，美国的婴儿潮一代（1944至1964年）将逐渐离世，为子孙留下总额30万亿美元的遗产。这将是美国历史上最大规模的财富转移，也会带来无尽的冲突。<br>
-在财富巨大的家族之中，如何平衡家庭内部的权力分配，保持资产的持续增值，同时还要对下一代进行适度的激励和引导，无疑是一个复杂的问题。<br>
-“一些富豪家庭的孩子可能没有上进心。”治疗师克莱科·克雷尔表示，“为什么要上大学？为什么要创业？为什么要努力工作？当你所有的财务需求都得到满足时，你的自尊和自信其实就会受损。” 他从剧集里罗伊家族的孩子们身上看到了同样的问题， “他们虚张声势，但在其背后却隐藏着肤浅和恐惧。”<br>
-美国历史上二代败家最经典的例子是阿斯特家族，该家族曾是美国首富，凭借皮毛和房地产生意积累了巨大的财富。但家族第四代约翰·雅各布·阿斯特登上了1912年的泰坦尼克号。在轮船撞上冰山沉没后，他的妻子登上救生艇获救，而阿斯特本人则随船葬身海底。<br>
-这对夫妻的儿子继承了父亲的8500万美元遗产（约合2022年的26亿美元），随后大肆购买豪车，还染上了赌瘾，五年内就将财产挥霍一空，自己也被诊断出精神疾病，阿斯特家族就此从美国上层社会消失。<br>
-<img src="%E5%9B%BE%E4%BA%94.jpg" alt="图五.jpg"><br>
-另一个因继承人能力不行而被除名的家族是杜克家族。这个家族的创建者是美国烟草和电力实业家詹姆斯·布坎南·杜克，他一度控制着美国90%的卷烟市场。他曾向三一学院捐赠了4000万美元，后者更名为杜克大学。<br>
-1925年，詹姆斯去世，将相当于现在20亿美元的财产留给了四个儿子。这四个人也大肆挥霍，又完成若干糟糕的投资。到1950年代，杜克家族的资产已经荡然无存，只有如今在美国排名前十的杜克大学的名字，提醒着公众留意历史上这个短命富豪家族的存在。<br>
-为了避免类似的悲剧， 《华盛顿邮报》采访的一位白手起家的亿万富翁作出了很好的示范。他和妻子都在中产阶级家庭中长大。他们财务规划的目标是：如果夫妇二人突然去世，孩子们也能过上好日子，但又不至于让他们失去奋斗的目标。<br>
-所以他们为每个正在上大学的孩子设立了信托基金。每个孩子都有250万美元的资金由受托人管理。在孩子40岁以前，这笔钱只能用于教育、医疗保健、购买房屋或创业，之后才可以自由使用。这位富豪认为，人到四十岁时，才足够成熟，能明智地管理大额资金。<br>
-埃森哲报告发现，从2012年到现在，美国有12万亿美元的财富传给了下一代，大部分都是通过信托基金的方式。通行的做法是在继承人25岁时给予三分之一，在30岁时给予三分之一，剩余的在35岁时全部给予。另一种方式是设置“激励信托”，规定了子女必须完成特定任务才能逐步解封遗产，如继承人必须大学毕业、结婚或找到正式工作等。<br>
-此外，诸如比尔·盖茨、巴菲特等人的做法开拓了另一种趋势，那就是将财富用于社会公益，而不是全部留给自己的子女。<br>
-<img src="%E5%9B%BE%E5%85%AD.jpg" alt="图六.jpg"><br>
-盖茨曾公开表示，如果子女继承了太多的遗产，可能会对他们的成长产生不良影响。他们的三个孩子仅会继承数千万美元的遗产，每个人获得的部分相当于盖茨和前妻梅琳达总资产的0.008%。<br>
-股神沃伦·巴菲特为他的三个孩子每人设立了一个20亿美元的基金会，而他的其他财产，早在2006年就已经宣布将全部捐给慈善事业。正如巴菲特所说，留给孩子的最佳金额是“足够的钱让他们觉得可以做任何事，但不至于让他们无所事事”。</p>
+<p>1.前言<br>
+大部分的网站都有反爬机制<br>
+<img src="/image/928D_113_1.jpg" alt="1"></p>
+<figure class="highlight applescript"><table><tr><td class="code"><pre><span class="line">requests.<span class="keyword">get</span>(url,headers,<span class="keyword">timeout</span>)</span><br></pre></td></tr></table></figure>
+<p>requests早已经无法爬取网页了，<br>
+所以希望用一种能够越过反爬虫的第三方库<br>
+selenium是模拟驱动chrome访问网站的方式越过反爬虫<br>
+2.Selenium的调用</p>
+<p>在Pycharm或pip上安装selenium<br>
+随后即可import</p>
+<figure class="highlight angelscript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> selenium <span class="keyword">import</span> webdriver</span><br></pre></td></tr></table></figure>
+<p>为了方便修改浏览器设置,引用Options模块</p>
+<figure class="highlight gradle"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> selenium.webdriver.chrome.<span class="keyword">options</span> <span class="keyword">import</span> <span class="keyword">Options</span></span><br></pre></td></tr></table></figure>
+<p>用chrome_options存放options</p>
+<figure class="highlight ini"><table><tr><td class="code"><pre><span class="line"><span class="attr">chrome_options</span> = Options()</span><br><span class="line"><span class="attr">chrome_options.page_load_strategy</span> = <span class="string">&#x27;eager&#x27;</span></span><br></pre></td></tr></table></figure>
+<p>page_load_strategy是浏览器加载策略，默认是normal，eager则是快速加载<br>
+在网页资源加载完成时就会立刻关闭，可以省很多时间。<br>
+网上有很多说有更加快速的方法，说实话是噱头，没有实际用处，<br>
+照着他的方法，会迅速加载网页然后光速关闭，根本无法正常抓取网页内容<br>
+eagle已经是最快的策略，更快可以尝试多线程的爬虫。</p>
+<p>如果电脑里安装了多个chrome或者python无法获取你的chrome程序位置，<br>
+可以引用service模块</p>
+<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line">from selenium<span class="selector-class">.webdriver</span><span class="selector-class">.chrome</span><span class="selector-class">.service</span> import Service</span><br></pre></td></tr></table></figure>
+<figure class="highlight ini"><table><tr><td class="code"><pre><span class="line"><span class="attr">service</span>=Service(executable_path=<span class="string">&quot;路径&quot;</span>)</span><br><span class="line"><span class="comment">#注：python存放路径引号内,如果/可以只写一个,但是如果\\要写两个</span></span><br></pre></td></tr></table></figure>
+<p>设置好就可以驱动浏览器了</p>
+<figure class="highlight reasonml"><table><tr><td class="code"><pre><span class="line">driver = webdriver.<span class="constructor">Chrome(<span class="params">service</span>=<span class="params">service</span>,<span class="params">options</span>=<span class="params">chrome_options</span>)</span></span><br></pre></td></tr></table></figure>
+<p>随后便可以抓取网页资源</p>
+<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line">driver<span class="selector-class">.get</span>(url)</span><br><span class="line">url_get = driver<span class="selector-class">.page_source</span> <span class="selector-id">#url_get</span> 就是抓取下的网页</span><br><span class="line">driver<span class="selector-class">.close</span>()</span><br><span class="line">driver<span class="selector-class">.quit</span>()</span><br></pre></td></tr></table></figure>
+<p>3.报错模块<br>
+selenium虽然挺稳定，但有时因为网站连接不稳定，<br>
+就会报错，中途寄掉的情况。。。经常会有<br>
+特别是爬图，是需要爬到详细页面，页面数量也会倍增。<br>
+报错一般有，加载timeout，selenium一个狗血的地方，timeout会<br>
+让整个程序直接中断，所以一定要try，报错了让它except</p>
+<p>selenium设置timeout的方式</p>
+<figure class="highlight apache"><table><tr><td class="code"><pre><span class="line"><span class="attribute">browserset</span>.set_page_load_timeout(<span class="number">100</span>)</span><br><span class="line"><span class="attribute">browserset</span>.set_script_timeout(<span class="number">100</span>)</span><br></pre></td></tr></table></figure>
+<p>第一种是页面加载报timeout的错误，退出，第二种是脚本中止加载<br>
+两者有点小区别，详细请百度。</p>
+<p>驱动浏览器大致可以这么写</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#防空链接报错</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">printpause</span>(<span class="params">timepause</span>):</span><br><span class="line">	<span class="built_in">print</span>(<span class="string">&#x27;***访问超时，程序暂停***&#x27;</span>)</span><br><span class="line">	<span class="built_in">print</span>(<span class="string">&#x27;%d秒后继续&#x27;</span> %timepause)</span><br><span class="line">	time.sleep(timepause) <span class="comment">#报错会一时中止加载</span></span><br><span class="line">	</span><br><span class="line"><span class="keyword">def</span> <span class="title function_">drivebrowser</span>():</span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        browser=browser_set() <span class="comment">#browser_set()就是驱动浏览器的函数</span></span><br><span class="line">        <span class="keyword">return</span> browser <span class="comment">#如果try成功了就会return出browser</span></span><br><span class="line">    <span class="keyword">except</span>:</span><br><span class="line">        secends = random.randint(<span class="number">120</span>, <span class="number">150</span>) </span><br><span class="line">        printpause(secends) </span><br><span class="line">        <span class="keyword">try</span>:</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">&#x27;***重试请求***&#x27;</span>)</span><br><span class="line">            browser=browser_set()</span><br><span class="line">            <span class="keyword">return</span> browser </span><br><span class="line">		<span class="keyword">except</span>:         <span class="comment">#写多几层保险一点</span></span><br><span class="line">            printpause(<span class="number">150</span>)</span><br><span class="line">            <span class="keyword">try</span>:</span><br><span class="line">                <span class="built_in">print</span>(<span class="string">&#x27;***重试请求***&#x27;</span>)</span><br><span class="line">                browser=browser_set()</span><br><span class="line">                <span class="keyword">return</span> browser</span><br><span class="line">            <span class="keyword">except</span>:</span><br><span class="line">                <span class="built_in">print</span>(<span class="string">&#x27;***访问失败，程序继续***&#x27;</span>)</span><br><span class="line">                <span class="keyword">return</span> <span class="string">&#x27;&#x27;</span>  <span class="comment">#实在不行就跳过了</span></span><br></pre></td></tr></table></figure>
+<p>第二种报错就是访问超时的报错，也建议用try函数<br>
+访问函数也可以照着上面写try，except，这里就不多写了</p>
+<p>写了这么多try之后，我也在想应该不可能报错了，其实上还是<br>
+会报的只不过几率很小很小，所以大型爬虫操作还是悠着点，<br>
+几千秒的运行中间报了错可不是开玩笑的。。</p>
+<p><img src="/image/928D_91_1.jpg" alt="2"></p>
+<p>4.额额额什么？<br>
+selenium无法正确抓取网页了？？<br>
+现在的情况是，单是selenium的爬虫已经会被网站拦截了</p>
+<p>搜索别人的经验后，了解到了防侦测脚本驱动浏览器的第三库</p>
+<figure class="highlight elm"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> undetected_chromedriver <span class="keyword">as</span> uc</span><br></pre></td></tr></table></figure>
+<p>以下是抄的作业<br>
+以咱的水平看不懂，但确实神奇的解决了问题</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">browser_set</span>():</span><br><span class="line">    <span class="comment">#浏览器引擎设置</span></span><br><span class="line">    options = webdriver.ChromeOptions()</span><br><span class="line">	<span class="comment">#取出chrome的option设置</span></span><br><span class="line">    options.add_argument(<span class="string">&quot;--headless&quot;</span>)</span><br><span class="line">	<span class="comment">#后台驱动chrome</span></span><br><span class="line">    <span class="comment"># 去除“Chrome正受到自动测试软件的控制”的显示</span></span><br><span class="line">    options.add_experimental_option(<span class="string">&quot;excludeSwitches&quot;</span>, [<span class="string">&quot;enable-automation&quot;</span>])</span><br><span class="line">    browserset = webdriver.Chrome(options=options)</span><br><span class="line">    <span class="comment"># 设置headers</span></span><br><span class="line">    browserset.execute_cdp_cmd(<span class="string">&quot;Network.setExtraHTTPHeaders&quot;</span>,</span><br><span class="line">                           &#123;<span class="string">&quot;headers&quot;</span>:</span><br><span class="line">                                &#123;</span><br><span class="line">                                    <span class="string">&quot;User-Agent&quot;</span>: <span class="string">&quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36&quot;</span>,</span><br><span class="line">                                    &#125;</span><br><span class="line">                            &#125;)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 防止网站检测selenium的webdriver</span></span><br><span class="line">    browserset.execute_cdp_cmd(<span class="string">&quot;Page.addScriptToEvaluateOnNewDocument&quot;</span>, &#123;</span><br><span class="line">        <span class="string">&quot;source&quot;</span>: <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">                Object.defineProperty(navigator, &#x27;webdriver&#x27;, &#123;</span></span><br><span class="line"><span class="string">                    get: () =&gt; False</span></span><br><span class="line"><span class="string">                &#125;)</span></span><br><span class="line"><span class="string">            &quot;&quot;&quot;</span>&#125;)</span><br><span class="line"></span><br><span class="line">    browserset.set_page_load_timeout(<span class="number">100</span>)</span><br><span class="line">    browserset.set_script_timeout(<span class="number">100</span>)</span><br><span class="line">    <span class="keyword">return</span> browserset</span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
-        <category>电影</category>
+        <category>Python</category>
       </categories>
+      <tags>
+        <tag>爬虫</tag>
+      </tags>
   </entry>
   <entry>
     <title>【搬运】HTML5游戏 糖豆人</title>
@@ -2095,6 +2120,51 @@ forEach方法中的function回调有三个参数：<br>
       </categories>
   </entry>
   <entry>
+    <title>继承者之战</title>
+    <url>/2023/10/28/%E7%BB%A7%E6%89%BF%E8%80%85%E4%B9%8B%E6%88%98/</url>
+    <content><![CDATA[<p>能击败我们的，只有我们自己！<br>
+<img src="%E5%9B%BE%E4%B8%80.jpg" alt="图一.jpg"></p>
+<span id="more"></span>
+<p>曾获得诸多奖项的美剧《继承之战》（Succession）第四季近日播出大结局，整部剧集也正式落下帷幕。它讲述了虚构的全球最大媒体娱乐集团控制者罗伊家族针对公司继承权的内斗，充斥着莎士比亚文学色彩。<br>
+在最终季里，年迈的公司掌舵人罗根·罗伊去世，这场继承之战的胜利者也以出人意料的方式揭晓。不难看出，这部剧参考了媒体大亨默多克的经历和家族关系，许多人也对其中超级富豪生活细节的真实性予以认可。<br>
+那么现实世界中的默多克以及其他富豪，也会上演跌宕起伏的“继承之战”吗？他们会如何分配自己庞大的商业帝国？<br>
+<img src="%E5%9B%BE%E4%BA%8C.jpg" alt="图二.jpg"><br>
+《继承之战》巧妙地抓住了超级富豪生活中的愤怒、自我怀疑和家庭内部冲突等元素。<br>
+伦敦商学院组织行为学教授奈杰尔·尼科尔森指出， 《继承之战》描述了富豪家族的两大经典冲突，一个是亲子冲突，另一个是手足之争。手足之争是年轻一代争夺父母的资源和注意力，代际冲突是父母对孩子的质疑。<br>
+与剧集相比，这两大冲突在默多克家族中体现得更加淋漓尽致。<br>
+媒体传奇人物鲁珀特·默多克出生于澳大利亚墨尔本，其麾下的新闻集团目前是全球最大的跨国媒体集团之一。据《福布斯》杂志统计，默多克家族目前以170亿美元的资产排名全球富豪榜第97位。<br>
+如今默多克已经92岁，健康状况每况愈下。经过几任妻子和6个孩子多年的“权力斗争”，目前默多克的分配规划是：他与第一任妻子生育的大女儿，和第三任妻子邓文迪生育的两个00后女儿，能够继承家族信托基金的一定份额，但与公司管理无关。而第二任妻子安娜的三个孩子—54岁的安娜·伊丽莎白、51岁的拉克兰和50岁的詹姆斯中的一位，将来会接管家族企<br>
+业。<br>
+<img src="%E5%9B%BE%E4%B8%89.jpg" alt="图三.jpg"><br>
+伊丽莎白性格犀利，与父亲多次发生冲突，并一直批评他的保守政治观点，已经早早退出“继承之战”。而拉克兰和詹姆斯之间的明争暗斗已经持续多年，拉克兰性格随和，詹姆斯则咄咄逼人。<br>
+2005年，拉克兰因与福克斯新闻首席运营官发生冲突，离开新闻集团回到悉尼。詹姆斯接下了哥哥的工作，并在接下来的十年里步步高升。但他自由主义的政治立场激怒了默多克，2015年，拉克兰又被默多克召回继续做他的接班人，但默多克始终对他的性格不满。默多克过世后拉克兰能否顺利接管集团还是个谜。<br>
+伊丽莎白性格犀利，与父亲多次发生冲突，并一直批评他的保守政治观点，已经早早退出“继承之战”。而拉克兰和詹姆斯之间的明争暗斗已经持续多年，拉克兰性格随和，詹姆斯则咄咄逼人。<br>
+2005年，拉克兰因与福克斯新闻首席运营官发生冲突，离开新闻集团回到悉尼。詹姆斯接下了哥哥的工作，并在接下来的十年里步步高升。但他自由主义的政治立场激怒了默多克，2015年，拉克兰又被默多克召回继续做他的接班人，但默多克始终对他的性格不满。默多克过世后拉克兰能否顺利接管集团还是个谜。<br>
+除了默多克家族，近年来欧美最受关注的继承之战是沃尔玛争夺战。沃尔玛超市创始人山姆沃尔顿于1992年去世后留下数百亿美元遗产。他的三个孩子罗布森·沃尔顿、吉姆·沃尔顿和爱丽丝·沃尔顿为此官司不断。<br>
+其中一场纠纷涉及山姆·沃尔顿在沃尔玛公司35%的股份所有权。三个孩子原本同意平分股份，但吉姆·沃尔顿后来改变了主意，想为自己保留更多的股份。这场纠纷最终在庭外和解，吉姆·沃尔顿同意让他的兄弟姐妹持有沃尔玛1.5%的股份，以换取他们同意让他保留剩余的33.5%股份。<br>
+另一起纠纷涉及山姆·沃尔顿在爱丽丝创建的Arvest银行中的50%股份。三个孩子也同意平分，但爱丽丝后来同样改变了主意。这场纠纷最终也在庭外和解，爱丽丝同意出让25%的股份，自己保留另一半。<br>
+<img src="%E5%9B%BE%E5%9B%9B.jpg" alt="图四.jpg"><br>
+与沃尔顿家族类似的继承权纠纷，可能就是美国富裕家庭最大的苦恼。咨询公司埃森哲2022年报告预计，在未来30年内，美国的婴儿潮一代（1944至1964年）将逐渐离世，为子孙留下总额30万亿美元的遗产。这将是美国历史上最大规模的财富转移，也会带来无尽的冲突。<br>
+在财富巨大的家族之中，如何平衡家庭内部的权力分配，保持资产的持续增值，同时还要对下一代进行适度的激励和引导，无疑是一个复杂的问题。<br>
+“一些富豪家庭的孩子可能没有上进心。”治疗师克莱科·克雷尔表示，“为什么要上大学？为什么要创业？为什么要努力工作？当你所有的财务需求都得到满足时，你的自尊和自信其实就会受损。” 他从剧集里罗伊家族的孩子们身上看到了同样的问题， “他们虚张声势，但在其背后却隐藏着肤浅和恐惧。”<br>
+美国历史上二代败家最经典的例子是阿斯特家族，该家族曾是美国首富，凭借皮毛和房地产生意积累了巨大的财富。但家族第四代约翰·雅各布·阿斯特登上了1912年的泰坦尼克号。在轮船撞上冰山沉没后，他的妻子登上救生艇获救，而阿斯特本人则随船葬身海底。<br>
+这对夫妻的儿子继承了父亲的8500万美元遗产（约合2022年的26亿美元），随后大肆购买豪车，还染上了赌瘾，五年内就将财产挥霍一空，自己也被诊断出精神疾病，阿斯特家族就此从美国上层社会消失。<br>
+<img src="%E5%9B%BE%E4%BA%94.jpg" alt="图五.jpg"><br>
+另一个因继承人能力不行而被除名的家族是杜克家族。这个家族的创建者是美国烟草和电力实业家詹姆斯·布坎南·杜克，他一度控制着美国90%的卷烟市场。他曾向三一学院捐赠了4000万美元，后者更名为杜克大学。<br>
+1925年，詹姆斯去世，将相当于现在20亿美元的财产留给了四个儿子。这四个人也大肆挥霍，又完成若干糟糕的投资。到1950年代，杜克家族的资产已经荡然无存，只有如今在美国排名前十的杜克大学的名字，提醒着公众留意历史上这个短命富豪家族的存在。<br>
+为了避免类似的悲剧， 《华盛顿邮报》采访的一位白手起家的亿万富翁作出了很好的示范。他和妻子都在中产阶级家庭中长大。他们财务规划的目标是：如果夫妇二人突然去世，孩子们也能过上好日子，但又不至于让他们失去奋斗的目标。<br>
+所以他们为每个正在上大学的孩子设立了信托基金。每个孩子都有250万美元的资金由受托人管理。在孩子40岁以前，这笔钱只能用于教育、医疗保健、购买房屋或创业，之后才可以自由使用。这位富豪认为，人到四十岁时，才足够成熟，能明智地管理大额资金。<br>
+埃森哲报告发现，从2012年到现在，美国有12万亿美元的财富传给了下一代，大部分都是通过信托基金的方式。通行的做法是在继承人25岁时给予三分之一，在30岁时给予三分之一，剩余的在35岁时全部给予。另一种方式是设置“激励信托”，规定了子女必须完成特定任务才能逐步解封遗产，如继承人必须大学毕业、结婚或找到正式工作等。<br>
+此外，诸如比尔·盖茨、巴菲特等人的做法开拓了另一种趋势，那就是将财富用于社会公益，而不是全部留给自己的子女。<br>
+<img src="%E5%9B%BE%E5%85%AD.jpg" alt="图六.jpg"><br>
+盖茨曾公开表示，如果子女继承了太多的遗产，可能会对他们的成长产生不良影响。他们的三个孩子仅会继承数千万美元的遗产，每个人获得的部分相当于盖茨和前妻梅琳达总资产的0.008%。<br>
+股神沃伦·巴菲特为他的三个孩子每人设立了一个20亿美元的基金会，而他的其他财产，早在2006年就已经宣布将全部捐给慈善事业。正如巴菲特所说，留给孩子的最佳金额是“足够的钱让他们觉得可以做任何事，但不至于让他们无所事事”。</p>
+]]></content>
+      <categories>
+        <category>电影</category>
+      </categories>
+  </entry>
+  <entry>
     <title>【电影】血观音</title>
     <url>/2023/10/21/%E8%A1%80%E8%A7%82%E9%9F%B3/</url>
     <content><![CDATA[<p>血观音</p>
@@ -2133,75 +2203,5 @@ forEach方法中的function回调有三个参数：<br>
       <categories>
         <category>测试</category>
       </categories>
-  </entry>
-  <entry>
-    <title>用Selenium制作前端式爬虫</title>
-    <url>/2023/09/28/%E7%94%A8selenum%E5%88%B6%E4%BD%9C%E5%89%8D%E7%AB%AF%E5%BC%8F%E7%88%AC%E8%99%AB/</url>
-    <content><![CDATA[<p>笔者也就小白水平，写selenium也是边学边写的<br>
-本文只是介绍抓取部分模块，怎么处理可以看看上文<br>
-<a href="https://jkysei.space/2023/09/27/%E7%94%A8JS%EF%BC%88%E5%89%8D%E7%AB%AF%EF%BC%89%E5%88%B6%E4%BD%9C%E7%9A%84%E7%AE%80%E6%98%93%E7%88%AC%E8%99%AB/">用JS（前端）制作的简易爬虫</a><br>
-python也有类似CSS选择器的第三方库，后续再更新</p>
-<span id="more"></span>
-<p>1.前言<br>
-大部分的网站都有反爬机制<br>
-<img src="/image/928D_113_1.jpg" alt="1"></p>
-<figure class="highlight applescript"><table><tr><td class="code"><pre><span class="line">requests.<span class="keyword">get</span>(url,headers,<span class="keyword">timeout</span>)</span><br></pre></td></tr></table></figure>
-<p>requests早已经无法爬取网页了，<br>
-所以希望用一种能够越过反爬虫的第三方库<br>
-selenium是模拟驱动chrome访问网站的方式越过反爬虫<br>
-2.Selenium的调用</p>
-<p>在Pycharm或pip上安装selenium<br>
-随后即可import</p>
-<figure class="highlight angelscript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> selenium <span class="keyword">import</span> webdriver</span><br></pre></td></tr></table></figure>
-<p>为了方便修改浏览器设置,引用Options模块</p>
-<figure class="highlight gradle"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> selenium.webdriver.chrome.<span class="keyword">options</span> <span class="keyword">import</span> <span class="keyword">Options</span></span><br></pre></td></tr></table></figure>
-<p>用chrome_options存放options</p>
-<figure class="highlight ini"><table><tr><td class="code"><pre><span class="line"><span class="attr">chrome_options</span> = Options()</span><br><span class="line"><span class="attr">chrome_options.page_load_strategy</span> = <span class="string">&#x27;eager&#x27;</span></span><br></pre></td></tr></table></figure>
-<p>page_load_strategy是浏览器加载策略，默认是normal，eager则是快速加载<br>
-在网页资源加载完成时就会立刻关闭，可以省很多时间。<br>
-网上有很多说有更加快速的方法，说实话是噱头，没有实际用处，<br>
-照着他的方法，会迅速加载网页然后光速关闭，根本无法正常抓取网页内容<br>
-eagle已经是最快的策略，更快可以尝试多线程的爬虫。</p>
-<p>如果电脑里安装了多个chrome或者python无法获取你的chrome程序位置，<br>
-可以引用service模块</p>
-<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line">from selenium<span class="selector-class">.webdriver</span><span class="selector-class">.chrome</span><span class="selector-class">.service</span> import Service</span><br></pre></td></tr></table></figure>
-<figure class="highlight ini"><table><tr><td class="code"><pre><span class="line"><span class="attr">service</span>=Service(executable_path=<span class="string">&quot;路径&quot;</span>)</span><br><span class="line"><span class="comment">#注：python存放路径引号内,如果/可以只写一个,但是如果\\要写两个</span></span><br></pre></td></tr></table></figure>
-<p>设置好就可以驱动浏览器了</p>
-<figure class="highlight reasonml"><table><tr><td class="code"><pre><span class="line">driver = webdriver.<span class="constructor">Chrome(<span class="params">service</span>=<span class="params">service</span>,<span class="params">options</span>=<span class="params">chrome_options</span>)</span></span><br></pre></td></tr></table></figure>
-<p>随后便可以抓取网页资源</p>
-<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line">driver<span class="selector-class">.get</span>(url)</span><br><span class="line">url_get = driver<span class="selector-class">.page_source</span> <span class="selector-id">#url_get</span> 就是抓取下的网页</span><br><span class="line">driver<span class="selector-class">.close</span>()</span><br><span class="line">driver<span class="selector-class">.quit</span>()</span><br></pre></td></tr></table></figure>
-<p>3.报错模块<br>
-selenium虽然挺稳定，但有时因为网站连接不稳定，<br>
-就会报错，中途寄掉的情况。。。经常会有<br>
-特别是爬图，是需要爬到详细页面，页面数量也会倍增。<br>
-报错一般有，加载timeout，selenium一个狗血的地方，timeout会<br>
-让整个程序直接中断，所以一定要try，报错了让它except</p>
-<p>selenium设置timeout的方式</p>
-<figure class="highlight apache"><table><tr><td class="code"><pre><span class="line"><span class="attribute">browserset</span>.set_page_load_timeout(<span class="number">100</span>)</span><br><span class="line"><span class="attribute">browserset</span>.set_script_timeout(<span class="number">100</span>)</span><br></pre></td></tr></table></figure>
-<p>第一种是页面加载报timeout的错误，退出，第二种是脚本中止加载<br>
-两者有点小区别，详细请百度。</p>
-<p>驱动浏览器大致可以这么写</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#防空链接报错</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">printpause</span>(<span class="params">timepause</span>):</span><br><span class="line">	<span class="built_in">print</span>(<span class="string">&#x27;***访问超时，程序暂停***&#x27;</span>)</span><br><span class="line">	<span class="built_in">print</span>(<span class="string">&#x27;%d秒后继续&#x27;</span> %timepause)</span><br><span class="line">	time.sleep(timepause) <span class="comment">#报错会一时中止加载</span></span><br><span class="line">	</span><br><span class="line"><span class="keyword">def</span> <span class="title function_">drivebrowser</span>():</span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        browser=browser_set() <span class="comment">#browser_set()就是驱动浏览器的函数</span></span><br><span class="line">        <span class="keyword">return</span> browser <span class="comment">#如果try成功了就会return出browser</span></span><br><span class="line">    <span class="keyword">except</span>:</span><br><span class="line">        secends = random.randint(<span class="number">120</span>, <span class="number">150</span>) </span><br><span class="line">        printpause(secends) </span><br><span class="line">        <span class="keyword">try</span>:</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">&#x27;***重试请求***&#x27;</span>)</span><br><span class="line">            browser=browser_set()</span><br><span class="line">            <span class="keyword">return</span> browser </span><br><span class="line">		<span class="keyword">except</span>:         <span class="comment">#写多几层保险一点</span></span><br><span class="line">            printpause(<span class="number">150</span>)</span><br><span class="line">            <span class="keyword">try</span>:</span><br><span class="line">                <span class="built_in">print</span>(<span class="string">&#x27;***重试请求***&#x27;</span>)</span><br><span class="line">                browser=browser_set()</span><br><span class="line">                <span class="keyword">return</span> browser</span><br><span class="line">            <span class="keyword">except</span>:</span><br><span class="line">                <span class="built_in">print</span>(<span class="string">&#x27;***访问失败，程序继续***&#x27;</span>)</span><br><span class="line">                <span class="keyword">return</span> <span class="string">&#x27;&#x27;</span>  <span class="comment">#实在不行就跳过了</span></span><br></pre></td></tr></table></figure>
-<p>第二种报错就是访问超时的报错，也建议用try函数<br>
-访问函数也可以照着上面写try，except，这里就不多写了</p>
-<p>写了这么多try之后，我也在想应该不可能报错了，其实上还是<br>
-会报的只不过几率很小很小，所以大型爬虫操作还是悠着点，<br>
-几千秒的运行中间报了错可不是开玩笑的。。</p>
-<p><img src="/image/928D_91_1.jpg" alt="2"></p>
-<p>4.额额额什么？<br>
-selenium无法正确抓取网页了？？<br>
-现在的情况是，单是selenium的爬虫已经会被网站拦截了</p>
-<p>搜索别人的经验后，了解到了防侦测脚本驱动浏览器的第三库</p>
-<figure class="highlight elm"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> undetected_chromedriver <span class="keyword">as</span> uc</span><br></pre></td></tr></table></figure>
-<p>以下是抄的作业<br>
-以咱的水平看不懂，但确实神奇的解决了问题</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">browser_set</span>():</span><br><span class="line">    <span class="comment">#浏览器引擎设置</span></span><br><span class="line">    options = webdriver.ChromeOptions()</span><br><span class="line">	<span class="comment">#取出chrome的option设置</span></span><br><span class="line">    options.add_argument(<span class="string">&quot;--headless&quot;</span>)</span><br><span class="line">	<span class="comment">#后台驱动chrome</span></span><br><span class="line">    <span class="comment"># 去除“Chrome正受到自动测试软件的控制”的显示</span></span><br><span class="line">    options.add_experimental_option(<span class="string">&quot;excludeSwitches&quot;</span>, [<span class="string">&quot;enable-automation&quot;</span>])</span><br><span class="line">    browserset = webdriver.Chrome(options=options)</span><br><span class="line">    <span class="comment"># 设置headers</span></span><br><span class="line">    browserset.execute_cdp_cmd(<span class="string">&quot;Network.setExtraHTTPHeaders&quot;</span>,</span><br><span class="line">                           &#123;<span class="string">&quot;headers&quot;</span>:</span><br><span class="line">                                &#123;</span><br><span class="line">                                    <span class="string">&quot;User-Agent&quot;</span>: <span class="string">&quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36&quot;</span>,</span><br><span class="line">                                    &#125;</span><br><span class="line">                            &#125;)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 防止网站检测selenium的webdriver</span></span><br><span class="line">    browserset.execute_cdp_cmd(<span class="string">&quot;Page.addScriptToEvaluateOnNewDocument&quot;</span>, &#123;</span><br><span class="line">        <span class="string">&quot;source&quot;</span>: <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">                Object.defineProperty(navigator, &#x27;webdriver&#x27;, &#123;</span></span><br><span class="line"><span class="string">                    get: () =&gt; False</span></span><br><span class="line"><span class="string">                &#125;)</span></span><br><span class="line"><span class="string">            &quot;&quot;&quot;</span>&#125;)</span><br><span class="line"></span><br><span class="line">    browserset.set_page_load_timeout(<span class="number">100</span>)</span><br><span class="line">    browserset.set_script_timeout(<span class="number">100</span>)</span><br><span class="line">    <span class="keyword">return</span> browserset</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>Python</category>
-      </categories>
-      <tags>
-        <tag>爬虫</tag>
-      </tags>
   </entry>
 </search>
