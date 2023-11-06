@@ -171,6 +171,7 @@ xxxxxx”ssh目录下config文件中的命名</p>
 下文介绍现在已经解明的写法，由于使用的函数不是很多，<br>
 那就直接列举了</p>
 <span id="more"></span>
+<p><img src="/image/1106D/1106D_120_1.jpg"></img></p>
 <p>1.写法区分<br>
 1)双括号</p>
 <figure class="highlight crystal"><table><tr><td class="code"><pre><span class="line"><span class="template-variable">&#123;&#123; &#125;&#125;</span></span><br></pre></td></tr></table></figure>
