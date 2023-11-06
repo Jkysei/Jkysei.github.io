@@ -1,0 +1,145 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">
+<style>
+button{
+	width:60px;
+	height:60px;
+	background-color:#CCCCCC;
+	border:#33FFCC;
+	border-width:medium;
+	box-shadow:0 12px 16px 0 rgba(0,0,0,0.2),
+				0 17px 50px 0 rgba(0,0,0,0.19);
+	border-style:solid;
+	transform:translateX(400%);	
+	
+}
+
+</style>
+<script>
+	function huansuan(){
+		shuchu=document.getElementById("shuchu")
+		shuchu.innerHTML=""
+		choice=prompt("输入需要计算出的项目(1:配速,2:时速)")
+		if(choice==2){
+			peisu=prompt("配速(分秒)")
+			peisu+=""
+			temp1=peisu.substring(0,1)
+			temp2=peisu.substring(1,2)
+			temp1=parseInt(temp1)
+			temp2=parseInt(temp2)
+			shi=(temp1/60+temp2/3600).toFixed(2)
+			shisu=1/shi
+			shuchu.innerHTML+="时速："
+			shuchu.innerHTML+=shisu	
+		}
+		else if(choice==1){
+			shisu=prompt("时速(公里/小时)")
+			peisu=60/shisu
+			peisu+=""
+			temp1=peisu.substring(0,1)
+			temp2=peisu.substring(1,peisu.length)
+			temp1=parseInt(temp1)
+			temp2=parseFloat(temp2)
+			temp2=60*temp2
+			temp2=temp2.toFixed(2)
+			if (temp2<10){
+				temp1+=""
+				temp2+=""
+				temp2="0"+temp2
+			}
+			else{
+				temp1+=""
+				temp2+=""
+			}
+			peisu1=temp1+temp2
+			shuchu.innerHTML+="配速为："
+			shuchu.innerHTML+=peisu1	
+			
+		}
+		else{
+			alert("输入错误")
+		}
+		
+	}
+	function p0(){
+		shuchu.innerHTML=""
+		select1=prompt("输入需要计算出的项目(1:配速,2:步长,3:步频)")
+		if(select1==1) {
+			bupin1=prompt("步频(步/分)")
+			bufu1=prompt("步长(米/步)")
+			var bushu=bupin1/60
+			var buchang=bufu1*bushu
+			var miaoshu=1000/buchang
+			temp=parseInt(miaoshu/60)
+			temp2=miaoshu%60
+			temp2=temp2.toFixed(2)
+			if (temp2<10){
+				temp+=""
+				temp2+=""
+				temp2="0"+temp2
+			}
+			
+			peisu=temp+temp2
+			shuchu=document.getElementById("shuchu")
+			shuchu.innerHTML+="步频:"
+			shuchu.innerHTML+=bupin1
+			shuchu.innerHTML+="步幅:"
+			shuchu.innerHTML+=bufu1
+			shuchu.innerHTML+="<br>"
+			shuchu.innerHTML+="配速为："
+			shuchu.innerHTML+=peisu			
+			}
+		else if(select1==2){
+			bupin1=prompt("步频(步/分)")
+			peisu=prompt("配速(分秒)")
+			bushu=bupin1/60
+			peisu+=""
+			temp1=peisu.substring(0,1)
+			temp2=peisu.substring(1,2)
+			temp1=parseInt(temp1)
+			temp2=parseInt(temp2)
+			miaoshu=temp1*60+temp2
+			buchang=1000/miaoshu
+			bufu=buchang/bushu
+			bufu=bufu.toFixed(2)
+			shuchu=document.getElementById("shuchu")
+			shuchu.innerHTML+="步长为："
+			shuchu.innerHTML+=bufu			
+			}
+		else if(select1==3){
+			bufu=prompt("步长(米/步)")
+			peisu=prompt("配速(分秒)")
+			peisu+=""
+			temp1=peisu.substring(0,1)
+			temp2=peisu.substring(1)
+			temp1=parseInt(temp1)
+			temp2=parseInt(temp2)
+			miaoshu=temp1*60+temp2
+			buchang=1000/miaoshu
+			bushu=buchang/bufu
+			bupin=bushu*60
+			bupin=bupin.toFixed(2)
+			shuchu=document.getElementById("shuchu")
+			shuchu.innerHTML+="步频为："
+			shuchu.innerHTML+=bupin			
+			}
+		
+		else{
+			alert("输入错误")
+		}
+	}
+function home(){
+	location.href="/"
+}
+</script>
+</head>
+<body>
+<div> 
+<button style="height:100px;width:120px;" onclick="home()">
+返回首页
+</button>
+<button style="height:100px;width:120px;" onclick="p0()"> 
+计算1
+</button>
+</div>
+<div align="center" id="shuchu"></div>
+</body>
