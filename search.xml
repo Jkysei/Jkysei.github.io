@@ -164,6 +164,70 @@ xxxxxx”ssh目录下config文件中的命名</p>
       </tags>
   </entry>
   <entry>
+    <title>【Hexo深度改造/探索】边学边写</title>
+    <url>/2023/11/06/ejs2/</url>
+    <content><![CDATA[<p><a href="/2023/11/06/ejs1">上文:【Hexo深度改造】边学边写、探索ejs/js玩法</a><br>
+续上文<br>
+下文介绍现在已经解明的写法，由于使用的函数不是很多，<br>
+那就直接列举了</p>
+<span id="more"></span>
+<p>1.写法区分<br>
+1)双括号</p>
+<figure class="highlight crystal"><table><tr><td class="code"><pre><span class="line"><span class="template-variable">&#123;&#123; &#125;&#125;</span></span><br></pre></td></tr></table></figure>
+<p>2)单括号</p>
+<figure class="highlight gcode"><table><tr><td class="code"><pre><span class="line">&#123;<span class="meta">%</span>-  <span class="meta">%</span>&#125;</span><br></pre></td></tr></table></figure>
+<p>3)注释</p>
+ <figure class="highlight clean"><table><tr><td class="code"><pre><span class="line">&#123;# #&#125;</span><br></pre></td></tr></table></figure>
+<p>2.双括号<br>
+首先第一个用于调用参数或者调用tag，<br>
+公参如：post.path/post.title<br>
+详细看<a href="https://hexo.io/zh-cn/docs/variables.html">hexo官方文档：变量</a><br>
+或者调用自己设置的参数,<br>
+插入方式很简单如<br>
+可以直接插入在html</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>&#123;&#123;post.title&#125;&#125;<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>也可以插入在js中</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">test</span>(<span class="params"></span>)&#123;<span class="keyword">var</span> text=&#123;&#123;post.<span class="property">title</span>&#125;&#125;;&#125;</span><br></pre></td></tr></table></figure>
+<p>tag则是类似这样的</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&#123;&#123; <span class="title function_">js</span>(<span class="string">&quot;/js/js.js&quot;</span>) &#125;&#125;</span><br><span class="line">&#123;&#123; <span class="title function_">image_tag</span>(<span class="string">&quot;/image/img.png&quot;</span>)&#125;&#125;</span><br></pre></td></tr></table></figure>
+<p>tag其实类似function的东西，如果<br>
+想要设置参数，那么应该这样写</p>
+<figure class="highlight handlebars"><table><tr><td class="code"><pre><span class="line"><span class="template-variable">&#123;&#123; <span class="name">tag</span>(&#123;<span class="name">参数名:参数</span>&#125;) &#125;&#125;</span><span class="language-xml"></span></span><br><span class="line"><span class="language-xml"></span><span class="template-variable">&#123;&#123; <span class="name">js</span>(&#123;<span class="name">src:</span><span class="string">&quot;/js/js.js&quot;</span>&#125;) &#125;&#125;</span></span><br></pre></td></tr></table></figure>
+<p>3.单括号<br>
+大概会以以下形式出现</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&#123;%- 代码部分 %&#125; &#123;#参数不需要加括号#&#125;</span><br></pre></td></tr></table></figure>
+<p>研究到现在，笔者对这个代码部分依旧不是很明确，<br>
+现在能懂的是，大概写的是类似js的代码<br>
+以下列举可以使用的函数，可能有点乱<br>
+a.基础类<br>
+1）参数声明函数</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&#123;%- set 参数名 = ...... %&#125;</span><br></pre></td></tr></table></figure>
+<p>如果要声明列表可以直接这样，</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&#123;%- set list =[<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>] %&#125;</span><br></pre></td></tr></table></figure>
+<p>2)for循环</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&#123;%- <span class="keyword">for</span> i <span class="keyword">in</span> 列表 %&#125;</span><br><span class="line">    &#123;调用部分&#125;</span><br><span class="line">&#123;%- endfor%&#125;</span><br></pre></td></tr></table></figure>
+<p>如果想调用索引值，可以这么写</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&#123;%- set n=<span class="number">1</span> %&#125;</span><br><span class="line">&#123;%- <span class="keyword">for</span> i <span class="keyword">in</span> 列表 %&#125;</span><br><span class="line">    &#123;调用部分&#125;</span><br><span class="line">    &#123;%- set n=n+<span class="number">1</span> %&#125;</span><br><span class="line">&#123;%- endfor%&#125;</span><br></pre></td></tr></table></figure>
+<p>3)if判断<br>
+一般常用，判断是否为主页</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&#123;%- <span class="keyword">if</span> <span class="title function_">is_home</span>() %&#125; &#123;#注意要写括号#&#125;</span><br><span class="line">&#123;%- elif  %&#125;</span><br><span class="line">&#123;%- <span class="keyword">else</span> %&#125;</span><br><span class="line">&#123;%- endif %&#125;</span><br></pre></td></tr></table></figure>
+<p>next里貌似常常这么写，有点区别</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&#123;%- <span class="keyword">if</span> is_index %&#125;</span><br></pre></td></tr></table></figure>
+<p>b.调用模板<br>
+1）调用ejs文件</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&#123;%- include <span class="string">&#x27;njk.njk&#x27;</span> %&#125;</span><br></pre></td></tr></table></figure>
+<p>2）定义块部分<br>
+貌似是用在引用函数，</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&#123;% block name %&#125;</span><br><span class="line">&#123;% endblock %&#125;</span><br></pre></td></tr></table></figure>
+<p>3）引用<br>
+import</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&#123;% <span class="keyword">import</span> <span class="string">&#x27;njk.njk&#x27;</span> <span class="keyword">as</span> ... <span class="keyword">with</span> ... %&#125;</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+  </entry>
+  <entry>
     <title>【Hexo深度改造】边学边写、探索ejs/js玩法</title>
     <url>/2023/11/06/ejs1/</url>
     <content><![CDATA[<p>一、前言<br>
@@ -208,7 +272,7 @@ hexo官方文档也是尖括号写的啊。看了一圈结果还是不懂怎么�
 既然next里的文件都是写中括号，那么把尖括号直接改成中括号吧<br>
 <img src="ejs7.png" alt="7"><br>
 试了一试js调用，写成了</p>
-<figure class="highlight gcode"><table><tr><td class="code"><pre><span class="line">&#123;<span class="meta">%</span>- js<span class="comment">(&quot;js.js&quot;)</span> <span class="meta">%</span>&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&#123;%- <span class="title function_">js</span>(<span class="string">&quot;js.js&quot;</span>) %&#125;</span><br></pre></td></tr></table></figure>
 <p>结果，您猜怎么着？没错，它报错了，<br>
 说明这种方法是错的，那么究竟要怎么写呢。。。。<br>
 于是进行一堆试错和借鉴它里面的文件的写法，之后终于大概懂了一些<br>
@@ -2277,18 +2341,18 @@ python也有类似CSS选择器的第三方库，后续再更新</p>
 <p>1.前言<br>
 大部分的网站都有反爬机制<br>
 <img src="/image/928D_113_1.jpg" alt="1"></p>
-<figure class="highlight applescript"><table><tr><td class="code"><pre><span class="line">requests.<span class="keyword">get</span>(url,headers,<span class="keyword">timeout</span>)</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">requests.get(url,headers,timeout)</span><br></pre></td></tr></table></figure>
 <p>requests早已经无法爬取网页了，<br>
 所以希望用一种能够越过反爬虫的第三方库<br>
 selenium是模拟驱动chrome访问网站的方式越过反爬虫<br>
 2.Selenium的调用</p>
 <p>在Pycharm或pip上安装selenium<br>
 随后即可import</p>
-<figure class="highlight angelscript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> selenium <span class="keyword">import</span> webdriver</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> selenium <span class="keyword">import</span> webdriver</span><br></pre></td></tr></table></figure>
 <p>为了方便修改浏览器设置,引用Options模块</p>
-<figure class="highlight gradle"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> selenium.webdriver.chrome.<span class="keyword">options</span> <span class="keyword">import</span> <span class="keyword">Options</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> selenium.webdriver.chrome.options <span class="keyword">import</span> Options</span><br></pre></td></tr></table></figure>
 <p>用chrome_options存放options</p>
-<figure class="highlight ini"><table><tr><td class="code"><pre><span class="line"><span class="attr">chrome_options</span> = Options()</span><br><span class="line"><span class="attr">chrome_options.page_load_strategy</span> = <span class="string">&#x27;eager&#x27;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">chrome_options = Options()</span><br><span class="line">chrome_options.page_load_strategy = <span class="string">&#x27;eager&#x27;</span></span><br></pre></td></tr></table></figure>
 <p>page_load_strategy是浏览器加载策略，默认是normal，eager则是快速加载<br>
 在网页资源加载完成时就会立刻关闭，可以省很多时间。<br>
 网上有很多说有更加快速的方法，说实话是噱头，没有实际用处，<br>
@@ -2296,12 +2360,12 @@ selenium是模拟驱动chrome访问网站的方式越过反爬虫<br>
 eagle已经是最快的策略，更快可以尝试多线程的爬虫。</p>
 <p>如果电脑里安装了多个chrome或者python无法获取你的chrome程序位置，<br>
 可以引用service模块</p>
-<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line">from selenium<span class="selector-class">.webdriver</span><span class="selector-class">.chrome</span><span class="selector-class">.service</span> import Service</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> selenium.webdriver.chrome.service <span class="keyword">import</span> Service</span><br></pre></td></tr></table></figure>
 <figure class="highlight ini"><table><tr><td class="code"><pre><span class="line"><span class="attr">service</span>=Service(executable_path=<span class="string">&quot;路径&quot;</span>)</span><br><span class="line"><span class="comment">#注：python存放路径引号内,如果/可以只写一个,但是如果\\要写两个</span></span><br></pre></td></tr></table></figure>
 <p>设置好就可以驱动浏览器了</p>
-<figure class="highlight reasonml"><table><tr><td class="code"><pre><span class="line">driver = webdriver.<span class="constructor">Chrome(<span class="params">service</span>=<span class="params">service</span>,<span class="params">options</span>=<span class="params">chrome_options</span>)</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">driver = webdriver.Chrome(service=service,options=chrome_options)</span><br></pre></td></tr></table></figure>
 <p>随后便可以抓取网页资源</p>
-<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line">driver<span class="selector-class">.get</span>(url)</span><br><span class="line">url_get = driver<span class="selector-class">.page_source</span> <span class="selector-id">#url_get</span> 就是抓取下的网页</span><br><span class="line">driver<span class="selector-class">.close</span>()</span><br><span class="line">driver<span class="selector-class">.quit</span>()</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">driver.get(url)</span><br><span class="line">url_get = driver.page_source <span class="comment">#url_get 就是抓取下的网页</span></span><br><span class="line">driver.close()</span><br><span class="line">driver.quit()</span><br></pre></td></tr></table></figure>
 <p>3.报错模块<br>
 selenium虽然挺稳定，但有时因为网站连接不稳定，<br>
 就会报错，中途寄掉的情况。。。经常会有<br>
@@ -2309,7 +2373,7 @@ selenium虽然挺稳定，但有时因为网站连接不稳定，<br>
 报错一般有，加载timeout，selenium一个狗血的地方，timeout会<br>
 让整个程序直接中断，所以一定要try，报错了让它except</p>
 <p>selenium设置timeout的方式</p>
-<figure class="highlight apache"><table><tr><td class="code"><pre><span class="line"><span class="attribute">browserset</span>.set_page_load_timeout(<span class="number">100</span>)</span><br><span class="line"><span class="attribute">browserset</span>.set_script_timeout(<span class="number">100</span>)</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">browserset.set_page_load_timeout(<span class="number">100</span>)</span><br><span class="line">browserset.set_script_timeout(<span class="number">100</span>)</span><br></pre></td></tr></table></figure>
 <p>第一种是页面加载报timeout的错误，退出，第二种是脚本中止加载<br>
 两者有点小区别，详细请百度。</p>
 <p>驱动浏览器大致可以这么写</p>
