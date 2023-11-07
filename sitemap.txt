@@ -1,3 +1,4 @@
+http://jkysei.space/404.html
 http://jkysei.space/2023/11/06/ejs2/
 http://jkysei.space/2023/11/06/ejs1/
 http://jkysei.space/2023/09/28/%E7%94%A8selenum%E5%88%B6%E4%BD%9C%E5%89%8D%E7%AB%AF%E5%BC%8F%E7%88%AC%E8%99%AB/
@@ -41,15 +42,14 @@ http://jkysei.space/2023/09/29/CSS%E5%8A%A8%E7%94%BB/
 http://jkysei.space/tags/index.html
 http://jkysei.space/categories/index.html
 http://jkysei.space/about/index.html
-http://jkysei.space/404.html
 http://jkysei.space/
 http://jkysei.space/tags/%E4%BB%8B%E7%BB%8D/
 http://jkysei.space/tags/Python/
 http://jkysei.space/tags/%E7%AE%97%E6%B3%95/
 http://jkysei.space/tags/%E7%88%AC%E8%99%AB/
 http://jkysei.space/tags/%E5%89%8D%E7%AB%AF%E7%88%AC%E8%99%AB/
-http://jkysei.space/categories/%E5%89%8D%E7%AB%AFCSS/
 http://jkysei.space/categories/hexo/
+http://jkysei.space/categories/%E5%89%8D%E7%AB%AFCSS/
 http://jkysei.space/categories/%E5%89%8D%E7%AB%AFJS/
 http://jkysei.space/categories/%E6%B5%8B%E8%AF%95/
 http://jkysei.space/categories/%E7%94%B5%E5%BD%B1/

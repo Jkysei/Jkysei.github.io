@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://jkysei.space/404.html</loc>
+    
+    <lastmod>2023-11-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://jkysei.space/2023/11/06/ejs2/</loc>
     
     <lastmod>2023-11-07</lastmod>
@@ -388,15 +397,6 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>http://jkysei.space/404.html</loc>
-    
-    <lastmod>2023-10-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   <url>
     <loc>http://jkysei.space/</loc>
@@ -444,14 +444,14 @@
 
   
   <url>
-    <loc>http://jkysei.space/categories/%E5%89%8D%E7%AB%AFCSS/</loc>
+    <loc>http://jkysei.space/categories/hexo/</loc>
     <lastmod>2023-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://jkysei.space/categories/hexo/</loc>
+    <loc>http://jkysei.space/categories/%E5%89%8D%E7%AB%AFCSS/</loc>
     <lastmod>2023-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
