@@ -164,7 +164,7 @@ xxxxxx”ssh目录下config文件中的命名</p>
       </tags>
   </entry>
   <entry>
-    <title>【Hexo深度改造/探索】边学边写</title>
+    <title>【Hexo深度改造/探索】边学边写2</title>
     <url>/2023/11/06/ejs2/</url>
     <content><![CDATA[<p><a href="/2023/11/06/ejs1">上文:【Hexo深度改造】边学边写、探索ejs/js玩法</a><br>
 续上文<br>
@@ -211,18 +211,39 @@ a.基础类<br>
 <figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&#123;%- set n=<span class="number">1</span> %&#125;</span><br><span class="line">&#123;%- <span class="keyword">for</span> i <span class="keyword">in</span> 列表 %&#125;</span><br><span class="line">    &#123;调用部分&#125;</span><br><span class="line">    &#123;%- set n=n+<span class="number">1</span> %&#125;</span><br><span class="line">&#123;%- endfor%&#125;</span><br></pre></td></tr></table></figure>
 <p>3)if判断<br>
 一般常用，判断是否为主页</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&#123;%- <span class="keyword">if</span> <span class="title function_">is_home</span>() %&#125; &#123;#注意要写括号#&#125;</span><br><span class="line">&#123;%- elif  %&#125;</span><br><span class="line">&#123;%- <span class="keyword">else</span> %&#125;</span><br><span class="line">&#123;%- endif %&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&#123;%- <span class="keyword">if</span> <span class="title function_">is_home</span>() %&#125; &#123;#注意要写括号#&#125;</span><br><span class="line">    &#123;%- elif ...  %&#125;</span><br><span class="line">    &#123;%- <span class="keyword">else</span> %&#125;</span><br><span class="line">&#123;%- endif %&#125;</span><br></pre></td></tr></table></figure>
 <p>next里貌似常常这么写，有点区别</p>
 <figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&#123;%- <span class="keyword">if</span> is_index %&#125;</span><br></pre></td></tr></table></figure>
-<p>b.调用模板<br>
+<p>if常常用于判断config配置<br>
+如：近期文章是否打开</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&#123;%- <span class="keyword">if</span> theme.<span class="property">rencent_posts</span> %&#125;</span><br></pre></td></tr></table></figure>
+<p>其他判断按需补充，可以自己试一试</p>
+<p>4)列表剪切方式<br>
+slice函数</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&#123;%- set list=list.<span class="title function_">slice</span>(<span class="string">&#x27;0&#x27;</span>,<span class="string">&#x27;5&#x27;</span>) %&#125;</span><br></pre></td></tr></table></figure>
+<p>其实单个取值可以这么写</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&#123;%- set a=list[<span class="number">0</span>] %&#125;</span><br></pre></td></tr></table></figure>
+<p>但是不可以这样</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&#123;%- set a=list[<span class="number">0</span>,<span class="number">5</span>] %&#125;</span><br></pre></td></tr></table></figure>
+<p>5)获取当前时间</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&#123;%- set currentdate=<span class="title function_">date</span>(<span class="title class_">Date</span>.<span class="property">now</span>) %&#125;</span><br><span class="line">&#123;#日#&#125;</span><br><span class="line">&#123;%- set currentday=<span class="title function_">date</span>(<span class="title class_">Date</span>.<span class="property">now</span>,<span class="string">&#x27;D&#x27;</span>) %&#125;</span><br><span class="line">&#123;#月#&#125;</span><br><span class="line">&#123;%- set currentmonth=<span class="title function_">date</span>(<span class="title class_">Date</span>.<span class="property">now</span>,<span class="string">&#x27;M&#x27;</span>) %&#125;</span><br><span class="line">&#123;#年#&#125;</span><br><span class="line">&#123;%- set currentyear=<span class="title function_">date</span>(<span class="title class_">Date</span>.<span class="property">now</span>,<span class="string">&#x27;Y&#x27;</span>) %&#125;</span><br></pre></td></tr></table></figure>
+<p>获取文章的发布日期也类似</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&#123;%- set postdate=<span class="title function_">date</span>(post.<span class="property">date</span>,年/日/月) %&#125;</span><br></pre></td></tr></table></figure>
+<p>6)其实看到这里应该已经大概可以看懂官方文档了<br>
+<a href="https://hexo.io/zh-cn/docs/helpers#js">hexo辅助函数</a></p>
+<p>b.调用模板，<br>
+这一部分其实并不是很重要了，或者说不需要修改这些内容<br>
 1）调用ejs文件</p>
 <figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&#123;%- include <span class="string">&#x27;njk.njk&#x27;</span> %&#125;</span><br></pre></td></tr></table></figure>
 <p>2）定义块部分<br>
-貌似是用在引用函数，</p>
+现在暂时没看懂什么意思，</p>
 <figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&#123;% block name %&#125;</span><br><span class="line">&#123;% endblock %&#125;</span><br></pre></td></tr></table></figure>
 <p>3）引用<br>
-import</p>
+import<br>
+这个现在暂时没看懂什么意思，</p>
 <figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&#123;% <span class="keyword">import</span> <span class="string">&#x27;njk.njk&#x27;</span> <span class="keyword">as</span> ... <span class="keyword">with</span> ... %&#125;</span><br></pre></td></tr></table></figure>
+<p>4)其他</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&#123;# 主体渲染 #&#125;</span><br><span class="line">&#123;% macro <span class="title function_">render</span>(...) %&#125;</span><br><span class="line">&#123;% endmacro %&#125;</span><br><span class="line">&#123;# 局部调用 #&#125;</span><br><span class="line">&#123;&#123; <span class="title function_">partial</span>(<span class="string">&#x27;...&#x27;</span>) &#125;&#125;</span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
         <category>hexo</category>
@@ -268,6 +289,8 @@ import</p>
 <a href="https://hexo.io/zh-cn/docs/helpers">hexo官方文档：辅助函数</a><br>
 <img src="ejs6.png" alt="6"><br>
 hexo官方文档也是尖括号写的啊。看了一圈结果还是不懂怎么写。。。<br>
+hexo写的官方文档也是简单的不得了，手机可以看到下面的评论，<br>
+有很多人在吐槽，这里就不放出来了<br>
 问题太多了，不知道从哪入手</p>
 <p>5.尝试编写ejs<br>
 既然next里的文件都是写中括号，那么把尖括号直接改成中括号吧<br>
