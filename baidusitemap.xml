@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://jkysei.space/2023/11/06/ejs2/</loc>
+    <lastmod>2023-11-13</lastmod>
+  </url>
+  <url>
+    <loc>http://jkysei.space/2023/11/06/ejs1/</loc>
+    <lastmod>2023-11-10</lastmod>
+  </url>
+  <url>
     <loc>http://jkysei.space/2023/10/10/%E3%80%90Python%E3%80%91Pyquery/</loc>
     <lastmod>2023-11-09</lastmod>
   </url>
@@ -26,10 +34,6 @@
   </url>
   <url>
     <loc>http://jkysei.space/2023/10/11/%E3%80%90Python-%E6%95%B0%E6%A8%A1%E3%80%91topsis%E7%BB%BC%E5%90%88%E8%AF%84%E4%BB%B7/</loc>
-    <lastmod>2023-11-09</lastmod>
-  </url>
-  <url>
-    <loc>http://jkysei.space/2023/11/06/ejs1/</loc>
     <lastmod>2023-11-09</lastmod>
   </url>
   <url>
@@ -79,10 +83,6 @@
   <url>
     <loc>http://jkysei.space/2023/10/21/%E8%A1%80%E8%A7%82%E9%9F%B3/</loc>
     <lastmod>2023-11-09</lastmod>
-  </url>
-  <url>
-    <loc>http://jkysei.space/2023/11/06/ejs2/</loc>
-    <lastmod>2023-11-07</lastmod>
   </url>
   <url>
     <loc>http://jkysei.space/2023/10/21/%E3%80%90%E7%94%B5%E5%BD%B1%E3%80%91%E6%95%B4%E7%90%86%E7%9B%AE%E5%BD%95/</loc>
