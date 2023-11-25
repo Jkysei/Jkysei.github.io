@@ -1,3 +1,5 @@
+http://jkysei.space/2023/11/25/%E4%BA%9A%E5%A4%AA%E8%B5%9B/
+http://jkysei.space/2023/11/23/hexo%E6%A1%86%E6%9E%B6%E5%B8%83%E5%B1%80%E8%A7%A3%E6%9E%90/
 http://jkysei.space/2023/11/19/%E9%BB%91%E9%95%9C/
 http://jkysei.space/2023/11/06/ejs2/
 http://jkysei.space/2023/11/06/ejs1/
@@ -51,6 +53,7 @@ http://jkysei.space/tags/%E7%88%AC%E8%99%AB/
 http://jkysei.space/tags/%E5%89%8D%E7%AB%AF%E7%88%AC%E8%99%AB/
 http://jkysei.space/categories/%E5%89%8D%E7%AB%AFCSS/
 http://jkysei.space/categories/hexo/
+http://jkysei.space/categories/%E5%89%8D%E7%AB%AF/
 http://jkysei.space/categories/%E5%89%8D%E7%AB%AFJS/
 http://jkysei.space/categories/%E6%B5%8B%E8%AF%95/
 http://jkysei.space/categories/%E7%94%B5%E5%BD%B1/

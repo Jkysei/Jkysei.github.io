@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://jkysei.space/2023/11/25/%E4%BA%9A%E5%A4%AA%E8%B5%9B/</loc>
+    <lastmod>2023-11-25</lastmod>
+  </url>
+  <url>
+    <loc>http://jkysei.space/2023/11/23/hexo%E6%A1%86%E6%9E%B6%E5%B8%83%E5%B1%80%E8%A7%A3%E6%9E%90/</loc>
+    <lastmod>2023-11-23</lastmod>
+  </url>
+  <url>
     <loc>http://jkysei.space/2023/11/19/%E9%BB%91%E9%95%9C/</loc>
-    <lastmod>2023-11-20</lastmod>
+    <lastmod>2023-11-23</lastmod>
   </url>
   <url>
     <loc>http://jkysei.space/2023/11/06/ejs2/</loc>
