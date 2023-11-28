@@ -164,57 +164,62 @@ xxxxxx”ssh目录下config文件中的命名</p>
       </tags>
   </entry>
   <entry>
-    <title>亚太赛</title>
-    <url>/2023/11/25/%E4%BA%9A%E5%A4%AA%E8%B5%9B/</url>
-    <content><![CDATA[<p>亚太赛</p>
+    <title>【学习用/分享】片段（RU/JP/DE/CH）</title>
+    <url>/2023/11/28/learning1/</url>
+    <content><![CDATA[<p><img data-src="fulilian.webp" alt="fulilian.webp"><br>
+片段（RU/JP/DE/CH）</p>
 <span id="more"></span>
-<div class="RichContent-inner"><div class="css-376mun"><span class="RichText ztext CopyrightRichText-richText css-117anjg" options="[object Object]" itemprop="text"><p data-first-child="" data-pid="W9WF5OFw">完整的代码模型和部分论文均已经完成，现在给大家展示部分，仅供参考借鉴使用</p><p data-pid="12myPDXL"><b>摘要</b></p><p data-pid="n8VFrf_c">随着全球对可持续发展和环境保护意识的不断增强，新能源汽车（NEV）已成为全球汽车行业发展的重要趋势。为了全面理解并有效应对这些挑战，本文旨在深入探讨影响我国新能源电动车发展的各种因素，预测未来的发展趋势，分析其对全球传统能源汽车行业的影响，评估国际政策的影响，以及探讨其电气化对城市生态环境的影响。</p><p data-pid="u8V9-6zf">针对问题一，分析影响中国新能源电动车（NEV）发展的主要因素。通过收集和分析包括新能源车销量、市场规模、技术发展、政策支持等多维数据，我们采用相关性分析检验是否存在显著影响，再使用<b>回归分析</b>来识别对NEV发展影响显著的因素。结果显示，能源效率、充电桩数量等是推动NEV市场增长的关键因素。此外，电车平均价格和市场规模也对NEV市场产生了很大的影响。</p><p data-pid="EURxIMMR">针对问题二，我们基于历史数据构建的时<b>间序列模型（ARIMA）</b>被用来预测NEV的销量和市场份额。考虑了包括经济增长、技术进步和政策变化在内的多种因素，对未来的发展趋势进行了预测。预测结果表明，在当前的政策和市场环境下，NEV的市场份额预计将显著增长。此外，我们还探讨了几种不同的情景分析，以评估不同外部条件对NEV市场发展的可能影响。这些预测为制定长期战略和投资决策提供了重要依据。</p><p data-pid="77r4o_HR">针对问题三，我们分析了新能源电动车对全球传统燃油汽车行业的影响。通过比较新能源车与传统燃油车的市场份额、技术发展和环境影响，我们发现新能源车的崛起对传统车行业构成了显著挑战，特别是在市场份额和技术创新方面。我们的分析还表明，新能源车的发展正在促进整个汽车行业向更清洁、更高效的方向转型。</p><p data-pid="okCtVi4D">针对问题四，我们分析了国际政策对中国新能源车发展的潜在影响。通过研究不同国家的政策环境和市场反应，我们发现国际贸易政策、环保规定和技术标准对中国NEV出口产生了显著影响。此外，我们利用决策分析和博弈论模型预测了不同国际政策情景对中国NEV市场的可能影响。</p><p data-pid="_cAorC4T">针对问题五，我们采用了生命周期分析（LCA）和环境影响评估方法，考察了从生产、使用到废弃全过程中电动车对环境的影响。研究结果显示，尽管在生产阶段电动车的环境影响可能高于传统汽车，但在整个生命周期中，其对空气质量的改善和碳排放的减少效果显著。这些发现强调了电动车作为实现城市可持续发展的关键工具的重要性。</p><p data-pid="OUt49xnS"><b>关键词</b>：新能源汽车；可持续发展；相关性分析；时间序列模型</p><h2><b>一、问题重述</b></h2><h2><b>1.1 问题背景</b></h2><p data-pid="UxC9ggfU">随着全球气候变化和环境污染问题日益严峻，新能源汽车（NEV）作为替代传统燃油车的关键技术之一，正受到全球的高度重视。特别是在中国，作为世界最大的汽车市场之一，新能源汽车的发展不仅关乎环境保护和能源安全，更是国家战略和产业升级的重要组成部分。近年来，中国政府通过推出一系列政策来促进新能源汽车产业的发展，如提供购车补贴、建设充电基础设施、制定更为严格的排放标准等。</p><p data-pid="rgjLzJUO">新能源汽车的发展受到多种因素的影响，包括技术进步、成本下降、消费者偏好、政策支持以及全球经济环境等。随着电池技术的进步和成本的降低，电动汽车的续航能力得到提升，市场接受度逐渐增加。此外，面对全球气候变化的挑战，越来越多的国家和地区正在制定长期的碳中和目标，新能源汽车在其中扮演着至关重要的角色。因此，深入理解影响新能源汽车发展的各种因素，对于制定合理的政策和指导产业发展具有重要意义。</p><h2><b>1.2 问题重述</b></h2><p data-pid="yizsh-Yk">我们需要解决以下几个具体问题：</p><p data-pid="ZSS6Zy3Q">1.影响因素分析：研究影响中国新能源电动车发展的主要因素，包括但不限于政策、技术、市场和环境因素。</p><p data-pid="hoXQp3Ja">2.发展趋势预测：基于现有数据和趋势，预测未来10年内中国新能源电动车的发展情况。</p><p data-pid="jlvLY_x4">3.对传统车行业的影响：分析新能源电动车的发展对全球传统能源汽车行业可能产生的影响。</p><p data-pid="IDgwXXzS">4.国际政策影响评估：考察国际政策对中国新能源电动车发展的影响。</p><p data-pid="e_ELgImT">5.电气化对城市环境的影响：分析新能源电动车（包括电动公交车）电气化对城市生态环境的影响。</p><p data-pid="BPgcx6D2">这些问题旨在全面评估新能源电动车的发展态势，预测其未来的走向，并分析其对经济、环境和社会的广泛影响。通过这一研究，我们希望为政策制定者、产业参与者以及研究人员提供有价值的洞察和建议。</p><h2><b>二、问题分析</b></h2><h2><b>2.1 问题一<span><a class="RichContent-EntityWord css-1esjagr" data-za-not-track-link="true" data-paste-text="true" href="https://www.zhihu.com/search?q=%E6%80%9D%E8%B7%AF%E5%88%86%E6%9E%90&amp;search_source=Entity&amp;hybrid_search_source=Entity&amp;hybrid_search_extra=%7B%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A3300936486%7D" target="_blank">思路分析<svg width="10px" height="10px" viewBox="0 0 15 15" class="css-1dvsrp"><path d="M10.89 9.477l3.06 3.059a1 1 0 0 1-1.414 1.414l-3.06-3.06a6 6 0 1 1 1.414-1.414zM6 10a4 4 0 1 0 0-8 4 4 0 0 0 0 8z" fill="currentColor"></path></svg></a></span></b></h2><p data-pid="ukwZhm_7">新能源电动车（NEV）作为一种新兴的交通工具，其发展受到多种因素的影响。在分析这些因素时，应当从技术创新、政策支持、市场需求和环境意识等多个角度进行考虑。技术创新，尤其是在电池性能、充电设施和能效方面的进步，是驱动NEV发展的关键因素。这不仅影响着车辆的性能和成本，还直接关系到消费者的接受程度。政策支持在NEV发展中扮演着至关重要的角色，政府通过补贴、税收优惠、制定排放标准等措施，显著促进了行业的增长。市场需求的变化，包括消费者对清洁能源和可持续交通方式的日益关注，也是推动NEV发展的重要驱动力。环境意识的提高，尤其是在全球范围内对于减少碳排放和空气污染的共识，为NEV的发展提供了广泛的社会基础。</p><h2><b>2.2</b> <b>问题二思路分析</b></h2><p data-pid="0iDIftKV">问题二需要我们预测未来10年中国新能源电动车的发展。这要求不仅对历史数据进行深入的分析，还需要考虑到未来可能出现的各种情景。本研究将首先收集新能源电动车的历史销量、市场份额、技术发展等数据，并使用<span><a class="RichContent-EntityWord css-1esjagr" data-za-not-track-link="true" data-paste-text="true" href="https://www.zhihu.com/search?q=%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97%E5%88%86%E6%9E%90&amp;search_source=Entity&amp;hybrid_search_source=Entity&amp;hybrid_search_extra=%7B%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A3300936486%7D" target="_blank">时间序列分析<svg width="10px" height="10px" viewBox="0 0 15 15" class="css-1dvsrp"><path d="M10.89 9.477l3.06 3.059a1 1 0 0 1-1.414 1.414l-3.06-3.06a6 6 0 1 1 1.414-1.414zM6 10a4 4 0 1 0 0-8 4 4 0 0 0 0 8z" fill="currentColor"></path></svg></a></span>方法（ARIMA模型）进行趋势预测。考虑到新能源汽车市场的发展受到众多因素的影响，我们还将进行情景分析，以评估经济增长、技术进步、政策变化等因素对未来发展的影响。我们还将探讨全球能源市场的变化、国际政策环境以及消费者偏好等因素如何影响中国新能源电动车的发展。这些分析将为理解未来市场趋势提供重要的视角，并为相关政策制定和企业战略规划提供指导。</p><h2><b>2.3</b> <b>问题三思路分析</b></h2><p data-pid="EXXH3aAl">问题三将从市场竞争、技术转型和环境政策三个层面进行分析。首先，市场层面上，新能源电动车的快速增长正在改变汽车市场的格局，挤压传统燃油车的市场份额。我们将分析新能源汽车和传统汽车在销量、市场份额和消费者偏好方面的变化趋势。在技术层面上，新能源车的发展正在推动汽车行业的技术创新，特别是在电池技术、电动驱动系统和智能化方面。我们将探讨这些技术进步如何影响传统汽车制造商的竞争策略和业务模式。环境政策层面上，全球范围内对于减少温室气体排放和改善空气质量的政策趋势，正迫使传统汽车行业进行转型。本研究将评估这些政策如何影响传统汽车行业，以及这些企业如何适应这一变化。</p><h2><b>2.4</b> <b>问题四思路分析</b></h2><p data-pid="3r4MHQ3B">在全球化背景下，国际政策对中国新能源电动车的发展具有显著影响。问题四我们将分析各国针对新能源汽车的政策，如补贴政策、进口关税、环境标准等，以及这些政策如何影响中国新能源汽车的出口和国内市场发展。通过比较不同国家的政策环境，我们将评估国际市场对中国新能源车的接受度，并预测这些政策变化对中国市场的潜在影响。此外，考虑到贸易政策和技术标准的变化可能引发的国际竞争和合作，本研究还将使用决策分析和博弈论方法，探讨不同的国际政策情景对中国新能源电动车市场的影响。</p><h2><b>2.5</b> <b>问题五思路分析</b></h2><p data-pid="N2-aeZVk">新能源电动车的电气化对城市生态环境产生了深刻影响。问题五要评估电动车普及对城市空气质量、能源消耗和碳排放的影响。我们将采用生命周期分析（LCA）方法，考察电动车从生产、使用到报废的整个过程中对环境的影响。特别是，我们将重点分析电动车在使用阶段对减少空气污染和温室气体排放的贡献。此外，本研究还将探讨不同电气化水平对城市能源结构和交通系统的影响。我们还将评估电动车的普及对城市能源供应和电网的影响，以及如何通过改进充电基础设施和优化能源管理来最大化电动车的环境效益。</p><h2><b>三、模型假设</b></h2><p data-pid="48T8I7Qn">针对本文提出的问题，我们做了如下模型假设：</p><p data-pid="Tz4-loWA">1.假设我们在各大网站上搜集的全部数据均为准确且有效的真实数据</p><p data-pid="lfBBfP4m">2.假设过去几年新能源汽车市场的发展趋势在未来一段时间内将继续保持。</p><p data-pid="2lJVq3H-">3.假设影响新能源汽车发展的外部因素（如国际油价、全球经济状况）在预测期间相对稳定。</p><p data-pid="o0VzCblx">4.假设政府对新能源汽车的政策支持在未来将保持一致，没有重大的政策变化。</p><p data-pid="p-fKdKha">5.假设评估新能源汽车对城市环境影响的标准和方法在分析期间保持一致。</p><h2><b>四、符号说明</b></h2><p data-pid="AX1tgWX-">本文常用符号见下表, 其它符号见文中说明</p><figure data-size="normal"><noscript><img data-src="https://pica.zhimg.com/50/v2-b128e9ddd44f018649cca02af6737f7d_720w.jpg?source=1def8aca" data-caption="" data-size="normal" data-rawwidth="673" data-rawheight="343" data-original-token="v2-81923f93da41cd5779b73d8a77e02330" class="origin_image zh-lightbox-thumb" width="673" data-original="https://picx.zhimg.com/v2-b128e9ddd44f018649cca02af6737f7d_r.jpg?source=1def8aca"/></noscript><div><img data-src="https://pica.zhimg.com/80/v2-b128e9ddd44f018649cca02af6737f7d_720w.webp?source=1def8aca" data-caption="" data-size="normal" data-rawwidth="673" data-rawheight="343" data-original-token="v2-81923f93da41cd5779b73d8a77e02330" class="origin_image zh-lightbox-thumb lazy" width="673" data-original="https://picx.zhimg.com/v2-b128e9ddd44f018649cca02af6737f7d_r.jpg?source=1def8aca" data-actualsrc="https://pica.zhimg.com/50/v2-b128e9ddd44f018649cca02af6737f7d_720w.jpg?source=1def8aca" height="343" data-lazy-status="ok"></div></figure><h2><b>五、建模与求解</b></h2><h2><b>5.1 问题一模型的建模与求解</b> </h2><h2>我们根据收集的数据，可以得到一部分表格如下</h2><p class="ztext-empty-paragraph"><br></p><table data-draft-node="block" data-draft-type="table" data-size="normal" data-row-style="normal"><tbody><tr><td>年份</td><td>新能源汽车保有量比传统燃油车保有量</td><td>新能源汽车市场占有率（%）</td><td>新能源汽车市场渗透率（%）</td><td>燃油价格（元/升）</td><td>电动车充电成本（元/千瓦时）</td><td>电动车平均价格（万元）</td><td>燃油车平均价格（万元）</td><td>新能源汽车能源效率（公里/千瓦时）</td></tr><tr><td>2013</td><td>0.000332215</td><td>0.9</td><td>0.1</td><td>7.5</td><td>1.2</td><td>35</td><td>15</td><td>4.2</td></tr><tr><td>2014</td><td>0.000733333</td><td>1.3</td><td>0.4</td><td>7.8</td><td>1.1</td><td>32</td><td>14</td><td>4.5</td></tr><tr><td>2015</td><td>0.002613592</td><td>2.5</td><td>1.3</td><td>7.2</td><td>1</td><td>29</td><td>13</td><td>4.8</td></tr><tr><td>2016</td><td>0.004929734</td><td>3.1</td><td>1.8</td><td>6.5</td><td>0.9</td><td>26</td><td>12</td><td>5.1</td></tr><tr><td>2017</td><td>0.007410174</td><td>5.3</td><td>2.6</td><td>6.8</td><td>0.8</td><td>23</td><td>11</td><td>5.4</td></tr><tr><td>2018</td><td>0.011365044</td><td>7.2</td><td>3.6</td><td>7.2</td><td>0.7</td><td>21</td><td>10</td><td>5.7</td></tr><tr><td>2019</td><td>0.015178073</td><td>9.7</td><td>4.7</td><td>7.5</td><td>0.6</td><td>19</td><td>9</td><td>6</td></tr><tr><td>2020</td><td>0.018705062</td><td>11.4</td><td>5.7</td><td>6.8</td><td>0.5</td><td>17</td><td>8</td><td>6.3</td></tr><tr><td>2021</td><td>0.022758606</td><td>13.4</td><td>6.4</td><td>7.2</td><td>0.4</td><td>15</td><td>7</td><td>6.6</td></tr><tr><td>2022</td><td>0.026139994</td><td>25.6</td><td>7.3</td><td>7.5</td><td>0.4</td><td>13</td><td>6</td><td>6.9</td></tr></tbody></table><p class="ztext-empty-paragraph"><br></p><p class="ztext-empty-paragraph"><br></p><table data-draft-node="block" data-draft-type="table" data-size="normal" data-row-style="normal"><tbody><tr><td>年份</td><td>燃油车能源效率（公里/升）</td><td>新能源车政府补贴金额（亿元人民币）</td><td>新能源汽车市场规模（万辆）</td><td>新能源汽车企业数量（家）</td><td>新能源汽车专利申请数量（件）</td><td>新能源汽车产业链规模（家）</td><td>新能源汽车充电桩数量（万个）</td></tr><tr><td>2013</td><td>12</td><td>30</td><td>5</td><td>300</td><td>2024</td><td>230</td><td>2.2</td></tr><tr><td>2014</td><td>12.2</td><td>50</td><td>15</td><td>500</td><td>3111</td><td>280</td><td>3</td></tr><tr><td>2015</td><td>12.4</td><td>70</td><td>50</td><td>800</td><td>4566</td><td>320</td><td>4.9</td></tr><tr><td>2016</td><td>12.6</td><td>100</td><td>120</td><td>1200</td><td>8205</td><td>370</td><td>20</td></tr><tr><td>2017</td><td>12.8</td><td>120</td><td>250</td><td>1500</td><td>12262</td><td>420</td><td>52</td></tr><tr><td>2018</td><td>13</td><td>140</td><td>400</td><td>1800</td><td>17647</td><td>460</td><td>80</td></tr><tr><td>2019</td><td>13.2</td><td>160</td><td>600</td><td>2000</td><td>18498</td><td>500</td><td>130</td></tr><tr><td>2020</td><td>13.4</td><td>180</td><td>800</td><td>2200</td><td>19739</td><td>550</td><td>168</td></tr><tr><td>2021</td><td>13.6</td><td>200</td><td>1000</td><td>2400</td><td>21300</td><td>590</td><td>261.7</td></tr><tr><td>2022</td><td>13.8</td><td>220</td><td>1200</td><td>2600</td><td>24700</td><td>630</td><td>370</td></tr></tbody></table><p class="ztext-empty-paragraph"><br></p><p data-pid="PmoNJthY">表5.1.1 新能源汽车相关影响因素</p><figure data-size="normal"><noscript><img data-src="https://pic1.zhimg.com/50/v2-ca73629f97a53a606d05e7dc69d91c26_720w.jpg?source=1def8aca" data-caption="" data-size="normal" data-rawwidth="632" data-rawheight="411" data-original-token="v2-9271198907972ee352aa140be19b28c8" class="origin_image zh-lightbox-thumb" width="632" data-original="https://picx.zhimg.com/v2-ca73629f97a53a606d05e7dc69d91c26_r.jpg?source=1def8aca"/></noscript><div><img data-src="https://pic1.zhimg.com/80/v2-ca73629f97a53a606d05e7dc69d91c26_720w.webp?source=1def8aca" data-caption="" data-size="normal" data-rawwidth="632" data-rawheight="411" data-original-token="v2-9271198907972ee352aa140be19b28c8" class="origin_image zh-lightbox-thumb lazy" width="632" data-original="https://picx.zhimg.com/v2-ca73629f97a53a606d05e7dc69d91c26_r.jpg?source=1def8aca" data-actualsrc="https://pic1.zhimg.com/50/v2-ca73629f97a53a606d05e7dc69d91c26_720w.jpg?source=1def8aca" height="411" data-lazy-status="ok"></div></figure><p data-pid="6SNmyUOc">部分代码：</p><div class="highlight"><pre><code class="language-text">import pandas as pd
-import seaborn as sns
-from <span><a class="RichContent-EntityWord css-1esjagr" data-za-not-track-link="true" data-paste-text="true" href="https://www.zhihu.com/search?q=sklearn&amp;search_source=Entity&amp;hybrid_search_source=Entity&amp;hybrid_search_extra=%7B%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A3300936486%7D" target="_blank">sklearn<svg width="10px" height="10px" viewBox="0 0 15 15" class="css-1dvsrp"><path d="M10.89 9.477l3.06 3.059a1 1 0 0 1-1.414 1.414l-3.06-3.06a6 6 0 1 1 1.414-1.414zM6 10a4 4 0 1 0 0-8 4 4 0 0 0 0 8z" fill="currentColor"></path></svg></a></span>.linear_model import LinearRegression
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import mean_squared_error, r2_score
-import matplotlib.pyplot as plt
-from sklearn.tree import DecisionTreeRegressor
-from sklearn.tree import plot_tree
-<h1>显示</h1>
-<p>plt.rcParams[‘axes.unicode_minus’] = False<br>
-plt.rcParams[‘font.<span><a class="RichContent-EntityWord css-1esjagr" data-za-not-track-link="true" data-paste-text="true" href="https://www.zhihu.com/search?q=sans-serif&amp;search_source=Entity&amp;hybrid_search_source=Entity&amp;hybrid_search_extra=%7B%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A3300936486%7D" target="_blank">sans-serif<svg width="10px" height="10px" viewBox="0 0 15 15" class="css-1dvsrp"><path d="M10.89 9.477l3.06 3.059a1 1 0 0 1-1.414 1.414l-3.06-3.06a6 6 0 1 1 1.414-1.414zM6 10a4 4 0 1 0 0-8 4 4 0 0 0 0 8z" fill="currentColor"></path></svg></a></span>’] = ‘SimHei’  # 设置中文字体为黑体</p>
-<h1>导入数据</h1>
-<p>data_path = ‘C题问题一数据.xlsx’<br>
-df = pd.read_excel(data_path)</p>
-<h1>定义自变量和因变量</h1>
-<p>independent_vars = [‘燃油价格（元/升）’, ‘电动车充电成本（元/千瓦时）’, ‘电动车平均价格（万元）’, ‘燃油车平均价格（万元）’,<br>
-‘新能源汽车能源效率（公里/千瓦时）’, ‘燃油车能源效率（公里/升）’, ‘新能源车政府补贴金额（亿元人民币）’,<br>
-‘新能源汽车市场规模（万辆）’, ‘新能源汽车企业数量（家）’, ‘新能源汽车专利申请数量（件）’,<br>
-‘新能源汽车产业链规模（家）’, ‘新能源汽车充电桩数量（万个）’]</p>
-<p>dependent_var = ‘新能源汽车保有量（万辆）’</p>
-<h1>进行斯皮尔曼相关性分析</h1>
-<p>corr_matrix = df[independent_vars + [dependent_var]].corr(method=‘spearman’)</p>
-<h1>绘制热力图</h1>
-<p>plt.figure(figsize=(12, 10))<br>
-sns.heatmap(corr_matrix, annot=True, cmap=‘coolwarm’)<br>
-plt.xticks([])  # 隐藏x轴标签<br>
-plt.yticks([])  # 隐藏y轴标签<br>
-plt.show()</p>
-<h1>构建<span><a class="RichContent-EntityWord css-1esjagr" data-za-not-track-link="true" data-paste-text="true" href="https://www.zhihu.com/search?q=%E5%86%B3%E7%AD%96%E6%A0%91&amp;search_source=Entity&amp;hybrid_search_source=Entity&amp;hybrid_search_extra=%7B%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A3300936486%7D" target="_blank">决策树<svg width="10px" height="10px" viewBox="0 0 15 15" class="css-1dvsrp"><path d="M10.89 9.477l3.06 3.059a1 1 0 0 1-1.414 1.414l-3.06-3.06a6 6 0 1 1 1.414-1.414zM6 10a4 4 0 1 0 0-8 4 4 0 0 0 0 8z" fill="currentColor"></path></svg></a></span>回归模型</h1>
-<p>X = df[independent_vars]<br>
-y = df[dependent_var]</p>
-<h1>分割数据为训练集和测试集</h1>
-<p>X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=0)</p>
-<h1>创建并拟合决策树模型</h1>
-<p>model = DecisionTreeRegressor(random_state=0)<br>
-model.fit(X_train, y_train)</p>
-<h1>预测和评估模型</h1>
-<p>y_pred = model.predict(X_test)<br>
-mse = mean_squared_error(y_test, y_pred)<br>
-r2 = r2_score(y_test, y_pred)<br>
-print(f’Mean Squared Error: &#123;mse&#125;‘)<br>
-print(f’R^2 Score: &#123;r2&#125;’)</p>
-<h1>可视化决策树</h1>
-<p>plt.figure(figsize=(20, 10))<br>
-plot_tree(model, filled=True, feature_names=independent_vars, fontsize=10)<br>
-plt.show()</code></pre></div><p></p></span></div></div></p>
+<h1>一、JP：</h1>
+<h2 id="原文">原文</h2>
+<h1>フリーレン<br>
+芙莉莲<br>
+王都が見えてきたね<br>
+已经可以看到首都了<br>
+私たち、勇者一行の凱旋です。盛り上がっているでしょうね。<br>
+我们是勇者的胜利凯旋，到那里应该会很热闹<br>
+帰ったら、仕事を探さないとな。<br>
+回去后，要找工作了啊<br>
+もう、そんなこと考えてるんだ<br>
+你都已经在想这种事情了啊<br>
+大事なことさ<br>
+这很重要啊<br>
+魔王を倒したといえ、終わりじゃない。<br>
+虽然说打败了魔王，但还没有“结束”啊<br>
+この先の人生のほうが長いんだ<br>
+这之后的人生还很长<br>
+仕事か<br>
+工作啊<br>
+酒が飲める仕事はいいですね<br>
+我想找个能喝酒的工作<br>
+お前、僧侶だろう<br>
+你这家伙是和尚吧<br>
+それもそうか<br>
+也对啊<br>
+フリーレン、君もこの先の人生は僕たちの想像できないほど長いものになるんだろうね<br>
+芙莉莲，你的人生是我们无法想象的长<br>
+そうかもね<br>
+应该吧<br>
+二、RU：</h1>
+<h2 id="原文-2">原文</h2>
+<p>фрирен<br>
+уже столица показалось<br>
+мы вернулись из приключения героями<br>
+уверен,нас встретят торжествами<br>
+как приедем,придётся искать работу<br>
+не рановато ли ты об этом задумался<br>
+так это ведь важно<br>
+победа над владыкой далеко не конец<br>
+у нас впереди ещё целая жизнь<br>
+работа,говоришь<br>
+я б хотел такую,где можно пить<br>
+ты же священник<br>
+наверное,ты прав<br>
+фрирен,отведённый тебе срок,настолько велик,что мы вообразить не можем<br>
+возможно</p>
 ]]></content>
+      <categories>
+        <category>语言学习</category>
+      </categories>
   </entry>
   <entry>
     <title>【前端】框架布局解析</title>
@@ -1384,20 +1389,6 @@ $
 ]]></content>
       <categories>
         <category>Python</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>word测试</title>
-    <url>/2023/10/11/word%E6%B5%8B%E8%AF%95/</url>
-    <content><![CDATA[<p>—占位—<br>
-本文提供了一个ppt预览和下载功能<br>
-—占位—</p>
-<span id="more"></span>
-<p>
-<a target="_blank" href="/word/第3组项目周报（第8周）.docx" download="第3组项目周报（第8周）.docx">第3组项目周报（第8周）.docx</a>
-</p>]]></content>
-      <categories>
-        <category>测试</category>
       </categories>
   </entry>
   <entry>

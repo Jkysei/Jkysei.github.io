@@ -1,4 +1,5 @@
-http://jkysei.space/2023/11/25/%E4%BA%9A%E5%A4%AA%E8%B5%9B/
+http://jkysei.space/2023/11/28/learning1/
+http://jkysei.space/flybird/index.html
 http://jkysei.space/2023/11/23/hexo%E6%A1%86%E6%9E%B6%E5%B8%83%E5%B1%80%E8%A7%A3%E6%9E%90/
 http://jkysei.space/2023/11/19/%E9%BB%91%E9%95%9C/
 http://jkysei.space/2023/11/06/ejs2/
@@ -25,7 +26,6 @@ http://jkysei.space/2023/10/21/%E8%A1%80%E8%A7%82%E9%9F%B3/
 http://jkysei.space/404.html
 http://jkysei.space/jisuanqi.html
 http://jkysei.space/2023/10/21/%E3%80%90%E7%94%B5%E5%BD%B1%E3%80%91%E6%95%B4%E7%90%86%E7%9B%AE%E5%BD%95/
-http://jkysei.space/2023/10/11/word%E6%B5%8B%E8%AF%95/
 http://jkysei.space/2023/10/16/%E3%80%90Python-%E7%AE%97%E6%B3%95%E3%80%91%EF%BC%88%E8%A1%A5%E5%85%85%EF%BC%89DataFrame%E6%8C%87%E5%AE%9A%E4%BD%8D%E7%BD%AE%E6%8F%92%E5%85%A5/
 http://jkysei.space/2023/10/19/%E3%80%90Python-%E7%88%AC%E5%9B%BE%E3%80%91%E6%95%88%E7%8E%87%E6%94%B9%E8%BF%9B-%E5%A4%9A%E7%BA%BF%E7%A8%8B/
 http://jkysei.space/2023/10/01/%E6%A2%B3%E7%90%86%E4%B8%80%E4%B8%8B%E5%9F%BA%E6%9C%AC%E7%88%AC%E5%9B%BE%E6%80%9D%E8%B7%AF/
@@ -42,6 +42,11 @@ http://jkysei.space/2023/09/26/%E8%B5%84%E6%96%99/
 http://jkysei.space/2023/10/05/%E3%80%90Python-%E8%84%9A%E6%9C%AC%E3%80%91%E4%B8%80%E4%B8%AA%E6%87%92%E5%BE%97%E8%87%AA%E5%B7%B1%E6%89%93%E5%AD%97%E7%9A%84md%E5%9B%BE%E7%89%87%E6%8F%92%E5%85%A5%E8%84%9A%E6%9C%AC/
 http://jkysei.space/2023/09/30/%E3%80%90%E7%9E%8E%E6%90%9E-%E6%B5%8B%E8%AF%95%E3%80%91js%E5%81%9A%E7%9A%84%E6%AD%8C%E7%A2%9F/
 http://jkysei.space/2023/09/29/CSS%E5%8A%A8%E7%94%BB/
+http://jkysei.space/flybird/package.json
+http://jkysei.space/flybird/app.json
+http://jkysei.space/flybird/README.html
+http://jkysei.space/flybird/LICENSE.html
+http://jkysei.space/flybird/CUSTOMIZING.html
 http://jkysei.space/tags/index.html
 http://jkysei.space/categories/index.html
 http://jkysei.space/about/index.html
@@ -53,10 +58,11 @@ http://jkysei.space/tags/%E7%88%AC%E8%99%AB/
 http://jkysei.space/tags/%E5%89%8D%E7%AB%AF%E7%88%AC%E8%99%AB/
 http://jkysei.space/categories/%E5%89%8D%E7%AB%AFCSS/
 http://jkysei.space/categories/hexo/
+http://jkysei.space/categories/%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0/
 http://jkysei.space/categories/%E5%89%8D%E7%AB%AF/
 http://jkysei.space/categories/%E5%89%8D%E7%AB%AFJS/
-http://jkysei.space/categories/%E6%B5%8B%E8%AF%95/
 http://jkysei.space/categories/%E7%94%B5%E5%BD%B1/
 http://jkysei.space/categories/Python/
 http://jkysei.space/categories/HTML%E6%B8%B8%E6%88%8F/
 http://jkysei.space/categories/%E7%AE%97%E6%B3%95/
+http://jkysei.space/categories/%E6%B5%8B%E8%AF%95/
