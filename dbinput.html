@@ -1,0 +1,76 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">
+<style>
+button{
+	width:60px;
+	height:60px;
+	background-color:#CCCCCC;
+	border:#33FFCC;
+	border-width:medium;
+	box-shadow:0 12px 16px 0 rgba(0,0,0,0.2),
+				0 17px 50px 0 rgba(0,0,0,0.19);
+	border-style:solid;
+	transform:translateX(400%);	
+	
+}
+</style>
+<script>
+function insertDB(){
+	shuchu=document.getElementById("shuchu")
+	shuchu.innerHTML=""
+	choice=prompt("输入需要填入的数据库")
+	if(choice=="SalesDB"){
+		table=prompt("表名")
+		if (tablename=="Orders"){
+			values=prompt("输入插入的值用逗号相隔开")
+			let mysql = require("mysql");
+			let connection =mysql.createConnection({
+				host: IP, //地址
+				port:Port, //端口
+				user:"admin", //用户名
+				password:"123456", //密码
+				database:choice //数据库
+			});
+			connection.connect((err)=>{
+				if(err){
+					window.alert("连接失败"+err.stack)
+					return;
+				}
+				let sql = "insert into "+table+" values(?,?,?,?)"
+				values=values.split(",")
+				connection.query(sql,values,(err,result)=>{
+					if (err) {
+						window.error("插入失败" + err.message);
+						result;
+					}
+					window.log("插入成功");
+				});				
+
+			});
+
+
+			//关闭数据库连接
+			connection.end();
+		}
+
+	}
+	else{
+		alert("输入错误")
+	}
+	
+}
+function home(){
+	location.href="/"
+}
+</script>
+</head>
+<body>
+<div> 
+<button style="height:100px;width:120px;" onclick="home()">
+返回首页
+</button>
+<button style="height:100px;width:120px;" onclick="p0()"> 
+输入
+</button>
+</div>
+<div align="center" id="shuchu"></div>
+</body>
