@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://jkysei.space/dbinput.html</loc>
+    <loc>http://jkysei.space/2023/12/04/learning-webarebears/</loc>
     
     <lastmod>2023-12-08</lastmod>
     
@@ -11,9 +11,9 @@
   </url>
   
   <url>
-    <loc>http://jkysei.space/2023/12/04/learning-webarebears/</loc>
+    <loc>http://jkysei.space/dbinput.html</loc>
     
-    <lastmod>2023-12-06</lastmod>
+    <lastmod>2023-12-08</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -596,14 +596,14 @@
   </url>
   
   <url>
-    <loc>http://jkysei.space/categories/%E7%94%B5%E5%BD%B1/</loc>
+    <loc>http://jkysei.space/categories/Python/</loc>
     <lastmod>2023-12-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://jkysei.space/categories/Python/</loc>
+    <loc>http://jkysei.space/categories/%E7%94%B5%E5%BD%B1/</loc>
     <lastmod>2023-12-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
