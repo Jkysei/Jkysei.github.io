@@ -1,55 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>(自用/收藏)CSS效果/CSS动画</title>
-    <url>/2023/09/29/CSS%E5%8A%A8%E7%94%BB/</url>
-    <content><![CDATA[<p>本文主要收藏一些有用常用的CSS语句，<br>
-可以修饰文字或者炫酷的特效等。</p>
-<span id="more"></span>
-<div class="biankuang">
-<p>边框效果</p>
-</div>
-<style>
-.biankuang{
-		font-size:30px;
-		font-weight:bold;
-		color: black;
-		border: 5px solid;
-		border-radius: 5px;
-		padding: 15px;
-		background-color:white;
-	}
-</style>
-<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.biankuang</span>&#123;</span></span><br><span class="line"><span class="language-css">		<span class="attribute">font-size</span>:<span class="number">30px</span>;</span></span><br><span class="line"><span class="language-css">		<span class="attribute">font-weight</span>:bold;</span></span><br><span class="line"><span class="language-css">		<span class="attribute">color</span>: black;</span></span><br><span class="line"><span class="language-css">		<span class="attribute">border</span>: <span class="number">5px</span> solid; #厚度</span></span><br><span class="line"><span class="language-css">		<span class="attribute">border-radius</span>: <span class="number">5px</span>; #曲率</span></span><br><span class="line"><span class="language-css">		<span class="attribute">padding</span>: <span class="number">15px</span>; </span></span><br><span class="line"><span class="language-css">		<span class="attribute">background-color</span>:white;</span></span><br><span class="line"><span class="language-css">	&#125;</span></span><br><span class="line"><span class="language-css"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<!--more-->
-<div class="animate_test">
-<p>边框效果</p>
-</div>
-<style>
-.animate_test{
-	animation: bounce; 
-	animation-duration: 2s; 
-}
-</style>
-<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;animate_test&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>边框效果<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.animate_test</span>&#123;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">animation</span>: bounce; </span></span><br><span class="line"><span class="language-css">	<span class="attribute">animation-duration</span>: <span class="number">2s</span>; </span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>前端CSS</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>css音频波浪动画</title>
-    <url>/2023/10/03/css%E9%9F%B3%E9%A2%91%E6%B3%A2%E6%B5%AA%E5%8A%A8%E7%94%BB/</url>
-    <content><![CDATA[<p>如题<br>
-本文主要收藏一个CSS动画，<br>
-可以用来配合音乐做出音频波浪的效果。</p>
-<span id="more"></span>
-<p><img data-src="1005D_253_1.jpg" alt="1005D_253_1.jpg"></p>
-<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bars_music&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span>   </span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bars_music</span>&#123;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">width</span>: <span class="number">60px</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">height</span>: <span class="number">30px</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">position</span>: absolute;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">left</span>: <span class="number">0</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">right</span>: <span class="number">0</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">margin</span>: auto;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span>&#123;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">background</span>: <span class="number">#FF88C2</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">border</span>:<span class="number">1px</span> solid;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">height</span>: <span class="number">3px</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">width</span>: <span class="number">4px</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">position</span>: absolute;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">bottom</span>:<span class="number">1px</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">animation</span>: voice <span class="number">0ms</span> -<span class="number">800ms</span> linear infinite alternate;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"><span class="keyword">@keyframes</span> voice&#123;</span></span><br><span class="line"><span class="language-css">	</span></span><br><span class="line"><span class="language-css">	<span class="number">0%</span>&#123;</span></span><br><span class="line"><span class="language-css">		<span class="attribute">height</span>: <span class="number">3px</span>;</span></span><br><span class="line"><span class="language-css">		<span class="attribute">opacity</span>: .<span class="number">35</span>;</span></span><br><span class="line"><span class="language-css">	&#125;</span></span><br><span class="line"><span class="language-css">	<span class="number">100%</span>&#123;</span></span><br><span class="line"><span class="language-css">		<span class="attribute">height</span>: <span class="number">24px</span>;</span></span><br><span class="line"><span class="language-css">		<span class="attribute">opacity</span>: <span class="number">1</span>;</span></span><br><span class="line"><span class="language-css">	&#125;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">1</span>)  &#123; <span class="attribute">left</span>: <span class="number">1px</span>; <span class="attribute">animation-duration</span>: <span class="number">474ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">2</span>)  &#123; <span class="attribute">left</span>: <span class="number">6px</span>; <span class="attribute">animation-duration</span>: <span class="number">433ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">3</span>)  &#123; <span class="attribute">left</span>: <span class="number">11px</span>; <span class="attribute">animation-duration</span>: <span class="number">407ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">4</span>)  &#123; <span class="attribute">left</span>: <span class="number">16px</span>; <span class="attribute">animation-duration</span>: <span class="number">458ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">5</span>)  &#123; <span class="attribute">left</span>: <span class="number">21px</span>; <span class="attribute">animation-duration</span>: <span class="number">400ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">6</span>)  &#123; <span class="attribute">left</span>: <span class="number">26px</span>; <span class="attribute">animation-duration</span>: <span class="number">427ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">7</span>)  &#123; <span class="attribute">left</span>: <span class="number">31px</span>; <span class="attribute">animation-duration</span>: <span class="number">441ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">8</span>)  &#123; <span class="attribute">left</span>: <span class="number">36px</span>; <span class="attribute">animation-duration</span>: <span class="number">419ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">9</span>)  &#123; <span class="attribute">left</span>: <span class="number">41px</span>; <span class="attribute">animation-duration</span>: <span class="number">487ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">10</span>) &#123; <span class="attribute">left</span>: <span class="number">46px</span>; <span class="attribute">animation-duration</span>: <span class="number">442ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>前端CSS</category>
-      </categories>
-  </entry>
-  <entry>
     <title>【Hexo深度改造】边学边写、探索ejs/js玩法</title>
     <url>/2023/11/06/ejs1/</url>
     <content><![CDATA[<p>一、前言<br>
@@ -193,6 +144,55 @@ import<br>
       </categories>
   </entry>
   <entry>
+    <title>(自用/收藏)CSS效果/CSS动画</title>
+    <url>/2023/09/29/CSS%E5%8A%A8%E7%94%BB/</url>
+    <content><![CDATA[<p>本文主要收藏一些有用常用的CSS语句，<br>
+可以修饰文字或者炫酷的特效等。</p>
+<span id="more"></span>
+<div class="biankuang">
+<p>边框效果</p>
+</div>
+<style>
+.biankuang{
+		font-size:30px;
+		font-weight:bold;
+		color: black;
+		border: 5px solid;
+		border-radius: 5px;
+		padding: 15px;
+		background-color:white;
+	}
+</style>
+<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.biankuang</span>&#123;</span></span><br><span class="line"><span class="language-css">		<span class="attribute">font-size</span>:<span class="number">30px</span>;</span></span><br><span class="line"><span class="language-css">		<span class="attribute">font-weight</span>:bold;</span></span><br><span class="line"><span class="language-css">		<span class="attribute">color</span>: black;</span></span><br><span class="line"><span class="language-css">		<span class="attribute">border</span>: <span class="number">5px</span> solid; #厚度</span></span><br><span class="line"><span class="language-css">		<span class="attribute">border-radius</span>: <span class="number">5px</span>; #曲率</span></span><br><span class="line"><span class="language-css">		<span class="attribute">padding</span>: <span class="number">15px</span>; </span></span><br><span class="line"><span class="language-css">		<span class="attribute">background-color</span>:white;</span></span><br><span class="line"><span class="language-css">	&#125;</span></span><br><span class="line"><span class="language-css"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<!--more-->
+<div class="animate_test">
+<p>边框效果</p>
+</div>
+<style>
+.animate_test{
+	animation: bounce; 
+	animation-duration: 2s; 
+}
+</style>
+<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;animate_test&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>边框效果<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.animate_test</span>&#123;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">animation</span>: bounce; </span></span><br><span class="line"><span class="language-css">	<span class="attribute">animation-duration</span>: <span class="number">2s</span>; </span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>前端CSS</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>css音频波浪动画</title>
+    <url>/2023/10/03/css%E9%9F%B3%E9%A2%91%E6%B3%A2%E6%B5%AA%E5%8A%A8%E7%94%BB/</url>
+    <content><![CDATA[<p>如题<br>
+本文主要收藏一个CSS动画，<br>
+可以用来配合音乐做出音频波浪的效果。</p>
+<span id="more"></span>
+<p><img data-src="1005D_253_1.jpg" alt="1005D_253_1.jpg"></p>
+<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bars_music&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span>   </span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bar_music&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bars_music</span>&#123;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">width</span>: <span class="number">60px</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">height</span>: <span class="number">30px</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">position</span>: absolute;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">left</span>: <span class="number">0</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">right</span>: <span class="number">0</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">margin</span>: auto;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span>&#123;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">background</span>: <span class="number">#FF88C2</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">border</span>:<span class="number">1px</span> solid;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">height</span>: <span class="number">3px</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">width</span>: <span class="number">4px</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">position</span>: absolute;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">bottom</span>:<span class="number">1px</span>;</span></span><br><span class="line"><span class="language-css">	<span class="attribute">animation</span>: voice <span class="number">0ms</span> -<span class="number">800ms</span> linear infinite alternate;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"><span class="keyword">@keyframes</span> voice&#123;</span></span><br><span class="line"><span class="language-css">	</span></span><br><span class="line"><span class="language-css">	<span class="number">0%</span>&#123;</span></span><br><span class="line"><span class="language-css">		<span class="attribute">height</span>: <span class="number">3px</span>;</span></span><br><span class="line"><span class="language-css">		<span class="attribute">opacity</span>: .<span class="number">35</span>;</span></span><br><span class="line"><span class="language-css">	&#125;</span></span><br><span class="line"><span class="language-css">	<span class="number">100%</span>&#123;</span></span><br><span class="line"><span class="language-css">		<span class="attribute">height</span>: <span class="number">24px</span>;</span></span><br><span class="line"><span class="language-css">		<span class="attribute">opacity</span>: <span class="number">1</span>;</span></span><br><span class="line"><span class="language-css">	&#125;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">1</span>)  &#123; <span class="attribute">left</span>: <span class="number">1px</span>; <span class="attribute">animation-duration</span>: <span class="number">474ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">2</span>)  &#123; <span class="attribute">left</span>: <span class="number">6px</span>; <span class="attribute">animation-duration</span>: <span class="number">433ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">3</span>)  &#123; <span class="attribute">left</span>: <span class="number">11px</span>; <span class="attribute">animation-duration</span>: <span class="number">407ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">4</span>)  &#123; <span class="attribute">left</span>: <span class="number">16px</span>; <span class="attribute">animation-duration</span>: <span class="number">458ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">5</span>)  &#123; <span class="attribute">left</span>: <span class="number">21px</span>; <span class="attribute">animation-duration</span>: <span class="number">400ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">6</span>)  &#123; <span class="attribute">left</span>: <span class="number">26px</span>; <span class="attribute">animation-duration</span>: <span class="number">427ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">7</span>)  &#123; <span class="attribute">left</span>: <span class="number">31px</span>; <span class="attribute">animation-duration</span>: <span class="number">441ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">8</span>)  &#123; <span class="attribute">left</span>: <span class="number">36px</span>; <span class="attribute">animation-duration</span>: <span class="number">419ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">9</span>)  &#123; <span class="attribute">left</span>: <span class="number">41px</span>; <span class="attribute">animation-duration</span>: <span class="number">487ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"><span class="selector-class">.bar_music</span><span class="selector-pseudo">:nth-child</span>(<span class="number">10</span>) &#123; <span class="attribute">left</span>: <span class="number">46px</span>; <span class="attribute">animation-duration</span>: <span class="number">442ms</span>; &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>前端CSS</category>
+      </categories>
+  </entry>
+  <entry>
     <title>hexo常用的API（插件）</title>
     <url>/2023/10/01/hexo%E5%B8%B8%E7%94%A8%E7%9A%84API%EF%BC%88%E6%8F%92%E4%BB%B6%EF%BC%89/</url>
     <content><![CDATA[<p>一、前言<br>
@@ -277,575 +277,62 @@ $(“”).attr(“animation-play-state”,“running”)</p>
       </tags>
   </entry>
   <entry>
-    <title>【学习用】芙莉莲片段1（RU/JP/DE/CH/EN）</title>
-    <url>/2023/11/28/learning1/</url>
-    <content><![CDATA[<p><img data-src="fulilian.webp" alt="fulilian.webp"><br>
-片段1（RU/JP/DE/CH/EN）</p>
+    <title>【学习用】福冈马拉松开跑前</title>
+    <url>/2023/12/11/learning-hukuoka/</url>
+    <content><![CDATA[<p>【学习用】福冈马拉松开跑前</p>
 <span id="more"></span>
-<h1>一、JP：</h1>
-<h2 id="1、原文">1、原文</h2>
-<p>0）フリーレン<br>
-1）王都が見えてきたね<br>
-2）私たち、勇者一行の凱旋です。<br>
-3）盛り上がっているでしょうね。<br>
-4）帰ったら、仕事を探さないとな。<br>
-5）もう、そんなこと考えてるんだ<br>
-6）大事なことさ<br>
-7）魔王を倒したといって、終わりじゃない。<br>
-8）この先の人生のほうが長いんだ<br>
-9）仕事か<br>
-10）酒が飲める仕事はいいですね<br>
-11）お前、僧侶だろう<br>
-12）それもそうか<br>
-13）フリーレン、君のこの先の人生は僕たちに<br>
-14）想像できないほど長いものになるんだろうね<br>
-15）そうかもね</p>
-<h1>二、RU：</h1>
-<h2 id="1、原文-2">1、原文</h2>
-<p>0）фрирен<br>
-1）уже столица показалось<br>
-2）мы вернулись из приключения героями<br>
-3）уверен,нас встретят торжествами<br>
-4）как приедем,придётся искать работу<br>
-5）не рановато ли ты об этом задумался<br>
-6）так это ведь важно<br>
-7）победа над владыкой далеко не конец<br>
-8）у нас впереди ещё целая жизнь<br>
-9）работа,говоришь<br>
-10）я б хотел такую,где можно пить<br>
-11）ты же священник<br>
-12）наверное,ты прав<br>
-13）фрирен,отведённый тебе срок,настолько велик,<br>
-14）что мы вообразить не можем<br>
-15）возможно</p>
-<h1>三、DE</h1>
-<h2 id="1、">1、</h2>
-<p>(德语太垃圾了，可能有误见谅)</p>
-<p>Frieren<br>
-Seht mal,dass die Hauptstadt<br>
-Wir sind die heldengruppe auf ihrer triumphalen rückkehr<br>
-Es wird sicher eine große feier geben<br>
-Wenn wir zurück sind,muss ich eine arbeit suchen<br>
-Du denkst bereits jetzt über solche sachen nach<br>
-Weil es wichtig ist<br>
-Wir haben zwar den dämonenkönig geschlagen,doch<br>
-Es gibt weiter<br>
-Wir haben noch ein langes leben vor uns<br>
-Arbeit also<br>
-Also ich gerne würde dabei trinken können<br>
-Aber du bist ein kleriker<br>
-Eine leben nach dem toten<br>
-Frieren,deine leben wird,sicher sehr viel länger sein,als menschen,als und human ausmalen können<br>
-Ja wahrscheinlich</p>
-<h1>四、CH</h1>
-<h2 id="1、-2">1、</h2>
-<p>0）芙莉莲<br>
-1）已经可以看到首都了<br>
-2）我们是勇者的胜利凯旋，到那里应该会很热闹<br>
-3）回去后，要找工作了啊<br>
-4）你都已经在想这种事情了啊<br>
-5）这很重要啊<br>
-6）虽然说打败了魔王，但还没有“结束”啊<br>
-7）这之后的人生还很长<br>
-8）工作啊<br>
-9）我想找个能喝酒的工作<br>
-10）你这家伙是和尚吧<br>
-11）也对啊<br>
-12）芙莉莲，你的人生应该会是我们无法想象的长<br>
-13）应该吧</p>
 ]]></content>
       <categories>
         <category>语言学习</category>
       </categories>
   </entry>
   <entry>
-    <title>【学习用】咱们裸熊（RU/JP/DE/CH/EN）</title>
-    <url>/2023/12/04/learning-webarebears/</url>
-    <content><![CDATA[<p><img data-src="bears.webp" alt="bears.webp"></p>
-<span id="more"></span>
+    <title>learning-tenshi</title>
+    <url>/2023/12/10/learning-tenshi/</url>
+    <content><![CDATA[<p><img data-src="tenshi1.webp" alt="1"></p>
 <h1>一、RU</h1>
 <h2 id="1、">1、</h2>
-<p>нашие вещи<br>
-俺们的东西<br>
-Мы следующие<br>
-我们该上了<br>
-Одни бумажник на липучке, один<br>
-Мобильник<br>
-一个维克罗钱包，一部手机<br>
-<em>Мобильник，源自英语Mobile，意思是手机</em><br>
-<em>телефон也是手机的意思</em><br>
-Осторожнее это моя жизнь душа,в прямоугольной форме.<br>
-注意我的小心肝，这个四边形的小东西<br>
-<em>прямоугольной 平行四边形</em><br>
-Да,да<br>
-好好<br>
-У белого звездочки ниндзя<br>
-白熊有忍者飞镖<br>
-<em>ниндзя，即ninja，也就是忍者</em><br>
-Начнёт три<br>
-数到三<br>
-Раз два три<br>
-一二三<br>
-Играем<br>
-开始咯<br>
-Бросок<br>
-我要投了<br>
-Я открый<br>
-我空档<br>
-Стой не так быстро time out time out<br>
-等等别那么快，停停<br>
-Он мой,он мой<br>
-他是我的，他是我的<br>
-Защита<br>
-防守<br>
-Мой косяк<br>
-我的锅<br>
-<em>相当于英语My bad</em><br>
-Классный бросок,чувак<br>
-好球，兄弟<br>
-Уходит<br>
-出线<br>
-Pick and roll,Pick and roll<br>
-挡拆<br>
-Длинный<br>
-太远了<br>
-Извините<br>
-我对不起<br>
-A белый так хотел<br>
-白熊故意的<br>
-Ура да<br>
-Мы же ведём двадцать очков,да？<br>
-我们还领先20分对吧<br>
-Играем<br>
-我们打得好<br>
-Отлично,брат.я горжусь с вами<br>
-真棒，兄弟们，我为你们感到自豪<br>
-Я видел подвижки,видел душу<br>
-我看到你们的长进，你们的心灵<br>
-А в душе играть не научишь<br>
-这种由心打出的好球是教不来的<br>
-секунду<br>
-等等<br>
-Мы ничего не забыли<br>
-我们是否忘了什么<br>
-Рюкзак<br>
-背包<br>
-Рюкзак,мой бумажник<br>
-背包，我的钱包<br>
-Звездочки белого<br>
-白熊的飞镖<br>
-Я на секунду подумаю,ты сказал что мы оставили вещи на плащадке<br>
-Там же мой телефон<br>
-Я психану если потерял его<br>
-等等让我想想，你说把我们的东西放在广场了，那里边<br>
-有我的手机，如果弄丢了，我一定会发疯的<br>
-Мы оставили твой телефон<br>
-我们遗落了你的手机<br>
-Его нет<br>
-背包没了<br>
-Кто-то нас ограбил<br>
-是谁把咱们打劫了<br>
-<em>ограбил，打劫</em><br>
-Нет нет нет<br>
-不不不<br>
-Полиция,Полиция,Полиция,Полиция<br>
-警察，警察，警察，警察<br>
-Извините,ребята я уже выписывать штраф<br>
-等等，小家伙我在开罚单<br>
-Нет,Нас ограбили<br>
-不，我们被打劫了<br>
-У него бы нож,и один глаз<br>
-他有刀，他一只眼睛<br>
-Они  мой телефон ,приложение,душу<br>
-他偷了我的手机，app，心肝<br>
-Белый труба правосудие<br>
-白熊渴求正义<br>
-Арестуйте кого-нибудь,используйте пушки<br>
-кстати где одна<br>
-请用你的枪逮捕掉他，话说它放在哪<br>
-Телефон пропал навсегда<br>
-手机永远的丢了<br>
-Буду носить это в памяти о нём<br>
-我准备戴着这个纪念它<br>
-Братья,соберитесь,есть идея<br>
-兄弟们，别沮丧，我有想法<br>
-Мы возьмем правосудие с своей лапой<br>
-我们准备用我们的双手夺回正义<br>
-<em>лапа，рука的粗俗说法</em><br>
-Идеально ,такси<br>
-完美，出租车<br>
-FBI,у нас важное дело,отведите нас туда,<br>
-где тусуются  преступники,сейчас ж<br>
-FBI，我们有紧急案件，请立刻带我们去犯罪嫌疑人<br>
-出没的地方，现在赶紧<br>
-<em>тусоваться,тусить闲逛，出现</em><br>
-<em>преступник,源自动词преступить违反，犯罪</em><br>
-Можно с начала в туалет<br>
-能否先去趟厕所<br>
-Белый хочет латте<br>
-白熊想要拿铁<br>
-Будет сложнее чем я думал<br>
-看来没有想象的那么简单<br>
-Закусочная<br>
-餐馆<br>
-Так если я бы здесь,вы парни бы здесь,здесь<br>
-Это значит кто-то забрал рюкзак,куда?<br>
-如果我在这儿，你俩在这，和这。意味着谁拿走了我们的背包<br>
-У белого теория заговора<br>
-白熊觉得有阴谋<br>
-<em>заговор，阴谋</em><br>
-Панда,что у нас с портретами<br>
-熊猫，肖像画怎么样<br>
-Хорошо ,что у меня фотография памяти<br>
-Вот что есть на том момент<br>
-我有过目不忘的记忆，这是那时出现的家伙<br>
-Больно уж они одинаковые<br>
-怎么看着都一样呢<br>
-Правда,я так старался<br>
-真的假的，我明明很认真的画了<br>
-Я тут поговорила с управляющей<br>
-и он сказал хотите сидеть здесь,<br>
-нужно заказать чуть больше чем<br>
-Три стакан воды<br>
-我跟管理人商量了，他说你们几个还想坐在这<br>
-的话，就多点其他的东西而不是就三杯水<br>
-<em>стакан воды，相当于a cup of water</em><br>
-Вы бы так говорили если мы были FBI.<br>
-Дамочка,мы тут в работе,отойдите от столько<br>
-如果我说我们是FBI呢，小姑娘，我们在办案，<br>
-请离我们远一点<br>
-И хвати порти столовые салфетки<br>
-别弄脏桌垫啊<br>
-Мы теряем времени<br>
-我们浪费时间了<br>
-Нужно подумать,нужны улики<br>
-Может быть,что кто бы на месте преступления<br>
-我们需要思考，我们需要线索，也许有目击者在犯罪现场<br>
-<em>место преступления，犯罪现场</em><br>
-Я знаю куда нужно идти<br>
-我知道去哪了<br>
-Ещё воды со льдом<br>
-再来杯冰水<br>
-Да,желтый рюкзак<br>
-Кто-нибудь не с вас что-нибудь знает<br>
-У меня есть пакеты с сахаром<br>
-<em>сахар，sugar，糖</em><br>
-Да,не понимают что ли<br>
-Ох,только посмотри<br>
-Идея,извини<br>
-Осторожнее,это искусство<br>
-Кто-нибудь с вас занает кто<br>
-из чуваков забрал нашие вещи<br>
-Привет,малыш,иди сюда<br>
-Вот так и не торопись,<br>
-смотри внимательно,кто это был<br>
-Вот том парня<br>
-Номер сорок первый ,самый злобный<br>
-номер из всех<br>
-Скажи нам где этот преступник<br>
-Сейчас ж</p>
-]]></content>
-      <categories>
-        <category>语言学习</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>【学习用/分享】片段2（RU/JP/DE/CH/EN）</title>
-    <url>/2023/11/28/learning2/</url>
-    <content><![CDATA[<p><img data-src="le1.webp" alt="le1.webp"><br>
-片段2（RU/JP/DE/CH/EN）</p>
-<span id="more"></span>
-<h1>一、RU：</h1>
-<h2 id="1">1</h2>
-<p>давайте я возму<br>
-спасибо<br>
-Простите<br>
-Извините<br>
-Простите<br>
-Мама что ты тут делаешь<br>
-Скоро начало,а его еще нет<br>
-Нэн,лорд ричард не приехал<br>
-Всё хорошо,иди вниз<br>
-Да Что ж тут хорошего<br>
-Кончита одета<br>
-Да вполне,иди вниз<br>
-Я не числа главных героинь<br>
-Я легко уступала эту роль джинни<br>
-Он приедет<br>
-моей сестре,и подругам<br>
-уверена он приедет<br>
-Девочек приучают думать что если история не про любовь,то это трагедия<br>
-А мне неинтересно<br>
-Если нет<br>
-участвовать ни в том ни в другом<br>
-Все знали,что у моей лучшей подруги настоящая любовь.<br>
-Стремительный роман с красивым английским лордом<br>
-Завершил громкой,пышной свадбой<br>
-Все,кто ещё не завидовал кончите<br>
-Теперь точно будет<br>
-Но кто позавидует невеста,чей жених не явился на свадьбу</p>
-<h2 id="2">2</h2>
-<p>Есть что нибудь<br>
-Нет,внизу<br>
-Гости почти ничего не заметили,и он приедет<br>
-Сегодня должен быть лучший день,тут собрался   весь свет.<br>
-Боже я его ненавижу<br>
-Не представляешь как я его презираю<br>
-Здорово я люблю,конечно люблю<br>
-Просто я должна было понять<br>
-Вчера вечером,он был так отстранён<br>
-Ричард,всегда ряд ,вот здесь<br>
-Стоило ему сказать,да<br>
-Но я не хочу женить из чувства долга<br>
-Только потому что он меня обожает<br>
+<p>Ты что тут делаешь<br>
+Фудзимия<br>
+Тебе что-то нужно<br>
+И так я впервые заговорил с ней,с мазиру сииной<br>
+Встреча с ангелом<br>
+Да нет ничего<br>
+Просто удивился,что ты сидишь одна под дождём<br>
+Понятно<br>
+Можешь не беспокоиться<br>
+Я здесь,потому что сама так захотела<br>
+Возьми зонтик,а то простудишься<br>
+Можешь не возвращать<br>
+Спасибо за…за заботу<br>
+Аманэ,перестань<br>
+Ты же еще вчера был здоров<br>
+Я под дождь попал<br>
+Эх ты<br>
+Подожди,ты же вчера с зонтом был<br>
+Я его отдал<br>
+Отдал кому-то свой зонт в такой ливень<br>
+Ты что,святой<br>
+Кто это был-то хоть<br>
+Какая-то девушка,потерялась она,что ли<br>
+боже,какое же ты добряк<br>
+Вот оно что<br>
+У неё был потерянный вид<br>
+Доброе утро,сиина<br>
+Доброе утро<br>
+Сиина,ты слышала<br>
+Нет,о чем<br>
+Наш ангел<br>
+Она и сегодня выглядит по ангельски<br>
 Да<br>
-Мне конец<br>
-Где он<br>
-Почти все здесь<br>
-Всё будет хорошо<br>
-Давай начнём одеваться<br>
-Он вот вот будет<br>
-Но я не знаю<br>
-Что ж делать<br>
-Я достану<br>
-Нэн не груби<br>
-Ты чего<br>
-Остановись что ты творишь<br>
-Нэн ты чокнутая<br>
-Я достану<br>
-смотрите</p>
-<h1>二、EN</h1>
-<h2 id="1-2">1</h2>
-<p>I’ll grab that<br>
-我会拿的<br>
-Excuse me<br>
-借过<br>
-Sorry<br>
-对不起<br>
-Excuse me<br>
-借过<br>
-Mother,Why’re you sneaking around<br>
-妈妈，你在这到处走干什么啊<br>
-It’s starting soon,and he’s not here<br>
-马上就开始了，但他还没有来<br>
-Nan,Lord Richard’s not here.<br>
-南，理查德爵士还没有来<br>
-It’s fine,go downstairs.<br>
-一切会好的，快下楼<br>
-Well.how can it ever be fine?<br>
-怎么会好呢？<br>
-Is Conchita dressed?<br>
-肯齐塔穿好礼服了嘛？<br>
-Yes,quite dressed.Go downstairs.<br>
-是的，已经穿好了。快到楼下<br>
-I was never supposed to be the main character<br>
-我从来没有想要当主角<br>
-Always more than glad to let Jinny,my sister<br>
-我一直更乐意让给吉尼，我的姐妹<br>
-And my friends compete for all of that<br>
-还有我的朋友都在争夺<br>
-Girls are taught to believe that if a story ist not a love story<br>
-每个女孩从小就被教诲，一个故事没有爱<br>
-It’s a tragedy<br>
-那就是悲剧<br>
-And I had no interest at all.<br>
-而我并不感兴趣<br>
-And in being involved with either one of those.<br>
-我并不想参与其中<br>
-the whole world knew that my best friend’s was a love story.<br>
-现在全世界都知道我最好的朋友拥有一个爱情故事<br>
-A whirlwind romance with a handsome english lord<br>
-与一个英俊英国爵士闪婚<br>
-Can only be followed by a huge society wedding<br>
-接下来就会举办一场盛大的婚礼<br>
-To make entirely certain<br>
-为保证<br>
-anyone not envious of conchita yet<br>
-现在还没有嫉妒肯齐塔<br>
-soon would be<br>
-之后肯定会<br>
-But nobody’s jealous of a bride whose<br>
-groom has failed to show<br>
-但不会有人会嫉妒一个没有新郎前来婚礼现场的新娘</p>
-<h2 id="2-2">2</h2>
-<p>Anything<br>
-有什么了吗<br>
-Nothing.And downstairs<br>
-什么也没有，楼下呢<br>
-Well the guests have barely noticed<br>
-好，现在客人还都没有发现他没来<br>
-But today was supposed to be the beautiful day<br>
-但是今天应该是个好日子<br>
-And the whole world is here<br>
-全世界的人都来了<br>
-Gosh,I hate him<br>
-我的天，我开始讨厌他了<br>
-You have no idea how much I loathe him<br>
-你是不真不知道我有多恨他<br>
-Of course,I love him.i know I love him<br>
-当然我喜欢他，我知道<br>
-I just,I should know<br>
-我只是，我应该<br>
-Last night he just seemed so much further away<br>
-昨晚他似乎感觉离我远去了<br>
-Richard is never further away,than just right here<br>
-理查德他不会离开的，他会在旁边<br>
-Oh nan<br>
-I should told him,shouldn’t I<br>
-我应该告诉他吗<br>
-But I don’t want him to marry,because he has to,I want to marry me because he adores me<br>
-但我不想他结婚，但是他必须<br>
-我想他娶走我因为他珍爱我<br>
-Yes<br>
-是的<br>
-i’m ruined<br>
-我很混乱<br>
-Where is he<br>
-他在哪<br>
-Most of the guests are already on their<br>
-客人都差不多来齐了<br>
-it’ll be fine<br>
-一切会没事的<br>
-What if we just started putting on the dress.and then maybe he’ll get here any second<br>
-要不我们开始穿婚纱吧，可能他就会出现的<br>
-What are we gonna do<br>
-我们该怎么办<br>
-i’m gonna go get it<br>
-我要下去取它<br>
-No nan you idiot what are you doing<br>
-不，南，你真傻，你在干什么<br>
-Stop what are you so<br>
-停下，你在干什么啊<br>
-you’re insane<br>
-你真疯了</p>
-]]></content>
-      <categories>
-        <category>语言学习</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>【学习用】芙莉莲片段2（RU/JP/DE/CH/EN）</title>
-    <url>/2023/11/29/learning3/</url>
-    <content><![CDATA[<p><img data-src="fulilian.webp" alt="fulilian.webp"><br>
-片段2（RU/JP/DE/CH/EN）</p>
-<span id="more"></span>
-<h1>一、JP：</h1>
-<h2 id="1、原文">1、原文</h2>
-<p>0）まったく、くそみたいな思い出しかないな<br>
-真是的，只有一些糟糕的回忆<br>
-1）でも楽しかったよ<br>
-不过我很开心<br>
-2）僕は君たちと冒険ができて、よかった<br>
-能够同你们一起旅行冒险<br>
-3）そうですね<br>
-赞同<br>
-4）短い間だけどね<br>
-只不过是很短的时间<br>
-5）短い？<br>
-很短？<br>
-6）何を言っているんだ<br>
-你在说什么<br>
-7）十年だぞ<br>
-这可是十年啊<br>
-8）ハイターをみろう<br>
-看看Helter<br>
-9）すっかりおじさんになってしまったぞ<br>
-都已经变成大叔了<br>
-10）失礼ですよ<br>
-你真失礼<br>
-11）元からでしょう<br>
-不是原本就这样吗<br>
-12）失礼ですよ<br>
-你们真失礼<br>
-13）そろそろか<br>
-准备开始了<br>
-14）エーラ流星でしたっけ<br>
-貌似是叫做Era流星雨啊<br>
-15）五十年に一度の流星群<br>
-五十年一次的流星雨<br>
-16）平和な時代の幕開けには、ちょうどいいな<br>
-作为一个和平时代的开始应该是不错的时间<br>
-17）きれいだな<br>
-真漂亮<br>
-18）街中だと、見えにくいね<br>
-在城里，真难看见<br>
-19）人が感動しているんだ、空気を読みたまえ<br>
-我们都在感动中，你读下气氛吧<br>
-20）じゃあ、次<br>
-那下次<br>
-21）五十年後、もっときれいに見える場所が知っているから、<br>
-五十年后，我知道一个能够看到更漂亮的流星雨的地方<br>
-22）案内するよ<br>
-我带你们去看<br>
-23）何？<br>
-怎么了？<br>
-24）いや、なんでもない<br>
-不，什么也没有<br>
-25）そうだなぁ<br>
-让我想想<br>
-26）みんなで見よう<br>
-一起去看吧<br>
-27）じゃあ、私はここで<br>
-那我就到这里<br>
-28）これからどうするつもりだ？<br>
-你接下来要去干什么<br>
-29）魔法の収集を続けるよ<br>
-我会继续收集魔法<br>
-30）百年くらいは、中央諸国を巡る予定だから、<br>
-这一百年我都打算环游中央的几个国家<br>
-31）まあ、たまには、顔を見せるよ<br>
-嗯，偶尔我会过来看看的<br>
-32）エルフの感覚は、わかりませんね<br>
-我是真无法理解精灵的时间概念<br>
-33）まったく、いつから生きているのやら<br>
-真是，她究竟活多久了<br>
-34）五十年も、百年も、彼女にとって、<br>
-五十年还是百年，对于她来说<br>
-35）些細なものかもしれませんね<br>
-可能只是短暂的时间</p>
-<h1>二、RU：</h1>
-<h2 id="2、原文">2、原文</h2>
-<p>0）Ей богу,<br>
-1）Что ни вспоминание,то кошмар<br>
-2）Но с вами было весело<br>
-3）Я счастлив, что мы смогли пройти этот путь вместе<br>
-4）Поддерживаю<br>
-5）Жаль,путешествие было короткое<br>
-6）В смысле,короткое –<em>Короткое 短暂的</em> –<em>длинный 漫长的</em><br>
-7）Ты что тут такое говоришь<br>
-8）Десять лет прошло<br>
-9）На гайтера посмотри<br>
-10）Он уже почти старикан<br>
-11）Обижаешь,гиммель –<em>Обижать欺负，挖苦</em><br>
-12）Так он всегда таким был<br>
-13）И ты туда же<br>
-14）Вот вот начнётся<br>
-15）Звёздный дождь эры –<em>Звездный дождь 流星雨</em><br>
-16）Он случается всего лишь раз<br>
-17）В пятьдесят лет<br>
-18）Подходящее событие,чтобы возвести о начале мирной эпохи<br>
-19）Какая красота<br>
-20）Только из города почти ничего не видно<br>
-21）Иногда лучше промолчать<br>
-22）Я тут восхищаюсь,вообще-то<br>
-23）Ну что ж, тогда<br>
-24）Через пятьдесят лет<br>
-25）Я отведу вас в одно местичко,<br>
-26）где он будет куда красивее –<em>比较куда красивее</em><br>
-27）Так так ничего<br>
-28）Да,пожалуй<br>
-29）Сходим туда вместе<br>
-30）Ну что ж,мне пора<br>
-31）Чем теперь занимёшься<br>
-32）Продолжу собирать заклинания –<em>Заклинания 魔法</em><br>
-33）Следующие сто лет я собираю путешествовать<br>
-34）по срединным землем –<em>по срединным землем 中部</em><br>
-35）Порой,буду и сюда заглядывать<br>
-36）Не понимаю я,как эльфы видят мир<br>
-37）И не говори<br>
-38）Сколько интересно лет прожило<br>
-39）Вполне возможно,для нашей подруги<br>
-40）что полвека,что век,мгновения. –<em>Мгновение 一刹那</em></p>
+Ангел,так в нашей школе прозвали махиру сиину<br>
+Она красива,она умна<br>
+Всегда первая в параллели по оценкам<br>
+Хороша во всех видах спорта<br>
+при этом не задирает нос<br>
+Разумеется она популярна<br>
+Почти,все наши парни мечтают с ней встречаться<br>
+И меня всё это ясное дело не касается</p>
 ]]></content>
       <categories>
         <category>语言学习</category>
@@ -1213,74 +700,284 @@ U20というカテゴリーでしか体験してない<br>
 800m高中历代第二的後田築<br>
 頑張るぞ、おうおお<br>
 加油啊！<br>
-11分40秒</p>
+11分40秒<br>
+箱根王者の駒澤大学には<br>
+学生トップレベル5000M，13分台のランナーが三人<br>
+前回の七区を安原太陽の弟、海晴もその一人<br>
+兄が駒澤大学の陸上部で活躍している姿をみて<br>
+自分も、駒澤大学に入ってきたので<br>
+トラック、駅伝ともに国内トップレベルの選手になって<br>
+世界で戦える選手になるというのが目標で<br>
+これから、しっかり練習を積んで、結果をのこしていくぞ<br>
+という気持ちです<br>
+二十八年ぶりの箱根優勝へ<br>
+中央大学のルーキー<br>
+柴田大地を出迎えたのは、<br>
+京都洛南高校の先輩たち<br>
+頑張ります<br>
+よろしくお願いします<br>
+新生活の不安を気遣ってくれた<br>
+ここにも13分台ランナーが3人<br>
+笑顔のつわものたちが<br>
+箱根に弾みをつける<br>
+自分は、駅伝の1区がすごい好きなので<br>
+1区を走って、先頭でタスキを渡すっていうところ<br>
+チーム優勝に貢献するというところは4年間の目標です<br>
+頑張るぞ！C！<br>
+明治大学は完成したばかりの真新しい寮が<br>
+新入生を迎えた<br>
+綾和輝にとっては、初めての寮生活<br>
+限られた荷物には、大切なものが<br>
+この靴下なんですけど<br>
+これ多分、中学生の時から履いていて<br>
+穴も開いて、多分もう履けないんですけど、<br>
+ボロボロまで使い古したので、自分の中では<br>
+ちょっと思い出の品っていうか<br>
+三年連続で、箱根駅伝のシードを逃した明治<br>
+全国高校駅伝のエース区間で結果を残した綾は<br>
+頼もしいルーキーだ<br>
+自分の力でシード権獲得っていうか、<br>
+強豪校までにもっていきたいという風には<br>
+強く思っています<br>
+東京農業大学には<br>
+何者入りのスーパールーキーが入学した<br>
+十年ぶりの箱根で大根踊りがみたい<br>
+インターハイに日本選手トップの前田和摩<br>
+箱根の予選会を突破して、本会出場というのが<br>
+第一の目標です<br>
+特に今の4年生は、1年生の頃から、チームを<br>
+引っ張ってくださっていた方が多いんで<br>
+最後の年はチームで走ってもらいたいなと思うので<br>
+そこに少しでも力になれたらなぁと思っています<br>
+見据えるのは、それから羽ばたく世界<br>
+自分は、将来マラソンをやりたいと思っていて<br>
+オリンピックで大迫さんがすごくかっこいい走りをしていて<br>
+マラソンでオリンピックで入賞したいなぁと思っていいるんで<br>
+そこに向けて、4年間じっくりじっくりと練習できたらと<br>
+思っています<br>
+硬いっす、もっと笑ってください<br>
+はにかむ笑顔の東海大学、<br>
+注目ルーキーは<br>
+エース石原の母校を高校駅伝優勝導きた南坂柚汰<br>
+練習への取り組みっていうか、質がまったく違うので<br>
+まだ全然ついていけないんですけど<br>
+一年目しっかりとチャレンジして<br>
+石原さんに食らいついていけるように頑張りたいです<br>
+4月2日、東京六大学対校戦、早稲田大学の<br>
+ルーキーたちは<br>
+デビュー戦で、早く力を発揮<br>
+先ずは工藤慎作が、集団の前<br>
+積極的なレース運びを見せる<br>
+トップでフィニッシュしたのは<br>
+先輩、石塚<br>
+そしてルーキー山崎一吹が13分台を出し自己ベスト<br>
+工藤も自己ベストを更新した<br>
+初戦で、この伝統のあるユニフォームということで<br>
+とても気合いは入っていました<br>
+寮では同じ部屋の先輩、石塚が感じる工藤とは<br>
+リラックスしているっていうか<br>
+オンオフ切替えられている印象があるので<br>
+すごい大物になるっていうか<br>
+井川さんみたいなエースを担うような存在<br>
+になってくれると思っています<br>
+トラックシーズン開幕、<br>
+学生ランナーたちは<br>
+全国各地の競技会に挑み、スピードを磨く<br>
+4月8日熊本で行われた<br>
+金栗記念<br>
+駒澤の篠原が10000ｍメートルに出場<br>
+ロードでは快走連発<br>
+トラックでも断ち切ることができるのか<br>
+監督が退き、4月に総監督に就任したばかりの<br>
+大八木総監督が見守る<br>
+後半前にでて、ペースを上げる篠原<br>
+しかし、残り一周で実業団選手たちに離されてしまった<br>
+意地を見せる走りで、記録はに27分43秒<br>
+学生では、今季日本選手最高記録だ<br>
+負けました<br>
+怒られるんじゃないか<br>
+やっぱり怒ってます<br>
+ちょっと行ってきます<br>
+もう一つ最後のところまだ伸びしろあるけど<br>
+悔しいです<br>
+だけど27台はおめでとう<br>
+5000ｍには<br>
+早稲田の伊藤と山口が出場<br>
+後方で落ち着いてレースを進める二人<br>
+ラスト一周、一気に伊藤が前<br>
+最後は山口が伊藤を抜き<br>
+足がつったものの<br>
+どちらも13分30台好記録だ<br>
+自分の実力は確実に成長しているから<br>
+手ごたえは、今日のレースでつかんだので<br>
+勝ち切れるレースっていうに仕上げていくのは<br>
+次の、課題っていうか、目標かなと思っています<br>
+次の組では駒澤、佐藤圭汰が勝負をかける<br>
+終盤まで、東京国際の留学生にピッタリについていたが<br>
+最後は離され<br>
+好記録を出しても<br>
+納得いかない様子<br>
+体は余裕があったんですけど、全然<br>
+切り替えられなくて<br>
+練習では、切り替える練習はやっているんですけど<br>
+その、試合で発揮するのが全然できないっていうのは<br>
+ちょっと、実力差と思っています<br>
+学生のオリンピックワールド<br>
+ユニバーシティゲームズ選考がかかった<br>
+日本学生個人選手権<br>
+5000ｍには早稲田の伊藤や駒澤の安原、東海の石原<br>
+が出場<br>
+残り200ｍで安原がスパート<br>
+勝負をしかける<br>
+見事優勝を果たし、2位石原と共に日本代表に内定した<br>
+誕生日なんですよ、今日<br>
+持ってますね<br>
+持ってます<br>
+3000ｍ障害は順天堂村尾が逃げ切りをはかる<br>
+追いかけるのは前回大会を制した<br>
+早稲田の菖蒲<br>
+残り一周、菖蒲は村尾を捉え、先頭へ<br>
+大会連覇を達成し、世界大会の切符を掴んだ<br>
+将来的にはやっぱりシニアで世界っていうのを<br>
+狙っているので<br>
+今後、日本選手権だったり、そういう舞台で<br>
+戦える準備をしていかないといけないと思っています<br>
+10000ｍメートルは参加者たちは二人だけ<br>
+レースが動いたのは<br>
+残り4周、城西山本が得意ロングスパートをしかけ<br>
+引き離しにかかる<br>
+異例の一騎討ちを制し、世界への挑戦権を手にした</p>
 ]]></content>
       <categories>
         <category>语言学习</category>
       </categories>
   </entry>
   <entry>
-    <title>《1923》往事如酒</title>
-    <url>/2023/10/28/%E3%80%8A1923%E3%80%8B%E5%BE%80%E4%BA%8B%E5%A6%82%E9%85%92/</url>
-    <content><![CDATA[<p>一副史诗级宏大狂野的西部画卷<br>
-18世纪末，刚从英国殖民地脱离出来的美国领土大概只有不到今天领土的三分之一，与英国进行独立战争后的美国一片焦土，对生存空间的渴望促使美国人开始了这项“开疆拓土”的运动，史称西进运动。西进运动就是说<br>
-美国东部居民向西部地区迁移，听起来像搬个家一样平平无奇。但事实上整个西进运动都是伴随着血与泪进行的，无论是移民者内部的争夺厮杀还是被驱赶、屠杀的印第安人都付出了惨痛的代价。<br>
-整个西进运动持续了一个多世纪，直到一战结束后的1923年西进运动才结束。1923是一个终结，标志着西部开荒的结束，它的故事徘徊在秩序与混乱的边界。在这片浪漫与血腥并存的土地上，达顿家族绵延百年的家族史<br>
-伴随着左轮的枪响在列列西风中展开。<br>
-<img data-src="%E5%9B%BE%E4%B8%80.webp" alt="图一.webp"><br>
-故事从满头银发、拿着猎枪追杀一个受伤男人的卡拉·达顿开场，她是农场第二任女主人，雅各布·达顿的妻子。<br>
-她是达顿家族的定海神针，温柔智慧又兼具坚毅。<br>
-千钧一发之际她扣下扳机杀死了男人!<br>
-这时树林归于平静，卡拉握着枪朝天空发出的撕心裂肺而又愤怒的哀嚎。<br>
-<img data-src="%E5%9B%BE%E4%BA%8C.webp" alt="图二.webp"><br>
-编剧并没有立刻向我们揭示背后发生了什么。</p>
-<p>直到第三集，大家才恍然大悟，达顿家族惨遭埋伏受到重创，死伤惨重。<br>
-即使面对这些，身板瘦弱的卡拉也绝不在人前流露半点哀伤。</p>
-<p>面对敌人她眼神透出的坚狠劲，更是让我们看到，她本身就如这片土地一样，强韧而充满魅力</p>
-<p>1923年。</p>
-<p>此时的农场属于雅各布·达顿，卡拉的丈夫。</p>
-<p>他是衍生剧《1883》年里詹姆斯·达顿的弟弟，詹姆斯死后，他收到詹姆斯的妻子玛格丽特的求助信，便和卡拉举家迁到这片荒野。<br>
-第二年冬天他抵达的时候，玛格丽特已经被冻死，只留下两个快被寒冷和饥饿结束生命的儿子——约翰一世和斯宾塞。</p>
-<p>1923年，是雅各布来到这片土地的30年后。<br>
-这一年，一战刚刚结束不久，随着禁酒令的兴起，大萧条时代悄然来临。同时，灾情遍布各州，草场面临大面积干旱，牛群因蝗灾感染疫病死亡。跟随镜头，画外音是衍生剧《1883》里艾尔莎·达顿平静的声音：“他（雅各布）视两个孩子如己出，继承我父亲的梦想在这里建立一个帝国，然而，帝国崩溃了。”</p>
-<p>这一年，一战刚刚结束不久，随着禁酒令的兴起，大萧条时代悄然来临。<br>
-<img data-src="%E5%9B%BE%E4%B8%89.webp" alt="图三.webp"><br>
-同时，灾情遍布各州，草场面临大面积干旱，牛群因蝗灾感染疫病死亡。<br>
-“他（雅各布）视两个孩子如己出，继承我父亲的梦想在这里建立一个帝国，然而，帝国崩溃了。<br>
-这样越是平静像是诉说别人不幸的语气，反而越显得情形的凶险与不容乐观。</p>
-<p>残酷的环境与争夺就这样直白地向达顿家族袭来，连喘息的时间都没有。<br>
-苏格兰牧羊人班纳破坏规矩放任自己羊群在别人的土地上吃草，结果羊被杀了，他聚集一帮牧羊人向畜牧协会的人讨要说法。</p>
-<p>雅各布·达顿作为畜牧协会委员，态度非常鲜明。</p>
-<p>他认为破坏别人家的草地，就等于间接杀害别人家的牛。<br>
-偷草对于农场主而言，就相当于偷别人家的金子，这是不可原谅的。</p>
-<p>因此他明确表示，坏了规矩导致羊群被杀只能怪班纳自己，所以他不会对杀羊的人追究任何责任。<br>
-<img data-src="%E5%9B%BE%E5%9B%9B.webp" alt="图四.webp"><br>
-并建议班纳，如果自己的土地养不活那么多羊，就卖掉一些。<br>
-因此，班纳和达顿家族结下了梁子。</p>
-<p>由于气不过、心不甘，他带着牧羊人赶着羊直接来雅各布的地盘上吃草。</p>
-<p>这时候现代文明还处于萌芽阶段，法律与规则尚未完善。</p>
-<p>面对欺负到自己头上的牧羊人，雅各布给予他们西部的传统——绞刑伺候。<br>
-班纳也不是善茬，他死里逃生后立马召集一帮人打算狙杀达顿家族…<br>
-《1923》有三条线，达顿家族的黄石牧场只是其中一条线，第二条线聚焦在雅各布的侄子斯宾塞身上。</p>
-<p>他经历过一战，心灵受到战争的内创，此时他在非洲内毕罗成为职业猎人，为雇主猎杀狮子和猎豹。<br>
-他邂逅了未来的妻子亚历山德拉。<br>
-<img data-src="%E5%9B%BE%E4%BA%94.webp" alt="图五.webp"><br>
-光看外表，亚历山德拉是那种拥有诱人的身材的芭比美人，像一个传统西部片中经常出现的美人花瓶。</p>
-<p>实际上，她却集俏皮果敢、勇敢浪漫于一身，是那种做出决定后，承担此选择带来一切后果的人。<br>
-虽然她和斯宾塞从相遇后，就时时刻刻处在命悬一线的边缘<br>
-第三条线，是当时的神父与修女对蒙大拿原住孩子的殴打虐待，目的是想达成对土著人们的强制同化。</p>
-<p>特奥娜，是被关在修道院的印第安女学生。她的父亲是雅各布绞刑班纳时，将班纳的羊赠送给印第安人的首领。</p>
-<p>特奥娜在修道院时，经常受到羞辱、毒打以及各种精神摧残。</p>
-<p>但她骨子里的反叛精神，使得她在面对修女的责难时，直接拳脚相向。她意识到要是一直呆在这里会死，便决定逃离这里。</p>
-<p>晚上，她用圣经砸死了经常虐待自己的修女，并用刀捅死了另外一个。<br>
-西部片一直吸引着我们，因为那里拥有茫茫草原，那里狂野空旷，那里有着最戏剧性、最自由的边界！<br>
-<img data-src="%E5%9B%BE%E5%85%AD.webp" alt="图六.webp"><br>
-我们也相信，也只有这样壮美严酷的环境与背景，才配得上一片荒蛮中秩序的艰难形成。<br>
-人类的恩怨情仇可以追溯、可以报复，但在残酷的自然面前，你只能接受！就像《多情剑客无情剑》中，上来就是“冷风如刀，以大地为砧板，以众生为鱼肉。”<br>
-只不过即便如此，我们爱达顿家族，可不就是爱他们爱他们的狂野浪漫；爱他们的桀骜不驯；爱他们一代一代血脉里流淌的一意孤行的不屈与反抗嘛…</p>
+    <title>【学习用】芙莉莲片段2（RU/JP/DE/CH/EN）</title>
+    <url>/2023/11/29/learning3/</url>
+    <content><![CDATA[<p><img data-src="fulilian.webp" alt="fulilian.webp"><br>
+片段2（RU/JP/DE/CH/EN）</p>
+<span id="more"></span>
+<h1>一、JP：</h1>
+<h2 id="1、原文">1、原文</h2>
+<p>0）まったく、くそみたいな思い出しかないな<br>
+真是的，只有一些糟糕的回忆<br>
+1）でも楽しかったよ<br>
+不过我很开心<br>
+2）僕は君たちと冒険ができて、よかった<br>
+能够同你们一起旅行冒险<br>
+3）そうですね<br>
+赞同<br>
+4）短い間だけどね<br>
+只不过是很短的时间<br>
+5）短い？<br>
+很短？<br>
+6）何を言っているんだ<br>
+你在说什么<br>
+7）十年だぞ<br>
+这可是十年啊<br>
+8）ハイターをみろう<br>
+看看Helter<br>
+9）すっかりおじさんになってしまったぞ<br>
+都已经变成大叔了<br>
+10）失礼ですよ<br>
+你真失礼<br>
+11）元からでしょう<br>
+不是原本就这样吗<br>
+12）失礼ですよ<br>
+你们真失礼<br>
+13）そろそろか<br>
+准备开始了<br>
+14）エーラ流星でしたっけ<br>
+貌似是叫做Era流星雨啊<br>
+15）五十年に一度の流星群<br>
+五十年一次的流星雨<br>
+16）平和な時代の幕開けには、ちょうどいいな<br>
+作为一个和平时代的开始应该是不错的时间<br>
+17）きれいだな<br>
+真漂亮<br>
+18）街中だと、見えにくいね<br>
+在城里，真难看见<br>
+19）人が感動しているんだ、空気を読みたまえ<br>
+我们都在感动中，你读下气氛吧<br>
+20）じゃあ、次<br>
+那下次<br>
+21）五十年後、もっときれいに見える場所が知っているから、<br>
+五十年后，我知道一个能够看到更漂亮的流星雨的地方<br>
+22）案内するよ<br>
+我带你们去看<br>
+23）何？<br>
+怎么了？<br>
+24）いや、なんでもない<br>
+不，什么也没有<br>
+25）そうだなぁ<br>
+让我想想<br>
+26）みんなで見よう<br>
+一起去看吧<br>
+27）じゃあ、私はここで<br>
+那我就到这里<br>
+28）これからどうするつもりだ？<br>
+你接下来要去干什么<br>
+29）魔法の収集を続けるよ<br>
+我会继续收集魔法<br>
+30）百年くらいは、中央諸国を巡る予定だから、<br>
+这一百年我都打算环游中央的几个国家<br>
+31）まあ、たまには、顔を見せるよ<br>
+嗯，偶尔我会过来看看的<br>
+32）エルフの感覚は、わかりませんね<br>
+我是真无法理解精灵的时间概念<br>
+33）まったく、いつから生きているのやら<br>
+真是，她究竟活多久了<br>
+34）五十年も、百年も、彼女にとって、<br>
+五十年还是百年，对于她来说<br>
+35）些細なものかもしれませんね<br>
+可能只是短暂的时间</p>
+<h1>二、RU：</h1>
+<h2 id="2、原文">2、原文</h2>
+<p>0）Ей богу,<br>
+1）Что ни вспоминание,то кошмар<br>
+2）Но с вами было весело<br>
+3）Я счастлив, что мы смогли пройти этот путь вместе<br>
+4）Поддерживаю<br>
+5）Жаль,путешествие было короткое<br>
+6）В смысле,короткое –<em>Короткое 短暂的</em> –<em>длинный 漫长的</em><br>
+7）Ты что тут такое говоришь<br>
+8）Десять лет прошло<br>
+9）На гайтера посмотри<br>
+10）Он уже почти старикан<br>
+11）Обижаешь,гиммель –<em>Обижать欺负，挖苦</em><br>
+12）Так он всегда таким был<br>
+13）И ты туда же<br>
+14）Вот вот начнётся<br>
+15）Звёздный дождь эры –<em>Звездный дождь 流星雨</em><br>
+16）Он случается всего лишь раз<br>
+17）В пятьдесят лет<br>
+18）Подходящее событие,чтобы возвести о начале мирной эпохи<br>
+19）Какая красота<br>
+20）Только из города почти ничего не видно<br>
+21）Иногда лучше промолчать<br>
+22）Я тут восхищаюсь,вообще-то<br>
+23）Ну что ж, тогда<br>
+24）Через пятьдесят лет<br>
+25）Я отведу вас в одно местичко,<br>
+26）где он будет куда красивее –<em>比较куда красивее</em><br>
+27）Так так ничего<br>
+28）Да,пожалуй<br>
+29）Сходим туда вместе<br>
+30）Ну что ж,мне пора<br>
+31）Чем теперь занимёшься<br>
+32）Продолжу собирать заклинания –<em>Заклинания 魔法</em><br>
+33）Следующие сто лет я собираю путешествовать<br>
+34）по срединным землем –<em>по срединным землем 中部</em><br>
+35）Порой,буду и сюда заглядывать<br>
+36）Не понимаю я,как эльфы видят мир<br>
+37）И не говори<br>
+38）Сколько интересно лет прожило<br>
+39）Вполне возможно,для нашей подруги<br>
+40）что полвека,что век,мгновения. –<em>Мгновение 一刹那</em></p>
 ]]></content>
       <categories>
-        <category>电影</category>
+        <category>语言学习</category>
       </categories>
   </entry>
   <entry>
@@ -1386,67 +1083,253 @@ outie不心慈手软，innie也不会乖乖就范。为<br>
       </categories>
   </entry>
   <entry>
-    <title>【Python/数模】topsis综合评价</title>
-    <url>/2023/10/11/%E3%80%90Python-%E6%95%B0%E6%A8%A1%E3%80%91topsis%E7%BB%BC%E5%90%88%E8%AF%84%E4%BB%B7/</url>
-    <content><![CDATA[<p>一、前言<br>
-二维数据分析时往往会需要用到综合评价分析，其中TOPSIS就是一种<br>
-比较常用的分析方法<br>
-TOPSIS全名（Technique for Order Preference by Similarity to Ideal Solution）<br>
-逼近理想解排序法，理想解一般认为是数据（每列）中最优的数值，topsis主要将<br>
-数值标准化，通过计算与理想解的距离，得出综合评价，取得排名</p>
+    <title>【学习用/分享】片段2（RU/JP/DE/CH/EN）</title>
+    <url>/2023/11/28/learning2/</url>
+    <content><![CDATA[<p><img data-src="le1.webp" alt="le1.webp"><br>
+片段2（RU/JP/DE/CH/EN）</p>
 <span id="more"></span>
-<script src="/js/mathjax_post.js"></script>
-<p>二、正文<br>
-废话不多说，直接上代码<br>
-TOPSIS主函数如下</p>
-<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line">def topsis(data, weight):</span><br><span class="line">    data <span class="operator">=</span> data <span class="operator">/</span> np.<span class="built_in">sqrt</span>((data <span class="operator">*</span><span class="operator">*</span> <span class="number">2</span>).<span class="built_in">sum</span>()) </span><br><span class="line">	#将所有数据标准化，每个数据除以每行数据的平方和</span><br><span class="line">    Z <span class="operator">=</span> pd.DataFrame([data.<span class="built_in">min</span>(), data.<span class="built_in">max</span>()], index<span class="operator">=</span>[<span class="string">&#x27;负理想解&#x27;</span>, <span class="string">&#x27;正理想解&#x27;</span>]) </span><br><span class="line">	#最优和最劣为正负理想解</span><br><span class="line">    weight <span class="operator">=</span> np.array(weight)</span><br><span class="line">    <span class="keyword">Result</span> <span class="operator">=</span> data.copy()</span><br><span class="line">    <span class="keyword">Result</span>[<span class="string">&#x27;正理想解&#x27;</span>] <span class="operator">=</span> np.<span class="built_in">sqrt</span>(((data <span class="operator">-</span> Z.loc[<span class="string">&#x27;正理想解&#x27;</span>]) <span class="operator">*</span><span class="operator">*</span> <span class="number">2</span> <span class="operator">*</span> weight).<span class="built_in">sum</span>(axis<span class="operator">=</span><span class="number">1</span>)) </span><br><span class="line">	#计算整行与正理想解的距离的总和乘以权重</span><br><span class="line">    <span class="keyword">Result</span>[<span class="string">&#x27;负理想解&#x27;</span>] <span class="operator">=</span> np.<span class="built_in">sqrt</span>(((data <span class="operator">-</span> Z.loc[<span class="string">&#x27;负理想解&#x27;</span>]) <span class="operator">*</span><span class="operator">*</span> <span class="number">2</span> <span class="operator">*</span> weight).<span class="built_in">sum</span>(axis<span class="operator">=</span><span class="number">1</span>))</span><br><span class="line">	#计算整行与负理想解的距离的总和乘以权重</span><br><span class="line">    <span class="keyword">Result</span>[<span class="string">&#x27;综合得分指数&#x27;</span>] <span class="operator">=</span> <span class="keyword">Result</span>[<span class="string">&#x27;负理想解&#x27;</span>] <span class="operator">/</span> (<span class="keyword">Result</span>[<span class="string">&#x27;负理想解&#x27;</span>] <span class="operator">+</span> <span class="keyword">Result</span>[<span class="string">&#x27;正理想解&#x27;</span>])</span><br><span class="line">	#得出综合得分</span><br><span class="line">    <span class="keyword">Result</span>[<span class="string">&#x27;排序&#x27;</span>] <span class="operator">=</span> Result.<span class="built_in">rank</span>(ascending<span class="operator">=</span><span class="literal">False</span>)[<span class="string">&#x27;综合得分指数&#x27;</span>] </span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">Result</span>, Z, weight</span><br></pre></td></tr></table></figure>
-<p>–10月15号更新<br>
-上述函数少了一部正向化处理的步骤，也就是对数据的标准进行处理，<br>
-极大型指标：越大越好，这是我们想要的<br>
-下面是需要转化的指标<br>
-极小型指标：越小越好，如成本量数据，<br>
-处理方式：</p>
-<p>
-$ \hat{x} _{i} = max_{i} -x _{i} \\  \hat{x} =\frac{1}{x} $
-</p>
-<p>中间指标：越接近中间的完美值越好，如PH值，误差等，<br>
-处理方式：设$x_{best}$为最佳数值</p>
-<p>
-$ \hat{x} _{i} =1- \frac{x _{i}- x _{best} } { max_{i} \left \{ |x _{i}-x _{best}| \right \}  } $
-</p>
-<p>区间型指标：在区间内就是最佳<br>
-处理方式：设 [a,b]为最佳值的区间</p>
-<p>设：
-$M= max \left \{ a-min \left \{ x_{i}  \right \} , max\left \{ x_{i} -b \right \} \right \} $
-</p>
-<p>
-$ \quad \quad \quad 1- \frac{a-x _{i}} { M} \quad,\quad x _{i} < a \\ \hat{x} _{i}= \quad 1 \quad,\quad a < x _{i} < b \\ \quad \quad \quad 1- \frac{x_{i}-b}{M} \quad,\quad x _{i} > a $
-</p>
-<p>标准化：</p>
-<p>
-$ x_{ij} ^{'} = \frac{x_{ij}}{\sqrt{\sum ^{n} _{i=1} x _{ij} ^{2} }  }
-$
-</p>
-<p>大概数据要长这样,每行是一个地方的各项指标，由于无法通过这堆数据，<br>
-直接获得到哪个地方更好，因此需要通过topsis进行综合评价</p>
-<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line">data = pd<span class="selector-class">.DataFrame</span>(</span><br><span class="line">        &#123;<span class="string">&#x27;旅游增量&#x27;</span>: <span class="selector-attr">[5,2,3,3,6]</span>,</span><br><span class="line">		 <span class="string">&#x27;经济增量&#x27;</span>: <span class="selector-attr">[1,4,6,2,5]</span>,</span><br><span class="line">		 <span class="string">&#x27;旅客评价&#x27;</span>: <span class="selector-attr">[5,1,4,6,7]</span>,</span><br><span class="line">         <span class="string">&#x27;政府投资&#x27;</span>: <span class="selector-attr">[5,7,1,5,6]</span>,</span><br><span class="line">		 <span class="string">&#x27;其他扶持&#x27;</span>: <span class="selector-attr">[6,5,7,2,1]</span>&#125;,</span><br><span class="line">	index=<span class="selector-attr">[<span class="string">&#x27;地方&#x27;</span> + i for i in list(<span class="string">&#x27;ABCDE&#x27;</span>)]</span></span><br><span class="line">)</span><br></pre></td></tr></table></figure>
-<p>之后是权重设置，假设Weight平分那么应该是</p>
-<figure class="highlight fortran"><table><tr><td class="code"><pre><span class="line">Result=topsis(<span class="keyword">data</span>=<span class="keyword">data</span>,</span><br><span class="line">	weight=[<span class="number">1</span>/<span class="built_in">int</span>(len(<span class="keyword">data</span>.columns))]*<span class="built_in">int</span>(len(<span class="keyword">data</span>.columns))</span><br><span class="line">	)</span><br></pre></td></tr></table></figure>
-<p>其实权重分析也是一项重要的数据分析，这个地方就不多介绍了<br>
-得到了数据就是输出了</p>
-<figure class="highlight routeros"><table><tr><td class="code"><pre><span class="line">def output(data,path,weight):</span><br><span class="line">	<span class="keyword">if</span>(os.path.isfile(path)):</span><br><span class="line">		os.<span class="built_in">remove</span>(path)</span><br><span class="line">	<span class="attribute">out1</span>=textput(data=data,</span><br><span class="line">			<span class="attribute">weight</span>=weight,</span><br><span class="line">			<span class="attribute">name</span>=<span class="string">&quot;自定义权重&quot;</span>)</span><br><span class="line">	with pd.ExcelWriter(path) as writer:</span><br><span class="line">		data.to_excel(writer, <span class="attribute">sheet_name</span>=<span class="string">&quot;原始数据&quot;</span>, <span class="attribute">index</span>=<span class="literal">True</span>)</span><br><span class="line">		out1.to_excel(writer, <span class="attribute">sheet_name</span>=<span class="string">&quot;自定义权重&quot;</span>, <span class="attribute">index</span>=<span class="literal">True</span>)</span><br><span class="line">		</span><br><span class="line">def textput(data,weight,name):</span><br><span class="line">	out = topsis(data, weight)[0]</span><br><span class="line">	weight = list(weight)</span><br><span class="line">	<span class="keyword">for</span> i <span class="keyword">in</span> range(len(out.columns) - len(weight)):</span><br><span class="line">		weight.append(<span class="string">&#x27;/&#x27;</span>)</span><br><span class="line">	out.loc[name] = weight </span><br><span class="line">	#加一行weight数据</span><br><span class="line">	return out</span><br><span class="line">output(data,</span><br><span class="line">	   <span class="attribute">path</span>=<span class="string">&#x27;Topsis评价.xlsx&#x27;</span>,</span><br><span class="line">	   weight=[0.2, 0.3, 0.3, 0.1,0.1]) #权重设置</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p><img data-src="top1.webp" alt="1"><br>
-输出结果如上</p>
-<p>三、然而这样看得比较空，<br>
-所以可以加上一个分析图，雷达图比较适合<br>
-雷达图的绘制比较复杂，代码如下</p>
-<figure class="highlight maxima"><table><tr><td class="code"><pre><span class="line">def picput(choice,data,name,weight):</span><br><span class="line">	leng = len(data.<span class="built_in">columns</span>)</span><br><span class="line">	<span class="keyword">if</span> choice != &#x27;A&#x27;:</span><br><span class="line">		# choice用来判断是否为原始数据</span><br><span class="line">		result = topsis(data,weight)[<span class="number">0</span>]</span><br><span class="line">		list1 = list(<span class="built_in">range</span>(leng))</span><br><span class="line">		list1.<span class="built_in">append</span>(leng + <span class="number">2</span>)</span><br><span class="line">		</span><br><span class="line">	<span class="keyword">else</span>:</span><br><span class="line">		result=data</span><br><span class="line">		list1 = list(<span class="built_in">range</span>(leng))</span><br><span class="line">	<span class="built_in">labels</span> = result.<span class="built_in">columns</span>[list1]</span><br><span class="line">	#设置<span class="built_in">label</span>元素</span><br><span class="line">	<span class="built_in">length</span> = len(<span class="built_in">labels</span>)</span><br><span class="line">	#angle角元素</span><br><span class="line">	angles = <span class="built_in">np</span>.linspace(<span class="number">0</span>, <span class="number">2</span> * <span class="built_in">np</span>.pi, <span class="built_in">length</span>, endpoint=False)</span><br><span class="line">	angles = <span class="built_in">np</span>.concatenate((angles, [angles[<span class="number">0</span>]]))</span><br><span class="line">	<span class="built_in">labels</span> = <span class="built_in">np</span>.concatenate((<span class="built_in">labels</span>, [<span class="built_in">labels</span>[<span class="number">0</span>]]))</span><br><span class="line">	fig = plt.figure()</span><br><span class="line">	<span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(len(list(result.index))):</span><br><span class="line">		temp = result.iloc[i, list1]</span><br><span class="line">		temp = <span class="built_in">np</span>.concatenate((temp, [temp[<span class="number">0</span>]]))</span><br><span class="line">		#设置数据</span><br><span class="line">		plt.<span class="built_in">polar</span>(angles, temp, <span class="built_in">label</span>=result.index[i])</span><br><span class="line">	plt.thetagrids(angles * <span class="number">180</span> / <span class="built_in">np</span>.pi, <span class="built_in">labels</span>)</span><br><span class="line">	plt.<span class="built_in">legend</span>(bbox_to_anchor=(<span class="number">1.2</span>, <span class="number">1</span>))</span><br><span class="line">	plt.<span class="built_in">title</span>(name, y=<span class="number">1.2</span>)</span><br><span class="line">	<span class="built_in">return</span> fig</span><br></pre></td></tr></table></figure>
-<p>return回图形后，再写一个图形导出函数，<br>
-将图形导出到excel里</p>
-<figure class="highlight routeros"><table><tr><td class="code"><pre><span class="line">def resultpic1(data,path,weight):</span><br><span class="line">	<span class="attribute">fig0</span>=picput(choice=&#x27;A&#x27;,</span><br><span class="line">				<span class="attribute">data</span>=data,</span><br><span class="line">				<span class="attribute">name</span>=<span class="string">&quot;原始数据&quot;</span>,</span><br><span class="line">				<span class="attribute">weight</span>=None,</span><br><span class="line">				)</span><br><span class="line">	fig1 = picput(<span class="attribute">choice</span>=<span class="string">&#x27;B&#x27;</span>,</span><br><span class="line">				  <span class="attribute">data</span>=data,</span><br><span class="line">				  <span class="attribute">name</span>=<span class="string">&quot;自定义权重Topsis评价&quot;</span>,</span><br><span class="line">				  <span class="attribute">weight</span>=weight,</span><br><span class="line">				  )</span><br><span class="line">	app = xw.App(<span class="attribute">visible</span>=<span class="literal">False</span>)</span><br><span class="line">	wb = app.books.open(path)</span><br><span class="line">	ws0 = wb.sheets[0]</span><br><span class="line">	ws1 = wb.sheets[1]</span><br><span class="line">	ws0.pictures.<span class="built_in">add</span>(fig0,</span><br><span class="line">					 <span class="attribute">left</span>=ws0.range(&#x27;K7&#x27;).left</span><br><span class="line">					 )</span><br><span class="line">	ws1.pictures.<span class="built_in">add</span>(fig1,</span><br><span class="line">					 <span class="attribute">left</span>=ws1.range(&#x27;K7&#x27;).left</span><br><span class="line">					 )</span><br><span class="line">	wb.save(path)</span><br><span class="line">	wb.close()</span><br><span class="line">	app.quit()</span><br></pre></td></tr></table></figure>
-<p><img data-src="top2.webp" alt="1"><br>
-~~完结<br>
-<img data-src="1010D_173_1.webp" alt="1"></p>
+<h1>一、RU：</h1>
+<h2 id="1">1</h2>
+<p>давайте я возму<br>
+спасибо<br>
+Простите<br>
+Извините<br>
+Простите<br>
+Мама что ты тут делаешь<br>
+Скоро начало,а его еще нет<br>
+Нэн,лорд ричард не приехал<br>
+Всё хорошо,иди вниз<br>
+Да Что ж тут хорошего<br>
+Кончита одета<br>
+Да вполне,иди вниз<br>
+Я не числа главных героинь<br>
+Я легко уступала эту роль джинни<br>
+Он приедет<br>
+моей сестре,и подругам<br>
+уверена он приедет<br>
+Девочек приучают думать что если история не про любовь,то это трагедия<br>
+А мне неинтересно<br>
+Если нет<br>
+участвовать ни в том ни в другом<br>
+Все знали,что у моей лучшей подруги настоящая любовь.<br>
+Стремительный роман с красивым английским лордом<br>
+Завершил громкой,пышной свадбой<br>
+Все,кто ещё не завидовал кончите<br>
+Теперь точно будет<br>
+Но кто позавидует невеста,чей жених не явился на свадьбу</p>
+<h2 id="2">2</h2>
+<p>Есть что нибудь<br>
+Нет,внизу<br>
+Гости почти ничего не заметили,и он приедет<br>
+Сегодня должен быть лучший день,тут собрался   весь свет.<br>
+Боже я его ненавижу<br>
+Не представляешь как я его презираю<br>
+Здорово я люблю,конечно люблю<br>
+Просто я должна было понять<br>
+Вчера вечером,он был так отстранён<br>
+Ричард,всегда ряд ,вот здесь<br>
+Стоило ему сказать,да<br>
+Но я не хочу женить из чувства долга<br>
+Только потому что он меня обожает<br>
+Да<br>
+Мне конец<br>
+Где он<br>
+Почти все здесь<br>
+Всё будет хорошо<br>
+Давай начнём одеваться<br>
+Он вот вот будет<br>
+Но я не знаю<br>
+Что ж делать<br>
+Я достану<br>
+Нэн не груби<br>
+Ты чего<br>
+Остановись что ты творишь<br>
+Нэн ты чокнутая<br>
+Я достану<br>
+смотрите</p>
+<h1>二、EN</h1>
+<h2 id="1-2">1</h2>
+<p>I’ll grab that<br>
+我会拿的<br>
+Excuse me<br>
+借过<br>
+Sorry<br>
+对不起<br>
+Excuse me<br>
+借过<br>
+Mother,Why’re you sneaking around<br>
+妈妈，你在这到处走干什么啊<br>
+It’s starting soon,and he’s not here<br>
+马上就开始了，但他还没有来<br>
+Nan,Lord Richard’s not here.<br>
+南，理查德爵士还没有来<br>
+It’s fine,go downstairs.<br>
+一切会好的，快下楼<br>
+Well.how can it ever be fine?<br>
+怎么会好呢？<br>
+Is Conchita dressed?<br>
+肯齐塔穿好礼服了嘛？<br>
+Yes,quite dressed.Go downstairs.<br>
+是的，已经穿好了。快到楼下<br>
+I was never supposed to be the main character<br>
+我从来没有想要当主角<br>
+Always more than glad to let Jinny,my sister<br>
+我一直更乐意让给吉尼，我的姐妹<br>
+And my friends compete for all of that<br>
+还有我的朋友都在争夺<br>
+Girls are taught to believe that if a story ist not a love story<br>
+每个女孩从小就被教诲，一个故事没有爱<br>
+It’s a tragedy<br>
+那就是悲剧<br>
+And I had no interest at all.<br>
+而我并不感兴趣<br>
+And in being involved with either one of those.<br>
+我并不想参与其中<br>
+the whole world knew that my best friend’s was a love story.<br>
+现在全世界都知道我最好的朋友拥有一个爱情故事<br>
+A whirlwind romance with a handsome english lord<br>
+与一个英俊英国爵士闪婚<br>
+Can only be followed by a huge society wedding<br>
+接下来就会举办一场盛大的婚礼<br>
+To make entirely certain<br>
+为保证<br>
+anyone not envious of conchita yet<br>
+现在还没有嫉妒肯齐塔<br>
+soon would be<br>
+之后肯定会<br>
+But nobody’s jealous of a bride whose<br>
+groom has failed to show<br>
+但不会有人会嫉妒一个没有新郎前来婚礼现场的新娘</p>
+<h2 id="2-2">2</h2>
+<p>Anything<br>
+有什么了吗<br>
+Nothing.And downstairs<br>
+什么也没有，楼下呢<br>
+Well the guests have barely noticed<br>
+好，现在客人还都没有发现他没来<br>
+But today was supposed to be the beautiful day<br>
+但是今天应该是个好日子<br>
+And the whole world is here<br>
+全世界的人都来了<br>
+Gosh,I hate him<br>
+我的天，我开始讨厌他了<br>
+You have no idea how much I loathe him<br>
+你是不真不知道我有多恨他<br>
+Of course,I love him.i know I love him<br>
+当然我喜欢他，我知道<br>
+I just,I should know<br>
+我只是，我应该<br>
+Last night he just seemed so much further away<br>
+昨晚他似乎感觉离我远去了<br>
+Richard is never further away,than just right here<br>
+理查德他不会离开的，他会在旁边<br>
+Oh nan<br>
+I should told him,shouldn’t I<br>
+我应该告诉他吗<br>
+But I don’t want him to marry,because he has to,I want to marry me because he adores me<br>
+但我不想他结婚，但是他必须<br>
+我想他娶走我因为他珍爱我<br>
+Yes<br>
+是的<br>
+i’m ruined<br>
+我很混乱<br>
+Where is he<br>
+他在哪<br>
+Most of the guests are already on their<br>
+客人都差不多来齐了<br>
+it’ll be fine<br>
+一切会没事的<br>
+What if we just started putting on the dress.and then maybe he’ll get here any second<br>
+要不我们开始穿婚纱吧，可能他就会出现的<br>
+What are we gonna do<br>
+我们该怎么办<br>
+i’m gonna go get it<br>
+我要下去取它<br>
+No nan you idiot what are you doing<br>
+不，南，你真傻，你在干什么<br>
+Stop what are you so<br>
+停下，你在干什么啊<br>
+you’re insane<br>
+你真疯了</p>
+]]></content>
+      <categories>
+        <category>语言学习</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>《1923》往事如酒</title>
+    <url>/2023/10/28/%E3%80%8A1923%E3%80%8B%E5%BE%80%E4%BA%8B%E5%A6%82%E9%85%92/</url>
+    <content><![CDATA[<p>一副史诗级宏大狂野的西部画卷<br>
+18世纪末，刚从英国殖民地脱离出来的美国领土大概只有不到今天领土的三分之一，与英国进行独立战争后的美国一片焦土，对生存空间的渴望促使美国人开始了这项“开疆拓土”的运动，史称西进运动。西进运动就是说<br>
+美国东部居民向西部地区迁移，听起来像搬个家一样平平无奇。但事实上整个西进运动都是伴随着血与泪进行的，无论是移民者内部的争夺厮杀还是被驱赶、屠杀的印第安人都付出了惨痛的代价。<br>
+整个西进运动持续了一个多世纪，直到一战结束后的1923年西进运动才结束。1923是一个终结，标志着西部开荒的结束，它的故事徘徊在秩序与混乱的边界。在这片浪漫与血腥并存的土地上，达顿家族绵延百年的家族史<br>
+伴随着左轮的枪响在列列西风中展开。<br>
+<img data-src="%E5%9B%BE%E4%B8%80.webp" alt="图一.webp"><br>
+故事从满头银发、拿着猎枪追杀一个受伤男人的卡拉·达顿开场，她是农场第二任女主人，雅各布·达顿的妻子。<br>
+她是达顿家族的定海神针，温柔智慧又兼具坚毅。<br>
+千钧一发之际她扣下扳机杀死了男人!<br>
+这时树林归于平静，卡拉握着枪朝天空发出的撕心裂肺而又愤怒的哀嚎。<br>
+<img data-src="%E5%9B%BE%E4%BA%8C.webp" alt="图二.webp"><br>
+编剧并没有立刻向我们揭示背后发生了什么。</p>
+<p>直到第三集，大家才恍然大悟，达顿家族惨遭埋伏受到重创，死伤惨重。<br>
+即使面对这些，身板瘦弱的卡拉也绝不在人前流露半点哀伤。</p>
+<p>面对敌人她眼神透出的坚狠劲，更是让我们看到，她本身就如这片土地一样，强韧而充满魅力</p>
+<p>1923年。</p>
+<p>此时的农场属于雅各布·达顿，卡拉的丈夫。</p>
+<p>他是衍生剧《1883》年里詹姆斯·达顿的弟弟，詹姆斯死后，他收到詹姆斯的妻子玛格丽特的求助信，便和卡拉举家迁到这片荒野。<br>
+第二年冬天他抵达的时候，玛格丽特已经被冻死，只留下两个快被寒冷和饥饿结束生命的儿子——约翰一世和斯宾塞。</p>
+<p>1923年，是雅各布来到这片土地的30年后。<br>
+这一年，一战刚刚结束不久，随着禁酒令的兴起，大萧条时代悄然来临。同时，灾情遍布各州，草场面临大面积干旱，牛群因蝗灾感染疫病死亡。跟随镜头，画外音是衍生剧《1883》里艾尔莎·达顿平静的声音：“他（雅各布）视两个孩子如己出，继承我父亲的梦想在这里建立一个帝国，然而，帝国崩溃了。”</p>
+<p>这一年，一战刚刚结束不久，随着禁酒令的兴起，大萧条时代悄然来临。<br>
+<img data-src="%E5%9B%BE%E4%B8%89.webp" alt="图三.webp"><br>
+同时，灾情遍布各州，草场面临大面积干旱，牛群因蝗灾感染疫病死亡。<br>
+“他（雅各布）视两个孩子如己出，继承我父亲的梦想在这里建立一个帝国，然而，帝国崩溃了。<br>
+这样越是平静像是诉说别人不幸的语气，反而越显得情形的凶险与不容乐观。</p>
+<p>残酷的环境与争夺就这样直白地向达顿家族袭来，连喘息的时间都没有。<br>
+苏格兰牧羊人班纳破坏规矩放任自己羊群在别人的土地上吃草，结果羊被杀了，他聚集一帮牧羊人向畜牧协会的人讨要说法。</p>
+<p>雅各布·达顿作为畜牧协会委员，态度非常鲜明。</p>
+<p>他认为破坏别人家的草地，就等于间接杀害别人家的牛。<br>
+偷草对于农场主而言，就相当于偷别人家的金子，这是不可原谅的。</p>
+<p>因此他明确表示，坏了规矩导致羊群被杀只能怪班纳自己，所以他不会对杀羊的人追究任何责任。<br>
+<img data-src="%E5%9B%BE%E5%9B%9B.webp" alt="图四.webp"><br>
+并建议班纳，如果自己的土地养不活那么多羊，就卖掉一些。<br>
+因此，班纳和达顿家族结下了梁子。</p>
+<p>由于气不过、心不甘，他带着牧羊人赶着羊直接来雅各布的地盘上吃草。</p>
+<p>这时候现代文明还处于萌芽阶段，法律与规则尚未完善。</p>
+<p>面对欺负到自己头上的牧羊人，雅各布给予他们西部的传统——绞刑伺候。<br>
+班纳也不是善茬，他死里逃生后立马召集一帮人打算狙杀达顿家族…<br>
+《1923》有三条线，达顿家族的黄石牧场只是其中一条线，第二条线聚焦在雅各布的侄子斯宾塞身上。</p>
+<p>他经历过一战，心灵受到战争的内创，此时他在非洲内毕罗成为职业猎人，为雇主猎杀狮子和猎豹。<br>
+他邂逅了未来的妻子亚历山德拉。<br>
+<img data-src="%E5%9B%BE%E4%BA%94.webp" alt="图五.webp"><br>
+光看外表，亚历山德拉是那种拥有诱人的身材的芭比美人，像一个传统西部片中经常出现的美人花瓶。</p>
+<p>实际上，她却集俏皮果敢、勇敢浪漫于一身，是那种做出决定后，承担此选择带来一切后果的人。<br>
+虽然她和斯宾塞从相遇后，就时时刻刻处在命悬一线的边缘<br>
+第三条线，是当时的神父与修女对蒙大拿原住孩子的殴打虐待，目的是想达成对土著人们的强制同化。</p>
+<p>特奥娜，是被关在修道院的印第安女学生。她的父亲是雅各布绞刑班纳时，将班纳的羊赠送给印第安人的首领。</p>
+<p>特奥娜在修道院时，经常受到羞辱、毒打以及各种精神摧残。</p>
+<p>但她骨子里的反叛精神，使得她在面对修女的责难时，直接拳脚相向。她意识到要是一直呆在这里会死，便决定逃离这里。</p>
+<p>晚上，她用圣经砸死了经常虐待自己的修女，并用刀捅死了另外一个。<br>
+西部片一直吸引着我们，因为那里拥有茫茫草原，那里狂野空旷，那里有着最戏剧性、最自由的边界！<br>
+<img data-src="%E5%9B%BE%E5%85%AD.webp" alt="图六.webp"><br>
+我们也相信，也只有这样壮美严酷的环境与背景，才配得上一片荒蛮中秩序的艰难形成。<br>
+人类的恩怨情仇可以追溯、可以报复，但在残酷的自然面前，你只能接受！就像《多情剑客无情剑》中，上来就是“冷风如刀，以大地为砧板，以众生为鱼肉。”<br>
+只不过即便如此，我们爱达顿家族，可不就是爱他们爱他们的狂野浪漫；爱他们的桀骜不驯；爱他们一代一代血脉里流淌的一意孤行的不屈与反抗嘛…</p>
+]]></content>
+      <categories>
+        <category>电影</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>【Python/数模】整理目录</title>
+    <url>/2023/10/15/%E3%80%90Python-%E6%95%B0%E6%A8%A1%E3%80%91%E6%95%B4%E7%90%86%E7%9B%AE%E5%BD%95/</url>
+    <content><![CDATA[<p>一、综合评价类：<br>
+1.<a href="/2023/10/13/%E3%80%90Python-%E6%95%B0%E6%A8%A1%E3%80%91%E7%81%B0%E8%89%B2%E5%85%B3%E8%81%94%E5%88%86%E6%9E%90/#more">灰色关联分析</a><br>
+2.<a href="/2023/10/11/%E3%80%90Python-%E6%95%B0%E6%A8%A1%E3%80%91topsis%E7%BB%BC%E5%90%88%E8%AF%84%E4%BB%B7/#more">TOPSIS综合评价</a><br>
+3.<a href="/2023/10/12/%E3%80%90Pytohn-%E6%95%B0%E6%A8%A1%E3%80%91AHP%E5%B1%82%E6%AC%A1%E5%88%86%E6%9E%90%E6%B3%95/">AHP层次分析</a></p>
+<span id="more"></span>
+<p>二、线性规划类<br>
+1.<a href="/2023/10/14/%E3%80%90Python-%E6%95%B0%E6%A8%A1%E3%80%91%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92%E6%B1%82%E8%A7%A3/">pulp库解决线性规划问题</a></p>
 ]]></content>
       <categories>
         <category>Python</category>
@@ -1521,21 +1404,6 @@ $
       </categories>
   </entry>
   <entry>
-    <title>【Python/数模】整理目录</title>
-    <url>/2023/10/15/%E3%80%90Python-%E6%95%B0%E6%A8%A1%E3%80%91%E6%95%B4%E7%90%86%E7%9B%AE%E5%BD%95/</url>
-    <content><![CDATA[<p>一、综合评价类：<br>
-1.<a href="/2023/10/13/%E3%80%90Python-%E6%95%B0%E6%A8%A1%E3%80%91%E7%81%B0%E8%89%B2%E5%85%B3%E8%81%94%E5%88%86%E6%9E%90/#more">灰色关联分析</a><br>
-2.<a href="/2023/10/11/%E3%80%90Python-%E6%95%B0%E6%A8%A1%E3%80%91topsis%E7%BB%BC%E5%90%88%E8%AF%84%E4%BB%B7/#more">TOPSIS综合评价</a><br>
-3.<a href="/2023/10/12/%E3%80%90Pytohn-%E6%95%B0%E6%A8%A1%E3%80%91AHP%E5%B1%82%E6%AC%A1%E5%88%86%E6%9E%90%E6%B3%95/">AHP层次分析</a></p>
-<span id="more"></span>
-<p>二、线性规划类<br>
-1.<a href="/2023/10/14/%E3%80%90Python-%E6%95%B0%E6%A8%A1%E3%80%91%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92%E6%B1%82%E8%A7%A3/">pulp库解决线性规划问题</a></p>
-]]></content>
-      <categories>
-        <category>Python</category>
-      </categories>
-  </entry>
-  <entry>
     <title>【Python/数模】利用Python解决线性规划</title>
     <url>/2023/10/14/%E3%80%90Python-%E6%95%B0%E6%A8%A1%E3%80%91%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92%E6%B1%82%E8%A7%A3/</url>
     <content><![CDATA[<p>一、前言<br>
@@ -1579,6 +1447,383 @@ ${\max Z }  = x_{1}+2x_{2}\\s.t.\quad x_{1}+x_{2}\le3\\ \quad \quad \quad x_{1}\
 存在多个解的问题，目前仍在学习，以后待更新<br>
 完结~~<br>
 <img data-src="1010D_258_1.webp" alt="1"></p>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>【学习用】芙莉莲片段1（RU/JP/DE/CH/EN）</title>
+    <url>/2023/11/28/learning1/</url>
+    <content><![CDATA[<p><img data-src="fulilian.webp" alt="fulilian.webp"><br>
+片段1（RU/JP/DE/CH/EN）</p>
+<span id="more"></span>
+<h1>一、JP：</h1>
+<h2 id="1、原文">1、原文</h2>
+<p>0）フリーレン<br>
+1）王都が見えてきたね<br>
+2）私たち、勇者一行の凱旋です。<br>
+3）盛り上がっているでしょうね。<br>
+4）帰ったら、仕事を探さないとな。<br>
+5）もう、そんなこと考えてるんだ<br>
+6）大事なことさ<br>
+7）魔王を倒したといって、終わりじゃない。<br>
+8）この先の人生のほうが長いんだ<br>
+9）仕事か<br>
+10）酒が飲める仕事はいいですね<br>
+11）お前、僧侶だろう<br>
+12）それもそうか<br>
+13）フリーレン、君のこの先の人生は僕たちに<br>
+14）想像できないほど長いものになるんだろうね<br>
+15）そうかもね</p>
+<h1>二、RU：</h1>
+<h2 id="1、原文-2">1、原文</h2>
+<p>0）фрирен<br>
+1）уже столица показалось<br>
+2）мы вернулись из приключения героями<br>
+3）уверен,нас встретят торжествами<br>
+4）как приедем,придётся искать работу<br>
+5）не рановато ли ты об этом задумался<br>
+6）так это ведь важно<br>
+7）победа над владыкой далеко не конец<br>
+8）у нас впереди ещё целая жизнь<br>
+9）работа,говоришь<br>
+10）я б хотел такую,где можно пить<br>
+11）ты же священник<br>
+12）наверное,ты прав<br>
+13）фрирен,отведённый тебе срок,настолько велик,<br>
+14）что мы вообразить не можем<br>
+15）возможно</p>
+<h1>三、DE</h1>
+<h2 id="1、">1、</h2>
+<p>(德语太垃圾了，可能有误见谅)</p>
+<p>Frieren<br>
+Seht mal,dass die Hauptstadt<br>
+Wir sind die heldengruppe auf ihrer triumphalen rückkehr<br>
+Es wird sicher eine große feier geben<br>
+Wenn wir zurück sind,muss ich eine arbeit suchen<br>
+Du denkst bereits jetzt drüber solche sachen nach<br>
+Weil es wichtig ist<br>
+Wir haben zwar den dämonenkönig geschlagen,doch<br>
+Es gibt weiter<br>
+Wir haben noch ein langes leben vor uns<br>
+Arbeit also<br>
+Also ich gerne würde dabei trinken können<br>
+Aber du bist doch ein kleriker<br>
+Eine leben nach dem toten<br>
+Frieren,deine leben wird,sicher sehr viel länger sein,als menschen,als und human ausmalen können<br>
+Ja wahrscheinlich</p>
+<h1>四、CH</h1>
+<h2 id="1、-2">1、</h2>
+<p>0）芙莉莲<br>
+1）已经可以看到首都了<br>
+2）我们是勇者的胜利凯旋，到那里应该会很热闹<br>
+3）回去后，要找工作了啊<br>
+4）你都已经在想这种事情了啊<br>
+5）这很重要啊<br>
+6）虽然说打败了魔王，但还没有“结束”啊<br>
+7）这之后的人生还很长<br>
+8）工作啊<br>
+9）我想找个能喝酒的工作<br>
+10）你这家伙是和尚吧<br>
+11）也对啊<br>
+12）芙莉莲，你的人生应该会是我们无法想象的长<br>
+13）应该吧</p>
+]]></content>
+      <categories>
+        <category>语言学习</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>【Python/数模】topsis综合评价</title>
+    <url>/2023/10/11/%E3%80%90Python-%E6%95%B0%E6%A8%A1%E3%80%91topsis%E7%BB%BC%E5%90%88%E8%AF%84%E4%BB%B7/</url>
+    <content><![CDATA[<p>一、前言<br>
+二维数据分析时往往会需要用到综合评价分析，其中TOPSIS就是一种<br>
+比较常用的分析方法<br>
+TOPSIS全名（Technique for Order Preference by Similarity to Ideal Solution）<br>
+逼近理想解排序法，理想解一般认为是数据（每列）中最优的数值，topsis主要将<br>
+数值标准化，通过计算与理想解的距离，得出综合评价，取得排名</p>
+<span id="more"></span>
+<script src="/js/mathjax_post.js"></script>
+<p>二、正文<br>
+废话不多说，直接上代码<br>
+TOPSIS主函数如下</p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line">def topsis(data, weight):</span><br><span class="line">    data <span class="operator">=</span> data <span class="operator">/</span> np.<span class="built_in">sqrt</span>((data <span class="operator">*</span><span class="operator">*</span> <span class="number">2</span>).<span class="built_in">sum</span>()) </span><br><span class="line">	#将所有数据标准化，每个数据除以每行数据的平方和</span><br><span class="line">    Z <span class="operator">=</span> pd.DataFrame([data.<span class="built_in">min</span>(), data.<span class="built_in">max</span>()], index<span class="operator">=</span>[<span class="string">&#x27;负理想解&#x27;</span>, <span class="string">&#x27;正理想解&#x27;</span>]) </span><br><span class="line">	#最优和最劣为正负理想解</span><br><span class="line">    weight <span class="operator">=</span> np.array(weight)</span><br><span class="line">    <span class="keyword">Result</span> <span class="operator">=</span> data.copy()</span><br><span class="line">    <span class="keyword">Result</span>[<span class="string">&#x27;正理想解&#x27;</span>] <span class="operator">=</span> np.<span class="built_in">sqrt</span>(((data <span class="operator">-</span> Z.loc[<span class="string">&#x27;正理想解&#x27;</span>]) <span class="operator">*</span><span class="operator">*</span> <span class="number">2</span> <span class="operator">*</span> weight).<span class="built_in">sum</span>(axis<span class="operator">=</span><span class="number">1</span>)) </span><br><span class="line">	#计算整行与正理想解的距离的总和乘以权重</span><br><span class="line">    <span class="keyword">Result</span>[<span class="string">&#x27;负理想解&#x27;</span>] <span class="operator">=</span> np.<span class="built_in">sqrt</span>(((data <span class="operator">-</span> Z.loc[<span class="string">&#x27;负理想解&#x27;</span>]) <span class="operator">*</span><span class="operator">*</span> <span class="number">2</span> <span class="operator">*</span> weight).<span class="built_in">sum</span>(axis<span class="operator">=</span><span class="number">1</span>))</span><br><span class="line">	#计算整行与负理想解的距离的总和乘以权重</span><br><span class="line">    <span class="keyword">Result</span>[<span class="string">&#x27;综合得分指数&#x27;</span>] <span class="operator">=</span> <span class="keyword">Result</span>[<span class="string">&#x27;负理想解&#x27;</span>] <span class="operator">/</span> (<span class="keyword">Result</span>[<span class="string">&#x27;负理想解&#x27;</span>] <span class="operator">+</span> <span class="keyword">Result</span>[<span class="string">&#x27;正理想解&#x27;</span>])</span><br><span class="line">	#得出综合得分</span><br><span class="line">    <span class="keyword">Result</span>[<span class="string">&#x27;排序&#x27;</span>] <span class="operator">=</span> Result.<span class="built_in">rank</span>(ascending<span class="operator">=</span><span class="literal">False</span>)[<span class="string">&#x27;综合得分指数&#x27;</span>] </span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">Result</span>, Z, weight</span><br></pre></td></tr></table></figure>
+<p>–10月15号更新<br>
+上述函数少了一部正向化处理的步骤，也就是对数据的标准进行处理，<br>
+极大型指标：越大越好，这是我们想要的<br>
+下面是需要转化的指标<br>
+极小型指标：越小越好，如成本量数据，<br>
+处理方式：</p>
+<p>
+$ \hat{x} _{i} = max_{i} -x _{i} \\  \hat{x} =\frac{1}{x} $
+</p>
+<p>中间指标：越接近中间的完美值越好，如PH值，误差等，<br>
+处理方式：设$x_{best}$为最佳数值</p>
+<p>
+$ \hat{x} _{i} =1- \frac{x _{i}- x _{best} } { max_{i} \left \{ |x _{i}-x _{best}| \right \}  } $
+</p>
+<p>区间型指标：在区间内就是最佳<br>
+处理方式：设 [a,b]为最佳值的区间</p>
+<p>设：
+$M= max \left \{ a-min \left \{ x_{i}  \right \} , max\left \{ x_{i} -b \right \} \right \} $
+</p>
+<p>
+$ \quad \quad \quad 1- \frac{a-x _{i}} { M} \quad,\quad x _{i} < a \\ \hat{x} _{i}= \quad 1 \quad,\quad a < x _{i} < b \\ \quad \quad \quad 1- \frac{x_{i}-b}{M} \quad,\quad x _{i} > a $
+</p>
+<p>标准化：</p>
+<p>
+$ x_{ij} ^{'} = \frac{x_{ij}}{\sqrt{\sum ^{n} _{i=1} x _{ij} ^{2} }  }
+$
+</p>
+<p>大概数据要长这样,每行是一个地方的各项指标，由于无法通过这堆数据，<br>
+直接获得到哪个地方更好，因此需要通过topsis进行综合评价</p>
+<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line">data = pd<span class="selector-class">.DataFrame</span>(</span><br><span class="line">        &#123;<span class="string">&#x27;旅游增量&#x27;</span>: <span class="selector-attr">[5,2,3,3,6]</span>,</span><br><span class="line">		 <span class="string">&#x27;经济增量&#x27;</span>: <span class="selector-attr">[1,4,6,2,5]</span>,</span><br><span class="line">		 <span class="string">&#x27;旅客评价&#x27;</span>: <span class="selector-attr">[5,1,4,6,7]</span>,</span><br><span class="line">         <span class="string">&#x27;政府投资&#x27;</span>: <span class="selector-attr">[5,7,1,5,6]</span>,</span><br><span class="line">		 <span class="string">&#x27;其他扶持&#x27;</span>: <span class="selector-attr">[6,5,7,2,1]</span>&#125;,</span><br><span class="line">	index=<span class="selector-attr">[<span class="string">&#x27;地方&#x27;</span> + i for i in list(<span class="string">&#x27;ABCDE&#x27;</span>)]</span></span><br><span class="line">)</span><br></pre></td></tr></table></figure>
+<p>之后是权重设置，假设Weight平分那么应该是</p>
+<figure class="highlight fortran"><table><tr><td class="code"><pre><span class="line">Result=topsis(<span class="keyword">data</span>=<span class="keyword">data</span>,</span><br><span class="line">	weight=[<span class="number">1</span>/<span class="built_in">int</span>(len(<span class="keyword">data</span>.columns))]*<span class="built_in">int</span>(len(<span class="keyword">data</span>.columns))</span><br><span class="line">	)</span><br></pre></td></tr></table></figure>
+<p>其实权重分析也是一项重要的数据分析，这个地方就不多介绍了<br>
+得到了数据就是输出了</p>
+<figure class="highlight routeros"><table><tr><td class="code"><pre><span class="line">def output(data,path,weight):</span><br><span class="line">	<span class="keyword">if</span>(os.path.isfile(path)):</span><br><span class="line">		os.<span class="built_in">remove</span>(path)</span><br><span class="line">	<span class="attribute">out1</span>=textput(data=data,</span><br><span class="line">			<span class="attribute">weight</span>=weight,</span><br><span class="line">			<span class="attribute">name</span>=<span class="string">&quot;自定义权重&quot;</span>)</span><br><span class="line">	with pd.ExcelWriter(path) as writer:</span><br><span class="line">		data.to_excel(writer, <span class="attribute">sheet_name</span>=<span class="string">&quot;原始数据&quot;</span>, <span class="attribute">index</span>=<span class="literal">True</span>)</span><br><span class="line">		out1.to_excel(writer, <span class="attribute">sheet_name</span>=<span class="string">&quot;自定义权重&quot;</span>, <span class="attribute">index</span>=<span class="literal">True</span>)</span><br><span class="line">		</span><br><span class="line">def textput(data,weight,name):</span><br><span class="line">	out = topsis(data, weight)[0]</span><br><span class="line">	weight = list(weight)</span><br><span class="line">	<span class="keyword">for</span> i <span class="keyword">in</span> range(len(out.columns) - len(weight)):</span><br><span class="line">		weight.append(<span class="string">&#x27;/&#x27;</span>)</span><br><span class="line">	out.loc[name] = weight </span><br><span class="line">	#加一行weight数据</span><br><span class="line">	return out</span><br><span class="line">output(data,</span><br><span class="line">	   <span class="attribute">path</span>=<span class="string">&#x27;Topsis评价.xlsx&#x27;</span>,</span><br><span class="line">	   weight=[0.2, 0.3, 0.3, 0.1,0.1]) #权重设置</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p><img data-src="top1.webp" alt="1"><br>
+输出结果如上</p>
+<p>三、然而这样看得比较空，<br>
+所以可以加上一个分析图，雷达图比较适合<br>
+雷达图的绘制比较复杂，代码如下</p>
+<figure class="highlight maxima"><table><tr><td class="code"><pre><span class="line">def picput(choice,data,name,weight):</span><br><span class="line">	leng = len(data.<span class="built_in">columns</span>)</span><br><span class="line">	<span class="keyword">if</span> choice != &#x27;A&#x27;:</span><br><span class="line">		# choice用来判断是否为原始数据</span><br><span class="line">		result = topsis(data,weight)[<span class="number">0</span>]</span><br><span class="line">		list1 = list(<span class="built_in">range</span>(leng))</span><br><span class="line">		list1.<span class="built_in">append</span>(leng + <span class="number">2</span>)</span><br><span class="line">		</span><br><span class="line">	<span class="keyword">else</span>:</span><br><span class="line">		result=data</span><br><span class="line">		list1 = list(<span class="built_in">range</span>(leng))</span><br><span class="line">	<span class="built_in">labels</span> = result.<span class="built_in">columns</span>[list1]</span><br><span class="line">	#设置<span class="built_in">label</span>元素</span><br><span class="line">	<span class="built_in">length</span> = len(<span class="built_in">labels</span>)</span><br><span class="line">	#angle角元素</span><br><span class="line">	angles = <span class="built_in">np</span>.linspace(<span class="number">0</span>, <span class="number">2</span> * <span class="built_in">np</span>.pi, <span class="built_in">length</span>, endpoint=False)</span><br><span class="line">	angles = <span class="built_in">np</span>.concatenate((angles, [angles[<span class="number">0</span>]]))</span><br><span class="line">	<span class="built_in">labels</span> = <span class="built_in">np</span>.concatenate((<span class="built_in">labels</span>, [<span class="built_in">labels</span>[<span class="number">0</span>]]))</span><br><span class="line">	fig = plt.figure()</span><br><span class="line">	<span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(len(list(result.index))):</span><br><span class="line">		temp = result.iloc[i, list1]</span><br><span class="line">		temp = <span class="built_in">np</span>.concatenate((temp, [temp[<span class="number">0</span>]]))</span><br><span class="line">		#设置数据</span><br><span class="line">		plt.<span class="built_in">polar</span>(angles, temp, <span class="built_in">label</span>=result.index[i])</span><br><span class="line">	plt.thetagrids(angles * <span class="number">180</span> / <span class="built_in">np</span>.pi, <span class="built_in">labels</span>)</span><br><span class="line">	plt.<span class="built_in">legend</span>(bbox_to_anchor=(<span class="number">1.2</span>, <span class="number">1</span>))</span><br><span class="line">	plt.<span class="built_in">title</span>(name, y=<span class="number">1.2</span>)</span><br><span class="line">	<span class="built_in">return</span> fig</span><br></pre></td></tr></table></figure>
+<p>return回图形后，再写一个图形导出函数，<br>
+将图形导出到excel里</p>
+<figure class="highlight routeros"><table><tr><td class="code"><pre><span class="line">def resultpic1(data,path,weight):</span><br><span class="line">	<span class="attribute">fig0</span>=picput(choice=&#x27;A&#x27;,</span><br><span class="line">				<span class="attribute">data</span>=data,</span><br><span class="line">				<span class="attribute">name</span>=<span class="string">&quot;原始数据&quot;</span>,</span><br><span class="line">				<span class="attribute">weight</span>=None,</span><br><span class="line">				)</span><br><span class="line">	fig1 = picput(<span class="attribute">choice</span>=<span class="string">&#x27;B&#x27;</span>,</span><br><span class="line">				  <span class="attribute">data</span>=data,</span><br><span class="line">				  <span class="attribute">name</span>=<span class="string">&quot;自定义权重Topsis评价&quot;</span>,</span><br><span class="line">				  <span class="attribute">weight</span>=weight,</span><br><span class="line">				  )</span><br><span class="line">	app = xw.App(<span class="attribute">visible</span>=<span class="literal">False</span>)</span><br><span class="line">	wb = app.books.open(path)</span><br><span class="line">	ws0 = wb.sheets[0]</span><br><span class="line">	ws1 = wb.sheets[1]</span><br><span class="line">	ws0.pictures.<span class="built_in">add</span>(fig0,</span><br><span class="line">					 <span class="attribute">left</span>=ws0.range(&#x27;K7&#x27;).left</span><br><span class="line">					 )</span><br><span class="line">	ws1.pictures.<span class="built_in">add</span>(fig1,</span><br><span class="line">					 <span class="attribute">left</span>=ws1.range(&#x27;K7&#x27;).left</span><br><span class="line">					 )</span><br><span class="line">	wb.save(path)</span><br><span class="line">	wb.close()</span><br><span class="line">	app.quit()</span><br></pre></td></tr></table></figure>
+<p><img data-src="top2.webp" alt="1"><br>
+~~完结<br>
+<img data-src="1010D_173_1.webp" alt="1"></p>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>【学习用】咱们裸熊（RU/JP/DE/CH/EN）</title>
+    <url>/2023/12/04/learning-webarebears/</url>
+    <content><![CDATA[<p><img data-src="bears.webp" alt="bears.webp"></p>
+<span id="more"></span>
+<h1>一、RU</h1>
+<h2 id="1、">1、</h2>
+<p>нашие вещи<br>
+俺们的东西<br>
+Мы следующие<br>
+我们该上了<br>
+Одни бумажник на липучке, один<br>
+Мобильник<br>
+一个维克罗钱包，一部手机<br>
+<em>Мобильник，源自英语Mobile，意思是手机</em><br>
+<em>телефон也是手机的意思</em><br>
+Осторожнее это моя жизнь душа,в прямоугольной форме.<br>
+注意我的小心肝，这个四边形的小东西<br>
+<em>прямоугольной 平行四边形</em><br>
+Да,да<br>
+好好<br>
+У белого звездочки ниндзя<br>
+白熊有忍者飞镖<br>
+<em>ниндзя，即ninja，也就是忍者</em><br>
+Начнёт три<br>
+数到三<br>
+Раз два три<br>
+一二三<br>
+Играем<br>
+开始咯<br>
+Бросок<br>
+我要投了<br>
+Я открый<br>
+我空档<br>
+Стой не так быстро time out time out<br>
+等等别那么快，停停<br>
+Он мой,он мой<br>
+他是我的，他是我的<br>
+Защита<br>
+防守<br>
+Мой косяк<br>
+我的锅<br>
+<em>相当于英语My bad</em><br>
+Классный бросок,чувак<br>
+好球，兄弟<br>
+Уходит<br>
+出线<br>
+Pick and roll,Pick and roll<br>
+挡拆<br>
+Длинный<br>
+太远了<br>
+Извините<br>
+我对不起<br>
+A белый так хотел<br>
+白熊故意的<br>
+Ура да<br>
+Мы же ведём двадцать очков,да？<br>
+我们还领先20分对吧<br>
+Играем<br>
+我们打得好<br>
+Отлично,брат.я горжусь с вами<br>
+真棒，兄弟们，我为你们感到自豪<br>
+Я видел подвижки,видел душу<br>
+我看到你们的长进，你们的心灵<br>
+А в душе играть не научишь<br>
+这种由心打出的好球是教不来的<br>
+секунду<br>
+等等<br>
+Мы ничего не забыли<br>
+我们是否忘了什么<br>
+Рюкзак<br>
+背包<br>
+Рюкзак,мой бумажник<br>
+背包，我的钱包<br>
+Звездочки белого<br>
+白熊的飞镖<br>
+Я на секунду подумаю,ты сказал что мы оставили вещи на плащадке<br>
+Там же мой телефон<br>
+Я психану если потерял его<br>
+等等让我想想，你说把我们的东西放在广场了，那里边<br>
+有我的手机，如果弄丢了，我一定会发疯的<br>
+Мы оставили твой телефон<br>
+我们遗落了你的手机<br>
+Его нет<br>
+背包没了<br>
+Кто-то нас ограбил<br>
+是谁把咱们打劫了<br>
+<em>ограбил，打劫</em><br>
+Нет нет нет<br>
+不不不<br>
+Полиция,Полиция,Полиция,Полиция<br>
+警察，警察，警察，警察<br>
+Извините,ребята я уже выписывать штраф<br>
+等等，小家伙我在开罚单<br>
+Нет,Нас ограбили<br>
+不，我们被打劫了<br>
+У него бы нож,и один глаз<br>
+他有刀，他一只眼睛<br>
+Они  мой телефон ,приложение,душу<br>
+他偷了我的手机，app，心肝<br>
+Белый труба правосудие<br>
+白熊渴求正义<br>
+Арестуйте кого-нибудь,используйте пушки<br>
+кстати где одна<br>
+请用你的枪逮捕掉他，话说它放在哪<br>
+Телефон пропал навсегда<br>
+手机永远的丢了<br>
+Буду носить это в памяти о нём<br>
+我准备戴着这个纪念它<br>
+Братья,соберитесь,есть идея<br>
+兄弟们，别沮丧，我有想法<br>
+Мы возьмем правосудие с своей лапой<br>
+我们准备用我们的双手夺回正义<br>
+<em>лапа，рука的粗俗说法</em><br>
+Идеально ,такси<br>
+完美，出租车<br>
+FBI,у нас важное дело,отведите нас туда,<br>
+где тусуются  преступники,сейчас ж<br>
+FBI，我们有紧急案件，请立刻带我们去犯罪嫌疑人<br>
+出没的地方，现在赶紧<br>
+<em>тусоваться,тусить闲逛，出现</em><br>
+<em>преступник,源自动词преступить违反，犯罪</em><br>
+Можно с начала в туалет<br>
+能否先去趟厕所<br>
+Белый хочет латте<br>
+白熊想要拿铁<br>
+Будет сложнее чем я думал<br>
+看来没有想象的那么简单<br>
+Закусочная<br>
+餐馆<br>
+Так если я бы здесь,вы парни бы здесь,здесь<br>
+Это значит кто-то забрал рюкзак,куда?<br>
+如果我在这儿，你俩在这，和这。意味着谁拿走了我们的背包<br>
+У белого теория заговора<br>
+白熊觉得有阴谋<br>
+<em>заговор，阴谋</em><br>
+Панда,что у нас с портретами<br>
+熊猫，肖像画怎么样<br>
+Хорошо ,что у меня фотография памяти<br>
+Вот что есть на том момент<br>
+我有过目不忘的记忆，这是那时出现的家伙<br>
+Больно уж они одинаковые<br>
+怎么看着都一样呢<br>
+Правда,я так старался<br>
+真的假的，我明明很认真的画了<br>
+Я тут поговорила с управляющей<br>
+и он сказал хотите сидеть здесь,<br>
+нужно заказать чуть больше чем<br>
+Три стакан воды<br>
+我跟管理人商量了，他说你们几个还想坐在这<br>
+的话，就多点其他的东西而不是就三杯水<br>
+<em>стакан воды，相当于a cup of water</em><br>
+Вы бы так говорили если мы были FBI.<br>
+Дамочка,мы тут в работе,отойдите от столько<br>
+如果我说我们是FBI呢，小姑娘，我们在办案，<br>
+请离我们远一点<br>
+И хвати порти столовые салфетки<br>
+别弄脏桌垫啊<br>
+Мы теряем времени<br>
+我们浪费时间了<br>
+Нужно подумать,нужны улики<br>
+Может быть,что кто бы на месте преступления<br>
+我们需要思考，我们需要线索，也许有目击者在犯罪现场<br>
+<em>место преступления，犯罪现场</em><br>
+Я знаю куда нужно идти<br>
+我知道去哪了<br>
+Ещё воды со льдом<br>
+再来杯冰水<br>
+Да,желтый рюкзак<br>
+Кто-нибудь не с вас что-нибудь знает<br>
+У меня есть пакеты с сахаром<br>
+<em>сахар，sugar，糖</em><br>
+Да,не понимают что ли<br>
+Ох,только посмотри<br>
+Идея,извини<br>
+Осторожнее,это искусство<br>
+Кто-нибудь с вас занает кто<br>
+из чуваков забрал нашие вещи<br>
+Привет,малыш,иди сюда<br>
+Вот так и не торопись,<br>
+смотри внимательно,кто это был<br>
+Вот том парня<br>
+Номер сорок первый ,самый злобный<br>
+номер из всех<br>
+Скажи нам где этот преступник<br>
+Сейчас ж</p>
+]]></content>
+      <categories>
+        <category>语言学习</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>【Python/爬图】效率改进-多线程</title>
+    <url>/2023/10/19/%E3%80%90Python-%E7%88%AC%E5%9B%BE%E3%80%91%E6%95%88%E7%8E%87%E6%94%B9%E8%BF%9B-%E5%A4%9A%E7%BA%BF%E7%A8%8B/</url>
+    <content><![CDATA[<p>一、前言<br>
+<a href="/2023/10/16/%E3%80%90Python%E3%80%91%E7%88%AC%E8%99%AB%E8%84%9A%E6%9C%AC%E7%9B%AE%E5%BD%95">爬虫目录</a><br>
+前文介绍了爬图的思路和核心函数，其中也留下了一个想法，<br>
+selenium虽然比较稳定，但是访问速度实在太慢了。<br>
+<em>page_load_strategy是浏览器加载策略，默认是normal，eager则是快速加载</em><br>
+<em>在网页资源加载完成时就会立刻关闭，可以省很多时间。</em><br>
+<em>网上有很多说有更加快速的方法，说实话是噱头，没有实际用处，</em><br>
+<em>照着他的方法，会迅速加载网页然后光速关闭，根本无法正常抓取网页内容</em><br>
+<em>eagle已经是最快的策略，更快可以尝试多线程的爬虫。</em></p>
+<span id="more"></span>
+<p>二、正文<br>
+1.如何分配，哪个步骤需要多线程，<br>
+把多线程用在for循环分配上，原程序通过爬取页面页资源，获得一系列<br>
+详细页的元素，然后通过for循环逐一个取出，调用详细页函数。因此可以<br>
+把页面页的链接分半走多线程就行。</p>
+<p>2.多线程函数<br>
+threading是python一个常用的多线程模块，threading一般都是pip自带的，<br>
+不需要手动下载</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> threading <span class="keyword">import</span> Thread</span><br></pre></td></tr></table></figure>
+<p>启动函数如下</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">t1=Thread(target=temp_thread1,args=(arg)) <span class="comment">#变量</span></span><br><span class="line">t2 = Thread(target=temp_thread2, args=(arg)) <span class="comment">#变量</span></span><br><span class="line">t1.start()</span><br><span class="line">t2.start()</span><br><span class="line">t1.join()</span><br><span class="line">t2.join() <span class="comment">#join函数会让先完成的线程等待未完成</span></span><br></pre></td></tr></table></figure>
+<p>分半方法，这个地方我用的是pyquery，pyquery直接爬下来的<br>
+并不是python的list，不容易使用索引，所以应该需要处理一下</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">pa_li=[]</span><br><span class="line"><span class="keyword">for</span> temp_pa <span class="keyword">in</span> pa0: <span class="comment">#pa0是在页面页爬取下来的详细页资源</span></span><br><span class="line">    t+=<span class="number">1</span></span><br><span class="line">    pa_li.append(temp_pa)</span><br><span class="line">pa1=pa_li[:<span class="built_in">len</span>(pa_li)//<span class="number">2</span>];pa2=pa_li[<span class="built_in">len</span>(pa_li)//<span class="number">2</span>:]</span><br></pre></td></tr></table></figure>
+<p>3.效果<br>
+双线程并非单线程的速度翻倍，经几次使用发现，双线程经常是<br>
+一个线程快速完成，另一个线程还需要等很久。我自身用下来，双线程<br>
+比单线程会快30~40%，但这应该跟cpu性能也有关系，多核性能更强的<br>
+cpu或许多线程的效率更高吧</p>
 ]]></content>
       <categories>
         <category>Python</category>
@@ -1677,43 +1922,6 @@ Markdown文件插入可以遵循html的标签方式，但<br>
       </tags>
   </entry>
   <entry>
-    <title>【Python/爬图】效率改进-多线程</title>
-    <url>/2023/10/19/%E3%80%90Python-%E7%88%AC%E5%9B%BE%E3%80%91%E6%95%88%E7%8E%87%E6%94%B9%E8%BF%9B-%E5%A4%9A%E7%BA%BF%E7%A8%8B/</url>
-    <content><![CDATA[<p>一、前言<br>
-<a href="/2023/10/16/%E3%80%90Python%E3%80%91%E7%88%AC%E8%99%AB%E8%84%9A%E6%9C%AC%E7%9B%AE%E5%BD%95">爬虫目录</a><br>
-前文介绍了爬图的思路和核心函数，其中也留下了一个想法，<br>
-selenium虽然比较稳定，但是访问速度实在太慢了。<br>
-<em>page_load_strategy是浏览器加载策略，默认是normal，eager则是快速加载</em><br>
-<em>在网页资源加载完成时就会立刻关闭，可以省很多时间。</em><br>
-<em>网上有很多说有更加快速的方法，说实话是噱头，没有实际用处，</em><br>
-<em>照着他的方法，会迅速加载网页然后光速关闭，根本无法正常抓取网页内容</em><br>
-<em>eagle已经是最快的策略，更快可以尝试多线程的爬虫。</em></p>
-<span id="more"></span>
-<p>二、正文<br>
-1.如何分配，哪个步骤需要多线程，<br>
-把多线程用在for循环分配上，原程序通过爬取页面页资源，获得一系列<br>
-详细页的元素，然后通过for循环逐一个取出，调用详细页函数。因此可以<br>
-把页面页的链接分半走多线程就行。</p>
-<p>2.多线程函数<br>
-threading是python一个常用的多线程模块，threading一般都是pip自带的，<br>
-不需要手动下载</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> threading <span class="keyword">import</span> Thread</span><br></pre></td></tr></table></figure>
-<p>启动函数如下</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">t1=Thread(target=temp_thread1,args=(arg)) <span class="comment">#变量</span></span><br><span class="line">t2 = Thread(target=temp_thread2, args=(arg)) <span class="comment">#变量</span></span><br><span class="line">t1.start()</span><br><span class="line">t2.start()</span><br><span class="line">t1.join()</span><br><span class="line">t2.join() <span class="comment">#join函数会让先完成的线程等待未完成</span></span><br></pre></td></tr></table></figure>
-<p>分半方法，这个地方我用的是pyquery，pyquery直接爬下来的<br>
-并不是python的list，不容易使用索引，所以应该需要处理一下</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">pa_li=[]</span><br><span class="line"><span class="keyword">for</span> temp_pa <span class="keyword">in</span> pa0: <span class="comment">#pa0是在页面页爬取下来的详细页资源</span></span><br><span class="line">    t+=<span class="number">1</span></span><br><span class="line">    pa_li.append(temp_pa)</span><br><span class="line">pa1=pa_li[:<span class="built_in">len</span>(pa_li)//<span class="number">2</span>];pa2=pa_li[<span class="built_in">len</span>(pa_li)//<span class="number">2</span>:]</span><br></pre></td></tr></table></figure>
-<p>3.效果<br>
-双线程并非单线程的速度翻倍，经几次使用发现，双线程经常是<br>
-一个线程快速完成，另一个线程还需要等很久。我自身用下来，双线程<br>
-比单线程会快30~40%，但这应该跟cpu性能也有关系，多核性能更强的<br>
-cpu或许多线程的效率更高吧</p>
-]]></content>
-      <categories>
-        <category>Python</category>
-      </categories>
-  </entry>
-  <entry>
     <title>【Python】爬虫脚本目录</title>
     <url>/2023/10/16/%E3%80%90Python%E3%80%91%E7%88%AC%E8%99%AB%E8%84%9A%E6%9C%AC%E7%9B%AE%E5%BD%95/</url>
     <content><![CDATA[<p>本文是一个文章目录，整理文章之间的关系<br>
@@ -1732,56 +1940,6 @@ Selenium是一个模拟浏览器访问的第三方库<br>
 2.<a href="/2023/10/01/%E6%A2%B3%E7%90%86%E4%B8%80%E4%B8%8B%E5%9F%BA%E6%9C%AC%E7%88%AC%E5%9B%BE%E6%80%9D%E8%B7%AF/">爬图的一个总体思路</a><br>
 梳理一下基本爬图思路,有兴趣可以看看。忽略很多部分，写出了部分<br>
 核心函数</p>
-]]></content>
-      <categories>
-        <category>Python</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>【Python】Pyquery 一个Python的CSS选择器</title>
-    <url>/2023/10/10/%E3%80%90Python%E3%80%91Pyquery/</url>
-    <content><![CDATA[<p>一、前言<br>
-JS可以通过CSS选择器快速定位元素，但前端的限制较多（如跨域传输）<br>
-并且油猴必须要手动驱动浏览器才可以运行，无法形成自动脚本。<br>
-Python中也有类似JS的CSS选择器的第三方库，我选择的是Pyquery，<br>
-Pyquery的语法跟JS的写法十分相似，而且用起来很简单。<br>
-<a href="/2023/09/27/%E7%94%A8JS%EF%BC%88%E5%89%8D%E7%AB%AF%EF%BC%89%E5%88%B6%E4%BD%9C%E7%9A%84%E7%AE%80%E6%98%93%E7%88%AC%E8%99%AB/">用JS（前端）制作的简易爬虫</a><br>
-<a href="/2023/09/28/jQuery%E7%9A%84css%E9%80%89%E6%8B%A9%E5%99%A8%E7%9A%84%E5%86%99%E6%B3%95/">jQuery的css选择器的写法</a><br>
-如何爬取网页下来请看这篇<br>
-<a href="/2023/09/28/%E7%94%A8selenum%E5%88%B6%E4%BD%9C%E5%89%8D%E7%AB%AF%E5%BC%8F%E7%88%AC%E8%99%AB/">用selenum制作前端式爬虫</a></p>
-<span id="more"></span>
-<p><img data-src="1010D_117_1.webp" alt="1"><br>
-二、正文<br>
-1、老操作<br>
-先安装Pyquery库，pip install或者pycharm安装</p>
-<figure class="highlight capnproto"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> pyquery <span class="keyword">import</span> PyQuery <span class="keyword">as</span> pq</span><br></pre></td></tr></table></figure>
-<p>安装后import<br>
-2.初步处理操作<br>
-假设爬下的网页资源为</p>
-<figure class="highlight ini"><table><tr><td class="code"><pre><span class="line"><span class="attr">browser_get</span>=driver.page_source</span><br></pre></td></tr></table></figure>
-<p>browser_get得到的是整个网页的资源<br>
-获取后需要pyquery处理,</p>
-<figure class="highlight perl"><table><tr><td class="code"><pre><span class="line">pq1=p<span class="string">q(browser_get)</span></span><br></pre></td></tr></table></figure>
-<p>3.定位元素<br>
-pyquery写法基本跟jquery一毛一样，其实完全就可以当作是<br>
-python里的jquery（认真的）<br>
-pyquery提供了find函数，可以这么使用</p>
-<figure class="highlight sqf"><table><tr><td class="code"><pre><span class="line"><span class="built_in">items</span>=pq1.<span class="built_in">find</span>(<span class="string">&quot;CSS选择器&quot;</span>).<span class="built_in">items</span>()</span><br><span class="line">#.<span class="built_in">items</span>()会获取所有html</span><br></pre></td></tr></table></figure>
-<p>然而也可以直接这么写</p>
-<figure class="highlight abnf"><table><tr><td class="code"><pre><span class="line"><span class="attribute">items</span><span class="operator">=</span>pq1(<span class="string">&quot;CSS选择器&quot;</span>).items()</span><br></pre></td></tr></table></figure>
-<p>文本则是</p>
-<figure class="highlight applescript"><table><tr><td class="code"><pre><span class="line">.<span class="built_in">text</span>()</span><br></pre></td></tr></table></figure>
-<p>属性</p>
-<figure class="highlight q"><table><tr><td class="code"><pre><span class="line">.<span class="built_in">attr</span>(<span class="string">&quot;属性名&quot;</span>)</span><br><span class="line">.<span class="built_in">attr</span>(<span class="string">&quot;src&quot;</span>)  #img的链接</span><br><span class="line">.<span class="built_in">attr</span>(<span class="string">&quot;href&quot;</span>) #a的链接</span><br></pre></td></tr></table></figure>
-<p>如果要获取子节点<br>
-或者父节点那就</p>
-<figure class="highlight asciidoc"><table><tr><td class="code"><pre><span class="line"><span class="title">.children()</span></span><br><span class="line"><span class="title">.parents()</span></span><br></pre></td></tr></table></figure>
-<p>4.处理多个元素<br>
-pyquery提供了for循环的方式,如</p>
-<figure class="highlight clean"><table><tr><td class="code"><pre><span class="line">for i <span class="keyword">in</span> pq1(<span class="string">&quot;li&quot;</span>).items()：</span><br><span class="line">	## 处理操作</span><br></pre></td></tr></table></figure>
-<p>利用for循环就可以逐一迭代</p>
-<p>5.完结<br>
-<img data-src="1010D_56_1.webp" alt="1"></p>
 ]]></content>
       <categories>
         <category>Python</category>
@@ -1851,6 +2009,56 @@ W1,W2,W3,W4,W5，对应五个因素在不同地方的得分<br>
 可能由于数据是随机填的，得到的结果比较离谱<br>
 完结<br>
 <img data-src="1010D_48_1.webp" alt="2"></p>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>【Python】Pyquery 一个Python的CSS选择器</title>
+    <url>/2023/10/10/%E3%80%90Python%E3%80%91Pyquery/</url>
+    <content><![CDATA[<p>一、前言<br>
+JS可以通过CSS选择器快速定位元素，但前端的限制较多（如跨域传输）<br>
+并且油猴必须要手动驱动浏览器才可以运行，无法形成自动脚本。<br>
+Python中也有类似JS的CSS选择器的第三方库，我选择的是Pyquery，<br>
+Pyquery的语法跟JS的写法十分相似，而且用起来很简单。<br>
+<a href="/2023/09/27/%E7%94%A8JS%EF%BC%88%E5%89%8D%E7%AB%AF%EF%BC%89%E5%88%B6%E4%BD%9C%E7%9A%84%E7%AE%80%E6%98%93%E7%88%AC%E8%99%AB/">用JS（前端）制作的简易爬虫</a><br>
+<a href="/2023/09/28/jQuery%E7%9A%84css%E9%80%89%E6%8B%A9%E5%99%A8%E7%9A%84%E5%86%99%E6%B3%95/">jQuery的css选择器的写法</a><br>
+如何爬取网页下来请看这篇<br>
+<a href="/2023/09/28/%E7%94%A8selenum%E5%88%B6%E4%BD%9C%E5%89%8D%E7%AB%AF%E5%BC%8F%E7%88%AC%E8%99%AB/">用selenum制作前端式爬虫</a></p>
+<span id="more"></span>
+<p><img data-src="1010D_117_1.webp" alt="1"><br>
+二、正文<br>
+1、老操作<br>
+先安装Pyquery库，pip install或者pycharm安装</p>
+<figure class="highlight capnproto"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> pyquery <span class="keyword">import</span> PyQuery <span class="keyword">as</span> pq</span><br></pre></td></tr></table></figure>
+<p>安装后import<br>
+2.初步处理操作<br>
+假设爬下的网页资源为</p>
+<figure class="highlight ini"><table><tr><td class="code"><pre><span class="line"><span class="attr">browser_get</span>=driver.page_source</span><br></pre></td></tr></table></figure>
+<p>browser_get得到的是整个网页的资源<br>
+获取后需要pyquery处理,</p>
+<figure class="highlight perl"><table><tr><td class="code"><pre><span class="line">pq1=p<span class="string">q(browser_get)</span></span><br></pre></td></tr></table></figure>
+<p>3.定位元素<br>
+pyquery写法基本跟jquery一毛一样，其实完全就可以当作是<br>
+python里的jquery（认真的）<br>
+pyquery提供了find函数，可以这么使用</p>
+<figure class="highlight sqf"><table><tr><td class="code"><pre><span class="line"><span class="built_in">items</span>=pq1.<span class="built_in">find</span>(<span class="string">&quot;CSS选择器&quot;</span>).<span class="built_in">items</span>()</span><br><span class="line">#.<span class="built_in">items</span>()会获取所有html</span><br></pre></td></tr></table></figure>
+<p>然而也可以直接这么写</p>
+<figure class="highlight abnf"><table><tr><td class="code"><pre><span class="line"><span class="attribute">items</span><span class="operator">=</span>pq1(<span class="string">&quot;CSS选择器&quot;</span>).items()</span><br></pre></td></tr></table></figure>
+<p>文本则是</p>
+<figure class="highlight applescript"><table><tr><td class="code"><pre><span class="line">.<span class="built_in">text</span>()</span><br></pre></td></tr></table></figure>
+<p>属性</p>
+<figure class="highlight q"><table><tr><td class="code"><pre><span class="line">.<span class="built_in">attr</span>(<span class="string">&quot;属性名&quot;</span>)</span><br><span class="line">.<span class="built_in">attr</span>(<span class="string">&quot;src&quot;</span>)  #img的链接</span><br><span class="line">.<span class="built_in">attr</span>(<span class="string">&quot;href&quot;</span>) #a的链接</span><br></pre></td></tr></table></figure>
+<p>如果要获取子节点<br>
+或者父节点那就</p>
+<figure class="highlight asciidoc"><table><tr><td class="code"><pre><span class="line"><span class="title">.children()</span></span><br><span class="line"><span class="title">.parents()</span></span><br></pre></td></tr></table></figure>
+<p>4.处理多个元素<br>
+pyquery提供了for循环的方式,如</p>
+<figure class="highlight clean"><table><tr><td class="code"><pre><span class="line">for i <span class="keyword">in</span> pq1(<span class="string">&quot;li&quot;</span>).items()：</span><br><span class="line">	## 处理操作</span><br></pre></td></tr></table></figure>
+<p>利用for循环就可以逐一迭代</p>
+<p>5.完结<br>
+<img data-src="1010D_56_1.webp" alt="1"></p>
 ]]></content>
       <categories>
         <category>Python</category>
@@ -2461,6 +2669,40 @@ Python的mlxtend就有apriori模块，<br>
       </tags>
   </entry>
   <entry>
+    <title>【算法/Python】数字提取</title>
+    <url>/2023/09/29/%E3%80%90%E7%AE%97%E6%B3%95-Python%E3%80%91%E6%95%B0%E5%AD%97%E6%8F%90%E5%8F%96/</url>
+    <content><![CDATA[<p>1.前言<br>
+数字提取是一个难题，然而爬虫有些时候是非常需要，<br>
+如果爬下来的数字是错的，整个数学运算就寄了</p>
+<span id="more"></span>
+<p><img data-src="/image/929D_294_1.jpg" alt="1"><br>
+像字符串逐个读取这样，这样的算法只能读取一个数字，<br>
+而且不能读取负数，百分数等</p>
+<figure class="highlight livecodeserver"><table><tr><td class="code"><pre><span class="line">def numget(<span class="keyword">string</span>):</span><br><span class="line">    <span class="keyword">a</span> = <span class="string">&#x27;&#x27;</span>   <span class="comment"># 将空值赋值给a</span></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="keyword">string</span>:    <span class="comment"># 将字符串进行遍历</span></span><br><span class="line">        <span class="keyword">if</span> str.isdigit(i)==True:    <span class="comment"># 判断i是否为数字，如果“是”返回True，“不是”返回False</span></span><br><span class="line">            <span class="keyword">a</span> += i   <span class="comment"># 如果i是数字格式，将i以字符串格式加到a上</span></span><br><span class="line">        elif i==<span class="string">&quot;.&quot;</span>:</span><br><span class="line">            <span class="keyword">a</span>+=<span class="string">&quot;.&quot;</span></span><br><span class="line">    <span class="keyword">if</span> <span class="keyword">a</span> ==<span class="string">&quot;&quot;</span>:</span><br><span class="line">        <span class="keyword">a</span>+=<span class="string">&quot;0&quot;</span></span><br><span class="line">    <span class="literal">return</span> <span class="keyword">a</span></span><br></pre></td></tr></table></figure>
+<p>如果用现成的re.findall无法解决百分数，负数，小数点的问题</p>
+<figure class="highlight processing"><table><tr><td class="code"><pre><span class="line"><span class="built_in">str</span>=<span class="string">&quot;很好hh-20.1计算机11.1你好90%我 -50&quot;</span></span><br><span class="line"><span class="keyword">import</span> re</span><br><span class="line"><span class="built_in">print</span>(re.<span class="property">findall</span>(<span class="string">&quot;\d+&quot;</span>,<span class="built_in">str</span>))</span><br><span class="line"># 输出：[<span class="string">&#x27;20&#x27;</span>, <span class="string">&#x27;1&#x27;</span>, <span class="string">&#x27;11&#x27;</span>, <span class="string">&#x27;1&#x27;</span>, <span class="string">&#x27;90&#x27;</span>, <span class="string">&#x27;50&#x27;</span>]</span><br></pre></td></tr></table></figure>
+<p>再试试正则表达式呢<br>
+网上找到的常用方法</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> re</span><br><span class="line"></span><br><span class="line">sentence = <span class="string">&quot;很好hh-20.1计算机11.1你好90%我 -50&quot;</span></span><br><span class="line">s = [<span class="built_in">float</span>(s) <span class="keyword">for</span> s <span class="keyword">in</span> re.findall(<span class="string">r&#x27;-?\d+\.?\d*&#x27;</span>, sentence)]</span><br><span class="line"><span class="built_in">print</span>(s)</span><br><span class="line"><span class="comment">#输出：[-20.1, 11.1, 90.0, -50.0]</span></span><br></pre></td></tr></table></figure>
+<p>然而寄在百分数上了</p>
+<p>但其实好像是能做的，把%的匹配给加上</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> re</span><br><span class="line">sentence = <span class="string">&quot;很好hh-20.1计算机11.1你好90%我 -50&quot;</span></span><br><span class="line">s2 = [s  <span class="keyword">for</span> s <span class="keyword">in</span> re.findall(<span class="string">r&#x27;-?\d+%?\.?\d*&#x27;</span>, sentence)  ]</span><br><span class="line">s3=[]</span><br><span class="line"><span class="keyword">for</span> s <span class="keyword">in</span> s2:</span><br><span class="line">    <span class="keyword">if</span> is_number(s)==<span class="literal">False</span>:</span><br><span class="line">        s=s.replace(<span class="string">&quot;%&quot;</span>,<span class="string">&quot;&quot;</span>)</span><br><span class="line">        s=<span class="built_in">float</span>(s)/<span class="number">100</span></span><br><span class="line">    s3.append(s)</span><br><span class="line"><span class="built_in">print</span>(s3)</span><br><span class="line"><span class="comment">#[&#x27;-20.1&#x27;, &#x27;11.1&#x27;, 0.9, &#x27;-50&#x27;]</span></span><br></pre></td></tr></table></figure>
+<p>其实还是挺麻烦的</p>
+<p>2.自己乱写的算法，写得超级超级的乱<br>
+在数字提取之前应该需要一个判断数字的函数<br>
+isdigit()可以判断单个字符<br>
+可能会有疏漏，但基本满足了需求</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">numget</span>(<span class="params">string</span>):</span><br><span class="line">    a = <span class="string">&#x27;&#x27;</span>   <span class="comment"># 将空值赋值给a</span></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> string:    <span class="comment"># 将字符串进行遍历</span></span><br><span class="line">        <span class="keyword">if</span> is_number(i)==<span class="literal">True</span>:    <span class="comment"># 判断i是否为数字</span></span><br><span class="line">            a += i</span><br><span class="line">        <span class="keyword">if</span> i==<span class="string">&quot;.&quot;</span> <span class="keyword">or</span> i==<span class="string">&quot;%&quot;</span> <span class="keyword">or</span> i==<span class="string">&quot;-&quot;</span>:</span><br><span class="line">            a+=i</span><br><span class="line">        <span class="keyword">elif</span> is_number(i)==<span class="literal">False</span> :</span><br><span class="line">            a+=<span class="string">&quot; &quot;</span> <span class="comment">#为数字之间制造间隔</span></span><br><span class="line">    <span class="keyword">if</span> a ==<span class="string">&quot;&quot;</span>:</span><br><span class="line">        a+=<span class="string">&quot;0&quot;</span></span><br><span class="line">	<span class="comment">#非数字部分会全部变成空格，所以要删掉空格并分离数字</span></span><br><span class="line">    numlist=spaceremove(a)</span><br><span class="line">	<span class="comment">#删掉空格然后分离，获取数字断点</span></span><br><span class="line">    temp=tempsolve(numlist)</span><br><span class="line">	<span class="comment">#获取每个数字的区间</span></span><br><span class="line"></span><br><span class="line">    arr=[]</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> temp:</span><br><span class="line">        e1,e2=i[<span class="number">0</span>],i[<span class="number">1</span>]</span><br><span class="line">        t=a[e1:e2+<span class="number">1</span>]</span><br><span class="line">        arr.append(t) <span class="comment">#arr就是分离出的数字列表</span></span><br><span class="line">    arr1=[]</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> arr:</span><br><span class="line">        i=numchange(i) <span class="comment">#把百分数换成小数，并把其他数字换成浮点数</span></span><br><span class="line">        arr1.append(i)</span><br><span class="line">    <span class="keyword">return</span> arr1</span><br><span class="line"><span class="keyword">def</span> <span class="title function_">spaceremove</span>(<span class="params"><span class="built_in">str</span></span>):</span><br><span class="line">    <span class="comment">#判断数字分隔</span></span><br><span class="line">    <span class="built_in">list</span>=[]</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="built_in">len</span>(<span class="built_in">str</span>)):</span><br><span class="line">        e1=<span class="built_in">str</span>[i]</span><br><span class="line">        <span class="keyword">if</span> e1.isdigit()==<span class="literal">True</span> <span class="keyword">or</span> e1==<span class="string">&quot;.&quot;</span> <span class="keyword">or</span> e1==<span class="string">&quot;%&quot;</span> <span class="keyword">or</span> e1==<span class="string">&quot;-&quot;</span>:</span><br><span class="line">            <span class="built_in">list</span>.append(i)</span><br><span class="line"></span><br><span class="line">    temp=[]</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="built_in">len</span>(<span class="built_in">list</span>)):</span><br><span class="line">        e1=<span class="built_in">list</span>[i]</span><br><span class="line">        <span class="keyword">if</span> i&lt;<span class="built_in">len</span>(<span class="built_in">list</span>)-<span class="number">1</span>:</span><br><span class="line">            e2=<span class="built_in">list</span>[i+<span class="number">1</span>]</span><br><span class="line">            <span class="keyword">if</span> e2 -e1!=<span class="number">1</span>:</span><br><span class="line">                temp.append(e1+<span class="number">1</span>)</span><br><span class="line">    <span class="keyword">if</span> temp[<span class="number">0</span>]!=<span class="number">0</span>:</span><br><span class="line">        temp1=[<span class="number">0</span>]</span><br><span class="line">        <span class="keyword">for</span> i <span class="keyword">in</span> temp:</span><br><span class="line">            temp1.append(i)</span><br><span class="line">        temp1.append(<span class="built_in">list</span>[-<span class="number">1</span>])</span><br><span class="line">        temp=temp1</span><br><span class="line">    <span class="keyword">return</span> temp</span><br><span class="line"><span class="keyword">def</span> <span class="title function_">tempsolve</span>(<span class="params">numlist</span>):</span><br><span class="line">    <span class="comment">#判断数字的区间 最后return一个复合列表</span></span><br><span class="line">    temp = []</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="built_in">len</span>(numlist)):</span><br><span class="line">        e1 = numlist[i]</span><br><span class="line">        <span class="keyword">if</span> i &lt; <span class="built_in">len</span>(numlist) - <span class="number">1</span>:</span><br><span class="line">            e2 = numlist[i + <span class="number">1</span>]</span><br><span class="line">            temp1 = []</span><br><span class="line">            temp1.append(e1)</span><br><span class="line">            temp1.append(e2)</span><br><span class="line">            temp.append(temp1)</span><br><span class="line">    <span class="keyword">return</span> temp</span><br><span class="line"><span class="keyword">def</span> <span class="title function_">numchange</span>(<span class="params"><span class="built_in">str</span></span>):</span><br><span class="line">    <span class="comment">#处理百分数</span></span><br><span class="line">    a=<span class="string">&quot;&quot;</span></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">str</span>:</span><br><span class="line">        <span class="keyword">if</span> i==<span class="string">&quot;%&quot;</span>:</span><br><span class="line">            a+=<span class="string">&quot;%&quot;</span></span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        <span class="built_in">str</span>=<span class="built_in">float</span>(<span class="built_in">str</span>)</span><br><span class="line">    <span class="keyword">except</span>:</span><br><span class="line">        <span class="keyword">if</span> a==<span class="string">&quot;%&quot;</span>:</span><br><span class="line">            b=<span class="string">&quot;&quot;</span></span><br><span class="line">            <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">str</span>:</span><br><span class="line">                <span class="keyword">if</span> i.isdigit()==<span class="literal">True</span>:</span><br><span class="line">                    b+=i</span><br><span class="line">            <span class="keyword">if</span> b!=<span class="string">&quot;&quot;</span>:</span><br><span class="line">                <span class="built_in">str</span>=<span class="built_in">int</span>(b)/<span class="number">100</span></span><br><span class="line">    <span class="keyword">return</span> <span class="built_in">str</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">str</span>=<span class="string">&quot;很好hh-20.1计算机11.1你好90%我 -50&quot;</span></span><br><span class="line"><span class="built_in">print</span>(numget(<span class="built_in">str</span>))</span><br><span class="line"><span class="comment"># 输出结果：[-20.1, 11.1, 0.9, -50.0]</span></span><br></pre></td></tr></table></figure>
+<p><img data-src="/image/929D_262_1.jpg" alt="2"></p>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>【测试】js做的歌碟</title>
     <url>/2023/09/30/%E3%80%90%E7%9E%8E%E6%90%9E-%E6%B5%8B%E8%AF%95%E3%80%91js%E5%81%9A%E7%9A%84%E6%AD%8C%E7%A2%9F/</url>
     <content><![CDATA[<p>本文写的用纯JS（Jquery）写出的歌碟，<br>
@@ -2586,40 +2828,6 @@ pandas的功能也比较强大，可以对接excel。<br>
 ]]></content>
       <categories>
         <category>算法</category>
-      </categories>
-      <tags>
-        <tag>算法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【算法/Python】数字提取</title>
-    <url>/2023/09/29/%E3%80%90%E7%AE%97%E6%B3%95-Python%E3%80%91%E6%95%B0%E5%AD%97%E6%8F%90%E5%8F%96/</url>
-    <content><![CDATA[<p>1.前言<br>
-数字提取是一个难题，然而爬虫有些时候是非常需要，<br>
-如果爬下来的数字是错的，整个数学运算就寄了</p>
-<span id="more"></span>
-<p><img data-src="/image/929D_294_1.jpg" alt="1"><br>
-像字符串逐个读取这样，这样的算法只能读取一个数字，<br>
-而且不能读取负数，百分数等</p>
-<figure class="highlight livecodeserver"><table><tr><td class="code"><pre><span class="line">def numget(<span class="keyword">string</span>):</span><br><span class="line">    <span class="keyword">a</span> = <span class="string">&#x27;&#x27;</span>   <span class="comment"># 将空值赋值给a</span></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="keyword">string</span>:    <span class="comment"># 将字符串进行遍历</span></span><br><span class="line">        <span class="keyword">if</span> str.isdigit(i)==True:    <span class="comment"># 判断i是否为数字，如果“是”返回True，“不是”返回False</span></span><br><span class="line">            <span class="keyword">a</span> += i   <span class="comment"># 如果i是数字格式，将i以字符串格式加到a上</span></span><br><span class="line">        elif i==<span class="string">&quot;.&quot;</span>:</span><br><span class="line">            <span class="keyword">a</span>+=<span class="string">&quot;.&quot;</span></span><br><span class="line">    <span class="keyword">if</span> <span class="keyword">a</span> ==<span class="string">&quot;&quot;</span>:</span><br><span class="line">        <span class="keyword">a</span>+=<span class="string">&quot;0&quot;</span></span><br><span class="line">    <span class="literal">return</span> <span class="keyword">a</span></span><br></pre></td></tr></table></figure>
-<p>如果用现成的re.findall无法解决百分数，负数，小数点的问题</p>
-<figure class="highlight processing"><table><tr><td class="code"><pre><span class="line"><span class="built_in">str</span>=<span class="string">&quot;很好hh-20.1计算机11.1你好90%我 -50&quot;</span></span><br><span class="line"><span class="keyword">import</span> re</span><br><span class="line"><span class="built_in">print</span>(re.<span class="property">findall</span>(<span class="string">&quot;\d+&quot;</span>,<span class="built_in">str</span>))</span><br><span class="line"># 输出：[<span class="string">&#x27;20&#x27;</span>, <span class="string">&#x27;1&#x27;</span>, <span class="string">&#x27;11&#x27;</span>, <span class="string">&#x27;1&#x27;</span>, <span class="string">&#x27;90&#x27;</span>, <span class="string">&#x27;50&#x27;</span>]</span><br></pre></td></tr></table></figure>
-<p>再试试正则表达式呢<br>
-网上找到的常用方法</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> re</span><br><span class="line"></span><br><span class="line">sentence = <span class="string">&quot;很好hh-20.1计算机11.1你好90%我 -50&quot;</span></span><br><span class="line">s = [<span class="built_in">float</span>(s) <span class="keyword">for</span> s <span class="keyword">in</span> re.findall(<span class="string">r&#x27;-?\d+\.?\d*&#x27;</span>, sentence)]</span><br><span class="line"><span class="built_in">print</span>(s)</span><br><span class="line"><span class="comment">#输出：[-20.1, 11.1, 90.0, -50.0]</span></span><br></pre></td></tr></table></figure>
-<p>然而寄在百分数上了</p>
-<p>但其实好像是能做的，把%的匹配给加上</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> re</span><br><span class="line">sentence = <span class="string">&quot;很好hh-20.1计算机11.1你好90%我 -50&quot;</span></span><br><span class="line">s2 = [s  <span class="keyword">for</span> s <span class="keyword">in</span> re.findall(<span class="string">r&#x27;-?\d+%?\.?\d*&#x27;</span>, sentence)  ]</span><br><span class="line">s3=[]</span><br><span class="line"><span class="keyword">for</span> s <span class="keyword">in</span> s2:</span><br><span class="line">    <span class="keyword">if</span> is_number(s)==<span class="literal">False</span>:</span><br><span class="line">        s=s.replace(<span class="string">&quot;%&quot;</span>,<span class="string">&quot;&quot;</span>)</span><br><span class="line">        s=<span class="built_in">float</span>(s)/<span class="number">100</span></span><br><span class="line">    s3.append(s)</span><br><span class="line"><span class="built_in">print</span>(s3)</span><br><span class="line"><span class="comment">#[&#x27;-20.1&#x27;, &#x27;11.1&#x27;, 0.9, &#x27;-50&#x27;]</span></span><br></pre></td></tr></table></figure>
-<p>其实还是挺麻烦的</p>
-<p>2.自己乱写的算法，写得超级超级的乱<br>
-在数字提取之前应该需要一个判断数字的函数<br>
-isdigit()可以判断单个字符<br>
-可能会有疏漏，但基本满足了需求</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">numget</span>(<span class="params">string</span>):</span><br><span class="line">    a = <span class="string">&#x27;&#x27;</span>   <span class="comment"># 将空值赋值给a</span></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> string:    <span class="comment"># 将字符串进行遍历</span></span><br><span class="line">        <span class="keyword">if</span> is_number(i)==<span class="literal">True</span>:    <span class="comment"># 判断i是否为数字</span></span><br><span class="line">            a += i</span><br><span class="line">        <span class="keyword">if</span> i==<span class="string">&quot;.&quot;</span> <span class="keyword">or</span> i==<span class="string">&quot;%&quot;</span> <span class="keyword">or</span> i==<span class="string">&quot;-&quot;</span>:</span><br><span class="line">            a+=i</span><br><span class="line">        <span class="keyword">elif</span> is_number(i)==<span class="literal">False</span> :</span><br><span class="line">            a+=<span class="string">&quot; &quot;</span> <span class="comment">#为数字之间制造间隔</span></span><br><span class="line">    <span class="keyword">if</span> a ==<span class="string">&quot;&quot;</span>:</span><br><span class="line">        a+=<span class="string">&quot;0&quot;</span></span><br><span class="line">	<span class="comment">#非数字部分会全部变成空格，所以要删掉空格并分离数字</span></span><br><span class="line">    numlist=spaceremove(a)</span><br><span class="line">	<span class="comment">#删掉空格然后分离，获取数字断点</span></span><br><span class="line">    temp=tempsolve(numlist)</span><br><span class="line">	<span class="comment">#获取每个数字的区间</span></span><br><span class="line"></span><br><span class="line">    arr=[]</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> temp:</span><br><span class="line">        e1,e2=i[<span class="number">0</span>],i[<span class="number">1</span>]</span><br><span class="line">        t=a[e1:e2+<span class="number">1</span>]</span><br><span class="line">        arr.append(t) <span class="comment">#arr就是分离出的数字列表</span></span><br><span class="line">    arr1=[]</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> arr:</span><br><span class="line">        i=numchange(i) <span class="comment">#把百分数换成小数，并把其他数字换成浮点数</span></span><br><span class="line">        arr1.append(i)</span><br><span class="line">    <span class="keyword">return</span> arr1</span><br><span class="line"><span class="keyword">def</span> <span class="title function_">spaceremove</span>(<span class="params"><span class="built_in">str</span></span>):</span><br><span class="line">    <span class="comment">#判断数字分隔</span></span><br><span class="line">    <span class="built_in">list</span>=[]</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="built_in">len</span>(<span class="built_in">str</span>)):</span><br><span class="line">        e1=<span class="built_in">str</span>[i]</span><br><span class="line">        <span class="keyword">if</span> e1.isdigit()==<span class="literal">True</span> <span class="keyword">or</span> e1==<span class="string">&quot;.&quot;</span> <span class="keyword">or</span> e1==<span class="string">&quot;%&quot;</span> <span class="keyword">or</span> e1==<span class="string">&quot;-&quot;</span>:</span><br><span class="line">            <span class="built_in">list</span>.append(i)</span><br><span class="line"></span><br><span class="line">    temp=[]</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="built_in">len</span>(<span class="built_in">list</span>)):</span><br><span class="line">        e1=<span class="built_in">list</span>[i]</span><br><span class="line">        <span class="keyword">if</span> i&lt;<span class="built_in">len</span>(<span class="built_in">list</span>)-<span class="number">1</span>:</span><br><span class="line">            e2=<span class="built_in">list</span>[i+<span class="number">1</span>]</span><br><span class="line">            <span class="keyword">if</span> e2 -e1!=<span class="number">1</span>:</span><br><span class="line">                temp.append(e1+<span class="number">1</span>)</span><br><span class="line">    <span class="keyword">if</span> temp[<span class="number">0</span>]!=<span class="number">0</span>:</span><br><span class="line">        temp1=[<span class="number">0</span>]</span><br><span class="line">        <span class="keyword">for</span> i <span class="keyword">in</span> temp:</span><br><span class="line">            temp1.append(i)</span><br><span class="line">        temp1.append(<span class="built_in">list</span>[-<span class="number">1</span>])</span><br><span class="line">        temp=temp1</span><br><span class="line">    <span class="keyword">return</span> temp</span><br><span class="line"><span class="keyword">def</span> <span class="title function_">tempsolve</span>(<span class="params">numlist</span>):</span><br><span class="line">    <span class="comment">#判断数字的区间 最后return一个复合列表</span></span><br><span class="line">    temp = []</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="built_in">len</span>(numlist)):</span><br><span class="line">        e1 = numlist[i]</span><br><span class="line">        <span class="keyword">if</span> i &lt; <span class="built_in">len</span>(numlist) - <span class="number">1</span>:</span><br><span class="line">            e2 = numlist[i + <span class="number">1</span>]</span><br><span class="line">            temp1 = []</span><br><span class="line">            temp1.append(e1)</span><br><span class="line">            temp1.append(e2)</span><br><span class="line">            temp.append(temp1)</span><br><span class="line">    <span class="keyword">return</span> temp</span><br><span class="line"><span class="keyword">def</span> <span class="title function_">numchange</span>(<span class="params"><span class="built_in">str</span></span>):</span><br><span class="line">    <span class="comment">#处理百分数</span></span><br><span class="line">    a=<span class="string">&quot;&quot;</span></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">str</span>:</span><br><span class="line">        <span class="keyword">if</span> i==<span class="string">&quot;%&quot;</span>:</span><br><span class="line">            a+=<span class="string">&quot;%&quot;</span></span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        <span class="built_in">str</span>=<span class="built_in">float</span>(<span class="built_in">str</span>)</span><br><span class="line">    <span class="keyword">except</span>:</span><br><span class="line">        <span class="keyword">if</span> a==<span class="string">&quot;%&quot;</span>:</span><br><span class="line">            b=<span class="string">&quot;&quot;</span></span><br><span class="line">            <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">str</span>:</span><br><span class="line">                <span class="keyword">if</span> i.isdigit()==<span class="literal">True</span>:</span><br><span class="line">                    b+=i</span><br><span class="line">            <span class="keyword">if</span> b!=<span class="string">&quot;&quot;</span>:</span><br><span class="line">                <span class="built_in">str</span>=<span class="built_in">int</span>(b)/<span class="number">100</span></span><br><span class="line">    <span class="keyword">return</span> <span class="built_in">str</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">str</span>=<span class="string">&quot;很好hh-20.1计算机11.1你好90%我 -50&quot;</span></span><br><span class="line"><span class="built_in">print</span>(numget(<span class="built_in">str</span>))</span><br><span class="line"><span class="comment"># 输出结果：[-20.1, 11.1, 0.9, -50.0]</span></span><br></pre></td></tr></table></figure>
-<p><img data-src="/image/929D_262_1.jpg" alt="2"></p>
-]]></content>
-      <categories>
-        <category>Python</category>
       </categories>
       <tags>
         <tag>算法</tag>
@@ -2832,69 +3040,6 @@ xxxxxx”ssh目录下config文件中的命名</p>
       </tags>
   </entry>
   <entry>
-    <title>测试JS玩法</title>
-    <url>/2023/09/30/%E6%B5%8B%E8%AF%95JS%E7%8E%A9%E6%B3%95/</url>
-    <content><![CDATA[<p>本文主要测试JS的数学计算功能，<br>
-以及交互功能，本文主要用了JS的第三方完成交互功能。</p>
-<span id="more"></span>
-<p><a class="comcu_btn" onclick="test()">乘数计算器</a></p>
-<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js">
-</script>
-<script src="//unpkg.com/layui@2.8.17/dist/layui.js"> </script>
-<script>
-	function isnum(str){
-		if (!isNaN(parseFloat(str)) && isFinite(str) ){
-			return true}
-		else{return false}
-	}
-	var layer ;
-    layui.use('layer', function(){
-        layer = layui.layer;
-    });
-	function test(){
-		layer.prompt({
-			formType:0,
-			title: '乘数计算器',
-			id:"layui_text",
-		},function(value,index,elem){
-				if(value==""){
-					alert("请输入");
-					return
-				}
-				var data1=$('.new_input1').val()
-				if (data1==""){
-					alert("请输入")
-					return
-				}
-				if (isnum(value) && isnum(data1)){
-					var mu =value*data1
-					alert(mu)
-				}
-				else{alert("输入不合法")}
-				
-				layer.close(index)
-			})
-		
-		if ($(".new_input1").length == 0){ 
-			$(".layui-layer-content").append("<br/><input type=\"text\" class=\"new_input1\" placeholder=\"输入随机数\"/>")
-			$(".layui-layer-btn0").append("&nbsp;&nbsp;")
-			}
-		$(".layui-layer.layui-layer-page.layui-layer-prompt.layer-anim.layer-anim-00").css({"border":"3px solid",
-								"font-weight":"bold",
-								"border-radius": "5px",
-								"color": "black",
-								"padding": "15px",
-								"background-color":"white"})
-
-	}
-</script>
-<p>源代码</p>
-<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">&quot;comcu_btn&quot;</span> <span class="attr">onclick</span>=<span class="string">&quot;test()&quot;</span>&gt;</span>乘数计算器<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;//unpkg.com/layui@2.8.17/dist/layui.js&quot;</span>&gt;</span> <span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">	<span class="keyword">function</span> <span class="title function_">isnum</span>(<span class="params">str</span>)&#123;</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">if</span> (!<span class="built_in">isNaN</span>(<span class="built_in">parseFloat</span>(str)) &amp;&amp; <span class="built_in">isFinite</span>(str) )&#123;</span></span><br><span class="line"><span class="language-javascript">			<span class="keyword">return</span> <span class="literal">true</span>&#125;</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">else</span>&#123;<span class="keyword">return</span> <span class="literal">false</span>&#125;</span></span><br><span class="line"><span class="language-javascript">	&#125;</span></span><br><span class="line"><span class="language-javascript">	<span class="keyword">var</span> layer ;</span></span><br><span class="line"><span class="language-javascript">    layui.<span class="title function_">use</span>(<span class="string">&#x27;layer&#x27;</span>, <span class="keyword">function</span>(<span class="params"></span>)&#123;</span></span><br><span class="line"><span class="language-javascript">        layer = layui.<span class="property">layer</span>;</span></span><br><span class="line"><span class="language-javascript">    &#125;);</span></span><br><span class="line"><span class="language-javascript">	<span class="keyword">function</span> <span class="title function_">test</span>(<span class="params"></span>)&#123;</span></span><br><span class="line"><span class="language-javascript">		layer.<span class="title function_">prompt</span>(&#123;</span></span><br><span class="line"><span class="language-javascript">			<span class="attr">formType</span>:<span class="number">0</span>,</span></span><br><span class="line"><span class="language-javascript">			<span class="attr">title</span>: <span class="string">&#x27;乘数计算器&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">			<span class="attr">id</span>:<span class="string">&quot;layui_text&quot;</span>,</span></span><br><span class="line"><span class="language-javascript">		&#125;,<span class="keyword">function</span>(<span class="params">value,index,elem</span>)&#123;</span></span><br><span class="line"><span class="language-javascript">				<span class="keyword">if</span>(value==<span class="string">&quot;&quot;</span>)&#123;</span></span><br><span class="line"><span class="language-javascript">					<span class="title function_">alert</span>(<span class="string">&quot;请输入&quot;</span>);</span></span><br><span class="line"><span class="language-javascript">					<span class="keyword">return</span></span></span><br><span class="line"><span class="language-javascript">				&#125;</span></span><br><span class="line"><span class="language-javascript">				<span class="keyword">var</span> data1=$(<span class="string">&#x27;.new_input1&#x27;</span>).<span class="title function_">val</span>()</span></span><br><span class="line"><span class="language-javascript">				<span class="keyword">if</span> (data1==<span class="string">&quot;&quot;</span>)&#123;</span></span><br><span class="line"><span class="language-javascript">					<span class="title function_">alert</span>(<span class="string">&quot;请输入&quot;</span>)</span></span><br><span class="line"><span class="language-javascript">					<span class="keyword">return</span></span></span><br><span class="line"><span class="language-javascript">				&#125;</span></span><br><span class="line"><span class="language-javascript">				<span class="keyword">if</span> (<span class="title function_">isnum</span>(value) &amp;&amp; <span class="title function_">isnum</span>(data1))&#123;</span></span><br><span class="line"><span class="language-javascript">					<span class="keyword">var</span> mu =value*data1</span></span><br><span class="line"><span class="language-javascript">					<span class="title function_">alert</span>(mu)</span></span><br><span class="line"><span class="language-javascript">				&#125;</span></span><br><span class="line"><span class="language-javascript">				<span class="keyword">else</span>&#123;<span class="title function_">alert</span>(<span class="string">&quot;输入不合法&quot;</span>)&#125;</span></span><br><span class="line"><span class="language-javascript">				</span></span><br><span class="line"><span class="language-javascript">				layer.<span class="title function_">close</span>(index)</span></span><br><span class="line"><span class="language-javascript">			&#125;)</span></span><br><span class="line"><span class="language-javascript">		</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">if</span> ($(<span class="string">&quot;.new_input1&quot;</span>).<span class="property">length</span> == <span class="number">0</span>)&#123; </span></span><br><span class="line"><span class="language-javascript">			$(<span class="string">&quot;.layui-layer-content&quot;</span>).<span class="title function_">append</span>(<span class="string">&quot;&lt;br/&gt;&lt;input type=\&quot;text\&quot; class=\&quot;new_input1\&quot; placeholder=\&quot;输入随机数\&quot;/&gt;&quot;</span>)</span></span><br><span class="line"><span class="language-javascript">			$(<span class="string">&quot;.layui-layer-btn0&quot;</span>).<span class="title function_">append</span>(<span class="string">&quot;&amp;nbsp;&amp;nbsp;&quot;</span>)</span></span><br><span class="line"><span class="language-javascript">			&#125;</span></span><br><span class="line"><span class="language-javascript">		$(<span class="string">&quot;.layui-layer.layui-layer-page.layui-layer-prompt.layer-anim.layer-anim-00&quot;</span>).<span class="title function_">css</span>(&#123;<span class="string">&quot;border&quot;</span>:<span class="string">&quot;3px solid&quot;</span>,</span></span><br><span class="line"><span class="language-javascript">								<span class="string">&quot;font-weight&quot;</span>:<span class="string">&quot;bold&quot;</span>,</span></span><br><span class="line"><span class="language-javascript">								<span class="string">&quot;border-radius&quot;</span>: <span class="string">&quot;5px&quot;</span>,</span></span><br><span class="line"><span class="language-javascript">								<span class="string">&quot;color&quot;</span>: <span class="string">&quot;black&quot;</span>,</span></span><br><span class="line"><span class="language-javascript">								<span class="string">&quot;padding&quot;</span>: <span class="string">&quot;15px&quot;</span>,</span></span><br><span class="line"><span class="language-javascript">								<span class="string">&quot;background-color&quot;</span>:<span class="string">&quot;white&quot;</span>&#125;)</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">	&#125;</span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>前端JS</category>
-      </categories>
-  </entry>
-  <entry>
     <title>【Python】（自用）梳理一下基本爬图思路</title>
     <url>/2023/10/01/%E6%A2%B3%E7%90%86%E4%B8%80%E4%B8%8B%E5%9F%BA%E6%9C%AC%E7%88%AC%E5%9B%BE%E6%80%9D%E8%B7%AF/</url>
     <content><![CDATA[<p><a href="/2023/09/28/%E7%94%A8selenum%E5%88%B6%E4%BD%9C%E5%89%8D%E7%AB%AF%E5%BC%8F%E7%88%AC%E8%99%AB/">前文:用Selenium制作前端式爬虫</a><br>
@@ -2967,6 +3112,69 @@ d_p_name,d_n_name，前一个是图片定位，后一个是下一页定位<br>
       <tags>
         <tag>爬虫</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>测试JS玩法</title>
+    <url>/2023/09/30/%E6%B5%8B%E8%AF%95JS%E7%8E%A9%E6%B3%95/</url>
+    <content><![CDATA[<p>本文主要测试JS的数学计算功能，<br>
+以及交互功能，本文主要用了JS的第三方完成交互功能。</p>
+<span id="more"></span>
+<p><a class="comcu_btn" onclick="test()">乘数计算器</a></p>
+<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js">
+</script>
+<script src="//unpkg.com/layui@2.8.17/dist/layui.js"> </script>
+<script>
+	function isnum(str){
+		if (!isNaN(parseFloat(str)) && isFinite(str) ){
+			return true}
+		else{return false}
+	}
+	var layer ;
+    layui.use('layer', function(){
+        layer = layui.layer;
+    });
+	function test(){
+		layer.prompt({
+			formType:0,
+			title: '乘数计算器',
+			id:"layui_text",
+		},function(value,index,elem){
+				if(value==""){
+					alert("请输入");
+					return
+				}
+				var data1=$('.new_input1').val()
+				if (data1==""){
+					alert("请输入")
+					return
+				}
+				if (isnum(value) && isnum(data1)){
+					var mu =value*data1
+					alert(mu)
+				}
+				else{alert("输入不合法")}
+				
+				layer.close(index)
+			})
+		
+		if ($(".new_input1").length == 0){ 
+			$(".layui-layer-content").append("<br/><input type=\"text\" class=\"new_input1\" placeholder=\"输入随机数\"/>")
+			$(".layui-layer-btn0").append("&nbsp;&nbsp;")
+			}
+		$(".layui-layer.layui-layer-page.layui-layer-prompt.layer-anim.layer-anim-00").css({"border":"3px solid",
+								"font-weight":"bold",
+								"border-radius": "5px",
+								"color": "black",
+								"padding": "15px",
+								"background-color":"white"})
+
+	}
+</script>
+<p>源代码</p>
+<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">&quot;comcu_btn&quot;</span> <span class="attr">onclick</span>=<span class="string">&quot;test()&quot;</span>&gt;</span>乘数计算器<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;//unpkg.com/layui@2.8.17/dist/layui.js&quot;</span>&gt;</span> <span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">	<span class="keyword">function</span> <span class="title function_">isnum</span>(<span class="params">str</span>)&#123;</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">if</span> (!<span class="built_in">isNaN</span>(<span class="built_in">parseFloat</span>(str)) &amp;&amp; <span class="built_in">isFinite</span>(str) )&#123;</span></span><br><span class="line"><span class="language-javascript">			<span class="keyword">return</span> <span class="literal">true</span>&#125;</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">else</span>&#123;<span class="keyword">return</span> <span class="literal">false</span>&#125;</span></span><br><span class="line"><span class="language-javascript">	&#125;</span></span><br><span class="line"><span class="language-javascript">	<span class="keyword">var</span> layer ;</span></span><br><span class="line"><span class="language-javascript">    layui.<span class="title function_">use</span>(<span class="string">&#x27;layer&#x27;</span>, <span class="keyword">function</span>(<span class="params"></span>)&#123;</span></span><br><span class="line"><span class="language-javascript">        layer = layui.<span class="property">layer</span>;</span></span><br><span class="line"><span class="language-javascript">    &#125;);</span></span><br><span class="line"><span class="language-javascript">	<span class="keyword">function</span> <span class="title function_">test</span>(<span class="params"></span>)&#123;</span></span><br><span class="line"><span class="language-javascript">		layer.<span class="title function_">prompt</span>(&#123;</span></span><br><span class="line"><span class="language-javascript">			<span class="attr">formType</span>:<span class="number">0</span>,</span></span><br><span class="line"><span class="language-javascript">			<span class="attr">title</span>: <span class="string">&#x27;乘数计算器&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">			<span class="attr">id</span>:<span class="string">&quot;layui_text&quot;</span>,</span></span><br><span class="line"><span class="language-javascript">		&#125;,<span class="keyword">function</span>(<span class="params">value,index,elem</span>)&#123;</span></span><br><span class="line"><span class="language-javascript">				<span class="keyword">if</span>(value==<span class="string">&quot;&quot;</span>)&#123;</span></span><br><span class="line"><span class="language-javascript">					<span class="title function_">alert</span>(<span class="string">&quot;请输入&quot;</span>);</span></span><br><span class="line"><span class="language-javascript">					<span class="keyword">return</span></span></span><br><span class="line"><span class="language-javascript">				&#125;</span></span><br><span class="line"><span class="language-javascript">				<span class="keyword">var</span> data1=$(<span class="string">&#x27;.new_input1&#x27;</span>).<span class="title function_">val</span>()</span></span><br><span class="line"><span class="language-javascript">				<span class="keyword">if</span> (data1==<span class="string">&quot;&quot;</span>)&#123;</span></span><br><span class="line"><span class="language-javascript">					<span class="title function_">alert</span>(<span class="string">&quot;请输入&quot;</span>)</span></span><br><span class="line"><span class="language-javascript">					<span class="keyword">return</span></span></span><br><span class="line"><span class="language-javascript">				&#125;</span></span><br><span class="line"><span class="language-javascript">				<span class="keyword">if</span> (<span class="title function_">isnum</span>(value) &amp;&amp; <span class="title function_">isnum</span>(data1))&#123;</span></span><br><span class="line"><span class="language-javascript">					<span class="keyword">var</span> mu =value*data1</span></span><br><span class="line"><span class="language-javascript">					<span class="title function_">alert</span>(mu)</span></span><br><span class="line"><span class="language-javascript">				&#125;</span></span><br><span class="line"><span class="language-javascript">				<span class="keyword">else</span>&#123;<span class="title function_">alert</span>(<span class="string">&quot;输入不合法&quot;</span>)&#125;</span></span><br><span class="line"><span class="language-javascript">				</span></span><br><span class="line"><span class="language-javascript">				layer.<span class="title function_">close</span>(index)</span></span><br><span class="line"><span class="language-javascript">			&#125;)</span></span><br><span class="line"><span class="language-javascript">		</span></span><br><span class="line"><span class="language-javascript">		<span class="keyword">if</span> ($(<span class="string">&quot;.new_input1&quot;</span>).<span class="property">length</span> == <span class="number">0</span>)&#123; </span></span><br><span class="line"><span class="language-javascript">			$(<span class="string">&quot;.layui-layer-content&quot;</span>).<span class="title function_">append</span>(<span class="string">&quot;&lt;br/&gt;&lt;input type=\&quot;text\&quot; class=\&quot;new_input1\&quot; placeholder=\&quot;输入随机数\&quot;/&gt;&quot;</span>)</span></span><br><span class="line"><span class="language-javascript">			$(<span class="string">&quot;.layui-layer-btn0&quot;</span>).<span class="title function_">append</span>(<span class="string">&quot;&amp;nbsp;&amp;nbsp;&quot;</span>)</span></span><br><span class="line"><span class="language-javascript">			&#125;</span></span><br><span class="line"><span class="language-javascript">		$(<span class="string">&quot;.layui-layer.layui-layer-page.layui-layer-prompt.layer-anim.layer-anim-00&quot;</span>).<span class="title function_">css</span>(&#123;<span class="string">&quot;border&quot;</span>:<span class="string">&quot;3px solid&quot;</span>,</span></span><br><span class="line"><span class="language-javascript">								<span class="string">&quot;font-weight&quot;</span>:<span class="string">&quot;bold&quot;</span>,</span></span><br><span class="line"><span class="language-javascript">								<span class="string">&quot;border-radius&quot;</span>: <span class="string">&quot;5px&quot;</span>,</span></span><br><span class="line"><span class="language-javascript">								<span class="string">&quot;color&quot;</span>: <span class="string">&quot;black&quot;</span>,</span></span><br><span class="line"><span class="language-javascript">								<span class="string">&quot;padding&quot;</span>: <span class="string">&quot;15px&quot;</span>,</span></span><br><span class="line"><span class="language-javascript">								<span class="string">&quot;background-color&quot;</span>:<span class="string">&quot;white&quot;</span>&#125;)</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">	&#125;</span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>前端JS</category>
+      </categories>
   </entry>
   <entry>
     <title>用JS（前端）制作的简易爬虫</title>
@@ -3049,76 +3257,6 @@ forEach方法中的function回调有三个参数：<br>
       <tags>
         <tag>介绍</tag>
         <tag>前端爬虫</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>用Selenium制作前端式爬虫</title>
-    <url>/2023/09/28/%E7%94%A8selenum%E5%88%B6%E4%BD%9C%E5%89%8D%E7%AB%AF%E5%BC%8F%E7%88%AC%E8%99%AB/</url>
-    <content><![CDATA[<p>笔者也就小白水平，写selenium也是边学边写的<br>
-本文只是介绍抓取部分模块，怎么处理可以看看上文<br>
-<a href="https://jkysei.space/2023/09/27/%E7%94%A8JS%EF%BC%88%E5%89%8D%E7%AB%AF%EF%BC%89%E5%88%B6%E4%BD%9C%E7%9A%84%E7%AE%80%E6%98%93%E7%88%AC%E8%99%AB/">用JS（前端）制作的简易爬虫</a><br>
-python也有类似CSS选择器的第三方库，后续再更新</p>
-<span id="more"></span>
-<p>1.前言<br>
-大部分的网站都有反爬机制<br>
-<img data-src="928D_113_1.webp" alt="1"></p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">requests.get(url,headers,timeout)</span><br></pre></td></tr></table></figure>
-<p>requests早已经无法爬取网页了，<br>
-所以希望用一种能够越过反爬虫的第三方库<br>
-selenium是模拟驱动chrome访问网站的方式越过反爬虫<br>
-2.Selenium的调用</p>
-<p>在Pycharm或pip上安装selenium<br>
-随后即可import</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> selenium <span class="keyword">import</span> webdriver</span><br></pre></td></tr></table></figure>
-<p>为了方便修改浏览器设置,引用Options模块</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> selenium.webdriver.chrome.options <span class="keyword">import</span> Options</span><br></pre></td></tr></table></figure>
-<p>用chrome_options存放options</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">chrome_options = Options()</span><br><span class="line">chrome_options.page_load_strategy = <span class="string">&#x27;eager&#x27;</span></span><br></pre></td></tr></table></figure>
-<p>page_load_strategy是浏览器加载策略，默认是normal，eager则是快速加载<br>
-在网页资源加载完成时就会立刻关闭，可以省很多时间。<br>
-网上有很多说有更加快速的方法，说实话是噱头，没有实际用处，<br>
-照着他的方法，会迅速加载网页然后光速关闭，根本无法正常抓取网页内容<br>
-eagle已经是最快的策略，更快可以尝试多线程的爬虫。</p>
-<p>如果电脑里安装了多个chrome或者python无法获取你的chrome程序位置，<br>
-可以引用service模块</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> selenium.webdriver.chrome.service <span class="keyword">import</span> Service</span><br></pre></td></tr></table></figure>
-<figure class="highlight ini"><table><tr><td class="code"><pre><span class="line"><span class="attr">service</span>=Service(executable_path=<span class="string">&quot;路径&quot;</span>)</span><br><span class="line"><span class="comment">#注：python存放路径引号内,如果/可以只写一个,但是如果\\要写两个</span></span><br></pre></td></tr></table></figure>
-<p>设置好就可以驱动浏览器了</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">driver = webdriver.Chrome(service=service,options=chrome_options)</span><br></pre></td></tr></table></figure>
-<p>随后便可以抓取网页资源</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">driver.get(url)</span><br><span class="line">url_get = driver.page_source <span class="comment">#url_get 就是抓取下的网页</span></span><br><span class="line">driver.close()</span><br><span class="line">driver.quit()</span><br></pre></td></tr></table></figure>
-<p>3.报错模块<br>
-selenium虽然挺稳定，但有时因为网站连接不稳定，<br>
-就会报错，中途寄掉的情况。。。经常会有<br>
-特别是爬图，是需要爬到详细页面，页面数量也会倍增。<br>
-报错一般有，加载timeout，selenium一个狗血的地方，timeout会<br>
-让整个程序直接中断，所以一定要try，报错了让它except</p>
-<p>selenium设置timeout的方式</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">browserset.set_page_load_timeout(<span class="number">100</span>)</span><br><span class="line">browserset.set_script_timeout(<span class="number">100</span>)</span><br></pre></td></tr></table></figure>
-<p>第一种是页面加载报timeout的错误，退出，第二种是脚本中止加载<br>
-两者有点小区别，详细请百度。</p>
-<p>驱动浏览器大致可以这么写</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#防空链接报错</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">printpause</span>(<span class="params">timepause</span>):</span><br><span class="line">	<span class="built_in">print</span>(<span class="string">&#x27;***访问超时，程序暂停***&#x27;</span>)</span><br><span class="line">	<span class="built_in">print</span>(<span class="string">&#x27;%d秒后继续&#x27;</span> %timepause)</span><br><span class="line">	time.sleep(timepause) <span class="comment">#报错会一时中止加载</span></span><br><span class="line">	</span><br><span class="line"><span class="keyword">def</span> <span class="title function_">drivebrowser</span>():</span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        browser=browser_set() <span class="comment">#browser_set()就是驱动浏览器的函数</span></span><br><span class="line">        <span class="keyword">return</span> browser <span class="comment">#如果try成功了就会return出browser</span></span><br><span class="line">    <span class="keyword">except</span>:</span><br><span class="line">        secends = random.randint(<span class="number">120</span>, <span class="number">150</span>) </span><br><span class="line">        printpause(secends) </span><br><span class="line">        <span class="keyword">try</span>:</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">&#x27;***重试请求***&#x27;</span>)</span><br><span class="line">            browser=browser_set()</span><br><span class="line">            <span class="keyword">return</span> browser </span><br><span class="line">		<span class="keyword">except</span>:         <span class="comment">#写多几层保险一点</span></span><br><span class="line">            printpause(<span class="number">150</span>)</span><br><span class="line">            <span class="keyword">try</span>:</span><br><span class="line">                <span class="built_in">print</span>(<span class="string">&#x27;***重试请求***&#x27;</span>)</span><br><span class="line">                browser=browser_set()</span><br><span class="line">                <span class="keyword">return</span> browser</span><br><span class="line">            <span class="keyword">except</span>:</span><br><span class="line">                <span class="built_in">print</span>(<span class="string">&#x27;***访问失败，程序继续***&#x27;</span>)</span><br><span class="line">                <span class="keyword">return</span> <span class="string">&#x27;&#x27;</span>  <span class="comment">#实在不行就跳过了</span></span><br></pre></td></tr></table></figure>
-<p>第二种报错就是访问超时的报错，也建议用try函数<br>
-访问函数也可以照着上面写try，except，这里就不多写了</p>
-<p>写了这么多try之后，我也在想应该不可能报错了，其实上还是<br>
-会报的只不过几率很小很小，所以大型爬虫操作还是悠着点，<br>
-几千秒的运行中间报了错可不是开玩笑的。。</p>
-<p><img data-src="928D_91_1.webp" alt="2"></p>
-<p>4.额额额什么？<br>
-selenium无法正确抓取网页了？？<br>
-现在的情况是，单是selenium的爬虫已经会被网站拦截了</p>
-<p>搜索别人的经验后，了解到了防侦测脚本驱动浏览器的第三库</p>
-<figure class="highlight elm"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> undetected_chromedriver <span class="keyword">as</span> uc</span><br></pre></td></tr></table></figure>
-<p>以下是抄的作业<br>
-以咱的水平看不懂，但确实神奇的解决了问题</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">browser_set</span>():</span><br><span class="line">    <span class="comment">#浏览器引擎设置</span></span><br><span class="line">    options = webdriver.ChromeOptions()</span><br><span class="line">	<span class="comment">#取出chrome的option设置</span></span><br><span class="line">    options.add_argument(<span class="string">&quot;--headless&quot;</span>)</span><br><span class="line">	<span class="comment">#后台驱动chrome</span></span><br><span class="line">    <span class="comment"># 去除“Chrome正受到自动测试软件的控制”的显示</span></span><br><span class="line">    options.add_experimental_option(<span class="string">&quot;excludeSwitches&quot;</span>, [<span class="string">&quot;enable-automation&quot;</span>])</span><br><span class="line">    browserset = webdriver.Chrome(options=options)</span><br><span class="line">    <span class="comment"># 设置headers</span></span><br><span class="line">    browserset.execute_cdp_cmd(<span class="string">&quot;Network.setExtraHTTPHeaders&quot;</span>,</span><br><span class="line">                           &#123;<span class="string">&quot;headers&quot;</span>:</span><br><span class="line">                                &#123;</span><br><span class="line">                                    <span class="string">&quot;User-Agent&quot;</span>: <span class="string">&quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36&quot;</span>,</span><br><span class="line">                                    &#125;</span><br><span class="line">                            &#125;)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 防止网站检测selenium的webdriver</span></span><br><span class="line">    browserset.execute_cdp_cmd(<span class="string">&quot;Page.addScriptToEvaluateOnNewDocument&quot;</span>, &#123;</span><br><span class="line">        <span class="string">&quot;source&quot;</span>: <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">                Object.defineProperty(navigator, &#x27;webdriver&#x27;, &#123;</span></span><br><span class="line"><span class="string">                    get: () =&gt; False</span></span><br><span class="line"><span class="string">                &#125;)</span></span><br><span class="line"><span class="string">            &quot;&quot;&quot;</span>&#125;)</span><br><span class="line"></span><br><span class="line">    browserset.set_page_load_timeout(<span class="number">100</span>)</span><br><span class="line">    browserset.set_script_timeout(<span class="number">100</span>)</span><br><span class="line">    <span class="keyword">return</span> browserset</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>Python</category>
-      </categories>
-      <tags>
-        <tag>爬虫</tag>
       </tags>
   </entry>
   <entry>
@@ -3402,6 +3540,116 @@ $(document).ready(function() {
       </categories>
   </entry>
   <entry>
+    <title>【电影】血观音</title>
+    <url>/2023/10/21/%E8%A1%80%E8%A7%82%E9%9F%B3/</url>
+    <content><![CDATA[<p>血观音</p>
+<p>“炉台上陈列着翡翠鼻烟壶与象牙观音像，沙发前围着斑竹小屏风。”伴随着一大段环境描写，上世纪40年代，《第一炉香》在《紫罗兰》杂志上连载，助张爱玲走红上海滩。而如今，有一部电影再次勾起了观众对它的回忆，电影中的女性，不能不叫人想起张爱玲笔下的葛薇龙。这部电影，就是2018年金马奖的最佳影片《血观音》。</p>
+ <span id="more"></span>
+<p><img data-src="%E5%9B%BE%E4%B8%80.webp" alt="图1.webp"></p>
+<p>《血观音》是2017年台湾影坛的一个惊喜，电影中的三代女性（棠夫人—棠宁—棠真）相互博弈，演绎出热带都市里活生生的修罗场。棠夫人是将军遗孀，身段柔软，处处含笑，杀人于无形。她看似政治掮客，却操持大局，为达目的，不惜牺牲骨肉。棠真原本有爱，奈何自小活在满是嘲笑与算计的棋局，她在对林翩翩的“报复”中冷酷自我，在跳车致残的一刻对世界死心。棠夫人要留下她，因为她们是一类人。相比之下，棠宁夹在她二人之间，虽极尽魅惑、看透人心，却只是被辜负的棋子。<br>
+电影中心眼最多的就是导演杨雅喆，以强烈的镜头暗示不断说明人物之间的关系，令人颇为叫绝。<br>
+<img data-src="%E5%9B%BE%E4%BA%8C.webp" alt="图二.webp"><br>
+母女对峙时，月影的头上供着佛经，棠宁的身后是鲜艳的彼岸花，而在片中出镜率极高的代表人性之恶的红苹果（这剧组买的苹果还真红！让身边的橘子和葡萄黯然失色），在给佛上供。</p>
+<p><img data-src="%E5%9B%BE%E4%B8%89.webp" alt="图三.webp"><br>
+<img data-src="%E5%9B%BE%E5%9B%9B.webp" alt="图四.webp"><br>
+王夫人的手，盖在了棠夫人手上，但缺乏特写buff加持，这个气势是虚的。看到这里，王夫人简直是大Boss一般的存在，观众们都被棠夫人的扮猪吃老虎蒙蔽了双眼，以为王夫人相当牛逼，大家都要围着她转。</p>
+<p>这本书上的小皇冠，最终确实落到了冯建刚头上，与结尾相照应，不仅暗示了冯建刚的最终胜利，也交代了棠夫人尽管算尽的动机。<br>
+<img data-src="%E5%9B%BE%E4%BA%94.webp" alt="图五.webp"><br>
+<img data-src="%E5%9B%BE%E5%85%AD.webp" alt="图六.webp"><br>
+总而言之血观音的暗示还有很多宛如一个挖不完的宝藏，处处留意处处有惊喜。但总体的感觉还是压抑的，没有一个相对正面的英雄角色，每一个人都在费尽心机地利用别人。人的丑恶溢出华美的衣服，愈加黑暗。<br>
+《血观音》是一部近乎黑暗的电影，唯一让我温暖的地方，或许就是棠宁还未泯灭的善念。<br>
+在《血观音》里，棠宁的结局，可说是明明白白。棠真忽而回头，冰冷大海上的爆炸声，海上花开，尸骨无存。棠宁的自由之路成为死亡的通道，但即便没有这一幕，即便她真的逃亡到了缅甸，她的生活会好起来吗？一个瘾君子，失去了家庭华贵的支撑，结果可想而知。当烟蒂熄灭，花开又谢，待到“年深日久，羽毛暗了霉了，给虫蛀了”，留给异乡女子的，终究是寒冷与黑暗。<br>
+——节选自豆瓣</p>
+]]></content>
+      <categories>
+        <category>电影</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>用Selenium制作前端式爬虫</title>
+    <url>/2023/09/28/%E7%94%A8selenum%E5%88%B6%E4%BD%9C%E5%89%8D%E7%AB%AF%E5%BC%8F%E7%88%AC%E8%99%AB/</url>
+    <content><![CDATA[<p>笔者也就小白水平，写selenium也是边学边写的<br>
+本文只是介绍抓取部分模块，怎么处理可以看看上文<br>
+<a href="https://jkysei.space/2023/09/27/%E7%94%A8JS%EF%BC%88%E5%89%8D%E7%AB%AF%EF%BC%89%E5%88%B6%E4%BD%9C%E7%9A%84%E7%AE%80%E6%98%93%E7%88%AC%E8%99%AB/">用JS（前端）制作的简易爬虫</a><br>
+python也有类似CSS选择器的第三方库，后续再更新</p>
+<span id="more"></span>
+<p>1.前言<br>
+大部分的网站都有反爬机制<br>
+<img data-src="928D_113_1.webp" alt="1"></p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">requests.get(url,headers,timeout)</span><br></pre></td></tr></table></figure>
+<p>requests早已经无法爬取网页了，<br>
+所以希望用一种能够越过反爬虫的第三方库<br>
+selenium是模拟驱动chrome访问网站的方式越过反爬虫<br>
+2.Selenium的调用</p>
+<p>在Pycharm或pip上安装selenium<br>
+随后即可import</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> selenium <span class="keyword">import</span> webdriver</span><br></pre></td></tr></table></figure>
+<p>为了方便修改浏览器设置,引用Options模块</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> selenium.webdriver.chrome.options <span class="keyword">import</span> Options</span><br></pre></td></tr></table></figure>
+<p>用chrome_options存放options</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">chrome_options = Options()</span><br><span class="line">chrome_options.page_load_strategy = <span class="string">&#x27;eager&#x27;</span></span><br></pre></td></tr></table></figure>
+<p>page_load_strategy是浏览器加载策略，默认是normal，eager则是快速加载<br>
+在网页资源加载完成时就会立刻关闭，可以省很多时间。<br>
+网上有很多说有更加快速的方法，说实话是噱头，没有实际用处，<br>
+照着他的方法，会迅速加载网页然后光速关闭，根本无法正常抓取网页内容<br>
+eagle已经是最快的策略，更快可以尝试多线程的爬虫。</p>
+<p>如果电脑里安装了多个chrome或者python无法获取你的chrome程序位置，<br>
+可以引用service模块</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> selenium.webdriver.chrome.service <span class="keyword">import</span> Service</span><br></pre></td></tr></table></figure>
+<figure class="highlight ini"><table><tr><td class="code"><pre><span class="line"><span class="attr">service</span>=Service(executable_path=<span class="string">&quot;路径&quot;</span>)</span><br><span class="line"><span class="comment">#注：python存放路径引号内,如果/可以只写一个,但是如果\\要写两个</span></span><br></pre></td></tr></table></figure>
+<p>设置好就可以驱动浏览器了</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">driver = webdriver.Chrome(service=service,options=chrome_options)</span><br></pre></td></tr></table></figure>
+<p>随后便可以抓取网页资源</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">driver.get(url)</span><br><span class="line">url_get = driver.page_source <span class="comment">#url_get 就是抓取下的网页</span></span><br><span class="line">driver.close()</span><br><span class="line">driver.quit()</span><br></pre></td></tr></table></figure>
+<p>3.报错模块<br>
+selenium虽然挺稳定，但有时因为网站连接不稳定，<br>
+就会报错，中途寄掉的情况。。。经常会有<br>
+特别是爬图，是需要爬到详细页面，页面数量也会倍增。<br>
+报错一般有，加载timeout，selenium一个狗血的地方，timeout会<br>
+让整个程序直接中断，所以一定要try，报错了让它except</p>
+<p>selenium设置timeout的方式</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">browserset.set_page_load_timeout(<span class="number">100</span>)</span><br><span class="line">browserset.set_script_timeout(<span class="number">100</span>)</span><br></pre></td></tr></table></figure>
+<p>第一种是页面加载报timeout的错误，退出，第二种是脚本中止加载<br>
+两者有点小区别，详细请百度。</p>
+<p>驱动浏览器大致可以这么写</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#防空链接报错</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">printpause</span>(<span class="params">timepause</span>):</span><br><span class="line">	<span class="built_in">print</span>(<span class="string">&#x27;***访问超时，程序暂停***&#x27;</span>)</span><br><span class="line">	<span class="built_in">print</span>(<span class="string">&#x27;%d秒后继续&#x27;</span> %timepause)</span><br><span class="line">	time.sleep(timepause) <span class="comment">#报错会一时中止加载</span></span><br><span class="line">	</span><br><span class="line"><span class="keyword">def</span> <span class="title function_">drivebrowser</span>():</span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        browser=browser_set() <span class="comment">#browser_set()就是驱动浏览器的函数</span></span><br><span class="line">        <span class="keyword">return</span> browser <span class="comment">#如果try成功了就会return出browser</span></span><br><span class="line">    <span class="keyword">except</span>:</span><br><span class="line">        secends = random.randint(<span class="number">120</span>, <span class="number">150</span>) </span><br><span class="line">        printpause(secends) </span><br><span class="line">        <span class="keyword">try</span>:</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">&#x27;***重试请求***&#x27;</span>)</span><br><span class="line">            browser=browser_set()</span><br><span class="line">            <span class="keyword">return</span> browser </span><br><span class="line">		<span class="keyword">except</span>:         <span class="comment">#写多几层保险一点</span></span><br><span class="line">            printpause(<span class="number">150</span>)</span><br><span class="line">            <span class="keyword">try</span>:</span><br><span class="line">                <span class="built_in">print</span>(<span class="string">&#x27;***重试请求***&#x27;</span>)</span><br><span class="line">                browser=browser_set()</span><br><span class="line">                <span class="keyword">return</span> browser</span><br><span class="line">            <span class="keyword">except</span>:</span><br><span class="line">                <span class="built_in">print</span>(<span class="string">&#x27;***访问失败，程序继续***&#x27;</span>)</span><br><span class="line">                <span class="keyword">return</span> <span class="string">&#x27;&#x27;</span>  <span class="comment">#实在不行就跳过了</span></span><br></pre></td></tr></table></figure>
+<p>第二种报错就是访问超时的报错，也建议用try函数<br>
+访问函数也可以照着上面写try，except，这里就不多写了</p>
+<p>写了这么多try之后，我也在想应该不可能报错了，其实上还是<br>
+会报的只不过几率很小很小，所以大型爬虫操作还是悠着点，<br>
+几千秒的运行中间报了错可不是开玩笑的。。</p>
+<p><img data-src="928D_91_1.webp" alt="2"></p>
+<p>4.额额额什么？<br>
+selenium无法正确抓取网页了？？<br>
+现在的情况是，单是selenium的爬虫已经会被网站拦截了</p>
+<p>搜索别人的经验后，了解到了防侦测脚本驱动浏览器的第三库</p>
+<figure class="highlight elm"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> undetected_chromedriver <span class="keyword">as</span> uc</span><br></pre></td></tr></table></figure>
+<p>以下是抄的作业<br>
+以咱的水平看不懂，但确实神奇的解决了问题</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">browser_set</span>():</span><br><span class="line">    <span class="comment">#浏览器引擎设置</span></span><br><span class="line">    options = webdriver.ChromeOptions()</span><br><span class="line">	<span class="comment">#取出chrome的option设置</span></span><br><span class="line">    options.add_argument(<span class="string">&quot;--headless&quot;</span>)</span><br><span class="line">	<span class="comment">#后台驱动chrome</span></span><br><span class="line">    <span class="comment"># 去除“Chrome正受到自动测试软件的控制”的显示</span></span><br><span class="line">    options.add_experimental_option(<span class="string">&quot;excludeSwitches&quot;</span>, [<span class="string">&quot;enable-automation&quot;</span>])</span><br><span class="line">    browserset = webdriver.Chrome(options=options)</span><br><span class="line">    <span class="comment"># 设置headers</span></span><br><span class="line">    browserset.execute_cdp_cmd(<span class="string">&quot;Network.setExtraHTTPHeaders&quot;</span>,</span><br><span class="line">                           &#123;<span class="string">&quot;headers&quot;</span>:</span><br><span class="line">                                &#123;</span><br><span class="line">                                    <span class="string">&quot;User-Agent&quot;</span>: <span class="string">&quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36&quot;</span>,</span><br><span class="line">                                    &#125;</span><br><span class="line">                            &#125;)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 防止网站检测selenium的webdriver</span></span><br><span class="line">    browserset.execute_cdp_cmd(<span class="string">&quot;Page.addScriptToEvaluateOnNewDocument&quot;</span>, &#123;</span><br><span class="line">        <span class="string">&quot;source&quot;</span>: <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">                Object.defineProperty(navigator, &#x27;webdriver&#x27;, &#123;</span></span><br><span class="line"><span class="string">                    get: () =&gt; False</span></span><br><span class="line"><span class="string">                &#125;)</span></span><br><span class="line"><span class="string">            &quot;&quot;&quot;</span>&#125;)</span><br><span class="line"></span><br><span class="line">    browserset.set_page_load_timeout(<span class="number">100</span>)</span><br><span class="line">    browserset.set_script_timeout(<span class="number">100</span>)</span><br><span class="line">    <span class="keyword">return</span> browserset</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>爬虫</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>搬运资料</title>
+    <url>/2023/09/26/%E8%B5%84%E6%96%99/</url>
+    <content><![CDATA[<p>hexo单设备部署多个服务器<br>
+<a href="https://zhuanlan.zhihu.com/p/69218641">引用文章</a><br>
+毕竟github可以免费提供网页部署，github注册方式<br>
+又很简单，所以多账号部署并不是难事</p>
+<span id="more"></span>
+<p><img data-src="/image/2.jpeg" alt="1"></p>
+]]></content>
+      <categories>
+        <category>测试</category>
+      </categories>
+  </entry>
+  <entry>
     <title>继承者之战</title>
     <url>/2023/10/28/%E7%BB%A7%E6%89%BF%E8%80%85%E4%B9%8B%E6%88%98/</url>
     <content><![CDATA[<p>能击败我们的，只有我们自己！<br>
@@ -3444,46 +3692,6 @@ $(document).ready(function() {
 ]]></content>
       <categories>
         <category>电影</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>【电影】血观音</title>
-    <url>/2023/10/21/%E8%A1%80%E8%A7%82%E9%9F%B3/</url>
-    <content><![CDATA[<p>血观音</p>
-<p>“炉台上陈列着翡翠鼻烟壶与象牙观音像，沙发前围着斑竹小屏风。”伴随着一大段环境描写，上世纪40年代，《第一炉香》在《紫罗兰》杂志上连载，助张爱玲走红上海滩。而如今，有一部电影再次勾起了观众对它的回忆，电影中的女性，不能不叫人想起张爱玲笔下的葛薇龙。这部电影，就是2018年金马奖的最佳影片《血观音》。</p>
- <span id="more"></span>
-<p><img data-src="%E5%9B%BE%E4%B8%80.webp" alt="图1.webp"></p>
-<p>《血观音》是2017年台湾影坛的一个惊喜，电影中的三代女性（棠夫人—棠宁—棠真）相互博弈，演绎出热带都市里活生生的修罗场。棠夫人是将军遗孀，身段柔软，处处含笑，杀人于无形。她看似政治掮客，却操持大局，为达目的，不惜牺牲骨肉。棠真原本有爱，奈何自小活在满是嘲笑与算计的棋局，她在对林翩翩的“报复”中冷酷自我，在跳车致残的一刻对世界死心。棠夫人要留下她，因为她们是一类人。相比之下，棠宁夹在她二人之间，虽极尽魅惑、看透人心，却只是被辜负的棋子。<br>
-电影中心眼最多的就是导演杨雅喆，以强烈的镜头暗示不断说明人物之间的关系，令人颇为叫绝。<br>
-<img data-src="%E5%9B%BE%E4%BA%8C.webp" alt="图二.webp"><br>
-母女对峙时，月影的头上供着佛经，棠宁的身后是鲜艳的彼岸花，而在片中出镜率极高的代表人性之恶的红苹果（这剧组买的苹果还真红！让身边的橘子和葡萄黯然失色），在给佛上供。</p>
-<p><img data-src="%E5%9B%BE%E4%B8%89.webp" alt="图三.webp"><br>
-<img data-src="%E5%9B%BE%E5%9B%9B.webp" alt="图四.webp"><br>
-王夫人的手，盖在了棠夫人手上，但缺乏特写buff加持，这个气势是虚的。看到这里，王夫人简直是大Boss一般的存在，观众们都被棠夫人的扮猪吃老虎蒙蔽了双眼，以为王夫人相当牛逼，大家都要围着她转。</p>
-<p>这本书上的小皇冠，最终确实落到了冯建刚头上，与结尾相照应，不仅暗示了冯建刚的最终胜利，也交代了棠夫人尽管算尽的动机。<br>
-<img data-src="%E5%9B%BE%E4%BA%94.webp" alt="图五.webp"><br>
-<img data-src="%E5%9B%BE%E5%85%AD.webp" alt="图六.webp"><br>
-总而言之血观音的暗示还有很多宛如一个挖不完的宝藏，处处留意处处有惊喜。但总体的感觉还是压抑的，没有一个相对正面的英雄角色，每一个人都在费尽心机地利用别人。人的丑恶溢出华美的衣服，愈加黑暗。<br>
-《血观音》是一部近乎黑暗的电影，唯一让我温暖的地方，或许就是棠宁还未泯灭的善念。<br>
-在《血观音》里，棠宁的结局，可说是明明白白。棠真忽而回头，冰冷大海上的爆炸声，海上花开，尸骨无存。棠宁的自由之路成为死亡的通道，但即便没有这一幕，即便她真的逃亡到了缅甸，她的生活会好起来吗？一个瘾君子，失去了家庭华贵的支撑，结果可想而知。当烟蒂熄灭，花开又谢，待到“年深日久，羽毛暗了霉了，给虫蛀了”，留给异乡女子的，终究是寒冷与黑暗。<br>
-——节选自豆瓣</p>
-]]></content>
-      <categories>
-        <category>电影</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>搬运资料</title>
-    <url>/2023/09/26/%E8%B5%84%E6%96%99/</url>
-    <content><![CDATA[<p>hexo单设备部署多个服务器<br>
-<a href="https://zhuanlan.zhihu.com/p/69218641">引用文章</a><br>
-毕竟github可以免费提供网页部署，github注册方式<br>
-又很简单，所以多账号部署并不是难事</p>
-<span id="more"></span>
-<p><img data-src="/image/2.jpeg" alt="1"></p>
-]]></content>
-      <categories>
-        <category>测试</category>
       </categories>
   </entry>
   <entry>
